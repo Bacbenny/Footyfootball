@@ -1,18 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 28,
+  "count": 31,
   "matches": [
-    {
-      "id": "401874073",
-      "title": "05:00:00 - 14/08 | Mirassol VS Liga de Quito | CONMEBOL Libertadores",
-      "league": "CONMEBOL Libertadores",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "streamCheck": "unverified",
-      "url": "https://sportsembed.su/embed/401874073/mirassol-liga-de-quito/regular/1"
-    },
     {
       "id": "401902742",
       "title": "05:00:00 - 14/08 | Vasco da Gama VS Club Olimpia | CONMEBOL Sudamericana",
@@ -69,6 +58,17 @@
       "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
     },
     {
+      "id": "1000012926",
+      "title": "05:00:00 - 14/08 | Mirassol VS LDU de Quito | CONMEBOL Libertadores",
+      "league": "CONMEBOL Libertadores",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "unverified",
+      "url": "https://sportsembed.su/embed/401874073/mirassol-liga-de-quito/regular/1"
+    },
+    {
       "id": "4684005",
       "title": "06:00:00 - 14/08 | Philadelphia Union VS Santos Laguna | Leagues Cup",
       "league": "Leagues Cup",
@@ -80,15 +80,26 @@
       "url": "https://embed.st/embed/admin/ppv-philadelphia-union-vs-santos/1"
     },
     {
+      "id": "5844872",
+      "title": "06:30:00 - 14/08 | NYCFC VS Necaxa | Leagues Cup",
+      "league": "Leagues Cup",
+      "status": "live",
+      "kickoff": "2026-08-13T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "streamCheck": "unverified",
+      "url": "https://sportsembed.su/embed/401863623/new-york-city-fc-necaxa/hd/1"
+    },
+    {
       "id": "401906047",
       "title": "08:30:00 - 13/08 | Athletic Club Boise VS Sporting San José | Club Friendlies",
       "league": "Club Friendlies",
       "status": "upcoming",
       "kickoff": "2026-08-13T01:30:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "cdnlive",
       "streamCheck": "not_checked",
-      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-st-louis-city-sc/1"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "401896580",
@@ -157,8 +168,8 @@
       "url": "https://embed.st/embed/admin/ppv-degerfors-if-vs-ifk-g-teborg/1"
     },
     {
-      "id": "401902960",
-      "title": "01:45:00 - 14/08 | Heart of Midlothian VS Benfica | UEFA Europa League",
+      "id": "5955039",
+      "title": "01:45:00 - 14/08 | Hearts VS Benfica | UEFA Europa League",
       "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-13T18:45:00.000Z",
@@ -168,26 +179,15 @@
       "url": "https://sportsembed.su/embed/401902960/live_uefa-europa-league-qualification_hearts-benfica-live-streaming-602582112/delta/1"
     },
     {
-      "id": "5844872",
-      "title": "06:30:00 - 14/08 | NYCFC VS Necaxa | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-13T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "watchfooty",
-      "streamCheck": "not_checked",
-      "url": "https://sportsembed.su/embed/401863623/new-york-city-fc-necaxa/hd/1"
-    },
-    {
       "id": "401863621",
       "title": "07:30:00 - 14/08 | América VS Austin FC | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-14T00:30:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "watchfooty",
       "streamCheck": "not_checked",
-      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-austin-fc/1"
+      "url": "https://sportsembed.su/embed/401863621/america-austin-fc/hd/1"
     },
     {
       "id": "4684006",
@@ -245,6 +245,17 @@
       "url": "https://embed.st/embed/admin/ppv-if-elfsborg-vs-v-ster-s-sk/1"
     },
     {
+      "id": "4713016",
+      "title": "01:00:00 - 15/08 | Botafogo/Sp Youth VS Novorizontino Youth | Paulista U20 - 1st Stage - Grupo 2",
+      "league": "Paulista U20 - 1st Stage - Grupo 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "streamCheck": "not_checked",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "4713021",
       "title": "01:00:00 - 15/08 | Juventus/Sp Youth VS Ponte Preta/Sp Youth | Paulista U20 - 1st Stage - Grupo 1",
       "league": "Paulista U20 - 1st Stage - Grupo 1",
@@ -253,7 +264,7 @@
       "quality": "HD",
       "provider": "cdnlive",
       "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "1000007705",
@@ -264,7 +275,7 @@
       "quality": "HD",
       "provider": "streamed",
       "streamCheck": "not_checked",
-      "url": "https://embed.st/embed/admin/ppv-new-york-city-fc-vs-necaxa/1"
+      "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-red-bull-new-york/1"
     },
     {
       "id": "1000007704",
@@ -278,6 +289,17 @@
       "url": "https://embed.st/embed/admin/ppv-real-salt-lake-vs-minnesota-united-fc/1"
     },
     {
+      "id": "401860272",
+      "title": "05:30:00 - 15/08 | São Bernardo VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "streamCheck": "not_checked",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "401860273",
       "title": "05:30:00 - 15/08 | Ponte Preta VS Náutico | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -286,7 +308,7 @@
       "quality": "HD",
       "provider": "cdnlive",
       "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "4659131",
@@ -309,6 +331,17 @@
       "provider": "streamed",
       "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
+    },
+    {
+      "id": "401860274",
+      "title": "06:30:00 - 15/08 | Sport VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "streamCheck": "not_checked",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     }
   ]
 }
