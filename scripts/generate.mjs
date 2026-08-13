@@ -10,6 +10,9 @@ const SOURCES = {
 
 const OUTPUT_DIR = new URL("../output/", import.meta.url);
 const TIMEOUT_MS = 8_000;
+const STREAM_CHECK_TIMEOUT_MS = 5_000;
+const VIETNAM_TIME_ZONE = "Asia/Ho_Chi_Minh";
+const PLAYLIST_GROUP = "FoottyLive";
 const QUALITY_SCORE = {
   FHD: 400,
   "1080P": 400,
@@ -106,6 +109,46 @@ async function safeFetch(url, fallback) {
   } catch (error) {
     console.warn(`Source unavailable: ${url} (${error.message})`);
     return fallback;
+  }
+}
+
+async function streamIsReachable(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), STREAM_CHECK_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        Accept: "*/*",
+        Range: "bytes=0-4095",
+        "User-Agent": "Footyfootball-playlist/1.0",
+      },
+      redirect: "follow",
+      signal: controller.signal,
+    });
+    if (!response.ok) return false;
+
+    const contentType = (response.headers.get("content-type") || "").toLowerCase();
+    const isManifest =
+      /\.m3u8(?:$|\?)/i.test(url) ||
+      contentType.includes("mpegurl") ||
+      contentType.includes("vnd.apple.mpegurl");
+    if (isManifest) {
+      const body = await response.text();
+      return body.includes("#EXTM3U");
+    }
+
+    if (contentType.includes("text/html")) {
+      const body = (await response.text()).slice(0, 32_000).toLowerCase();
+      return !/(link\s*lỗi|stream\s*(error|unavailable)|not\s*found|no\s*stream)/i.test(
+        body,
+      );
+    }
+
+    return true;
+  } catch {
+    return false;
+  } finally {
+    clearTimeout(timer);
   }
 }
 
@@ -259,8 +302,24 @@ function escapeAttribute(value) {
 }
 
 function playlistTitle(match) {
-  const prefix = match.status === "live" ? "[LIVE] " : "";
-  return `${prefix}${match.home} vs ${match.away}`;
+  const timestamp = match.timestamp
+    ? new Intl.DateTimeFormat("vi-VN", {
+        timeZone: VIETNAM_TIME_ZONE,
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        day: "2-digit",
+        month: "2-digit",
+        hourCycle: "h23",
+      })
+        .formatToParts(new Date(match.timestamp))
+        .reduce((parts, part) => {
+          parts[part.type] = part.value;
+          return parts;
+        }, {})
+    : { hour: "--", minute: "--", second: "--", day: "--", month: "--" };
+
+  return `${timestamp.hour}:${timestamp.minute}:${timestamp.second} - ${timestamp.day}/${timestamp.month} | ${match.home} VS ${match.away} | ${match.league}`;
 }
 
 function toExtInf(match, candidate) {
@@ -268,10 +327,30 @@ function toExtInf(match, candidate) {
   const attrs = [
     `tvg-id="footy-${escapeAttribute(match.id)}"`,
     `tvg-name="${escapeAttribute(title)}"`,
-    `group-title="${escapeAttribute(match.league)}"`,
+    `group-title="${PLAYLIST_GROUP}"`,
   ];
   if (match.homeLogo) attrs.push(`tvg-logo="${escapeAttribute(match.homeLogo)}"`);
-  return `#EXTINF:-1 ${attrs.join(" ")},${title} | ${candidate.quality}`;
+  return `#EXTINF:-1 ${attrs.join(" ")},${title}`;
+}
+
+async function chooseBestStream(match, candidates) {
+  candidates.sort((a, b) => b.score - a.score);
+  if (match.status !== "live") return candidates[0] || null;
+
+  const checked = await mapWithConcurrency(
+    candidates.slice(0, 12),
+    6,
+    async (candidate) => ({
+      candidate,
+      reachable: await streamIsReachable(candidate.url),
+    }),
+  );
+  const working = checked.find((item) => item.reachable);
+  if (!working) {
+    console.warn(`No reachable live stream: ${match.title}`);
+    return null;
+  }
+  return working.candidate;
 }
 
 async function main() {
@@ -280,25 +359,24 @@ async function main() {
   const streamedMatches = await safeFetch(SOURCES.streamedMatches, []);
   const entries = [];
   const seenMatchIds = new Set();
+  const uniqueMatches = [];
 
   for (const match of matches) {
     if (!match.id || seenMatchIds.has(match.id)) continue;
     seenMatchIds.add(match.id);
-    const candidates = [];
+    uniqueMatches.push(match);
+  }
 
+  const resolvedEntries = await mapWithConcurrency(uniqueMatches, 6, async (match) => {
+    const candidates = [];
     await addWatchFootyCandidates(match, candidates);
     await addCdnLiveCandidates(match, candidates, cdnData);
     await addStreamedCandidates(match, candidates, streamedMatches);
 
-    candidates.sort((a, b) => b.score - a.score);
-    const best = candidates[0];
-    if (!best) continue;
-
-    entries.push({
-      match,
-      stream: best,
-    });
-  }
+    const best = await chooseBestStream(match, candidates);
+    return best ? { match, stream: best } : null;
+  });
+  entries.push(...resolvedEntries.filter(Boolean));
 
   entries.sort((a, b) => {
     const liveOrder = Number(b.match.status === "live") - Number(a.match.status === "live");

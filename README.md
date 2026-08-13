@@ -7,7 +7,9 @@ Playlist IPTV bóng đá được cập nhật tự động bằng GitHub Action
 - Lấy lịch bóng đá và thông tin đội từ API công khai được `OgBek/footyLive` sử dụng.
 - Ưu tiên stream từ WatchFooty, sau đó thử CDNLiveTV và Streamed.pk khi nguồn trước không có link.
 - Mỗi trận chỉ xuất **một stream duy nhất**. Bộ chọn ưu tiên FHD/1080p, sau đó HD/720p, rồi SD; HLS (`.m3u8`) được ưu tiên khi chất lượng ngang nhau.
-- Tiêu đề có dạng `[LIVE] Đội nhà vs Đội khách` cho trận đang diễn ra và `Đội nhà vs Đội khách` cho trận sắp diễn ra.
+- Tiêu đề dùng múi giờ Việt Nam (Asia/Ho_Chi_Minh), theo dạng `HH:MM:SS - DD/MM | Đội nhà VS Đội khách | Giải đấu`, giống mẫu trình phát.
+- Tất cả chương trình dùng chung nhóm `FoottyLive`.
+- Với trận đang diễn ra, workflow kiểm tra khả năng truy cập của các ứng viên stream và bỏ trận nếu không còn link hoạt động.
 - Playlist được ghi tại `output/footyfootball.m3u`; metadata dễ kiểm tra nằm tại `output/footyfootball.json`.
 
 ## Tự động cập nhật

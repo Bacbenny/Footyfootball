@@ -1,30 +1,10 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 30,
+  "count": 31,
   "matches": [
     {
-      "id": "4762522",
-      "title": "[LIVE] Esportivo/RS vs Santa Cruz RS",
-      "league": "Gaucho A2",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/4762522/esportivo-rs-santa-cruz-rs/regular/1"
-    },
-    {
-      "id": "1000007274",
-      "title": "[LIVE] San Luis vs Deportes Temuco",
-      "league": "Campeonato Primera B",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
-    },
-    {
       "id": "401874073",
-      "title": "[LIVE] Mirassol vs Liga de Quito",
+      "title": "05:00:00 - 14/08 | Mirassol VS Liga de Quito | CONMEBOL Libertadores",
       "league": "CONMEBOL Libertadores",
       "status": "live",
       "kickoff": "2026-08-13T22:00:00.000Z",
@@ -34,7 +14,7 @@
     },
     {
       "id": "401902742",
-      "title": "[LIVE] Vasco da Gama vs Club Olimpia",
+      "title": "05:00:00 - 14/08 | Vasco da Gama VS Club Olimpia | CONMEBOL Sudamericana",
       "league": "CONMEBOL Sudamericana",
       "status": "live",
       "kickoff": "2026-08-13T22:00:00.000Z",
@@ -43,18 +23,8 @@
       "url": "https://sportsembed.su/embed/401902742/vasco-da-gama-club-olimpia/regular/1"
     },
     {
-      "id": "4796825",
-      "title": "[LIVE] Santos vs Macará",
-      "league": "CONMEBOL Sudamericana",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
-    },
-    {
       "id": "4705270",
-      "title": "[LIVE] São Paulo (W) vs Santos (W)",
+      "title": "05:00:00 - 14/08 | São Paulo (W) VS Santos (W) | Paulista Women",
       "league": "Paulista Women",
       "status": "live",
       "kickoff": "2026-08-13T22:00:00.000Z",
@@ -63,8 +33,38 @@
       "url": "https://sportsembed.su/embed/4705270/sao-paulo-w-santos-w/regular/1"
     },
     {
+      "id": "1000007274",
+      "title": "05:00:00 - 14/08 | San Luis VS Deportes Temuco | Campeonato Primera B",
+      "league": "Campeonato Primera B",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
+    },
+    {
+      "id": "4762522",
+      "title": "05:00:00 - 14/08 | Esportivo/RS VS Santa Cruz RS | Gaucho A2",
+      "league": "Gaucho A2",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4762522/esportivo-rs-santa-cruz-rs/regular/1"
+    },
+    {
+      "id": "401902572",
+      "title": "05:00:00 - 14/08 | Santos VS Macará | CONMEBOL Sudamericana",
+      "league": "CONMEBOL Sudamericana",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
+    },
+    {
       "id": "401906047",
-      "title": "Athletic Club Boise vs Sporting San José",
+      "title": "08:30:00 - 13/08 | Athletic Club Boise VS Sporting San José | Club Friendlies",
       "league": "Club Friendlies",
       "status": "upcoming",
       "kickoff": "2026-08-13T01:30:00.000Z",
@@ -74,7 +74,7 @@
     },
     {
       "id": "401896580",
-      "title": "San Diego vs Cal State Fullerton",
+      "title": "09:00:00 - 13/08 | San Diego VS Cal State Fullerton | NCAA Women's Soccer",
       "league": "NCAA Women's Soccer",
       "status": "upcoming",
       "kickoff": "2026-08-13T02:00:00.000Z",
@@ -84,7 +84,7 @@
     },
     {
       "id": "401896596",
-      "title": "San José State vs Santa Clara",
+      "title": "09:00:00 - 13/08 | San José State VS Santa Clara | NCAA Women's Soccer",
       "league": "NCAA Women's Soccer",
       "status": "upcoming",
       "kickoff": "2026-08-13T02:00:00.000Z",
@@ -93,18 +93,18 @@
       "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-st-louis-city-sc/1"
     },
     {
-      "id": "4684003",
-      "title": "San Diego FC vs Puebla",
+      "id": "5844868",
+      "title": "09:25:00 - 13/08 | San Diego FC VS Puebla | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
-      "kickoff": "2026-08-13T02:15:00.000Z",
+      "kickoff": "2026-08-13T02:25:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "url": "https://embed.st/embed/admin/ppv-lafc-vs-san-diego-fc/1"
     },
     {
       "id": "401863619",
-      "title": "Seattle Sounders FC vs Guadalajara",
+      "title": "09:30:00 - 13/08 | Seattle Sounders FC VS Guadalajara | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-13T02:30:00.000Z",
@@ -114,7 +114,7 @@
     },
     {
       "id": "4800633",
-      "title": "Pafos FC vs Red Bull Salzburg",
+      "title": "00:00:00 - 14/08 | Pafos FC VS Red Bull Salzburg | UEFA Europa League",
       "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-13T17:00:00.000Z",
@@ -124,7 +124,7 @@
     },
     {
       "id": "401903106",
-      "title": "KAA Gent vs IFK Göteborg",
+      "title": "01:30:00 - 14/08 | KAA Gent VS IFK Göteborg | UEFA Conference League",
       "league": "UEFA Conference League",
       "status": "upcoming",
       "kickoff": "2026-08-13T18:30:00.000Z",
@@ -134,7 +134,7 @@
     },
     {
       "id": "401902960",
-      "title": "Heart of Midlothian vs Benfica",
+      "title": "01:45:00 - 14/08 | Heart of Midlothian VS Benfica | UEFA Europa League",
       "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-13T18:45:00.000Z",
@@ -144,7 +144,7 @@
     },
     {
       "id": "4684005",
-      "title": "Philadelphia Union vs Santos Laguna",
+      "title": "06:00:00 - 14/08 | Philadelphia Union VS Santos Laguna | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-13T23:00:00.000Z",
@@ -153,8 +153,18 @@
       "url": "https://sportsembed.su/embed/401863622/philadelphia-union-santos/hd/1"
     },
     {
+      "id": "5844872",
+      "title": "06:30:00 - 14/08 | NYCFC VS Necaxa | Leagues Cup",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401863623/new-york-city-fc-necaxa/hd/1"
+    },
+    {
       "id": "401863621",
-      "title": "América vs Austin FC",
+      "title": "07:30:00 - 14/08 | América VS Austin FC | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-14T00:30:00.000Z",
@@ -164,17 +174,17 @@
     },
     {
       "id": "4684006",
-      "title": "Cruz Azul vs Chicago Fire",
+      "title": "08:00:00 - 14/08 | Cruz Azul VS Chicago Fire | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-14T01:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-chicago-fire-fc/1"
+      "url": "https://embed.st/embed/admin/ppv-chicago-fire-fc-vs-portland-timbers/1"
     },
     {
       "id": "4778507",
-      "title": "Sporting Sm Ii vs Panamá City Fc",
+      "title": "08:00:00 - 14/08 | Sporting Sm Ii VS Panamá City Fc | Liga Prom - Apertura - Eastern Conference - North Zone",
       "league": "Liga Prom - Apertura - Eastern Conference - North Zone",
       "status": "upcoming",
       "kickoff": "2026-08-14T01:00:00.000Z",
@@ -184,7 +194,7 @@
     },
     {
       "id": "401863625",
-      "title": "Portland Timbers vs Tijuana",
+      "title": "09:30:00 - 14/08 | Portland Timbers VS Tijuana | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
       "kickoff": "2026-08-14T02:30:00.000Z",
@@ -194,7 +204,7 @@
     },
     {
       "id": "4808800",
-      "title": "Getafe B vs Rayo Vallecano B",
+      "title": "15:00:00 - 14/08 | Getafe B VS Rayo Vallecano B | Club Friendlies",
       "league": "Club Friendlies",
       "status": "upcoming",
       "kickoff": "2026-08-14T08:00:00.000Z",
@@ -204,7 +214,7 @@
     },
     {
       "id": "4636048",
-      "title": "IF Elfsborg vs Västerås",
+      "title": "00:00:00 - 15/08 | IF Elfsborg VS Västerås | Swedish Allsvenskan",
       "league": "Swedish Allsvenskan",
       "status": "upcoming",
       "kickoff": "2026-08-14T17:00:00.000Z",
@@ -214,7 +224,7 @@
     },
     {
       "id": "4713016",
-      "title": "Botafogo/Sp Youth vs Novorizontino Youth",
+      "title": "01:00:00 - 15/08 | Botafogo/Sp Youth VS Novorizontino Youth | Paulista U20 - 1st Stage - Grupo 2",
       "league": "Paulista U20 - 1st Stage - Grupo 2",
       "status": "upcoming",
       "kickoff": "2026-08-14T18:00:00.000Z",
@@ -224,7 +234,7 @@
     },
     {
       "id": "4713021",
-      "title": "Juventus/Sp Youth vs Ponte Preta/Sp Youth",
+      "title": "01:00:00 - 15/08 | Juventus/Sp Youth VS Ponte Preta/Sp Youth | Paulista U20 - 1st Stage - Grupo 1",
       "league": "Paulista U20 - 1st Stage - Grupo 1",
       "status": "upcoming",
       "kickoff": "2026-08-14T18:00:00.000Z",
@@ -234,17 +244,17 @@
     },
     {
       "id": "1000007705",
-      "title": "Atlanta United 2 vs Red Bull New York  II",
+      "title": "03:00:00 - 15/08 | Atlanta United 2 VS Red Bull New York  II | MLS NEXT Pro",
       "league": "MLS NEXT Pro",
       "status": "upcoming",
       "kickoff": "2026-08-14T20:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-red-bull-new-york/1"
+      "url": "https://embed.st/embed/admin/ppv-new-york-city-fc-vs-philadelphia-union/1"
     },
     {
       "id": "1000007704",
-      "title": "Real Monarchs SLC vs Minnesota United 2",
+      "title": "04:30:00 - 15/08 | Real Monarchs SLC VS Minnesota United 2 | MLS NEXT Pro",
       "league": "MLS NEXT Pro",
       "status": "upcoming",
       "kickoff": "2026-08-14T21:30:00.000Z",
@@ -254,7 +264,7 @@
     },
     {
       "id": "401860272",
-      "title": "São Bernardo vs Botafogo-SP",
+      "title": "05:30:00 - 15/08 | São Bernardo VS Botafogo-SP | Brazilian Serie B",
       "league": "Brazilian Serie B",
       "status": "upcoming",
       "kickoff": "2026-08-14T22:30:00.000Z",
@@ -264,7 +274,7 @@
     },
     {
       "id": "401860273",
-      "title": "Ponte Preta vs Náutico",
+      "title": "05:30:00 - 15/08 | Ponte Preta VS Náutico | Brazilian Serie B",
       "league": "Brazilian Serie B",
       "status": "upcoming",
       "kickoff": "2026-08-14T22:30:00.000Z",
@@ -274,7 +284,7 @@
     },
     {
       "id": "4659131",
-      "title": "Houston Dynamo Academy vs Ventura County FC",
+      "title": "06:00:00 - 15/08 | Houston Dynamo Academy VS Ventura County FC | MLS NEXT Pro",
       "league": "MLS NEXT Pro",
       "status": "upcoming",
       "kickoff": "2026-08-14T23:00:00.000Z",
@@ -284,7 +294,7 @@
     },
     {
       "id": "1000007706",
-      "title": "Houston Dynamo 2 vs Ventura County FC",
+      "title": "06:00:00 - 15/08 | Houston Dynamo 2 VS Ventura County FC | MLS NEXT Pro",
       "league": "MLS NEXT Pro",
       "status": "upcoming",
       "kickoff": "2026-08-14T23:00:00.000Z",
@@ -294,7 +304,7 @@
     },
     {
       "id": "401860274",
-      "title": "Sport vs Londrina",
+      "title": "06:30:00 - 15/08 | Sport VS Londrina | Brazilian Serie B",
       "league": "Brazilian Serie B",
       "status": "upcoming",
       "kickoff": "2026-08-14T23:30:00.000Z",
