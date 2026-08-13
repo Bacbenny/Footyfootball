@@ -137,13 +137,9 @@ async function streamIsReachable(url) {
       return body.includes("#EXTM3U");
     }
 
-    if (contentType.includes("text/html")) {
-      const body = (await response.text()).slice(0, 32_000).toLowerCase();
-      return !/(link\s*lỗi|stream\s*(error|unavailable)|not\s*found|no\s*stream)/i.test(
-        body,
-      );
-    }
-
+    // Embed pages often contain player fallback/error text in JavaScript even
+    // when the page and its stream resolver are healthy. HTTP 2xx is the
+    // reliable check here; manifests above get a stricter #EXTM3U check.
     return true;
   } catch {
     return false;
@@ -334,6 +330,7 @@ function toExtInf(match, candidate) {
 }
 
 async function chooseBestStream(match, candidates) {
+  if (!candidates.length) return null;
   candidates.sort((a, b) => b.score - a.score);
   if (match.status !== "live") return candidates[0] || null;
 
@@ -347,10 +344,10 @@ async function chooseBestStream(match, candidates) {
   );
   const working = checked.find((item) => item.reachable);
   if (!working) {
-    console.warn(`No reachable live stream: ${match.title}`);
-    return null;
+    console.warn(`Live stream probe failed; keeping upstream source: ${match.title}`);
+    return { ...candidates[0], streamCheck: "unverified" };
   }
-  return working.candidate;
+  return { ...working.candidate, streamCheck: "verified" };
 }
 
 async function main() {
@@ -411,6 +408,8 @@ async function main() {
             : null,
           quality: stream.quality,
           provider: stream.provider,
+          streamCheck:
+            stream.streamCheck || (match.status === "live" ? "unverified" : "not_checked"),
           url: stream.url,
         })),
       },

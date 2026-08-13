@@ -1,7 +1,40 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 26,
+  "count": 31,
   "matches": [
+    {
+      "id": "401874073",
+      "title": "05:00:00 - 14/08 | Mirassol VS Liga de Quito | CONMEBOL Libertadores",
+      "league": "CONMEBOL Libertadores",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "verified",
+      "url": "https://sportsembed.su/embed/401874073/mirassol-liga-de-quito/regular/1"
+    },
+    {
+      "id": "401902742",
+      "title": "05:00:00 - 14/08 | Vasco da Gama VS Club Olimpia | CONMEBOL Sudamericana",
+      "league": "CONMEBOL Sudamericana",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "verified",
+      "url": "https://sportsembed.su/embed/401902742/vasco-da-gama-club-olimpia/regular/1"
+    },
+    {
+      "id": "4705270",
+      "title": "05:00:00 - 14/08 | São Paulo (W) VS Santos (W) | Paulista Women",
+      "league": "Paulista Women",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "verified",
+      "url": "https://sportsembed.su/embed/4705270/sao-paulo-w-santos-w/regular/1"
+    },
     {
       "id": "1000007274",
       "title": "05:00:00 - 14/08 | San Luis VS Deportes Temuco | Campeonato Primera B",
@@ -10,7 +43,30 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "verified",
       "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
+    },
+    {
+      "id": "4762522",
+      "title": "05:00:00 - 14/08 | Esportivo/RS VS Santa Cruz RS | Gaucho A2",
+      "league": "Gaucho A2",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "verified",
+      "url": "https://sportsembed.su/embed/4762522/esportivo-rs-santa-cruz-rs/regular/1"
+    },
+    {
+      "id": "401902572",
+      "title": "05:00:00 - 14/08 | Santos VS Macará | CONMEBOL Sudamericana",
+      "league": "CONMEBOL Sudamericana",
+      "status": "live",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "streamCheck": "verified",
+      "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
     },
     {
       "id": "401906047",
@@ -20,6 +76,7 @@
       "kickoff": "2026-08-13T01:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
@@ -30,6 +87,7 @@
       "kickoff": "2026-08-13T02:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-lafc-vs-san-diego-fc/1"
     },
     {
@@ -40,16 +98,18 @@
       "kickoff": "2026-08-13T02:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-st-louis-city-sc/1"
     },
     {
-      "id": "5844868",
-      "title": "09:25:00 - 13/08 | San Diego FC VS Puebla | Leagues Cup",
+      "id": "4684003",
+      "title": "09:15:00 - 13/08 | San Diego FC VS Puebla | Leagues Cup",
       "league": "Leagues Cup",
       "status": "upcoming",
-      "kickoff": "2026-08-13T02:25:00.000Z",
+      "kickoff": "2026-08-13T02:15:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-lafc-vs-san-diego-fc/1"
     },
     {
@@ -60,6 +120,7 @@
       "kickoff": "2026-08-13T02:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-seattle-sounders-fc-vs-vancouver-whitecaps/1"
     },
     {
@@ -70,6 +131,7 @@
       "kickoff": "2026-08-13T17:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-red-bull-new-york/1"
     },
     {
@@ -80,6 +142,7 @@
       "kickoff": "2026-08-13T18:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-degerfors-if-vs-ifk-g-teborg/1"
     },
     {
@@ -90,6 +153,7 @@
       "kickoff": "2026-08-13T18:45:00.000Z",
       "quality": "HD",
       "provider": "watchfooty",
+      "streamCheck": "not_checked",
       "url": "https://sportsembed.su/embed/401902960/live_uefa-europa-league-qualification_hearts-benfica-live-streaming-602582112/delta/1"
     },
     {
@@ -100,6 +164,7 @@
       "kickoff": "2026-08-13T23:00:00.000Z",
       "quality": "HD",
       "provider": "watchfooty",
+      "streamCheck": "not_checked",
       "url": "https://sportsembed.su/embed/401863622/philadelphia-union-santos/hd/1"
     },
     {
@@ -110,6 +175,7 @@
       "kickoff": "2026-08-13T23:30:00.000Z",
       "quality": "HD",
       "provider": "watchfooty",
+      "streamCheck": "not_checked",
       "url": "https://sportsembed.su/embed/401863623/new-york-city-fc-necaxa/hd/1"
     },
     {
@@ -120,6 +186,7 @@
       "kickoff": "2026-08-14T00:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-am-rica-vs-austin-fc/1"
     },
     {
@@ -130,7 +197,8 @@
       "kickoff": "2026-08-14T01:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-chicago-fire-fc/1"
+      "streamCheck": "not_checked",
+      "url": "https://embed.st/embed/admin/ppv-chicago-fire-fc-vs-portland-timbers/1"
     },
     {
       "id": "4778507",
@@ -140,6 +208,7 @@
       "kickoff": "2026-08-14T01:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-colorado-rapids-vs-sporting-kansas-city/1"
     },
     {
@@ -150,6 +219,7 @@
       "kickoff": "2026-08-14T02:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
     },
     {
@@ -160,6 +230,7 @@
       "kickoff": "2026-08-14T08:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-sevilla-vs-rayo-vallecano/1"
     },
     {
@@ -170,6 +241,7 @@
       "kickoff": "2026-08-14T17:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-if-elfsborg-vs-v-ster-s-sk/1"
     },
     {
@@ -180,6 +252,7 @@
       "kickoff": "2026-08-14T18:00:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
@@ -190,6 +263,7 @@
       "kickoff": "2026-08-14T18:00:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
@@ -200,7 +274,8 @@
       "kickoff": "2026-08-14T20:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-new-york-city-fc-vs-philadelphia-union/1"
+      "streamCheck": "not_checked",
+      "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-red-bull-new-york/1"
     },
     {
       "id": "1000007704",
@@ -210,6 +285,7 @@
       "kickoff": "2026-08-14T21:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-real-salt-lake-vs-minnesota-united-fc/1"
     },
     {
@@ -220,6 +296,7 @@
       "kickoff": "2026-08-14T22:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
@@ -230,6 +307,7 @@
       "kickoff": "2026-08-14T22:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
@@ -240,6 +318,7 @@
       "kickoff": "2026-08-14T23:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
     },
     {
@@ -250,6 +329,7 @@
       "kickoff": "2026-08-14T23:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
+      "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
     },
     {
@@ -260,6 +340,7 @@
       "kickoff": "2026-08-14T23:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
+      "streamCheck": "not_checked",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     }
   ]
