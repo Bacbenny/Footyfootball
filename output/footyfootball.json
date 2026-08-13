@@ -1,6 +1,6 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 31,
+  "count": 28,
   "matches": [
     {
       "id": "401874073",
@@ -10,7 +10,7 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "SD",
       "provider": "watchfooty",
-      "streamCheck": "verified",
+      "streamCheck": "unverified",
       "url": "https://sportsembed.su/embed/401874073/mirassol-liga-de-quito/regular/1"
     },
     {
@@ -21,7 +21,7 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "SD",
       "provider": "watchfooty",
-      "streamCheck": "verified",
+      "streamCheck": "unverified",
       "url": "https://sportsembed.su/embed/401902742/vasco-da-gama-club-olimpia/regular/1"
     },
     {
@@ -32,7 +32,7 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "SD",
       "provider": "watchfooty",
-      "streamCheck": "verified",
+      "streamCheck": "unverified",
       "url": "https://sportsembed.su/embed/4705270/sao-paulo-w-santos-w/regular/1"
     },
     {
@@ -54,7 +54,7 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "SD",
       "provider": "watchfooty",
-      "streamCheck": "verified",
+      "streamCheck": "unverified",
       "url": "https://sportsembed.su/embed/4762522/esportivo-rs-santa-cruz-rs/regular/1"
     },
     {
@@ -65,8 +65,19 @@
       "kickoff": "2026-08-13T22:00:00.000Z",
       "quality": "SD",
       "provider": "watchfooty",
-      "streamCheck": "verified",
+      "streamCheck": "unverified",
       "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
+    },
+    {
+      "id": "4684005",
+      "title": "06:00:00 - 14/08 | Philadelphia Union VS Santos Laguna | Leagues Cup",
+      "league": "Leagues Cup",
+      "status": "live",
+      "kickoff": "2026-08-13T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "streamCheck": "verified",
+      "url": "https://embed.st/embed/admin/ppv-new-york-city-fc-vs-philadelphia-union/1"
     },
     {
       "id": "401906047",
@@ -75,9 +86,9 @@
       "status": "upcoming",
       "kickoff": "2026-08-13T01:30:00.000Z",
       "quality": "HD",
-      "provider": "cdnlive",
+      "provider": "streamed",
       "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-st-louis-city-sc/1"
     },
     {
       "id": "401896580",
@@ -157,17 +168,6 @@
       "url": "https://sportsembed.su/embed/401902960/live_uefa-europa-league-qualification_hearts-benfica-live-streaming-602582112/delta/1"
     },
     {
-      "id": "4684005",
-      "title": "06:00:00 - 14/08 | Philadelphia Union VS Santos Laguna | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-13T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "watchfooty",
-      "streamCheck": "not_checked",
-      "url": "https://sportsembed.su/embed/401863622/philadelphia-union-santos/hd/1"
-    },
-    {
       "id": "5844872",
       "title": "06:30:00 - 14/08 | NYCFC VS Necaxa | Leagues Cup",
       "league": "Leagues Cup",
@@ -245,17 +245,6 @@
       "url": "https://embed.st/embed/admin/ppv-if-elfsborg-vs-v-ster-s-sk/1"
     },
     {
-      "id": "4713016",
-      "title": "01:00:00 - 15/08 | Botafogo/Sp Youth VS Novorizontino Youth | Paulista U20 - 1st Stage - Grupo 2",
-      "league": "Paulista U20 - 1st Stage - Grupo 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-14T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "4713021",
       "title": "01:00:00 - 15/08 | Juventus/Sp Youth VS Ponte Preta/Sp Youth | Paulista U20 - 1st Stage - Grupo 1",
       "league": "Paulista U20 - 1st Stage - Grupo 1",
@@ -264,7 +253,7 @@
       "quality": "HD",
       "provider": "cdnlive",
       "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "1000007705",
@@ -289,17 +278,6 @@
       "url": "https://embed.st/embed/admin/ppv-real-salt-lake-vs-minnesota-united-fc/1"
     },
     {
-      "id": "401860272",
-      "title": "05:30:00 - 15/08 | São Bernardo VS Botafogo-SP | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-14T22:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "401860273",
       "title": "05:30:00 - 15/08 | Ponte Preta VS Náutico | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -308,7 +286,7 @@
       "quality": "HD",
       "provider": "cdnlive",
       "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "4659131",
@@ -331,17 +309,6 @@
       "provider": "streamed",
       "streamCheck": "not_checked",
       "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
-    },
-    {
-      "id": "401860274",
-      "title": "06:30:00 - 15/08 | Sport VS Londrina | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-14T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "streamCheck": "not_checked",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     }
   ]
 }
