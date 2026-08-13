@@ -1,37 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 31,
+  "count": 26,
   "matches": [
-    {
-      "id": "401874073",
-      "title": "05:00:00 - 14/08 | Mirassol VS Liga de Quito | CONMEBOL Libertadores",
-      "league": "CONMEBOL Libertadores",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401874073/mirassol-liga-de-quito/regular/1"
-    },
-    {
-      "id": "401902742",
-      "title": "05:00:00 - 14/08 | Vasco da Gama VS Club Olimpia | CONMEBOL Sudamericana",
-      "league": "CONMEBOL Sudamericana",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902742/vasco-da-gama-club-olimpia/regular/1"
-    },
-    {
-      "id": "4705270",
-      "title": "05:00:00 - 14/08 | São Paulo (W) VS Santos (W) | Paulista Women",
-      "league": "Paulista Women",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/4705270/sao-paulo-w-santos-w/regular/1"
-    },
     {
       "id": "1000007274",
       "title": "05:00:00 - 14/08 | San Luis VS Deportes Temuco | Campeonato Primera B",
@@ -41,26 +11,6 @@
       "quality": "HD",
       "provider": "streamed",
       "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
-    },
-    {
-      "id": "4762522",
-      "title": "05:00:00 - 14/08 | Esportivo/RS VS Santa Cruz RS | Gaucho A2",
-      "league": "Gaucho A2",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/4762522/esportivo-rs-santa-cruz-rs/regular/1"
-    },
-    {
-      "id": "401902572",
-      "title": "05:00:00 - 14/08 | Santos VS Macará | CONMEBOL Sudamericana",
-      "league": "CONMEBOL Sudamericana",
-      "status": "live",
-      "kickoff": "2026-08-13T22:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902572/santos-macara/regular/1"
     },
     {
       "id": "401906047",
@@ -180,7 +130,7 @@
       "kickoff": "2026-08-14T01:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-chicago-fire-fc-vs-portland-timbers/1"
+      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-chicago-fire-fc/1"
     },
     {
       "id": "4778507",
