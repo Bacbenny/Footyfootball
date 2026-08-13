@@ -109,6 +109,22 @@ async function safeFetch(url, fallback) {
   }
 }
 
+async function mapWithConcurrency(items, limit, mapper) {
+  const results = [];
+  let nextIndex = 0;
+  const workerCount = Math.min(limit, items.length);
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      results[index] = await mapper(items[index], index);
+    }
+  }
+
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return results;
+}
+
 function quality(value) {
   return text(value).toUpperCase().replace(/\s/g, "");
 }
@@ -213,24 +229,29 @@ async function addCdnLiveCandidates(match, candidates, cdnData) {
 }
 
 async function addStreamedCandidates(match, candidates, streamedMatches) {
+  const requests = [];
   for (const streamed of Array.isArray(streamedMatches) ? streamedMatches : []) {
     if (!teamsMatch(match.title, streamed.title)) continue;
     for (const source of streamed.sources || []) {
-      const data = await safeFetch(
+      requests.push({ source });
+    }
+  }
+
+  await mapWithConcurrency(requests, 8, async ({ source }) => {
+    const data = await safeFetch(
         `${SOURCES.streamedStream}/${encodeURIComponent(source.source)}/${encodeURIComponent(source.id)}`,
         null,
       );
-      const values = Array.isArray(data) ? data : [data];
-      for (const value of values) {
-        addCandidate(candidates, {
-          url: value?.embedUrl || value?.url || value?.streamUrl || value?.iframe,
-          quality: value?.hd ? "HD" : "SD",
-          provider: "streamed",
-          label: source.source,
-        });
-      }
+    const values = Array.isArray(data) ? data : [data];
+    for (const value of values) {
+      addCandidate(candidates, {
+        url: value?.embedUrl || value?.url || value?.streamUrl || value?.iframe,
+        quality: value?.hd ? "HD" : "SD",
+        provider: "streamed",
+        label: source.source,
+      });
     }
-  }
+  });
 }
 
 function escapeAttribute(value) {

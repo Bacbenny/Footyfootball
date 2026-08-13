@@ -1,37 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 59,
+  "count": 62,
   "matches": [
-    {
-      "id": "4800475",
-      "title": "[LIVE] FC Midtjylland vs Bohemians",
-      "league": "UEFA Conference League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401903114/fc-midtjylland-bohemians/hd/1"
-    },
-    {
-      "id": "401902935",
-      "title": "[LIVE] Besiktas vs FC Hradec Králové",
-      "league": "UEFA Europa League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902935/besiktas-fc-hradec-kralove/hd/1"
-    },
-    {
-      "id": "5955023",
-      "title": "[LIVE] Universitatea Craiova vs KuPS",
-      "league": "UEFA Europa League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/4800621/cs-universitatea-craiova-kups/regular/1"
-    },
     {
       "id": "1000018958",
       "title": "[LIVE] Ivory Coast vs Ghana",
@@ -53,16 +23,6 @@
       "url": "https://sportsembed.su/embed/401903102/dinamo-minsk-braga/regular/1"
     },
     {
-      "id": "5955365",
-      "title": "[LIVE] Tromsø vs CFR Cluj",
-      "league": "UEFA Conference League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401903098/tromso-cfr-cluj-napoca/regular/1"
-    },
-    {
       "id": "401903100",
       "title": "[LIVE] ML Vitebsk vs Borac Banja Luka",
       "league": "UEFA Conference League",
@@ -81,56 +41,6 @@
       "quality": "SD",
       "provider": "watchfooty",
       "url": "https://sportsembed.su/embed/401903109/hammarby-if-rakow-czestochowa/regular/1"
-    },
-    {
-      "id": "4800494",
-      "title": "[LIVE] DAC 1904 vs Twente",
-      "league": "UEFA Conference League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401903101/dunajska-streda-fc-twente/regular/1"
-    },
-    {
-      "id": "5955021",
-      "title": "[LIVE] Omonia Nicosia vs Lincoln Red Imps FC",
-      "league": "UEFA Europa League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902665/omonia-nicosia-lincoln-red-imps/regular/1"
-    },
-    {
-      "id": "4800633",
-      "title": "[LIVE] Pafos FC vs Red Bull Salzburg",
-      "league": "UEFA Europa League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902717/pafos-rb-salzburg/hd/1"
-    },
-    {
-      "id": "5955041",
-      "title": "[LIVE] Górnik Zabrze vs Ferencvaros",
-      "league": "UEFA Europa League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "url": "https://sportsembed.su/embed/401902940/gornik-zabrze-ferencvaros/regular/1"
-    },
-    {
-      "id": "5955361",
-      "title": "[LIVE] Nordsjælland vs Valur",
-      "league": "UEFA Conference League",
-      "status": "live",
-      "kickoff": "2026-08-13T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "url": "https://embed.st/embed/admin/ppv-fc-nordsj-lland-vs-valur-reykjavik/1"
     },
     {
       "id": "5955029",
@@ -171,6 +81,16 @@
       "quality": "SD",
       "provider": "watchfooty",
       "url": "https://sportsembed.su/embed/4661997/vestri-ir-reykjavik/regular/1"
+    },
+    {
+      "id": "4800516",
+      "title": "[LIVE] FC St. Gallen vs Sheriff Tiraspol",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903113/st-gallen-sheriff-tiraspol/regular/1"
     },
     {
       "id": "401900409",
@@ -363,6 +283,36 @@
       "url": "https://sportsembed.su/embed/401903105/shelbourne-ajax-amsterdam/hd/1"
     },
     {
+      "id": "401902562",
+      "title": "[LIVE] Egnatia vs Shamrock Rovers",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T19:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902562/egnatia-shamrock-rovers/regular/1"
+    },
+    {
+      "id": "4800483",
+      "title": "[LIVE] Dinamo City vs Auda",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T19:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903104/dinamo-city-fk-auda/regular/1"
+    },
+    {
+      "id": "401903119",
+      "title": "[LIVE] Hajduk Split vs Zalgiris Vilnius",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T19:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903119/hajduk-split-zalgiris-vilnius/regular/1"
+    },
+    {
       "id": "401906047",
       "title": "Athletic Club Boise vs Sporting San José",
       "league": "Club Friendlies",
@@ -421,6 +371,86 @@
       "quality": "HD",
       "provider": "watchfooty",
       "url": "https://sportsembed.su/embed/401903110/rigas-futbola-skola-jablonec/hd/1"
+    },
+    {
+      "id": "4800475",
+      "title": "FC Midtjylland vs Bohemians",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903114/fc-midtjylland-bohemians/hd/1"
+    },
+    {
+      "id": "401902935",
+      "title": "Besiktas vs FC Hradec Králové",
+      "league": "UEFA Europa League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902935/besiktas-fc-hradec-kralove/hd/1"
+    },
+    {
+      "id": "5955365",
+      "title": "Tromsø vs CFR Cluj",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903098/tromso-cfr-cluj-napoca/regular/1"
+    },
+    {
+      "id": "5955021",
+      "title": "Omonia Nicosia vs Lincoln Red Imps FC",
+      "league": "UEFA Europa League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902665/omonia-nicosia-lincoln-red-imps/regular/1"
+    },
+    {
+      "id": "4800633",
+      "title": "Pafos FC vs Red Bull Salzburg",
+      "league": "UEFA Europa League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902717/pafos-rb-salzburg/hd/1"
+    },
+    {
+      "id": "5955377",
+      "title": "DAC 1904 Dunajska Streda vs FC Twente",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903101/dunajska-streda-fc-twente/regular/1"
+    },
+    {
+      "id": "401902940",
+      "title": "Gornik Zabrze vs Ferencvaros",
+      "league": "UEFA Europa League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902940/gornik-zabrze-ferencvaros/regular/1"
+    },
+    {
+      "id": "5955361",
+      "title": "Nordsjælland vs Valur",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-fc-nordsj-lland-vs-valur-reykjavik/1"
     },
     {
       "id": "4656621",
