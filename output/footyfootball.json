@@ -1,0 +1,596 @@
+{
+  "source": "OgBek/footyLive-compatible public provider APIs",
+  "count": 59,
+  "matches": [
+    {
+      "id": "4800475",
+      "title": "[LIVE] FC Midtjylland vs Bohemians",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903114/fc-midtjylland-bohemians/hd/1"
+    },
+    {
+      "id": "401902935",
+      "title": "[LIVE] Besiktas vs FC Hradec Králové",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902935/besiktas-fc-hradec-kralove/hd/1"
+    },
+    {
+      "id": "5955023",
+      "title": "[LIVE] Universitatea Craiova vs KuPS",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4800621/cs-universitatea-craiova-kups/regular/1"
+    },
+    {
+      "id": "1000018958",
+      "title": "[LIVE] Ivory Coast vs Ghana",
+      "league": "Africa Cup of Nations Women",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401907388/ivory-coast-ghana/regular/1"
+    },
+    {
+      "id": "4800478",
+      "title": "[LIVE] Dinamo Minsk vs SC Braga",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903102/dinamo-minsk-braga/regular/1"
+    },
+    {
+      "id": "5955365",
+      "title": "[LIVE] Tromsø vs CFR Cluj",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903098/tromso-cfr-cluj-napoca/regular/1"
+    },
+    {
+      "id": "401903100",
+      "title": "[LIVE] ML Vitebsk vs Borac Banja Luka",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903100/ml-vitebsk-borac-banja-luka/regular/1"
+    },
+    {
+      "id": "401903109",
+      "title": "[LIVE] Hammarby IF vs Raków Czestochowa",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903109/hammarby-if-rakow-czestochowa/regular/1"
+    },
+    {
+      "id": "4800494",
+      "title": "[LIVE] DAC 1904 vs Twente",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903101/dunajska-streda-fc-twente/regular/1"
+    },
+    {
+      "id": "5955021",
+      "title": "[LIVE] Omonia Nicosia vs Lincoln Red Imps FC",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902665/omonia-nicosia-lincoln-red-imps/regular/1"
+    },
+    {
+      "id": "4800633",
+      "title": "[LIVE] Pafos FC vs Red Bull Salzburg",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902717/pafos-rb-salzburg/hd/1"
+    },
+    {
+      "id": "5955041",
+      "title": "[LIVE] Górnik Zabrze vs Ferencvaros",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902940/gornik-zabrze-ferencvaros/regular/1"
+    },
+    {
+      "id": "5955361",
+      "title": "[LIVE] Nordsjælland vs Valur",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-fc-nordsj-lland-vs-valur-reykjavik/1"
+    },
+    {
+      "id": "5955029",
+      "title": "[LIVE] Vikingur Reykjavik vs Thun",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:30:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902698/vikingur-reykjavik-fc-thun/regular/1"
+    },
+    {
+      "id": "4800500",
+      "title": "[LIVE] NSÍ Runavík vs FC Lugano",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:30:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903037/nsi-runavik-fc-lugano/regular/1"
+    },
+    {
+      "id": "4800235",
+      "title": "[LIVE] FC Vaduz vs Inter Turku",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T17:30:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903008/fc-vaduz-fc-inter-turku/regular/1"
+    },
+    {
+      "id": "4661997",
+      "title": "[LIVE] Vestri vs IR Reykjavik",
+      "league": "Inkasso Deildin",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4661997/vestri-ir-reykjavik/regular/1"
+    },
+    {
+      "id": "401900409",
+      "title": "[LIVE] Al Shabab vs Al Qadsiah",
+      "league": "Saudi Pro League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401900409/al-shabab-al-qadsiah/regular/1"
+    },
+    {
+      "id": "5955349",
+      "title": "[LIVE] Drita vs Tre Fiori",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902560/drita-gjilan-tre-fiori/regular/1"
+    },
+    {
+      "id": "4787154",
+      "title": "[LIVE] Diriyah vs Al Ahli Jeddah",
+      "league": "Saudi Pro League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401900408/al-diriyah-al-ahli/regular/1"
+    },
+    {
+      "id": "4806306",
+      "title": "[LIVE] San Lorenzo Res. vs Barracas Central Res.",
+      "league": "Liga Profesional - Reserva",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4806306/san-lorenzo-res-barracas-central-res/regular/1"
+    },
+    {
+      "id": "401903107",
+      "title": "[LIVE] KF Shkëndija vs Hibernian",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903107/kf-shkendija-hibernian/regular/1"
+    },
+    {
+      "id": "401902944",
+      "title": "[LIVE] CSKA Sofia vs Maccabi Tel-Aviv",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902944/cska-sofia-maccabi-tel-aviv/regular/1"
+    },
+    {
+      "id": "4661995",
+      "title": "[LIVE] Grindavik vs Throttur Reykjavik",
+      "league": "Inkasso Deildin",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4661995/grindavik-throttur-reykjavik/regular/1"
+    },
+    {
+      "id": "4661996",
+      "title": "[LIVE] Aegir Thorlakshofn vs Volsungur",
+      "league": "Inkasso Deildin",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4661996/aegir-thorlakshofn-volsungur/regular/1"
+    },
+    {
+      "id": "4806308",
+      "title": "[LIVE] Argentinos Juniors Res. vs Gimnasia La Plata Res.",
+      "league": "Liga Profesional - Reserva",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4806308/argentinos-juniors-res-gimnasia-la-plata-res/regular/1"
+    },
+    {
+      "id": "4806309",
+      "title": "[LIVE] Independiente Rivadavia Res. vs Ferro Carril Oeste Res.",
+      "league": "Liga Profesional - Reserva",
+      "status": "live",
+      "kickoff": "2026-08-13T18:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/4806309/independiente-rivadavia-res-ferro-carril-oeste-res/regular/1"
+    },
+    {
+      "id": "5955359",
+      "title": "[LIVE] Sion vs FC Noah",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:15:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903103/fc-sion-fc-noah/regular/1"
+    },
+    {
+      "id": "4800231",
+      "title": "[LIVE] Austria Vienna vs Beitar Jerusalem",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903111/austria-vienna-beitar-jerusalem/hd/1"
+    },
+    {
+      "id": "4800631",
+      "title": "[LIVE] Anderlecht vs PAOK",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902941/anderlecht-paok/hd/1"
+    },
+    {
+      "id": "4779522",
+      "title": "[LIVE] Rangers vs Jagiellonia",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401898017/rangers-jagiellonia-bialystok/hd/1"
+    },
+    {
+      "id": "4800491",
+      "title": "[LIVE] KAA Gent vs IFK Göteborg",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-degerfors-if-vs-ifk-g-teborg/1"
+    },
+    {
+      "id": "5955370",
+      "title": "[LIVE] Motherwell vs HJK",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903108/motherwell-hjk-helsinki/regular/1"
+    },
+    {
+      "id": "5955352",
+      "title": "[LIVE] Györi ETO vs Riga FC",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:30:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902950/gyori-eto-fc-riga-fc/regular/1"
+    },
+    {
+      "id": "5955039",
+      "title": "[LIVE] Hearts vs Benfica",
+      "league": "UEFA Europa League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401902960/heart-of-midlothian-benfica/hd/1"
+    },
+    {
+      "id": "401903105",
+      "title": "[LIVE] Shelbourne vs Ajax Amsterdam",
+      "league": "UEFA Conference League",
+      "status": "live",
+      "kickoff": "2026-08-13T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903105/shelbourne-ajax-amsterdam/hd/1"
+    },
+    {
+      "id": "401906047",
+      "title": "Athletic Club Boise vs Sporting San José",
+      "league": "Club Friendlies",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T01:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "401896580",
+      "title": "San Diego vs Cal State Fullerton",
+      "league": "NCAA Women's Soccer",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T02:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-lafc-vs-san-diego-fc/1"
+    },
+    {
+      "id": "401896596",
+      "title": "San José State vs Santa Clara",
+      "league": "NCAA Women's Soccer",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T02:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-st-louis-city-sc/1"
+    },
+    {
+      "id": "4684003",
+      "title": "San Diego FC vs Puebla",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T02:15:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-lafc-vs-san-diego-fc/1"
+    },
+    {
+      "id": "401863619",
+      "title": "Seattle Sounders FC vs Guadalajara",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T02:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-seattle-sounders-fc-vs-vancouver-whitecaps/1"
+    },
+    {
+      "id": "401903110",
+      "title": "Rigas Futbola Skola vs Jablonec",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T16:30:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "url": "https://sportsembed.su/embed/401903110/rigas-futbola-skola-jablonec/hd/1"
+    },
+    {
+      "id": "4656621",
+      "title": "San Luis de Quillota vs Deportes Temuco",
+      "league": "Campeonato Primera B",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T22:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
+    },
+    {
+      "id": "4684005",
+      "title": "Philadelphia Union vs Santos Laguna",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-13T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-philadelphia-union-vs-santos/1"
+    },
+    {
+      "id": "401863621",
+      "title": "América vs Austin FC",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-austin-fc/1"
+    },
+    {
+      "id": "4684006",
+      "title": "Cruz Azul vs Chicago Fire",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T01:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-chicago-fire-fc/1"
+    },
+    {
+      "id": "4778507",
+      "title": "Sporting Sm Ii vs Panamá City Fc",
+      "league": "Liga Prom - Apertura - Eastern Conference - North Zone",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T01:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-colorado-rapids-vs-sporting-kansas-city/1"
+    },
+    {
+      "id": "401863625",
+      "title": "Portland Timbers vs Tijuana",
+      "league": "Leagues Cup",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T02:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4808800",
+      "title": "Getafe B vs Rayo Vallecano B",
+      "league": "Club Friendlies",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T08:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-sevilla-vs-rayo-vallecano/1"
+    },
+    {
+      "id": "4636048",
+      "title": "IF Elfsborg vs Västerås",
+      "league": "Swedish Allsvenskan",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-if-elfsborg-vs-v-ster-s-sk/1"
+    },
+    {
+      "id": "4713016",
+      "title": "Botafogo/Sp Youth vs Novorizontino Youth",
+      "league": "Paulista U20 - 1st Stage - Grupo 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4713021",
+      "title": "Juventus/Sp Youth vs Ponte Preta/Sp Youth",
+      "league": "Paulista U20 - 1st Stage - Grupo 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "1000007705",
+      "title": "Atlanta United 2 vs Red Bull New York  II",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-pafos-vs-rb-salzburg/1"
+    },
+    {
+      "id": "1000007704",
+      "title": "Real Monarchs SLC vs Minnesota United 2",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-real-salt-lake-vs-minnesota-united-fc/1"
+    },
+    {
+      "id": "401860272",
+      "title": "São Bernardo vs Botafogo-SP",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "401860273",
+      "title": "Ponte Preta vs Náutico",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4659131",
+      "title": "Houston Dynamo Academy vs Ventura County FC",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
+    },
+    {
+      "id": "1000007706",
+      "title": "Houston Dynamo 2 vs Ventura County FC",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-la-galaxy/1"
+    },
+    {
+      "id": "401860274",
+      "title": "Sport vs Londrina",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-14T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    }
+  ]
+}
