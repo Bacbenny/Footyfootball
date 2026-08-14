@@ -11,6 +11,8 @@ const SOURCES = {
 const OUTPUT_DIR = new URL("../output/", import.meta.url);
 const TIMEOUT_MS = 8_000;
 const STREAM_CHECK_TIMEOUT_MS = 5_000;
+const BROWSER_TIMEOUT_MS = 15_000;
+const BROWSER_WAIT_MS = 6_000;
 const VIETNAM_TIME_ZONE = "Asia/Ho_Chi_Minh";
 const PLAYLIST_GROUP = "FoottyLive";
 const QUALITY_SCORE = {
@@ -27,6 +29,9 @@ const PROVIDER_SCORE = {
   cdnlive: 20,
   streamed: 10,
 };
+
+let browserInstance = null;
+let playwrightModulePromise = null;
 
 function text(value) {
   return typeof value === "string" ? value.trim() : "";
@@ -112,11 +117,42 @@ async function safeFetch(url, fallback) {
   }
 }
 
-async function streamIsReachable(url) {
+function isDirectMediaUrl(url) {
+  return /\.(m3u8|mpd|mp4|ts)(?:$|[?#])/i.test(text(url));
+}
+
+function extractDirectMediaUrl(html, pageUrl) {
+  const normalized = text(html)
+    .replace(/\\u0026/gi, "&")
+    .replace(/\\\//g, "/")
+    .replace(/&amp;/gi, "&");
+  const matches = normalized.match(
+    /(?:https?:)?\/\/[^"'\\\s<>]+?\.(?:m3u8|mpd|mp4|ts)(?:\?[^"'\\\s<>]*)?/gi,
+  ) || [];
+
+  for (const match of matches) {
+    const candidate = match.startsWith("//") ? `https:${match}` : match;
+    if (validUrl(candidate)) return candidate;
+  }
+
+  const relative = normalized.match(
+    /["'(](\/[^"'()\s<>]+?\.(?:m3u8|mpd|mp4|ts)(?:\?[^"'()\s<>]*)?)/i,
+  );
+  if (relative) {
+    try {
+      return new URL(relative[1], pageUrl).toString();
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
+
+async function resolvePlayableCandidate(candidate) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), STREAM_CHECK_TIMEOUT_MS);
   try {
-    const response = await fetch(url, {
+    const response = await fetch(candidate.url, {
       headers: {
         Accept: "*/*",
         Range: "bytes=0-4095",
@@ -125,26 +161,107 @@ async function streamIsReachable(url) {
       redirect: "follow",
       signal: controller.signal,
     });
-    if (!response.ok) return false;
+    if (!response.ok) return null;
 
     const contentType = (response.headers.get("content-type") || "").toLowerCase();
     const isManifest =
-      /\.m3u8(?:$|\?)/i.test(url) ||
+      /\.m3u8(?:$|\?)/i.test(candidate.url) ||
       contentType.includes("mpegurl") ||
       contentType.includes("vnd.apple.mpegurl");
     if (isManifest) {
       const body = await response.text();
-      return body.includes("#EXTM3U");
+      return body.includes("#EXTM3U")
+        ? { ...candidate, streamCheck: "verified", resolution: "direct" }
+        : null;
     }
 
-    // Embed pages often contain player fallback/error text in JavaScript even
-    // when the page and its stream resolver are healthy. HTTP 2xx is the
-    // reliable check here; manifests above get a stricter #EXTM3U check.
-    return true;
+    if (
+      contentType.startsWith("video/") ||
+      contentType.startsWith("audio/") ||
+      contentType.includes("dash+xml") ||
+      contentType.includes("octet-stream") ||
+      isDirectMediaUrl(candidate.url)
+    ) {
+      return { ...candidate, streamCheck: "verified", resolution: "direct" };
+    }
+
+    if (!contentType.includes("text/html") && !contentType.includes("text/plain")) {
+      return null;
+    }
+
+    const directUrl = extractDirectMediaUrl(await response.text(), candidate.url);
+    if (directUrl && directUrl !== candidate.url) {
+      return resolvePlayableCandidate({
+        ...candidate,
+        url: directUrl,
+        resolution: "resolved",
+      });
+    }
+
+    if (candidate.allowBrowser) {
+      const browserUrl = await resolveEmbedWithBrowser(candidate.url);
+      if (browserUrl) {
+        return resolvePlayableCandidate({
+          ...candidate,
+          url: browserUrl,
+          allowBrowser: false,
+          resolution: "browser",
+        });
+      }
+    }
+    return null;
   } catch {
-    return false;
+    return null;
   } finally {
     clearTimeout(timer);
+  }
+}
+
+async function resolveEmbedWithBrowser(url) {
+  try {
+    playwrightModulePromise ||= import("playwright");
+    const { chromium } = await playwrightModulePromise;
+    browserInstance ||= await chromium.launch({
+      headless: true,
+      args: ["--no-sandbox", "--disable-dev-shm-usage"],
+    });
+    const page = await browserInstance.newPage({
+      userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
+      viewport: { width: 1280, height: 720 },
+    });
+    const mediaUrls = new Set();
+    const remember = (candidateUrl) => {
+      if (
+        isDirectMediaUrl(candidateUrl) &&
+        !/(analytics|beacon|pixel|doubleclick|ads?[-_])/i.test(candidateUrl)
+      ) {
+        mediaUrls.add(candidateUrl);
+      }
+    };
+    page.on("request", (request) => remember(request.url()));
+    page.on("response", async (response) => {
+      remember(response.url());
+      try {
+        const contentType = (await response.headerValue("content-type")) || "";
+        if (
+          contentType.includes("mpegurl") ||
+          contentType.includes("dash+xml")
+        ) {
+          remember(response.url());
+        }
+      } catch {}
+    });
+
+    await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: BROWSER_TIMEOUT_MS,
+    });
+    await page.locator("video").first().click({ force: true, timeout: 1_000 }).catch(() => {});
+    await page.waitForTimeout(BROWSER_WAIT_MS);
+    await page.close();
+    return [...mediaUrls][0] || null;
+  } catch {
+    return null;
   }
 }
 
@@ -332,22 +449,20 @@ function toExtInf(match, candidate) {
 async function chooseBestStream(match, candidates) {
   if (!candidates.length) return null;
   candidates.sort((a, b) => b.score - a.score);
-  if (match.status !== "live") return candidates[0] || null;
-
-  const checked = await mapWithConcurrency(
-    candidates.slice(0, 12),
-    6,
-    async (candidate) => ({
-      candidate,
-      reachable: await streamIsReachable(candidate.url),
-    }),
-  );
-  const working = checked.find((item) => item.reachable);
-  if (!working) {
-    console.warn(`Live stream probe failed; keeping upstream source: ${match.title}`);
-    return { ...candidates[0], streamCheck: "unverified" };
+  const playable = (
+    await mapWithConcurrency(candidates, 2, (candidate) =>
+      resolvePlayableCandidate({
+        ...candidate,
+        allowBrowser: match.status === "live",
+      }),
+    )
+  ).filter(Boolean);
+  if (!playable.length) {
+    console.warn(`No direct playable media URL: ${match.title}`);
+    return null;
   }
-  return { ...working.candidate, streamCheck: "verified" };
+  playable.sort((a, b) => b.score - a.score);
+  return playable[0];
 }
 
 async function main() {
@@ -355,6 +470,7 @@ async function main() {
   const cdnData = await safeFetch(SOURCES.cdnLive, {});
   const streamedMatches = await safeFetch(SOURCES.streamedMatches, []);
   const entries = [];
+  const unavailable = [];
   const seenMatchIds = new Set();
   const uniqueMatches = [];
 
@@ -371,6 +487,20 @@ async function main() {
     await addStreamedCandidates(match, candidates, streamedMatches);
 
     const best = await chooseBestStream(match, candidates);
+    if (!best) {
+      unavailable.push({
+        id: match.id,
+        title: playlistTitle(match),
+        status: match.status,
+        league: match.league,
+        candidateCount: candidates.length,
+        providers: [...new Set(candidates.map((candidate) => candidate.provider))],
+        reason: candidates.length
+          ? "no_direct_playable_media_url"
+          : "no_upstream_stream_candidate",
+      });
+      return null;
+    }
     return best ? { match, stream: best } : null;
   });
   entries.push(...resolvedEntries.filter(Boolean));
@@ -408,8 +538,9 @@ async function main() {
             : null,
           quality: stream.quality,
           provider: stream.provider,
+          resolution: stream.resolution || "direct",
           streamCheck:
-            stream.streamCheck || (match.status === "live" ? "unverified" : "not_checked"),
+            stream.streamCheck || "verified",
           url: stream.url,
         })),
       },
@@ -417,13 +548,30 @@ async function main() {
       2,
     )}\n`,
   );
+  await writeFile(
+    new URL("footyfootball-unavailable.json", OUTPUT_DIR),
+    `${JSON.stringify(
+      {
+        source: "OgBek/footyLive-compatible public provider APIs",
+        note: "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
+        count: unavailable.length,
+        matches: unavailable.sort((a, b) => a.title.localeCompare(b.title)),
+      },
+      null,
+      2,
+    )}\n`,
+  );
 
   console.log(
-    `Generated ${entries.length} playlist entries from ${matches.length} football fixtures.`,
+    `Generated ${entries.length} playable playlist entries from ${matches.length} football fixtures; ${unavailable.length} unavailable.`,
   );
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main()
+  .catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  })
+  .finally(async () => {
+    await browserInstance?.close().catch(() => {});
+  });

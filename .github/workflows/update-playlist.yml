@@ -24,6 +24,12 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install resolver dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
       - name: Generate playlist
         run: npm run generate
 
