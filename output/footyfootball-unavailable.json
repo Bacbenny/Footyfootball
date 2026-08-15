@@ -22,8 +22,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4675497",
-      "title": "00:00:00 - 16/08 | BATE Borisov VS FC Vitebsk | Belarusian Premier League",
+      "id": "5215487",
+      "title": "00:00:00 - 16/08 | BATE Borisov VS FK Vitebsk | Belarusian Premier League",
       "status": "upcoming",
       "league": "Belarusian Premier League",
       "candidateCount": 0,
@@ -49,10 +49,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5960585",
-      "title": "00:00:00 - 16/08 | Collex-Bossy VS Etoile Carouge | Swiss Cup",
+      "id": "4754258",
+      "title": "00:00:00 - 16/08 | Collex-Bossy VS Etoile Carouge | Swiss Cup - 2nd Round",
       "status": "upcoming",
-      "league": "Swiss Cup",
+      "league": "Swiss Cup - 2nd Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -916,8 +916,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5969054",
-      "title": "01:00:00 - 16/08 | Al Nassr FC VS Al Fateh FC | Saudi Pro League",
+      "id": "4787276",
+      "title": "01:00:00 - 16/08 | Al Nassr FC Riyadh VS Al Fateh | Saudi Pro League",
       "status": "upcoming",
       "league": "Saudi Pro League",
       "candidateCount": 0,
@@ -1026,8 +1026,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4761061",
-      "title": "01:00:00 - 16/08 | Cruz Azul Hidalgo VS Atlético Morelia | Mexican Liga de Expansión MX",
+      "id": "5898682",
+      "title": "01:00:00 - 16/08 | Cruz Azul Hidalgo VS Atletico Morelia | Mexican Liga de Expansión MX",
       "status": "upcoming",
       "league": "Mexican Liga de Expansión MX",
       "candidateCount": 2,
@@ -1147,8 +1147,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909228",
-      "title": "01:00:00 - 16/08 | Orihuela VS Cieza | Club Friendlies",
+      "id": "4814845",
+      "title": "01:00:00 - 16/08 | Orihuela VS CD Cieza | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
@@ -2643,8 +2643,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5927570",
-      "title": "02:00:00 - 17/08 | Radnik Bijeljina VS Zrinjski Mostar | Premier League of Bosnia and Herzegovina",
+      "id": "4761984",
+      "title": "02:00:00 - 17/08 | Radnik Bijeljina VS Zrinjski | Premier League of Bosnia and Herzegovina",
       "status": "upcoming",
       "league": "Premier League of Bosnia and Herzegovina",
       "candidateCount": 0,
@@ -2771,8 +2771,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6002830",
-      "title": "02:30:00 - 16/08 | Racing VS Nacional | Liga AUF Uruguaya",
+      "id": "4806024",
+      "title": "02:30:00 - 16/08 | Racing Club Montevideo VS Nacional | Liga AUF Uruguaya",
       "status": "upcoming",
       "league": "Liga AUF Uruguaya",
       "candidateCount": 0,
@@ -3292,7 +3292,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5113419",
+      "id": "4644034",
       "title": "04:00:00 - 16/08 | Godoy Cruz VS Deportivo Maipu | Primera Nacional",
       "status": "upcoming",
       "league": "Primera Nacional",
@@ -3580,15 +3580,13 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4788409",
-      "title": "04:45:00 - 16/08 | Club America (W) VS Puebla (W) | Liga Femenil BBVA - Apertura",
+      "id": "5977311",
+      "title": "04:45:00 - 16/08 | CF America (W) VS Puebla (W) | Liga MX Femenil Apertura",
       "status": "upcoming",
-      "league": "Liga Femenil BBVA - Apertura",
-      "candidateCount": 8,
-      "providers": [
-        "cdnlive"
-      ],
-      "reason": "no_direct_playable_media_url"
+      "league": "Liga MX Femenil Apertura",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
     },
     {
       "id": "401841496",
@@ -3647,7 +3645,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4644035",
+      "id": "5113420",
       "title": "05:00:00 - 16/08 | Quilmes VS San Telmo | Primera Nacional",
       "status": "upcoming",
       "league": "Primera Nacional",
@@ -3750,7 +3748,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401854075",
+      "id": "4655234",
       "title": "05:30:00 - 16/08 | Racing Louisville FC VS Boston Legacy FC | NWSL",
       "status": "upcoming",
       "league": "NWSL",
@@ -4063,10 +4061,10 @@
       "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "5962670",
-      "title": "06:15:00 - 16/08 | Lobos UPNFM VS Estrella Roja | Honduran Liga Nacional",
+      "id": "4776148",
+      "title": "06:15:00 - 16/08 | Lobos UPN VS Estrella Roja | Liga Nacional - Apertura - Center Group",
       "status": "upcoming",
-      "league": "Honduran Liga Nacional",
+      "league": "Liga Nacional - Apertura - Center Group",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4207,8 +4205,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5071265",
-      "title": "06:30:00 - 16/08 | Toronto VS New England | MLS",
+      "id": "4621452",
+      "title": "06:30:00 - 16/08 | Toronto FC VS New England Revolution | MLS",
       "status": "upcoming",
       "league": "MLS",
       "candidateCount": 3,
@@ -4626,8 +4624,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5898684",
-      "title": "08:00:00 - 16/08 | Cancun FC VS Alacranes de Durango | Mexican Liga de Expansión MX",
+      "id": "4761059",
+      "title": "08:00:00 - 16/08 | Cancún FC VS Durango | Mexican Liga de Expansión MX",
       "status": "upcoming",
       "league": "Mexican Liga de Expansión MX",
       "candidateCount": 0,
@@ -4653,8 +4651,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4761060",
-      "title": "08:00:00 - 16/08 | Dorados de Sinaloa VS Tlaxcala | Mexican Liga de Expansión MX",
+      "id": "5898686",
+      "title": "08:00:00 - 16/08 | Dorados VS Tlaxcala FC | Mexican Liga de Expansión MX",
       "status": "upcoming",
       "league": "Mexican Liga de Expansión MX",
       "candidateCount": 0,
@@ -4942,8 +4940,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5071272",
-      "title": "09:30:00 - 16/08 | San Jose VS St. Louis City | MLS",
+      "id": "761721",
+      "title": "09:30:00 - 16/08 | San Jose Earthquakes VS St. Louis CITY SC | MLS",
       "status": "upcoming",
       "league": "MLS",
       "candidateCount": 2,
@@ -4964,8 +4962,8 @@
       "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "4761319",
-      "title": "10:00:00 - 15/08 | Atletico La Paz VS Piratas FC | Mexican Liga de Expansión MX",
+      "id": "5898689",
+      "title": "10:00:00 - 15/08 | Atletico La Paz VS Piratas | Mexican Liga de Expansión MX",
       "status": "upcoming",
       "league": "Mexican Liga de Expansión MX",
       "candidateCount": 0,
@@ -5076,8 +5074,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4811050",
-      "title": "14:30:00 - 15/08 | Deportiva Minera VS Fc Cartagena B | Club Friendlies",
+      "id": "401911183",
+      "title": "14:30:00 - 15/08 | CD Minera VS FC Cartagena II | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
@@ -5139,28 +5137,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5976841",
-      "title": "15:00:00 - 15/08 | CSC Dumbravita VS Popesti Leordeni | Romanian Liga II",
-      "status": "upcoming",
-      "league": "Romanian Liga II",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4784734",
-      "title": "15:00:00 - 15/08 | CSM Ramnicu-Valcea VS CSM Slatina | Liga 2 - Regular Season",
-      "status": "upcoming",
-      "league": "Liga 2 - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5976843",
       "title": "15:00:00 - 15/08 | CSM Resita VS CSL Stefanesti | Romanian Liga II",
       "status": "upcoming",
       "league": "Romanian Liga II",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4784735",
+      "title": "15:00:00 - 15/08 | Dumbravita VS Gloria Popești-Leordeni | Liga 2 - Regular Season",
+      "status": "upcoming",
+      "league": "Liga 2 - Regular Season",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -5197,11 +5186,9 @@
       "title": "15:00:00 - 15/08 | Gloria Bistrita VS Concordia Chiajna | Romanian Liga II",
       "status": "upcoming",
       "league": "Romanian Liga II",
-      "candidateCount": 2,
-      "providers": [
-        "watchfooty"
-      ],
-      "reason": "no_direct_playable_media_url"
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
     },
     {
       "id": "4807329",
@@ -5217,6 +5204,15 @@
       "title": "15:00:00 - 15/08 | Pozuelo De Alarcón VS Cd Marchamalo | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5976849",
+      "title": "15:00:00 - 15/08 | Ramnicu Valcea VS CSM Slatina | Romanian Liga II",
+      "status": "upcoming",
+      "league": "Romanian Liga II",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -5278,7 +5274,7 @@
     {
       "id": "4815162",
       "title": "15:30:00 - 15/08 | Algeciras CF VS Marbella | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -5287,7 +5283,7 @@
     {
       "id": "4807323",
       "title": "15:30:00 - 15/08 | CD Toledo VS San Sebastian De Los Reyes | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -5296,7 +5292,7 @@
     {
       "id": "4814855",
       "title": "15:30:00 - 15/08 | Phnom Penh Crown VS Persik Kediri | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -5330,8 +5326,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5836218",
-      "title": "16:00:00 - 15/08 | Blaublitz Akita VS Kataller Toyama | Japanese J.League 2",
+      "id": "4740167",
+      "title": "16:00:00 - 15/08 | Blaublitz Akita VS Toyama | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
       "candidateCount": 4,
@@ -5345,7 +5341,7 @@
       "title": "16:00:00 - 15/08 | FC Gifu VS Kochi United SC | Japanese J.League 3",
       "status": "live",
       "league": "Japanese J.League 3",
-      "candidateCount": 4,
+      "candidateCount": 3,
       "providers": [
         "watchfooty"
       ],
@@ -5376,7 +5372,7 @@
       "title": "16:00:00 - 15/08 | Giravanz Kitakyushu VS Kamatamare Sanuki | Japanese J.League 3",
       "status": "live",
       "league": "Japanese J.League 3",
-      "candidateCount": 3,
+      "candidateCount": 1,
       "providers": [
         "watchfooty"
       ],
@@ -5432,8 +5428,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5836223",
-      "title": "16:00:00 - 15/08 | Tochigi City FC VS Vanraure Hachinohe | Japanese J.League 2",
+      "id": "4740166",
+      "title": "16:00:00 - 15/08 | Tochigi City VS Vanraure Hachinohe | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
       "candidateCount": 4,
@@ -5519,7 +5515,7 @@
       "title": "16:30:00 - 15/08 | Fujieda MYFC VS Iwaki FC | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
-      "candidateCount": 4,
+      "candidateCount": 2,
       "providers": [
         "watchfooty"
       ],
@@ -5550,7 +5546,7 @@
       "title": "16:55:00 - 15/08 | Fagiano Okayama FC VS V-Varen Nagasaki | Japanese J.League",
       "status": "live",
       "league": "Japanese J.League",
-      "candidateCount": 4,
+      "candidateCount": 3,
       "providers": [
         "watchfooty"
       ],
@@ -5566,11 +5562,11 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4777301",
-      "title": "17:00:00 - 15/08 | Atletico Clube Portugal VS Mafra | Portuguese Liga 3",
+      "id": "5991290",
+      "title": "17:00:00 - 15/08 | Atletico VS Mafra | Portuguese Liga 3",
       "status": "live",
       "league": "Portuguese Liga 3",
-      "candidateCount": 4,
+      "candidateCount": 3,
       "providers": [
         "watchfooty"
       ],
@@ -5599,7 +5595,7 @@
       "title": "17:00:00 - 15/08 | FC Imabari VS RB Omiya Ardija | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5621,7 +5617,7 @@
       "title": "17:00:00 - 15/08 | Garliava VS Tauras Taurage | I Lyga",
       "status": "live",
       "league": "I Lyga",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5648,11 +5644,22 @@
       "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "4739694",
-      "title": "17:00:00 - 15/08 | Kawasaki Frontale VS Kyoto | Japanese J.League",
+      "id": "5803532",
+      "title": "17:00:00 - 15/08 | Kawasaki VS Kyoto Sanga FC | Japanese J.League",
       "status": "live",
       "league": "Japanese J.League",
-      "candidateCount": 3,
+      "candidateCount": 2,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
+    },
+    {
+      "id": "4740164",
+      "title": "17:00:00 - 15/08 | Kofu VS Tegevajaro Miyazaki | Japanese J.League 2",
+      "status": "live",
+      "league": "Japanese J.League 2",
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5701,16 +5708,18 @@
       "title": "17:00:00 - 15/08 | Metalist VS Oleksandriya | Persha Liga",
       "status": "live",
       "league": "Persha Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 1,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "4740163",
       "title": "17:00:00 - 15/08 | Niigata VS Consadole Sapporo | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5732,15 +5741,15 @@
       "title": "17:00:00 - 15/08 | Roasso Kumamoto VS Tochigi SC | Japanese J.League 3",
       "status": "live",
       "league": "Japanese J.League 3",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
       "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "4740165",
-      "title": "17:00:00 - 15/08 | Shonan Bellmare VS Yamagata | Japanese J.League 2",
+      "id": "5836222",
+      "title": "17:00:00 - 15/08 | Shonan Bellmare VS Montedio Yamagata | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
       "candidateCount": 4,
@@ -5754,9 +5763,11 @@
       "title": "17:00:00 - 15/08 | Slask Wroclaw ll VS Chojniczanka Chojnice | II Liga",
       "status": "live",
       "league": "II Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 1,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "6022182",
@@ -5772,7 +5783,7 @@
       "title": "17:00:00 - 15/08 | Thespa Gunma VS SC Sagamihara | Japanese J.League 3",
       "status": "live",
       "league": "Japanese J.League 3",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5788,11 +5799,11 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5803536",
-      "title": "17:00:00 - 15/08 | Urawa Red Diamonds VS Sanfrecce | Japanese J.League",
+      "id": "4739697",
+      "title": "17:00:00 - 15/08 | Urawa Red Diamonds VS Hiroshima Sanfrecce | Japanese J.League",
       "status": "live",
       "league": "Japanese J.League",
-      "candidateCount": 4,
+      "candidateCount": 3,
       "providers": [
         "watchfooty"
       ],
@@ -5803,18 +5814,7 @@
       "title": "17:00:00 - 15/08 | Vegalta Sendai VS Oita Trinita | Japanese J.League 2",
       "status": "live",
       "league": "Japanese J.League 2",
-      "candidateCount": 4,
-      "providers": [
-        "watchfooty"
-      ],
-      "reason": "no_direct_playable_media_url"
-    },
-    {
-      "id": "5836221",
-      "title": "17:00:00 - 15/08 | Ventforet Kofu VS Tegevajaro Miyazaki | Japanese J.League 2",
-      "status": "live",
-      "league": "Japanese J.League 2",
-      "candidateCount": 4,
+      "candidateCount": 3,
       "providers": [
         "watchfooty"
       ],
@@ -5825,7 +5825,7 @@
       "title": "17:00:00 - 15/08 | Vissel Kobe VS FC Tokyo | Japanese J.League",
       "status": "live",
       "league": "Japanese J.League",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5836,18 +5836,7 @@
       "title": "17:00:00 - 15/08 | Yanbian Longding VS Dalian K'un City | China League One",
       "status": "live",
       "league": "China League One",
-      "candidateCount": 3,
-      "providers": [
-        "watchfooty"
-      ],
-      "reason": "no_direct_playable_media_url"
-    },
-    {
-      "id": "5987099",
-      "title": "17:00:00 - 15/08 | Zweigen Kanazawa VS Fukushima United | Japanese J.League 3",
-      "status": "live",
-      "league": "Japanese J.League 3",
-      "candidateCount": 3,
+      "candidateCount": 4,
       "providers": [
         "watchfooty"
       ],
@@ -5953,85 +5942,112 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5155872",
-      "title": "17:30:00 - 15/08 | Busan I'Park VS Hwaseong FC | K League 2",
-      "status": "upcoming",
+      "id": "4655809",
+      "title": "17:30:00 - 15/08 | Busan I'Park VS Hwaseong | K League 2",
+      "status": "live",
       "league": "K League 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "5155873",
-      "title": "17:30:00 - 15/08 | Cheongju FC VS Jeonnam Dragons | K League 2",
-      "status": "upcoming",
+      "id": "4655810",
+      "title": "17:30:00 - 15/08 | Chungbuk Cheongju VS Jeonnam Dragons | K League 2",
+      "status": "live",
       "league": "K League 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "6022185",
       "title": "17:30:00 - 15/08 | Everton U18 VS Leeds U18 | Premier League U18",
-      "status": "upcoming",
+      "status": "live",
       "league": "Premier League U18",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4760479",
+      "id": "5897557",
       "title": "17:30:00 - 15/08 | FC Chelyabinsk VS Torpedo Moscow | Russian First League",
-      "status": "upcoming",
+      "status": "live",
       "league": "Russian First League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "4652627",
       "title": "17:30:00 - 15/08 | FC Seoul VS Daejeon Hana Citizen | K League 1",
-      "status": "upcoming",
+      "status": "live",
       "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "5155874",
-      "title": "17:30:00 - 15/08 | Gimhae FC 2008 VS Gyeongnam FC | K League 2",
-      "status": "upcoming",
+      "id": "4661215",
+      "title": "17:30:00 - 15/08 | Gimhae City VS Gyeongnam | K League 2",
+      "status": "live",
       "league": "K League 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "4652628",
       "title": "17:30:00 - 15/08 | Gwangju FC VS Pohang Steelers | K League 1",
-      "status": "upcoming",
+      "status": "live",
       "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "5139995",
+      "id": "4652629",
       "title": "17:30:00 - 15/08 | Jeju SK VS FC Anyang | K League 1",
-      "status": "upcoming",
+      "status": "live",
       "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "4657782",
       "title": "17:30:00 - 15/08 | Suwon Bluewings VS Suwon FC | K League 2",
-      "status": "upcoming",
+      "status": "live",
       "league": "K League 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
+      "candidateCount": 2,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
+    },
+    {
+      "id": "5987099",
+      "title": "17:30:00 - 15/08 | Zweigen Kanazawa VS Fukushima United | Japanese J.League 3",
+      "status": "live",
+      "league": "Japanese J.League 3",
+      "candidateCount": 4,
+      "providers": [
+        "watchfooty"
+      ],
+      "reason": "no_direct_playable_media_url"
     },
     {
       "id": "401911181",
@@ -6571,8 +6587,9 @@
       "title": "18:30:00 - 15/08 | Bolton Wanderers VS Preston North End | English League Championship",
       "status": "upcoming",
       "league": "English League Championship",
-      "candidateCount": 2,
+      "candidateCount": 3,
       "providers": [
+        "watchfooty",
         "streamed"
       ],
       "reason": "no_direct_playable_media_url"
@@ -6724,7 +6741,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4673319",
+      "id": "5186585",
       "title": "18:35:00 - 15/08 | Tianjin Jinmen Tiger VS Beijing Guoan | Chinese Super League",
       "status": "upcoming",
       "league": "Chinese Super League",
@@ -6814,15 +6831,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5105391",
-      "title": "19:00:00 - 15/08 | FK Haugesund (W) VS Stabæk (W) | Toppserien",
-      "status": "upcoming",
-      "league": "Toppserien",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4763511",
       "title": "19:00:00 - 15/08 | Fortuna Düsseldorf VS Hoffenheim II | 3. Liga - Regular Season",
       "status": "upcoming",
@@ -6854,6 +6862,15 @@
       "title": "19:00:00 - 15/08 | Gamle Oslo VS Konnerud | Norsk Tipping-ligaen",
       "status": "upcoming",
       "league": "Norsk Tipping-ligaen",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4807654",
+      "title": "19:00:00 - 15/08 | Haugesund (W) VS Stabaek (W) | Toppserien Women",
+      "status": "upcoming",
+      "league": "Toppserien Women",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -7612,7 +7629,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4760223",
+      "id": "5956659",
       "title": "20:00:00 - 15/08 | Barendrecht VS HHC | Dutch Tweede Divisie",
       "status": "upcoming",
       "league": "Dutch Tweede Divisie",
@@ -8687,6 +8704,17 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "5953360",
+      "title": "21:00:00 - 15/08 | Banbury United VS Real Bedford | Non League Premier",
+      "status": "upcoming",
+      "league": "Non League Premier",
+      "candidateCount": 2,
+      "providers": [
+        "streamed"
+      ],
+      "reason": "no_direct_playable_media_url"
+    },
+    {
       "id": "4745295",
       "title": "21:00:00 - 15/08 | Bangor Fc VS Cliftonville | Northern Irish Premiership",
       "status": "upcoming",
@@ -8777,7 +8805,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765036",
+      "id": "5906979",
       "title": "21:00:00 - 15/08 | Brackley Town VS Hebburn Town | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -8804,7 +8832,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907497",
+      "id": "4765024",
       "title": "21:00:00 - 15/08 | Braintree Town VS Chesham United | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -8914,15 +8942,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949181",
-      "title": "21:00:00 - 15/08 | Bury VS Warrington Rylands | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5837094",
       "title": "21:00:00 - 15/08 | Cambridge VS Wigan | English League One",
       "status": "upcoming",
@@ -8961,7 +8980,7 @@
       "reason": "no_direct_playable_media_url"
     },
     {
-      "id": "5948016",
+      "id": "4783507",
       "title": "21:00:00 - 15/08 | Chatham Town VS Three Bridges | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -9051,8 +9070,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5847401",
-      "title": "21:00:00 - 15/08 | Coleraine VS Larne | Northern Irish Premiership",
+      "id": "4745294",
+      "title": "21:00:00 - 15/08 | Coleraine FC VS Larne FC | Northern Irish Premiership",
       "status": "upcoming",
       "league": "Northern Irish Premiership",
       "candidateCount": 0,
@@ -9132,8 +9151,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4783506",
-      "title": "21:00:00 - 15/08 | Dulwich Hamlet VS Cheshunt FC | Non League Premier",
+      "id": "5948017",
+      "title": "21:00:00 - 15/08 | Dulwich Hamlet VS Cheshunt | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -9782,8 +9801,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907504",
-      "title": "21:00:00 - 15/08 | Maidenhead United VS Dorking Wanderers | National League N/S - Regular Season",
+      "id": "4765031",
+      "title": "21:00:00 - 15/08 | Maidenhead VS Dorking Wanderers | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -9883,7 +9902,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4747414",
+      "id": "5837868",
       "title": "21:00:00 - 15/08 | Northampton VS Swindon | English League Two",
       "status": "upcoming",
       "league": "English League Two",
@@ -10397,8 +10416,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949174",
-      "title": "21:00:00 - 15/08 | Whitby VS Ilkeston Town | Non League Premier",
+      "id": "4783491",
+      "title": "21:00:00 - 15/08 | Whitby Town VS Ilkeston Town | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -10424,8 +10443,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949173",
-      "title": "21:00:00 - 15/08 | Workington VS Guiseley | Non League Premier",
+      "id": "4783490",
+      "title": "21:00:00 - 15/08 | Workington VS Guiseley AFC | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -10750,15 +10769,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4753913",
-      "title": "21:00:00 - 16/08 | Hostert VS Etzella Ettelbruck | BGL Ligue - Regular Season",
-      "status": "upcoming",
-      "league": "BGL Ligue - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5862642",
       "title": "21:00:00 - 16/08 | Hutnik Krakow VS Legia Warszawa II | II Liga",
       "status": "upcoming",
@@ -11064,6 +11074,15 @@
       "title": "21:00:00 - 16/08 | Un Kaerjeng 97 VS Résidence Walferdange | BGL Ligue - Regular Season",
       "status": "upcoming",
       "league": "BGL Ligue - Regular Season",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5974671",
+      "title": "21:00:00 - 16/08 | US Hostert VS FC Etzella Ettelbruck | BGL Ligue",
+      "status": "upcoming",
+      "league": "BGL Ligue",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -11574,10 +11593,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5163748",
-      "title": "22:00:00 - 15/08 | PK-35 VS Klubi 04 | Ykkösliiga",
+      "id": "4649905",
+      "title": "22:00:00 - 15/08 | PK-35 VS Klubi 04 | Ykkosliiga",
       "status": "upcoming",
-      "league": "Ykkösliiga",
+      "league": "Ykkosliiga",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -12384,8 +12403,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4801754",
-      "title": "23:00:00 - 15/08 | Al Sadd VS MC Alger | Club Friendlies",
+      "id": "4807324",
+      "title": "23:00:00 - 15/08 | Al Sadd VS MC Oran | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
@@ -12474,7 +12493,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5874165",
+      "id": "4749850",
       "title": "23:00:00 - 15/08 | Etar VS Rilski Sportist | Vtora Liga",
       "status": "upcoming",
       "league": "Vtora Liga",
