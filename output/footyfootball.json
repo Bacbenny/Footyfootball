@@ -1,5 +1,18 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 0,
-  "matches": []
+  "count": 1,
+  "matches": [
+    {
+      "id": "5833769",
+      "title": "09:00:00 - 15/08 | Deportiva San Carlos VS Club Sport Herediano | Costa Rican Primera Division",
+      "league": "Costa Rican Primera Division",
+      "status": "live",
+      "kickoff": "2026-08-15T02:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "direct",
+      "streamCheck": "verified",
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce89d/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlODlkOjE3ODY3NzQ3NzcyOTA6Y2RubGl2ZXR2LnR2OmU2MzhkMDgwYzhjZDdiODQuNTY2YTI0ZjFmYjRlZDQzNDQ5ZjA3M2YyZDVhMGE1NTk3MGJiM2JkZWM0NzczODBiNTBkNGFhZTRiYjNlZGNhNQ"
+    }
+  ]
 }
