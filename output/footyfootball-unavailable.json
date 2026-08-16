@@ -1876,10 +1876,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5954307",
-      "title": "04:00:00 - 17/08 | Herrera FC VS Veraguas United | LPF Apertura",
+      "id": "4773299",
+      "title": "04:00:00 - 17/08 | Herrera VS Veraguas | Liga Panameña - Apertura - Western Conference",
       "status": "upcoming",
-      "league": "LPF Apertura",
+      "league": "Liga Panameña - Apertura - Western Conference",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2490,7 +2490,7 @@
     {
       "id": "5867166",
       "title": "17:00:00 - 16/08 | Chemnitzer FC (W) VS Blau-Gelb Marburg (W) | Women's German Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Women's German Cup",
       "candidateCount": 0,
       "providers": [],
@@ -2499,7 +2499,7 @@
     {
       "id": "5987105",
       "title": "17:00:00 - 16/08 | Ehime FC VS Gainare Tottori | Japanese J.League 3",
-      "status": "upcoming",
+      "status": "live",
       "league": "Japanese J.League 3",
       "candidateCount": 0,
       "providers": [],
@@ -2508,7 +2508,7 @@
     {
       "id": "4796829",
       "title": "17:00:00 - 16/08 | FC Minsk (W) VS Dnepr Mogilev (W) | Belarus Women's Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Belarus Women's Cup",
       "candidateCount": 0,
       "providers": [],
@@ -2517,7 +2517,7 @@
     {
       "id": "5867165",
       "title": "17:00:00 - 16/08 | Holstein Kiel (W) VS Magdeburg (W) | Women's German Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Women's German Cup",
       "candidateCount": 0,
       "providers": [],
@@ -2526,7 +2526,7 @@
     {
       "id": "5909135",
       "title": "17:00:00 - 16/08 | LNZ Cherkasy VS Chornomorets Odesa | Ukrainian Premier League",
-      "status": "upcoming",
+      "status": "live",
       "league": "Ukrainian Premier League",
       "candidateCount": 0,
       "providers": [],
@@ -2535,16 +2535,16 @@
     {
       "id": "5987106",
       "title": "17:00:00 - 16/08 | Matsumoto Yamaga VS Reilac Shiga | Japanese J.League 3",
-      "status": "upcoming",
+      "status": "live",
       "league": "Japanese J.League 3",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5888032",
+      "id": "4758003",
       "title": "17:00:00 - 16/08 | Portimonense VS Vizela | Liga Portugal 2",
-      "status": "upcoming",
+      "status": "live",
       "league": "Liga Portugal 2",
       "candidateCount": 0,
       "providers": [],
@@ -2553,7 +2553,7 @@
     {
       "id": "4740161",
       "title": "17:00:00 - 16/08 | Tokushima VS Sagan Tosu | Japanese J.League 2",
-      "status": "upcoming",
+      "status": "live",
       "league": "Japanese J.League 2",
       "candidateCount": 0,
       "providers": [],
@@ -2562,7 +2562,7 @@
     {
       "id": "5862801",
       "title": "17:00:00 - 16/08 | Znicz Pruszków VS Olimpia Grudziadz | II Liga",
-      "status": "upcoming",
+      "status": "live",
       "league": "II Liga",
       "candidateCount": 0,
       "providers": [],
@@ -3055,8 +3055,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5739480",
-      "title": "19:00:00 - 16/08 | OB VS AC Horsens | Danish Superliga",
+      "id": "4731528",
+      "title": "19:00:00 - 16/08 | Odense VS Horsens | Danish Superliga",
       "status": "upcoming",
       "league": "Danish Superliga",
       "candidateCount": 0,
@@ -3199,17 +3199,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5781705",
-      "title": "19:30:00 - 16/08 | FC Twente VS PEC Zwolle | Dutch Eredivisie",
-      "status": "upcoming",
-      "league": "Dutch Eredivisie",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5781708",
-      "title": "19:30:00 - 16/08 | Feyenoord VS Go Ahead Eagles | Dutch Eredivisie",
+      "id": "401875640",
+      "title": "19:30:00 - 16/08 | Feyenoord Rotterdam VS Go Ahead Eagles | Dutch Eredivisie",
       "status": "upcoming",
       "league": "Dutch Eredivisie",
       "candidateCount": 0,
@@ -3230,6 +3221,15 @@
       "title": "19:30:00 - 16/08 | Pors VS Bjarg | 2. Divisjon",
       "status": "upcoming",
       "league": "2. Divisjon",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4734619",
+      "title": "19:30:00 - 16/08 | Twente VS PEC Zwolle | Dutch Eredivisie",
+      "status": "upcoming",
+      "league": "Dutch Eredivisie",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4072,7 +4072,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000011220",
+      "id": "4719863",
       "title": "21:00:00 - 16/08 | Osasco Sporting VS Primavera SP | Copa Paulista",
       "status": "upcoming",
       "league": "Copa Paulista",
@@ -4144,15 +4144,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4753910",
-      "title": "21:00:00 - 16/08 | Rumelange VS Victoria Rosport | BGL Ligue - Regular Season",
-      "status": "upcoming",
-      "league": "BGL Ligue - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4807699",
       "title": "21:00:00 - 16/08 | Rupel Boom VS Acren | Belgian Cup - Qualifications",
       "status": "upcoming",
@@ -4218,6 +4209,15 @@
     {
       "id": "5974676",
       "title": "21:00:00 - 16/08 | Una Strassen VS AS Jeunesse Esch | BGL Ligue",
+      "status": "upcoming",
+      "league": "BGL Ligue",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5974675",
+      "title": "21:00:00 - 16/08 | US Rumelange VS FC Victoria Rosport | BGL Ligue",
       "status": "upcoming",
       "league": "BGL Ligue",
       "candidateCount": 0,
