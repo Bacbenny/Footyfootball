@@ -1,6 +1,6 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 238,
+  "count": 239,
   "matches": [
     {
       "id": "4764912",
@@ -12,7 +12,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-liverpool-vs-como/1"
+      "url": "https://embed.st/embed/golf/434/1"
     },
     {
       "id": "4764913",
@@ -96,7 +96,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/416/1"
+      "url": "https://embed.st/embed/admin/ppv-watford-vs-southampton/1"
     },
     {
       "id": "sm-watford-vs-southampton-2501258",
@@ -120,7 +120,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/405/1"
+      "url": "https://embed.st/embed/admin/ppv-arsenal-vs-manchester-city/1"
     },
     {
       "id": "4810132",
@@ -168,7 +168,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/405/1"
+      "url": "https://embed.st/embed/admin/ppv-arsenal-vs-manchester-city/1"
     },
     {
       "id": "cdn-2431382",
@@ -324,7 +324,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/417/1"
+      "url": "https://embed.st/embed/admin/ppv-burnley-vs-west-ham-united/1"
     },
     {
       "id": "401886535",
@@ -375,18 +375,6 @@
       "url": "https://embed.st/embed/admin/ppv-liverpool-vs-como/1"
     },
     {
-      "id": "4761262",
-      "title": "00:30:00 - 17/08 | Pumas UNAM U19 VS Querétaro U19 | Liga MX U19 - Apertura",
-      "league": "Liga MX U19 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-16T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-quer-taro/1"
-    },
-    {
       "id": "4761261",
       "title": "00:30:00 - 17/08 | America U19 VS Atlético San Luis U19 | Liga MX U19 - Apertura",
       "league": "Liga MX U19 - Apertura",
@@ -397,6 +385,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4761262",
+      "title": "00:30:00 - 17/08 | Pumas UNAM U19 VS Querétaro U19 | Liga MX U19 - Apertura",
+      "league": "Liga MX U19 - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-16T17:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-quer-taro/1"
     },
     {
       "id": "4735733",
@@ -445,6 +445,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-quer-taro/1"
+    },
+    {
+      "id": "1000017199",
+      "title": "01:15:00 - 17/08 | Club Deportivo Moquegua VS Sport Boys | Liga 1",
+      "league": "Liga 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-16T18:15:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-lens-vs-paris-saint-germain-2478640",
@@ -711,8 +723,8 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "5071266",
-      "title": "07:30:00 - 17/08 | Austin FC VS Dallas | MLS",
+      "id": "4621453",
+      "title": "07:30:00 - 17/08 | Austin FC VS FC Dallas | MLS",
       "league": "MLS",
       "status": "upcoming",
       "kickoff": "2026-08-17T00:30:00.000Z",
@@ -732,7 +744,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_mls_austin-dallas-live-streaming-538644384/1"
+      "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-fc-dallas/1"
     },
     {
       "id": "cdn-2406985",
