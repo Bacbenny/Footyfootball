@@ -1,6 +1,6 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 240,
+  "count": 238,
   "matches": [
     {
       "id": "4764912",
@@ -96,7 +96,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_championship_watford-southampton-live-streaming-603627984/1"
+      "url": "https://embed.st/embed/admin/ppv-watford-vs-southampton/1"
     },
     {
       "id": "sm-watford-vs-southampton-2501258",
@@ -120,7 +120,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-arsenal-vs-manchester-city/1"
+      "url": "https://embed.st/embed/golf/405/1"
     },
     {
       "id": "4810132",
@@ -168,7 +168,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_community-shield_arsenal-man-city-live-streaming-604765008/1"
+      "url": "https://embed.st/embed/admin/ppv-arsenal-vs-manchester-city/1"
     },
     {
       "id": "cdn-2431382",
@@ -183,18 +183,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "4636045",
-      "title": "21:30:00 - 16/08 | Kalmar FF VS Hammarby | Swedish Allsvenskan",
-      "league": "Swedish Allsvenskan",
-      "status": "upcoming",
-      "kickoff": "2026-08-16T14:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-kalmar-ff-vs-hammarby-if/1"
-    },
-    {
       "id": "5107566",
       "title": "21:30:00 - 16/08 | GAIS VS Malmö FF | Swedish Allsvenskan",
       "league": "Swedish Allsvenskan",
@@ -205,6 +193,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-gais-vs-malm-ff/1"
+    },
+    {
+      "id": "4636045",
+      "title": "21:30:00 - 16/08 | Kalmar FF VS Hammarby | Swedish Allsvenskan",
+      "league": "Swedish Allsvenskan",
+      "status": "upcoming",
+      "kickoff": "2026-08-16T14:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-kalmar-ff-vs-hammarby-if/1"
     },
     {
       "id": "sm-gais-vs-malm--2477933",
@@ -324,7 +324,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-burnley-vs-west-ham-united/1"
+      "url": "https://embed.st/embed/golf/417/1"
     },
     {
       "id": "401886535",
@@ -457,18 +457,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-lens-vs-paris-saint-germain/1"
-    },
-    {
-      "id": "4632721",
-      "title": "02:00:00 - 17/08 | Atlético Mineiro VS Gremio | Brazilian Serie A",
-      "league": "Brazilian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-16T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "401841188",
@@ -675,16 +663,16 @@
       "url": "https://embed.st/embed/admin/ppv-tijuana-vs-cruz-azul/1"
     },
     {
-      "id": "5977315",
-      "title": "06:00:00 - 17/08 | Chivas (W) VS Atletico de San Luis (W) | Liga MX Femenil Apertura",
-      "league": "Liga MX Femenil Apertura",
+      "id": "401877014",
+      "title": "06:00:00 - 17/08 | América VS Atlético de San Luis | Mexican Liga BBVA MX",
+      "league": "Mexican Liga BBVA MX",
       "status": "upcoming",
       "kickoff": "2026-08-16T23:00:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-atl-tico-de-san-luis/1"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "1000007714",
@@ -697,18 +685,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4735732",
-      "title": "06:00:00 - 17/08 | Club América VS Atlético San Luis | Mexican Liga BBVA MX",
-      "league": "Mexican Liga BBVA MX",
-      "status": "upcoming",
-      "kickoff": "2026-08-16T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-am-rica-vs-atl-tico-de-san-luis-2487483",
@@ -903,8 +879,8 @@
       "url": "https://embed.st/embed/golf/418/1"
     },
     {
-      "id": "4656617",
-      "title": "05:00:00 - 18/08 | Deportes Santa Cruz VS San Luis de Quillota | Campeonato Primera B",
+      "id": "1000007278",
+      "title": "05:00:00 - 18/08 | Deportes Santa Cruz VS San Luis | Campeonato Primera B",
       "league": "Campeonato Primera B",
       "status": "upcoming",
       "kickoff": "2026-08-17T22:00:00.000Z",

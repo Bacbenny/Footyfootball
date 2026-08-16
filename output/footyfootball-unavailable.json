@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 610,
+  "count": 611,
   "matches": [
     {
       "id": "401909224",
@@ -706,7 +706,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4653772",
+      "id": "5225707",
       "title": "01:00:00 - 17/08 | KR Reykjavik VS Breidablik | Besta deildin",
       "status": "upcoming",
       "league": "Besta deildin",
@@ -1021,8 +1021,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5760465",
-      "title": "01:15:00 - 17/08 | Lokomotiv Plovdiv VS Dunav Ruse | First Professional League",
+      "id": "4733601",
+      "title": "01:15:00 - 17/08 | Lokomotiv Plovdiv VS Dunav Rousse | First Professional League",
       "status": "upcoming",
       "league": "First Professional League",
       "candidateCount": 0,
@@ -1255,6 +1255,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "401841195",
+      "title": "02:00:00 - 17/08 | Atlético-MG VS Grêmio | Brazilian Serie A",
+      "status": "upcoming",
+      "league": "Brazilian Serie A",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4807740",
       "title": "02:00:00 - 17/08 | Bari VS Casarano | Coppa Italia Serie C - Round of 64",
       "status": "upcoming",
@@ -1372,7 +1381,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814545",
+      "id": "4814536",
       "title": "02:00:00 - 17/08 | Latina Calcio VS AS Ostia Mare Lidocalcio | Coppa Italia Serie C - Round of 64",
       "status": "upcoming",
       "league": "Coppa Italia Serie C - Round of 64",
@@ -1516,8 +1525,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4661986",
-      "title": "02:15:00 - 18/08 | Afturelding VS HK Kopavogur | Inkasso Deildin",
+      "id": "5225845",
+      "title": "02:15:00 - 18/08 | Afturelding VS HK Kopavogs | Inkasso Deildin",
       "status": "upcoming",
       "league": "Inkasso Deildin",
       "candidateCount": 0,
@@ -1534,7 +1543,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4653775",
+      "id": "5225711",
       "title": "02:15:00 - 18/08 | Fram Reykjavik VS Stjarnan | Besta deildin",
       "status": "upcoming",
       "league": "Besta deildin",
@@ -1966,7 +1975,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4632722",
+      "id": "5103588",
       "title": "04:30:00 - 17/08 | Mirassol VS Flamengo | Brazilian Serie A",
       "status": "upcoming",
       "league": "Brazilian Serie A",
@@ -2029,8 +2038,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5833772",
-      "title": "05:00:00 - 17/08 | Municipal Pérez Zeledón VS Inter San Carlos | Costa Rican Primera Division",
+      "id": "4734839",
+      "title": "05:00:00 - 17/08 | Perez Zeledon VS Inter San Carlos | Costa Rican Primera Division",
       "status": "upcoming",
       "league": "Costa Rican Primera Division",
       "candidateCount": 0,
@@ -2146,7 +2155,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4710733",
+      "id": "5109508",
       "title": "06:00:00 - 17/08 | Union Omaha VS Richmond Kickers | USL League One",
       "status": "upcoming",
       "league": "USL League One",
@@ -2191,7 +2200,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401841191",
+      "id": "5103590",
       "title": "06:00:00 - 18/08 | Internacional VS Remo | Brazilian Serie A",
       "status": "upcoming",
       "league": "Brazilian Serie A",
@@ -2911,7 +2920,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4740774",
+      "id": "5811724",
       "title": "18:30:00 - 16/08 | SK Beveren VS Anderlecht | Belgian Pro League",
       "status": "upcoming",
       "league": "Belgian Pro League",
@@ -3226,15 +3235,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4811833",
-      "title": "19:00:00 - 17/08 | Defensor Sporting (Reserves) VS Racing Club Montevideo (Reserves) | Reserve League - Clausura",
-      "status": "upcoming",
-      "league": "Reserve League - Clausura",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5104980",
       "title": "19:30:00 - 16/08 | Aalesund VS Vålerenga | Norwegian Eliteserien",
       "status": "upcoming",
@@ -3262,7 +3262,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5781708",
+      "id": "4734621",
       "title": "19:30:00 - 16/08 | Feyenoord VS Go Ahead Eagles | Dutch Eredivisie",
       "status": "upcoming",
       "league": "Dutch Eredivisie",
@@ -3352,8 +3352,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000017375",
-      "title": "20:00:00 - 16/08 | Cerro Porteno VS Sportivo San Lorenzo | Paraguayan Primera División",
+      "id": "4764150",
+      "title": "20:00:00 - 16/08 | Cerro Porteño VS CS San Lorenzo | Paraguayan Primera División",
       "status": "upcoming",
       "league": "Paraguayan Primera División",
       "candidateCount": 0,
@@ -3865,15 +3865,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4807679",
-      "title": "21:00:00 - 16/08 | Eendracht Termien VS Royal Union Tubize-Braine | Belgian Cup - Qualifications",
-      "status": "upcoming",
-      "league": "Belgian Cup - Qualifications",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5127541",
       "title": "21:00:00 - 16/08 | FBK Karlstad VS Enköping | Ettan Norra",
       "status": "upcoming",
@@ -3986,6 +3977,15 @@
       "title": "21:00:00 - 16/08 | Krylya Sovetov Samara VS Dynamo Makhachkala | Russian Premier League",
       "status": "upcoming",
       "league": "Russian Premier League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4807690",
+      "title": "21:00:00 - 16/08 | KV Zelzate VS Braine | Belgian Cup - Qualifications",
+      "status": "upcoming",
+      "league": "Belgian Cup - Qualifications",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4117,7 +4117,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4719863",
+      "id": "1000011220",
       "title": "21:00:00 - 16/08 | Osasco Sporting VS Primavera SP | Copa Paulista",
       "status": "upcoming",
       "league": "Copa Paulista",
@@ -4324,6 +4324,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4811836",
+      "title": "21:00:00 - 17/08 | Liverpool Montevideo (Reserves) VS Nacional Montevideo (Reserves) | Reserve League - Clausura",
+      "status": "upcoming",
+      "league": "Reserve League - Clausura",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401889571",
       "title": "21:00:00 - 17/08 | The Citadel VS Southern Utah | NCAA Women's Soccer",
       "status": "upcoming",
@@ -4351,6 +4360,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "401885477",
+      "title": "21:30:00 - 16/08 | C.D. Nacional VS Estoril | Portuguese Primeira Liga",
+      "status": "upcoming",
+      "league": "Portuguese Primeira Liga",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5865440",
       "title": "21:30:00 - 16/08 | Debrecen VS Györi ETO | OTP Bank Liga",
       "status": "upcoming",
@@ -4364,15 +4382,6 @@
       "title": "21:30:00 - 16/08 | Leixões VS Tondela | Liga Portugal 2",
       "status": "upcoming",
       "league": "Liga Portugal 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5887597",
-      "title": "21:30:00 - 16/08 | Nacional VS Estoril | Portuguese Primeira Liga",
-      "status": "upcoming",
-      "league": "Portuguese Primeira Liga",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4495,8 +4504,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4637118",
-      "title": "22:00:00 - 16/08 | Egersund VS Stabaek | OBOS-ligaen",
+      "id": "5105219",
+      "title": "22:00:00 - 16/08 | Egersund VS Stabæk | OBOS-ligaen",
       "status": "upcoming",
       "league": "OBOS-ligaen",
       "candidateCount": 0,
@@ -5080,7 +5089,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5908587",
+      "id": "4765083",
       "title": "23:00:00 - 16/08 | Kayserispor VS Sivasspor | TFF First League",
       "status": "upcoming",
       "league": "TFF First League",
@@ -5260,7 +5269,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4747428",
+      "id": "5852783",
       "title": "23:00:00 - 17/08 | Pisa VS Empoli | Coppa Italia",
       "status": "upcoming",
       "league": "Coppa Italia",
@@ -5404,8 +5413,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5765908",
-      "title": "23:30:00 - 16/08 | NK Varazdin VS Rijeka | HNL",
+      "id": "4732337",
+      "title": "23:30:00 - 16/08 | NK Varaždin VS HNK Rijeka | HNL",
       "status": "upcoming",
       "league": "HNL",
       "candidateCount": 0,
