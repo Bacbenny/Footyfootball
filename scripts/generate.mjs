@@ -308,6 +308,8 @@ function addCandidate(candidates, candidate) {
   }
 }
 
+const MATCH_EXPIRY_MS = 3 * 60 * 60 * 1000;
+
 function statusFor(match) {
   const timestamp = Number(match?.timestamp || 0);
   const now = Date.now();
@@ -315,6 +317,13 @@ function statusFor(match) {
   const withinLiveWindow =
     timestamp > 0 && now >= timestamp && now - timestamp < 125 * 60 * 1000;
   return explicit || withinLiveWindow ? "live" : "upcoming";
+}
+
+function isMatchActive(match) {
+  const timestamp = Number(match?.timestamp || 0);
+  if (!timestamp) return true;
+  const now = Date.now();
+  return now - timestamp < MATCH_EXPIRY_MS;
 }
 
 function normalizeMatch(raw) {
@@ -580,7 +589,7 @@ async function main() {
 
   const streamedOnly = await addStreamedOnlyMatches(streamedMatches, seenMatchIds);
   const cdnOnly = await addCdnOnlyMatches(cdnData, seenMatchIds);
-  const allMatches = [...uniqueMatches, ...streamedOnly, ...cdnOnly];
+  const allMatches = [...uniqueMatches, ...streamedOnly, ...cdnOnly].filter(isMatchActive);
 
   const resolvedEntries = await mapWithConcurrency(allMatches, 12, async (match) => {
     const candidates = match._candidates ? match._candidates.slice() : [];
