@@ -9,7 +9,7 @@ const SOURCES = {
 };
 
 const OUTPUT_DIR = new URL("../output/", import.meta.url);
-const TIMEOUT_MS = 8_000;
+const TIMEOUT_MS = 6_000;
 const STREAM_CHECK_TIMEOUT_MS = 5_000;
 const BROWSER_TIMEOUT_MS = 15_000;
 const BROWSER_WAIT_MS = 6_000;
@@ -410,6 +410,97 @@ async function addStreamedCandidates(match, candidates, streamedMatches) {
   });
 }
 
+async function addStreamedOnlyMatches(streamedMatches, existingIds) {
+  const extra = [];
+  for (const streamed of Array.isArray(streamedMatches) ? streamedMatches : []) {
+    const fakeId = `sm-${streamed.id || slug(streamed.title)}`;
+    if (existingIds.has(fakeId)) continue;
+    existingIds.add(fakeId);
+
+    const requests = (streamed.sources || []).map((source) => ({ source }));
+    const candidates = [];
+    await mapWithConcurrency(requests, 8, async ({ source }) => {
+      const data = await safeFetch(
+        `${SOURCES.streamedStream}/${encodeURIComponent(source.source)}/${encodeURIComponent(source.id)}`,
+        null,
+      );
+      const values = Array.isArray(data) ? data : [data];
+      for (const value of values) {
+        addCandidate(candidates, {
+          url: value?.embedUrl || value?.url || value?.streamUrl || value?.iframe,
+          quality: value?.hd ? "HD" : "SD",
+          provider: "streamed",
+          label: source.source,
+        });
+      }
+    });
+    if (candidates.length) {
+      const home = text(streamed?.teams?.home?.name);
+      const away = text(streamed?.teams?.away?.name);
+      const homeLogo = streamed?.teams?.home?.badge
+        ? `https://streamed.pk/api/team/badge/${streamed.teams.home.badge}`
+        : "";
+      const awayLogo = streamed?.teams?.away?.badge
+        ? `https://streamed.pk/api/team/badge/${streamed.teams.away.badge}`
+        : "";
+      extra.push({
+        id: fakeId,
+        title: streamed.title,
+        home: home || text(streamed.title.split(/\s+vs\.?\s+/i)[0]),
+        away: away || text(streamed.title.split(/\s+vs\.?\s+/i)[1]),
+        league: text(streamed.league) || "Football",
+        timestamp: Number(streamed.date || streamed.timestamp || 0),
+        status: statusFor({ timestamp: streamed.date || streamed.timestamp, status: "upcoming" }),
+        homeLogo,
+        awayLogo,
+        streams: [],
+        _candidates: candidates,
+      });
+    }
+  }
+  return extra;
+}
+
+async function addCdnOnlyMatches(cdnData, existingIds) {
+  const events = cdnData?.["cdn-live-tv"] || {};
+  const soccer = events.Soccer || events.Football || [];
+  const extra = [];
+  for (const event of Array.isArray(soccer) ? soccer : []) {
+    const home = text(event.homeTeam);
+    const away = text(event.awayTeam);
+    const fakeId = `cdn-${event.gameID || slug(home) + "-" + slug(away)}`;
+    if (existingIds.has(fakeId)) continue;
+    existingIds.add(fakeId);
+
+    const candidates = [];
+    for (const channel of event.channels || []) {
+      addCandidate(candidates, {
+        url: channel.url,
+        quality: "HD",
+        label: channel.channel_name,
+        provider: "cdnlive",
+      });
+    }
+    if (candidates.length) {
+      const ts = event.start ? new Date(event.start + " UTC").getTime() : 0;
+      extra.push({
+        id: fakeId,
+        title: `${home} vs ${away}`,
+        home,
+        away,
+        league: text(event.tournament) || "Football",
+        timestamp: ts,
+        status: statusFor({ timestamp: ts, status: event.status }),
+        homeLogo: text(event.homeTeamIMG),
+        awayLogo: text(event.awayTeamIMG),
+        streams: [],
+        _candidates: candidates,
+      });
+    }
+  }
+  return extra;
+}
+
 function escapeAttribute(value) {
   return text(value).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
@@ -449,20 +540,27 @@ function toExtInf(match, candidate) {
 async function chooseBestStream(match, candidates) {
   if (!candidates.length) return null;
   candidates.sort((a, b) => b.score - a.score);
+
+  if (match.status === "upcoming") {
+    return { ...candidates[0], streamCheck: "pending", resolution: "embed" };
+  }
+
   const playable = (
-    await mapWithConcurrency(candidates, 2, (candidate) =>
+    await mapWithConcurrency(candidates, 3, (candidate) =>
       resolvePlayableCandidate({
         ...candidate,
-        allowBrowser: match.status === "live",
+        allowBrowser: true,
       }),
     )
   ).filter(Boolean);
-  if (!playable.length) {
-    console.warn(`No direct playable media URL: ${match.title}`);
-    return null;
+
+  if (playable.length) {
+    playable.sort((a, b) => b.score - a.score);
+    return playable[0];
   }
-  playable.sort((a, b) => b.score - a.score);
-  return playable[0];
+
+  console.warn(`Using embed fallback for live match: ${match.title}`);
+  return { ...candidates[0], streamCheck: "pending", resolution: "embed" };
 }
 
 async function main() {
@@ -480,11 +578,17 @@ async function main() {
     uniqueMatches.push(match);
   }
 
-  const resolvedEntries = await mapWithConcurrency(uniqueMatches, 6, async (match) => {
-    const candidates = [];
-    await addWatchFootyCandidates(match, candidates);
-    await addCdnLiveCandidates(match, candidates, cdnData);
-    await addStreamedCandidates(match, candidates, streamedMatches);
+  const streamedOnly = await addStreamedOnlyMatches(streamedMatches, seenMatchIds);
+  const cdnOnly = await addCdnOnlyMatches(cdnData, seenMatchIds);
+  const allMatches = [...uniqueMatches, ...streamedOnly, ...cdnOnly];
+
+  const resolvedEntries = await mapWithConcurrency(allMatches, 12, async (match) => {
+    const candidates = match._candidates ? match._candidates.slice() : [];
+    if (!match._candidates) {
+      await addWatchFootyCandidates(match, candidates);
+      await addCdnLiveCandidates(match, candidates, cdnData);
+      await addStreamedCandidates(match, candidates, streamedMatches);
+    }
 
     const best = await chooseBestStream(match, candidates);
     if (!best) {
