@@ -1,30 +1,5 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 2,
-  "matches": [
-    {
-      "id": "4621455",
-      "title": "06:30:00 - 16/08 | CF Montréal VS DC United | MLS",
-      "league": "MLS",
-      "status": "live",
-      "kickoff": "2026-08-15T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "direct",
-      "streamCheck": "verified",
-      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3ODY4NTE5ODQxNjI6Y2RubGl2ZXR2LnR2OmJhZDdiNzJhNzRkZmVhOWIuYzk0OGYzZDc3OTFhYmEwMGMzMGY0ZGQyNjY5NjFhMGY1NGFkMTQxOGIwMTVhYWE1NTM2Yjc1NTMwYTA0NzdlMg"
-    },
-    {
-      "id": "4621452",
-      "title": "06:30:00 - 16/08 | Toronto FC VS New England Revolution | MLS",
-      "league": "MLS",
-      "status": "live",
-      "kickoff": "2026-08-15T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "direct",
-      "streamCheck": "verified",
-      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc162/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTYyOjE3ODY4NTE5OTUxMDQ6Y2RubGl2ZXR2LnR2OjNjNmJkZmMyYjhlMjU3MGQuNjg4MmU2N2M2MGNkOTFjNTRhYjFmYTJmOWMzOWYwMTY5ZmQzMTVkNzgzMjlkNzdjMzEyNGJiY2QxMGM1MTljYw"
-    }
-  ]
+  "count": 0,
+  "matches": []
 }
