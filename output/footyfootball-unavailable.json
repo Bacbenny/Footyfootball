@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 169,
+  "count": 162,
   "matches": [
     {
       "id": "4811839",
@@ -310,8 +310,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949193",
-      "title": "01:45:00 - 19/08 | Ashton United VS Whitby | Non League Premier",
+      "id": "4814076",
+      "title": "01:45:00 - 19/08 | Ascot United VS Kingstonian FC | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -661,60 +661,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5225845",
-      "title": "02:15:00 - 18/08 | Afturelding VS HK Kopavogs | Inkasso Deildin",
-      "status": "upcoming",
-      "league": "Inkasso Deildin",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4757117",
-      "title": "02:15:00 - 18/08 | Casa Pia AC VS Benfica | Portuguese Primeira Liga",
-      "status": "upcoming",
-      "league": "Portuguese Primeira Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5225711",
-      "title": "02:15:00 - 18/08 | Fram Reykjavik VS Stjarnan | Besta deildin",
-      "status": "upcoming",
-      "league": "Besta deildin",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4661987",
-      "title": "02:15:00 - 18/08 | Throttur Reykjavik VS Fylkir | Inkasso Deildin",
-      "status": "upcoming",
-      "league": "Inkasso Deildin",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4807709",
-      "title": "02:30:00 - 18/08 | 3 De Noviembre VS Atlético Tembetary | Division Intermedia",
-      "status": "upcoming",
-      "league": "Division Intermedia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4751169",
-      "title": "02:30:00 - 18/08 | Almeria VS CD Eldense | Spanish LALIGA 2",
-      "status": "upcoming",
-      "league": "Spanish LALIGA 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "6005791",
       "title": "02:30:00 - 19/08 | Benjamin Aceval VS Nacional | Copa Paraguay",
       "status": "upcoming",
@@ -726,7 +672,7 @@
     {
       "id": "401886620",
       "title": "03:00:00 - 18/08 | Boston College VS St. John's | NCAA Women's Soccer",
-      "status": "live",
+      "status": "upcoming",
       "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -735,8 +681,17 @@
     {
       "id": "4814997",
       "title": "03:00:00 - 18/08 | Cesar Vallejo Reserve VS CD Juventud Cautivo | Liga 3",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga 3",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4633373",
+      "title": "03:00:00 - 18/08 | Lanus VS Independiente | Argentine Liga Profesional de Fútbol",
+      "status": "upcoming",
+      "league": "Argentine Liga Profesional de Fútbol",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -746,6 +701,15 @@
       "title": "03:00:00 - 18/08 | Mount St. Mary's VS Towson | NCAA Women's Soccer",
       "status": "live",
       "league": "NCAA Women's Soccer",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4800612",
+      "title": "03:00:00 - 18/08 | Santos FC VS Alianza Universidad | Liga 2",
+      "status": "upcoming",
+      "league": "Liga 2",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -778,28 +742,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000014095",
-      "title": "04:05:00 - 18/08 | Bucaramanga VS Deportivo Pasto | Primera A",
+      "id": "4732049",
+      "title": "04:05:00 - 18/08 | Atlético Bucaramanga VS Deportivo Pasto | Liga BetPlay - Clausura",
       "status": "live",
-      "league": "Primera A",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000007281",
-      "title": "05:00:00 - 18/08 | Deportes Copiapo VS Curico Unido | Campeonato Primera B",
-      "status": "upcoming",
-      "league": "Campeonato Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4808299",
-      "title": "05:00:00 - 18/08 | General Caballero JLM VS Tacuary | Division Intermedia",
-      "status": "upcoming",
-      "league": "Division Intermedia",
+      "league": "Liga BetPlay - Clausura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -807,7 +753,7 @@
     {
       "id": "401906393",
       "title": "05:00:00 - 18/08 | Montevideo Wanderers VS Cerro Largo | Liga AUF Uruguaya",
-      "status": "upcoming",
+      "status": "live",
       "league": "Liga AUF Uruguaya",
       "candidateCount": 0,
       "providers": [],
@@ -863,15 +809,6 @@
       "title": "05:00:00 - 19/08 | Recoleta VS Boca Juniors | CONMEBOL Sudamericana",
       "status": "upcoming",
       "league": "CONMEBOL Sudamericana",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401841495",
-      "title": "05:15:00 - 18/08 | Vélez Sarsfield VS Defensa y Justicia | Argentine Liga Profesional de Fútbol",
-      "status": "upcoming",
-      "league": "Argentine Liga Profesional de Fútbol",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
