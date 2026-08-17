@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 162,
+  "count": 157,
   "matches": [
     {
       "id": "4811839",
@@ -670,51 +670,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401886620",
-      "title": "03:00:00 - 18/08 | Boston College VS St. John's | NCAA Women's Soccer",
-      "status": "upcoming",
-      "league": "NCAA Women's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814997",
-      "title": "03:00:00 - 18/08 | Cesar Vallejo Reserve VS CD Juventud Cautivo | Liga 3",
-      "status": "upcoming",
-      "league": "Liga 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633373",
-      "title": "03:00:00 - 18/08 | Lanus VS Independiente | Argentine Liga Profesional de Fútbol",
-      "status": "upcoming",
-      "league": "Argentine Liga Profesional de Fútbol",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401888892",
-      "title": "03:00:00 - 18/08 | Mount St. Mary's VS Towson | NCAA Women's Soccer",
-      "status": "live",
-      "league": "NCAA Women's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4800612",
-      "title": "03:00:00 - 18/08 | Santos FC VS Alianza Universidad | Liga 2",
-      "status": "upcoming",
-      "league": "Liga 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4809693",
       "title": "03:00:00 - 19/08 | 12 de Octubre de Itaguá VS River Plate Asuncion | APF Primera B",
       "status": "upcoming",
@@ -746,6 +701,15 @@
       "title": "04:05:00 - 18/08 | Atlético Bucaramanga VS Deportivo Pasto | Liga BetPlay - Clausura",
       "status": "live",
       "league": "Liga BetPlay - Clausura",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4656614",
+      "title": "05:00:00 - 18/08 | Deportes Copiapo VS Curicó Unido | Campeonato Primera B",
+      "status": "live",
+      "league": "Campeonato Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -816,7 +780,7 @@
     {
       "id": "5977316",
       "title": "06:00:00 - 18/08 | Club Leon (W) VS Queretaro (W) | Liga MX Femenil Apertura",
-      "status": "upcoming",
+      "status": "live",
       "league": "Liga MX Femenil Apertura",
       "candidateCount": 0,
       "providers": [],
@@ -825,7 +789,7 @@
     {
       "id": "4677741",
       "title": "06:00:00 - 18/08 | Ferroviária VS Paysandu | Brazilian Serie C",
-      "status": "upcoming",
+      "status": "live",
       "league": "Brazilian Serie C",
       "candidateCount": 0,
       "providers": [],
@@ -834,7 +798,7 @@
     {
       "id": "401905328",
       "title": "06:00:00 - 18/08 | Grambling VS Louisiana Christian | NCAA Women's Soccer",
-      "status": "upcoming",
+      "status": "live",
       "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -843,17 +807,8 @@
     {
       "id": "1000009502",
       "title": "06:00:00 - 18/08 | Guarani VS Ypiranga RS | Brazilian Serie C",
-      "status": "upcoming",
+      "status": "live",
       "league": "Brazilian Serie C",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5103590",
-      "title": "06:00:00 - 18/08 | Internacional VS Remo | Brazilian Serie A",
-      "status": "upcoming",
-      "league": "Brazilian Serie A",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
