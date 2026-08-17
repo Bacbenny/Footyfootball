@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 261,
+  "count": 260,
   "matches": [
     {
       "id": "4742648",
@@ -157,15 +157,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000018841",
-      "title": "00:00:00 - 19/08 | Sepahan VS Tractor | Persian Gulf",
-      "status": "upcoming",
-      "league": "Persian Gulf",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5911496",
       "title": "00:00:00 - 19/08 | TSV Aubstadt VS 1860 München | Regionalliga Bayern",
       "status": "upcoming",
@@ -179,6 +170,15 @@
       "title": "00:00:00 - 19/08 | Valencia (W) VS PSG (W) | Club Friendlies (W)",
       "status": "upcoming",
       "league": "Club Friendlies (W)",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4806315",
+      "title": "00:00:00 - 20/08 | Gimnasia La Plata Res. VS Sarmiento Reserves | Liga Profesional - Reserva",
+      "status": "upcoming",
+      "league": "Liga Profesional - Reserva",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -409,15 +409,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806315",
-      "title": "01:00:00 - 19/08 | Gimnasia La Plata Res. VS Sarmiento Reserves | Liga Profesional - Reserva",
-      "status": "upcoming",
-      "league": "Liga Profesional - Reserva",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4806313",
       "title": "01:00:00 - 19/08 | Godoy Cruz Res. VS Velez Sársfield Res. | Liga Profesional - Reserva",
       "status": "upcoming",
@@ -431,15 +422,6 @@
       "title": "01:00:00 - 19/08 | Grêmio Prudente U20 VS RB Bragantino/Sp Youth | Paulista U20 - 1st Stage - Grupo 3",
       "status": "upcoming",
       "league": "Paulista U20 - 1st Stage - Grupo 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000888",
-      "title": "01:00:00 - 19/08 | Hornchurch VS Norwich City U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -476,6 +458,15 @@
       "title": "01:00:00 - 19/08 | Reading VS Wycombe Wanderers | English EFL Trophy",
       "status": "upcoming",
       "league": "English EFL Trophy",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6000870",
+      "title": "01:00:00 - 19/08 | Scunthorpe VS Stoke City U21 | National League Cup",
+      "status": "upcoming",
+      "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -589,19 +580,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907508",
-      "title": "01:45:00 - 18/08 | Chelmsford VS Ebbsfleet United | National League N/S - Regular Season",
+      "id": "6000890",
+      "title": "01:30:00 - 19/08 | Worthing VS West Ham United U21 | National League Cup",
       "status": "upcoming",
-      "league": "National League N/S - Regular Season",
+      "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401881676",
-      "title": "01:45:00 - 18/08 | Cremonese VS Sampdoria | Coppa Italia",
+      "id": "5907508",
+      "title": "01:45:00 - 18/08 | Chelmsford VS Ebbsfleet United | National League N/S - Regular Season",
       "status": "upcoming",
-      "league": "Coppa Italia",
+      "league": "National League N/S - Regular Season",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -638,15 +629,6 @@
       "title": "01:45:00 - 19/08 | Barnet VS Arsenal U21 | English EFL Trophy",
       "status": "upcoming",
       "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765056",
-      "title": "01:45:00 - 19/08 | Bedford Town VS Buxton FC | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -742,8 +724,17 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5906993",
+      "id": "4765059",
       "title": "01:45:00 - 19/08 | Hebburn Town VS Worksop Town | National League N/S - Regular Season",
+      "status": "upcoming",
+      "league": "National League N/S - Regular Season",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4765060",
+      "title": "01:45:00 - 19/08 | Hednesford Town VS Southport | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -931,7 +922,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949184",
+      "id": "4783480",
       "title": "01:45:00 - 19/08 | Warrington Rylands VS Quorn | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -1003,7 +994,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4809608",
+      "id": "401909156",
       "title": "02:00:00 - 19/08 | Levski Sofia VS AEK Athens | UEFA Champions League",
       "status": "upcoming",
       "league": "UEFA Champions League",
@@ -1066,7 +1057,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4653775",
+      "id": "5225711",
       "title": "02:15:00 - 18/08 | Fram Reykjavik VS Stjarnan | Besta deildin",
       "status": "upcoming",
       "league": "Besta deildin",
@@ -1291,6 +1282,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "5190662",
+      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5977316",
       "title": "06:00:00 - 18/08 | Club Leon (W) VS Queretaro (W) | Liga MX Femenil Apertura",
       "status": "upcoming",
@@ -1489,10 +1489,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6014074",
-      "title": "16:30:00 - 18/08 | Sydney FC VS SD Raiders FC | Australia Cup",
+      "id": "4809147",
+      "title": "16:30:00 - 18/08 | Sd Raiders VS Sydney FC | Australia Cup - Quarter Finals",
       "status": "upcoming",
-      "league": "Australia Cup",
+      "league": "Australia Cup - Quarter Finals",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1867,6 +1867,24 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4800754",
+      "title": "22:45:00 - 18/08 | Nassaji Mazandaran VS Esteghlal FC Tehran | Persian Gulf Pro League",
+      "status": "upcoming",
+      "league": "Persian Gulf Pro League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4800755",
+      "title": "22:45:00 - 18/08 | Paykan FC VS Gol Gohar | Persian Gulf Pro League",
+      "status": "upcoming",
+      "league": "Persian Gulf Pro League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401873751",
       "title": "23:00:00 - 17/08 | Al Anwar VS Al Ahli | Saudi King's Cup",
       "status": "upcoming",
@@ -1948,15 +1966,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4747428",
-      "title": "23:00:00 - 17/08 | Pisa VS Empoli | Coppa Italia",
-      "status": "upcoming",
-      "league": "Coppa Italia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4733602",
       "title": "23:00:00 - 17/08 | Spartak Varna VS Septemvri Sofia | First Professional League",
       "status": "upcoming",
@@ -2006,6 +2015,15 @@
       "title": "23:00:00 - 17/08 | Viking 2 VS Madla | Norsk Tipping-ligaen",
       "status": "upcoming",
       "league": "Norsk Tipping-ligaen",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000018840",
+      "title": "23:00:00 - 18/08 | Aluminium VS Chadormalu Ardakan SC | Persian Gulf",
+      "status": "upcoming",
+      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2110,15 +2128,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401873726",
-      "title": "23:05:00 - 18/08 | Al Okhdood VS Al Khaleej | Saudi King's Cup",
-      "status": "upcoming",
-      "league": "Saudi King's Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5853722",
       "title": "23:15:00 - 17/08 | Al Taee VS Al Qadsiah | Saudi King's Cup",
       "status": "upcoming",
@@ -2146,19 +2155,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800754",
-      "title": "23:15:00 - 18/08 | Nassaji Mazandaran VS Esteghlal FC Tehran | Persian Gulf Pro League",
+      "id": "401873726",
+      "title": "23:15:00 - 18/08 | Al Okhdood VS Al Khaleej | Saudi King's Cup",
       "status": "upcoming",
-      "league": "Persian Gulf Pro League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4800755",
-      "title": "23:15:00 - 18/08 | Paykan FC VS Gol Gohar | Persian Gulf Pro League",
-      "status": "upcoming",
-      "league": "Persian Gulf Pro League",
+      "league": "Saudi King's Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2168,15 +2168,6 @@
       "title": "23:30:00 - 17/08 | Kvik VS Aalesund 2 | Norsk Tipping-ligaen",
       "status": "upcoming",
       "league": "Norsk Tipping-ligaen",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401881677",
-      "title": "23:30:00 - 17/08 | Sassuolo VS Cesena | Coppa Italia",
-      "status": "upcoming",
-      "league": "Coppa Italia",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2195,15 +2186,6 @@
       "title": "23:30:00 - 18/08 | AFC Eskilstuna VS IK Oddevold | Svenska Cupen",
       "status": "upcoming",
       "league": "Svenska Cupen",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000018840",
-      "title": "23:30:00 - 18/08 | Aluminium VS Chadormalu Ardakan SC | Persian Gulf",
-      "status": "upcoming",
-      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2263,7 +2245,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5820435",
+      "id": "4815662",
       "title": "23:30:00 - 18/08 | IF Karlstad VS Sandvikens IF | Svenska Cupen",
       "status": "upcoming",
       "league": "Svenska Cupen",
@@ -2312,6 +2294,15 @@
       "title": "23:30:00 - 18/08 | Maccabi Kabilio Jaffa VS Kiryat Yam | Liga Leumit",
       "status": "upcoming",
       "league": "Liga Leumit",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000018841",
+      "title": "23:30:00 - 18/08 | Sepahan VS Tractor | Persian Gulf",
+      "status": "upcoming",
+      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
