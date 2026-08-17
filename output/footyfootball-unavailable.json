@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 262,
+  "count": 261,
   "matches": [
     {
       "id": "4742648",
@@ -148,28 +148,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4802602",
-      "title": "00:00:00 - 19/08 | Sc Spelle-Venhaus VS Osnabrück | Club Friendlies",
+      "id": "1000018841",
+      "title": "00:00:00 - 19/08 | Sepahan VS Tractor | Persian Gulf",
       "status": "upcoming",
-      "league": "Club Friendlies",
+      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4815154",
-      "title": "00:00:00 - 19/08 | SD Laredo VS Athletic Bilbao B | Club Friendlies",
+      "id": "401906697",
+      "title": "00:00:00 - 19/08 | Spelle-Venhaus VS VfL Osnabruck | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4800752",
-      "title": "00:00:00 - 19/08 | Sepahan VS Tractor FC | Persian Gulf Pro League",
-      "status": "upcoming",
-      "league": "Persian Gulf Pro League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -256,8 +247,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401875977",
-      "title": "01:00:00 - 18/08 | De Graafschap VS Jong AZ | Dutch Keuken Kampioen Divisie",
+      "id": "4734312",
+      "title": "01:00:00 - 18/08 | De Graafschap VS Jong AZ Alkmaar | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
       "league": "Dutch Keuken Kampioen Divisie",
       "candidateCount": 0,
@@ -436,6 +427,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "6000888",
+      "title": "01:00:00 - 19/08 | Hornchurch VS Norwich City U21 | National League Cup",
+      "status": "upcoming",
+      "league": "National League Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "6030440",
       "title": "01:00:00 - 19/08 | Levadiakos VS Asteras Tripolis | Cup Preliminary Round",
       "status": "upcoming",
@@ -467,15 +467,6 @@
       "title": "01:00:00 - 19/08 | Reading VS Wycombe Wanderers | English EFL Trophy",
       "status": "upcoming",
       "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000870",
-      "title": "01:00:00 - 19/08 | Scunthorpe VS Stoke City U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -589,15 +580,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6000890",
-      "title": "01:30:00 - 19/08 | Worthing VS West Ham United U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5907508",
       "title": "01:45:00 - 18/08 | Chelmsford VS Ebbsfleet United | National League N/S - Regular Season",
       "status": "upcoming",
@@ -616,7 +598,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907509",
+      "id": "4765048",
       "title": "01:45:00 - 19/08 | AFC Totton VS Dorking Wanderers | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -706,8 +688,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765058",
-      "title": "01:45:00 - 19/08 | Darlington VS Chester | National League N/S - Regular Season",
+      "id": "5906992",
+      "title": "01:45:00 - 19/08 | Darlington VS Chester FC | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -751,7 +733,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765059",
+      "id": "5906993",
       "title": "01:45:00 - 19/08 | Hebburn Town VS Worksop Town | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -904,7 +886,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907001",
+      "id": "4765067",
       "title": "01:45:00 - 19/08 | Spalding United VS Macclesfield | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -994,7 +976,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5987800",
+      "id": "4809615",
       "title": "02:00:00 - 19/08 | Dinamo Zagreb VS Viking | UEFA Champions League",
       "status": "upcoming",
       "league": "UEFA Champions League",
@@ -1012,7 +994,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909156",
+      "id": "4809608",
       "title": "02:00:00 - 19/08 | Levski Sofia VS AEK Athens | UEFA Champions League",
       "status": "upcoming",
       "league": "UEFA Champions League",
@@ -1246,8 +1228,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4812166",
-      "title": "05:00:00 - 19/08 | Guabira VS Universitario de Vinto | Copa Paceña",
+      "id": "401907934",
+      "title": "05:00:00 - 19/08 | Guabirá VS Universitario de Vinto | Copa Paceña",
       "status": "upcoming",
       "league": "Copa Paceña",
       "candidateCount": 0,
@@ -1255,7 +1237,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4728058",
+      "id": "1000012929",
       "title": "05:00:00 - 19/08 | Independiente Rivadavia VS Fluminense | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
@@ -1295,6 +1277,15 @@
       "title": "05:15:00 - 18/08 | Vélez Sarsfield VS Defensa y Justicia | Argentine Liga Profesional de Fútbol",
       "status": "upcoming",
       "league": "Argentine Liga Profesional de Fútbol",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190662",
+      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1498,10 +1489,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4809147",
-      "title": "16:30:00 - 18/08 | Sd Raiders VS Sydney FC | Australia Cup - Quarter Finals",
+      "id": "6014074",
+      "title": "16:30:00 - 18/08 | Sydney FC VS SD Raiders FC | Australia Cup",
       "status": "upcoming",
-      "league": "Australia Cup - Quarter Finals",
+      "league": "Australia Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1849,8 +1840,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4749855",
-      "title": "22:30:00 - 18/08 | Pirin Blagoevgrad VS Hebar Pazardzhik | Vtora Liga",
+      "id": "5874169",
+      "title": "22:30:00 - 18/08 | Pirin Blagoevgrad VS Hebar | Vtora Liga",
       "status": "upcoming",
       "league": "Vtora Liga",
       "candidateCount": 0,
@@ -2200,7 +2191,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4734640",
+      "id": "5820439",
       "title": "23:30:00 - 18/08 | AFC Eskilstuna VS IK Oddevold | Svenska Cupen",
       "status": "upcoming",
       "league": "Svenska Cupen",
@@ -2272,7 +2263,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4815662",
+      "id": "5820435",
       "title": "23:30:00 - 18/08 | IF Karlstad VS Sandvikens IF | Svenska Cupen",
       "status": "upcoming",
       "league": "Svenska Cupen",
