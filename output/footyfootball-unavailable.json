@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 173,
+  "count": 169,
   "matches": [
     {
       "id": "4811839",
@@ -292,15 +292,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4747425",
-      "title": "01:45:00 - 18/08 | Cremonese VS Sampdoria | Coppa Italia",
-      "status": "upcoming",
-      "league": "Coppa Italia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4765048",
       "title": "01:45:00 - 19/08 | AFC Totton VS Dorking Wanderers | National League N/S - Regular Season",
       "status": "upcoming",
@@ -319,8 +310,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814076",
-      "title": "01:45:00 - 19/08 | Ascot United VS Kingstonian FC | Non League Premier",
+      "id": "5949193",
+      "title": "01:45:00 - 19/08 | Ashton United VS Whitby | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -643,33 +634,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4750512",
-      "title": "02:00:00 - 18/08 | Deportivo La Coruña VS Elche | Spanish LALIGA",
-      "status": "upcoming",
-      "league": "Spanish LALIGA",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401877878",
-      "title": "02:00:00 - 18/08 | Internacional de Bogotá VS Independiente Medellín | Colombian Primera A",
-      "status": "upcoming",
-      "league": "Colombian Primera A",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4782129",
-      "title": "02:00:00 - 18/08 | Leiria U23 VS Santa Clara U23 | Liga Revelacao U23",
-      "status": "upcoming",
-      "league": "Liga Revelacao U23",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4782130",
       "title": "02:00:00 - 19/08 | Benfica U23 VS Rio Ave U23 | Liga Revelacao U23",
       "status": "upcoming",
@@ -737,6 +701,15 @@
       "title": "02:30:00 - 18/08 | 3 De Noviembre VS Atlético Tembetary | Division Intermedia",
       "status": "upcoming",
       "league": "Division Intermedia",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4751169",
+      "title": "02:30:00 - 18/08 | Almeria VS CD Eldense | Spanish LALIGA 2",
+      "status": "upcoming",
+      "league": "Spanish LALIGA 2",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -899,15 +872,6 @@
       "title": "05:15:00 - 18/08 | Vélez Sarsfield VS Defensa y Justicia | Argentine Liga Profesional de Fútbol",
       "status": "upcoming",
       "league": "Argentine Liga Profesional de Fútbol",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5190662",
-      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
