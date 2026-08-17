@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 261,
+  "count": 262,
   "matches": [
     {
       "id": "4742648",
@@ -148,19 +148,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000018841",
-      "title": "00:00:00 - 19/08 | Sepahan VS Tractor | Persian Gulf",
+      "id": "4802602",
+      "title": "00:00:00 - 19/08 | Sc Spelle-Venhaus VS Osnabrück | Club Friendlies",
       "status": "upcoming",
-      "league": "Persian Gulf",
+      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401906697",
-      "title": "00:00:00 - 19/08 | Spelle-Venhaus VS VfL Osnabruck | Club Friendlies",
+      "id": "1000018841",
+      "title": "00:00:00 - 19/08 | Sepahan VS Tractor | Persian Gulf",
       "status": "upcoming",
-      "league": "Club Friendlies",
+      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1286,6 +1286,15 @@
       "title": "05:15:00 - 18/08 | Vélez Sarsfield VS Defensa y Justicia | Argentine Liga Profesional de Fútbol",
       "status": "upcoming",
       "league": "Argentine Liga Profesional de Fútbol",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190662",
+      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
