@@ -1,11 +1,11 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 260,
+  "count": 256,
   "matches": [
     {
-      "id": "4742648",
-      "title": "00:00:00 - 18/08 | Arka Gdynia VS Puszcza Niepolomice | I Liga",
+      "id": "5861886",
+      "title": "00:00:00 - 18/08 | Arka Gdynia VS Puszcza Niepołomice | I Liga",
       "status": "upcoming",
       "league": "I Liga",
       "candidateCount": 0,
@@ -193,8 +193,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5115938",
-      "title": "00:45:00 - 18/08 | Estudiantes de Rio Cuarto VS Atletico Tucuman | Argentine Liga Profesional de Fútbol",
+      "id": "401841498",
+      "title": "00:45:00 - 18/08 | Estudiantes de Río Cuarto VS Atlético Tucumán | Argentine Liga Profesional de Fútbol",
       "status": "upcoming",
       "league": "Argentine Liga Profesional de Fútbol",
       "candidateCount": 0,
@@ -508,15 +508,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6000871",
-      "title": "01:00:00 - 19/08 | Wealdstone VS Wolverhampton Wanderers U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4806312",
       "title": "01:00:00 - 20/08 | Banfield Res. VS Instituto Res. | Liga Profesional - Reserva",
       "status": "upcoming",
@@ -575,15 +566,6 @@
       "title": "01:30:00 - 18/08 | Samsunspor VS Goztepe | Turkish Super Lig",
       "status": "upcoming",
       "league": "Turkish Super Lig",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000890",
-      "title": "01:30:00 - 19/08 | Worthing VS West Ham United U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -931,15 +913,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6000925",
-      "title": "01:45:00 - 19/08 | Woking VS West Bromwich Albion U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4814113",
       "title": "01:45:00 - 19/08 | Wroxham VS Felixstowe & Walton Utd. | Non League Premier",
       "status": "upcoming",
@@ -1282,15 +1255,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5190662",
-      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5977316",
       "title": "06:00:00 - 18/08 | Club Leon (W) VS Queretaro (W) | Liga MX Femenil Apertura",
       "status": "upcoming",
@@ -1509,7 +1473,7 @@
     {
       "id": "6019629",
       "title": "17:30:00 - 17/08 | Mohun Bagan SG VS Jamshedpur FC | Durand Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Durand Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1518,7 +1482,7 @@
     {
       "id": "4808455",
       "title": "18:00:00 - 17/08 | Al Khalidiyah VS Qadisiya Kuwait | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1527,7 +1491,7 @@
     {
       "id": "401909641",
       "title": "18:00:00 - 17/08 | Hai Phong VS Hung Yen | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1552,6 +1516,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4816236",
+      "title": "19:30:00 - 17/08 | Melaka FC VS Phnom Penh Crown | Club Friendlies",
+      "status": "live",
+      "league": "Club Friendlies",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401911293",
       "title": "19:30:00 - 18/08 | Persib VS Bali United | Club Friendlies",
       "status": "upcoming",
@@ -1563,17 +1536,8 @@
     {
       "id": "4809706",
       "title": "20:00:00 - 17/08 | General Diaz VS Sport Colonial | APF Primera C",
-      "status": "upcoming",
+      "status": "live",
       "league": "APF Primera C",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4810138",
-      "title": "20:00:00 - 17/08 | Huracán (W) VS Independiente (W) | Campeonato Femenino - Clausura",
-      "status": "upcoming",
-      "league": "Campeonato Femenino - Clausura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1581,7 +1545,7 @@
     {
       "id": "5143996",
       "title": "20:00:00 - 17/08 | Molde 2 VS Rosenborg 2 | Norsk Tipping-ligaen",
-      "status": "upcoming",
+      "status": "live",
       "league": "Norsk Tipping-ligaen",
       "candidateCount": 0,
       "providers": [],
