@@ -1,11 +1,11 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 262,
+  "count": 259,
   "matches": [
     {
-      "id": "4742648",
-      "title": "00:00:00 - 18/08 | Arka Gdynia VS Puszcza Niepolomice | I Liga",
+      "id": "5861886",
+      "title": "00:00:00 - 18/08 | Arka Gdynia VS Puszcza Niepołomice | I Liga",
       "status": "upcoming",
       "league": "I Liga",
       "candidateCount": 0,
@@ -121,8 +121,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4749853",
-      "title": "00:00:00 - 19/08 | Ludogorets II VS Vihren | Vtora Liga",
+      "id": "5874167",
+      "title": "00:00:00 - 19/08 | Ludogorets Razgrad II VS Vihren Sandanski | Vtora Liga",
       "status": "upcoming",
       "league": "Vtora Liga",
       "candidateCount": 0,
@@ -130,8 +130,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806277",
-      "title": "00:00:00 - 19/08 | Nykobing VS Naestved | DBU Pokalen",
+      "id": "6011781",
+      "title": "00:00:00 - 19/08 | Nykøbing FC VS Næstved | DBU Pokalen",
       "status": "upcoming",
       "league": "DBU Pokalen",
       "candidateCount": 0,
@@ -247,26 +247,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4811838",
-      "title": "01:00:00 - 18/08 | Cerro Largo Fc (Reserves) VS Ca Progreso (Reserves) | Reserve League - Clausura",
-      "status": "upcoming",
-      "league": "Reserve League - Clausura",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4811837",
-      "title": "01:00:00 - 18/08 | Colon FC (Reserve) VS Montevideo City Torque (Reserves) | Reserve League - Clausura",
-      "status": "upcoming",
-      "league": "Reserve League - Clausura",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401875977",
-      "title": "01:00:00 - 18/08 | De Graafschap VS Jong AZ | Dutch Keuken Kampioen Divisie",
+      "id": "4734312",
+      "title": "01:00:00 - 18/08 | De Graafschap VS Jong AZ Alkmaar | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
       "league": "Dutch Keuken Kampioen Divisie",
       "candidateCount": 0,
@@ -274,8 +256,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5796326",
-      "title": "01:00:00 - 18/08 | Decic Tuzi VS FK Bokelj | Montenegrin First League",
+      "id": "4742280",
+      "title": "01:00:00 - 18/08 | Decic VS FK Bokelj | Montenegrin First League",
       "status": "upcoming",
       "league": "Montenegrin First League",
       "candidateCount": 0,
@@ -314,6 +296,15 @@
       "title": "01:00:00 - 18/08 | Jong Utrecht VS Vitesse | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
       "league": "Dutch Keuken Kampioen Divisie",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4811841",
+      "title": "01:00:00 - 18/08 | La Luz Fc (Reserves) VS Deportivo Maldonado (Reserves) | Reserve League - Clausura",
+      "status": "upcoming",
+      "league": "Reserve League - Clausura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -625,8 +616,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814076",
-      "title": "01:45:00 - 19/08 | Ascot United VS Kingstonian FC | Non League Premier",
+      "id": "5949193",
+      "title": "01:45:00 - 19/08 | Ashton United VS Whitby | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -688,8 +679,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4783487",
-      "title": "01:45:00 - 19/08 | Curzon Ashton VS Bamber Bridge | Non League Premier",
+      "id": "5949191",
+      "title": "01:45:00 - 19/08 | Curzon VS Bamber Bridge | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -922,8 +913,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765055",
-      "title": "01:45:00 - 19/08 | Walton & Hersham VS Dagenham and Redbridge | National League N/S - Regular Season",
+      "id": "5907516",
+      "title": "01:45:00 - 19/08 | Walton and Hersham VS Dagenham & Redbridge | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -1066,7 +1057,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5225711",
+      "id": "4653775",
       "title": "02:15:00 - 18/08 | Fram Reykjavik VS Stjarnan | Besta deildin",
       "status": "upcoming",
       "league": "Besta deildin",
@@ -1102,8 +1093,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5868393",
-      "title": "02:30:00 - 18/08 | Almeria VS Eldense | Spanish LALIGA 2",
+      "id": "4751169",
+      "title": "02:30:00 - 18/08 | Almeria VS CD Eldense | Spanish LALIGA 2",
       "status": "upcoming",
       "league": "Spanish LALIGA 2",
       "candidateCount": 0,
@@ -1192,10 +1183,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000014095",
-      "title": "04:05:00 - 18/08 | Bucaramanga VS Deportivo Pasto | Primera A",
+      "id": "4732049",
+      "title": "04:05:00 - 18/08 | Atlético Bucaramanga VS Deportivo Pasto | Liga BetPlay - Clausura",
       "status": "upcoming",
-      "league": "Primera A",
+      "league": "Liga BetPlay - Clausura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1291,15 +1282,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5190662",
-      "title": "05:30:00 - 19/08 | Londrina EC VS Atletico GO | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5977316",
       "title": "06:00:00 - 18/08 | Club Leon (W) VS Queretaro (W) | Liga MX Femenil Apertura",
       "status": "upcoming",
@@ -1336,7 +1318,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5103590",
+      "id": "401841191",
       "title": "06:00:00 - 18/08 | Internacional VS Remo | Brazilian Serie A",
       "status": "upcoming",
       "league": "Brazilian Serie A",
@@ -1426,10 +1408,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4773296",
-      "title": "08:00:00 - 18/08 | Tauro FC VS CD Árabe Unido | Liga Panameña - Apertura - Western Conference",
+      "id": "5954309",
+      "title": "08:00:00 - 18/08 | Tauro FC VS CD Árabe Unido | LPF Apertura",
       "status": "upcoming",
-      "league": "Liga Panameña - Apertura - Western Conference",
+      "league": "LPF Apertura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1511,15 +1493,6 @@
       "title": "16:30:00 - 19/08 | APIA Leichhardt FC VS Melbourne Victory | Australia Cup",
       "status": "upcoming",
       "league": "Australia Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6019629",
-      "title": "17:30:00 - 17/08 | Mohun Bagan SG VS Jamshedpur FC | Durand Cup",
-      "status": "upcoming",
-      "league": "Durand Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1912,15 +1885,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5972941",
-      "title": "23:00:00 - 17/08 | FC Noah VS Alashkert FC | Armenian First League",
-      "status": "upcoming",
-      "league": "Armenian First League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4684607",
       "title": "23:00:00 - 17/08 | FC Nomme United II VS Kalju Nomme II | Esiliiga",
       "status": "upcoming",
@@ -1943,6 +1907,15 @@
       "title": "23:00:00 - 17/08 | Lillehammer FK VS Lyn 2 | Norsk Tipping-ligaen",
       "status": "upcoming",
       "league": "Norsk Tipping-ligaen",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4759625",
+      "title": "23:00:00 - 17/08 | Noah VS Alashkert Martuni | Armenian First League",
+      "status": "upcoming",
+      "league": "Armenian First League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2164,10 +2137,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800755",
-      "title": "23:15:00 - 18/08 | Paykan FC VS Gol Gohar | Persian Gulf Pro League",
+      "id": "1000018838",
+      "title": "23:15:00 - 18/08 | Paykan VS Gol Gohar | Persian Gulf",
       "status": "upcoming",
-      "league": "Persian Gulf Pro League",
+      "league": "Persian Gulf",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
