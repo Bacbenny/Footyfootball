@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 282,
+  "count": 281,
   "matches": [
     {
       "id": "5903807",
@@ -688,15 +688,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6005791",
-      "title": "02:30:00 - 19/08 | Benjamin Aceval VS Nacional | Copa Paraguay",
-      "status": "upcoming",
-      "league": "Copa Paraguay",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "6005793",
       "title": "02:30:00 - 20/08 | Paraguari AC VS Luqueno | Copa Paraguay",
       "status": "upcoming",
@@ -809,15 +800,6 @@
       "title": "05:00:00 - 19/08 | Mount Pleasant VS Cibao | CONCACAF Caribbean Cup - Group Stage",
       "status": "live",
       "league": "CONCACAF Caribbean Cup - Group Stage",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401901521",
-      "title": "05:00:00 - 19/08 | North Florida VS Saint Leo | NCAA Women's Soccer",
-      "status": "live",
-      "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -962,6 +944,15 @@
       "title": "05:30:00 - 20/08 | Racing Louisville FC VS Seattle Reign | NWSL",
       "status": "upcoming",
       "league": "NWSL",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401901521",
+      "title": "05:40:00 - 19/08 | North Florida VS Saint Leo | NCAA Women's Soccer",
+      "status": "live",
+      "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1444,7 +1435,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814537",
+      "id": "4814546",
       "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | FA Cup - Round of 16",
       "status": "upcoming",
       "league": "FA Cup - Round of 16",
