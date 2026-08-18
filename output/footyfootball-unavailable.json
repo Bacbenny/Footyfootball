@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 400,
+  "count": 392,
   "matches": [
     {
       "id": "4729869",
@@ -760,8 +760,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5906991",
-      "title": "01:45:00 - 19/08 | Brackley Town VS King's Lynn Town | National League N/S - Regular Season",
+      "id": "4765057",
+      "title": "01:45:00 - 19/08 | Brackley Town VS King's Lynn | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -877,7 +877,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907512",
+      "id": "4765051",
       "title": "01:45:00 - 19/08 | Horsham VS Hampton & Richmond | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -922,7 +922,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765052",
+      "id": "5907513",
       "title": "01:45:00 - 19/08 | Maidstone United VS Folkestone Invicta | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -1372,15 +1372,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401903231",
-      "title": "05:00:00 - 19/08 | Deportivo Recoleta VS Boca Juniors | CONMEBOL Sudamericana",
-      "status": "upcoming",
-      "league": "CONMEBOL Sudamericana",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4814892",
       "title": "05:00:00 - 19/08 | Falcon VS Atletico Gloriense | Copa Governo de Sergipe - Semi Finals",
       "status": "upcoming",
@@ -1421,6 +1412,15 @@
       "title": "05:00:00 - 19/08 | North Florida VS Saint Leo | NCAA Women's Soccer",
       "status": "upcoming",
       "league": "NCAA Women's Soccer",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000013044",
+      "title": "05:00:00 - 19/08 | Recoleta VS Boca Juniors | CONMEBOL Sudamericana",
+      "status": "upcoming",
+      "league": "CONMEBOL Sudamericana",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1525,28 +1525,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4669852",
-      "title": "05:30:00 - 20/08 | Avai VS Sport Recife | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4762509",
       "title": "05:30:00 - 20/08 | EC Pelotas VS Glória de Vacaria | Gaucho A2",
       "status": "upcoming",
       "league": "Gaucho A2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5190663",
-      "title": "05:30:00 - 20/08 | Fortaleza VS Sao Bernardo | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1660,7 +1642,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401842036",
+      "id": "4710731",
       "title": "06:00:00 - 20/08 | One Knoxville VS Portland Hearts of Pine | USL League One",
       "status": "upcoming",
       "league": "USL League One",
@@ -1673,15 +1655,6 @@
       "title": "06:00:00 - 21/08 | Brasil de Farroupilha VS União-RS | Gaucho A2",
       "status": "upcoming",
       "league": "Gaucho A2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401860288",
-      "title": "06:30:00 - 20/08 | Cuiabá VS Operário PR | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1700,15 +1673,6 @@
       "title": "06:30:00 - 20/08 | Sarasota Paradise VS Chattanooga Red Wolves | USL League One",
       "status": "upcoming",
       "league": "USL League One",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401860282",
-      "title": "06:30:00 - 20/08 | Vila Nova VS Ponte Preta | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1750,15 +1714,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4669851",
-      "title": "07:30:00 - 19/08 | Náutico VS Ceara | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "401903294",
       "title": "07:30:00 - 19/08 | São Paulo VS Bolívar | CONMEBOL Sudamericana",
       "status": "upcoming",
@@ -1781,15 +1736,6 @@
       "title": "07:30:00 - 26/08 | Independiente del Valle VS Deportes Tolima | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5190664",
-      "title": "07:35:00 - 19/08 | Goias VS Juventude | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1842,15 +1788,6 @@
     {
       "id": "5848846",
       "title": "10:00:00 - 19/08 | Club Xelaju VS Diriangén FC | Concacaf Central American Cup",
-      "status": "upcoming",
-      "league": "Concacaf Central American Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5848993",
-      "title": "10:00:00 - 19/08 | Real Esteli FC VS Club Sport Herediano | Concacaf Central American Cup",
       "status": "upcoming",
       "league": "Concacaf Central American Cup",
       "candidateCount": 0,
@@ -1975,8 +1912,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4796661",
-      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
+      "id": "5994154",
+      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1984,8 +1921,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800606",
-      "title": "17:00:00 - 19/08 | Gainare Tottori VS Kumamoto | Emperors Cup",
+      "id": "5994146",
+      "title": "17:00:00 - 19/08 | Gainare Tottori VS Roasso Kumamoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2020,8 +1957,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800607",
-      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
+      "id": "5994155",
+      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto Sangyo University | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2119,10 +2056,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000017556",
-      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | Korean FA Cup",
+      "id": "4797591",
+      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | FA Cup - Round of 16",
       "status": "upcoming",
-      "league": "Korean FA Cup",
+      "league": "FA Cup - Round of 16",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2299,10 +2236,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4807079",
-      "title": "20:00:00 - 18/08 | Thailand VS Singapore | ASEAN Championship - Semi Finals",
+      "id": "401906724",
+      "title": "20:00:00 - 18/08 | Thailand VS Singapore | ASEAN United FC",
       "status": "upcoming",
-      "league": "ASEAN Championship - Semi Finals",
+      "league": "ASEAN United FC",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2321,15 +2258,6 @@
       "title": "20:00:00 - 19/08 | Al Orouba FC VS Al Yarmok | Yemeni League",
       "status": "upcoming",
       "league": "Yemeni League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4809696",
-      "title": "20:00:00 - 19/08 | Atlético Colegiales VS Club 1 De Marzo Fernando Mora | APF Primera B",
-      "status": "upcoming",
-      "league": "APF Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3073,8 +3001,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4745341",
-      "title": "22:30:00 - 18/08 | Rodina Moscow VS FC Orenburg | Russian Cup",
+      "id": "5851854",
+      "title": "22:30:00 - 18/08 | Rodina VS Orenburg | Russian Cup",
       "status": "upcoming",
       "league": "Russian Cup",
       "candidateCount": 0,
@@ -3181,8 +3109,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4782350",
-      "title": "23:00:00 - 18/08 | Namungo FC VS Geita Gold Fc | Tanzanian Premier League",
+      "id": "5998281",
+      "title": "23:00:00 - 18/08 | Namungo FC VS Geita Gold FC | Tanzanian Premier League",
       "status": "upcoming",
       "league": "Tanzanian Premier League",
       "candidateCount": 0,
@@ -3487,10 +3415,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000018841",
-      "title": "23:30:00 - 18/08 | Sepahan VS Tractor | Persian Gulf",
+      "id": "4800752",
+      "title": "23:30:00 - 18/08 | Sepahan VS Tractor FC | Persian Gulf Pro League",
       "status": "upcoming",
-      "league": "Persian Gulf",
+      "league": "Persian Gulf Pro League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
