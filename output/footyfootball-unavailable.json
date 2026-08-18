@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 392,
+  "count": 391,
   "matches": [
     {
       "id": "4729869",
@@ -886,7 +886,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765051",
+      "id": "5907512",
       "title": "01:45:00 - 19/08 | Horsham VS Hampton & Richmond | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -1651,7 +1651,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4710731",
+      "id": "401842036",
       "title": "06:00:00 - 20/08 | One Knoxville VS Portland Hearts of Pine | USL League One",
       "status": "upcoming",
       "league": "USL League One",
@@ -1687,8 +1687,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5991784",
-      "title": "07:00:00 - 19/08 | Llaneros FC VS Deportes Quindio | Copa Colombia",
+      "id": "401902643",
+      "title": "07:00:00 - 19/08 | Llaneros FC VS Deportes Quindío | Copa Colombia",
       "status": "upcoming",
       "league": "Copa Colombia",
       "candidateCount": 0,
@@ -1813,15 +1813,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909662",
-      "title": "15:00:00 - 18/08 | Illescas VS San Sebastián de los Reyes B | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4735607",
       "title": "15:00:00 - 19/08 | Arterivo Wakayama VS Azul Claro Numazu | Emperors Cup",
       "status": "upcoming",
@@ -1912,8 +1903,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994154",
-      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama | Emperors Cup",
+      "id": "4796661",
+      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1921,8 +1912,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994146",
-      "title": "17:00:00 - 19/08 | Gainare Tottori VS Roasso Kumamoto | Emperors Cup",
+      "id": "4800606",
+      "title": "17:00:00 - 19/08 | Gainare Tottori VS Kumamoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1957,8 +1948,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994155",
-      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto Sangyo University | Emperors Cup",
+      "id": "4800607",
+      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2056,10 +2047,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4797591",
-      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | FA Cup - Round of 16",
+      "id": "1000017556",
+      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | Korean FA Cup",
       "status": "upcoming",
-      "league": "FA Cup - Round of 16",
+      "league": "Korean FA Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2085,7 +2076,7 @@
     {
       "id": "4809972",
       "title": "18:00:00 - 18/08 | Maksimir (Cro) VS Concordia Zagreb | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
