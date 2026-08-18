@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 392,
+  "count": 393,
   "matches": [
     {
       "id": "4729869",
@@ -1790,6 +1790,15 @@
       "title": "10:00:00 - 19/08 | Club Xelaju VS Diriangén FC | Concacaf Central American Cup",
       "status": "upcoming",
       "league": "Concacaf Central American Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4735728",
+      "title": "10:06:00 - 18/08 | Pachuca VS Puebla | Mexican Liga BBVA MX",
+      "status": "upcoming",
+      "league": "Mexican Liga BBVA MX",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
