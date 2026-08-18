@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 317,
+  "count": 279,
   "matches": [
     {
       "id": "5903807",
@@ -517,357 +517,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765048",
-      "title": "01:45:00 - 19/08 | AFC Totton VS Dorking Wanderers | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000891",
-      "title": "01:45:00 - 19/08 | Aldershot Town VS Fulham U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5949193",
-      "title": "01:45:00 - 19/08 | Ashton United VS Whitby | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6016338",
-      "title": "01:45:00 - 19/08 | Barnet VS Arsenal U21 | English EFL Trophy",
-      "status": "upcoming",
-      "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765056",
-      "title": "01:45:00 - 19/08 | Bedford Town VS Buxton FC | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765057",
-      "title": "01:45:00 - 19/08 | Brackley Town VS King's Lynn | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000016684",
-      "title": "01:45:00 - 19/08 | Caledonian Braves VS Clydebank | Lowland League West",
-      "status": "upcoming",
-      "league": "Lowland League West",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4783488",
-      "title": "01:45:00 - 19/08 | Cleethorpes Town VS Alfreton | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000016686",
-      "title": "01:45:00 - 19/08 | Cumnock Juniors VS Largs Thistle | Lowland League West",
-      "status": "upcoming",
-      "league": "Lowland League West",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4783487",
-      "title": "01:45:00 - 19/08 | Curzon Ashton VS Bamber Bridge | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765058",
-      "title": "01:45:00 - 19/08 | Darlington VS Chester | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765049",
-      "title": "01:45:00 - 19/08 | Dover Athletic VS Tonbridge Angels | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5949190",
-      "title": "01:45:00 - 19/08 | Gainsborough VS Stockton Town | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4783485",
-      "title": "01:45:00 - 19/08 | Guiseley AFC VS Bury | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814086",
-      "title": "01:45:00 - 19/08 | Harrow Borough VS Southall | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765059",
-      "title": "01:45:00 - 19/08 | Hebburn Town VS Worksop Town | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907511",
-      "title": "01:45:00 - 19/08 | Hemel Hempstead VS Maidenhead United | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765061",
-      "title": "01:45:00 - 19/08 | Hereford VS Radcliffe Borough | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907512",
-      "title": "01:45:00 - 19/08 | Horsham VS Hampton & Richmond | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5949187",
-      "title": "01:45:00 - 19/08 | Ilkeston Town VS Warrington Town | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000016685",
-      "title": "01:45:00 - 19/08 | Kilwinning Rangers VS Albion Rovers | Lowland League West",
-      "status": "upcoming",
-      "league": "Lowland League West",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4783482",
-      "title": "01:45:00 - 19/08 | Leek Town VS Afc Emley | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814082",
-      "title": "01:45:00 - 19/08 | Littlehampton Town VS Westfield (Surrey) | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907513",
-      "title": "01:45:00 - 19/08 | Maidstone United VS Folkestone Invicta | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5906996",
-      "title": "01:45:00 - 19/08 | Marine VS Chorley | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5906997",
-      "title": "01:45:00 - 19/08 | Merthyr Town VS AFC Telford United | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5906998",
-      "title": "01:45:00 - 19/08 | Morecambe VS South Shields | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814124",
-      "title": "01:45:00 - 19/08 | Newmarket Town VS Concord Rangers | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765065",
-      "title": "01:45:00 - 19/08 | Oxford City VS Harborough Town | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4783481",
-      "title": "01:45:00 - 19/08 | Redcar Athletic VS Lancaster City | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907000",
-      "title": "01:45:00 - 19/08 | Scarborough Athletic VS Spennymoor Town FC | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5101084",
-      "title": "01:45:00 - 19/08 | Shelbourne (W) VS Wexford (W) | Women's Premier Division",
-      "status": "upcoming",
-      "league": "Women's Premier Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765053",
-      "title": "01:45:00 - 19/08 | Slough VS Farnham Town | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907001",
-      "title": "01:45:00 - 19/08 | Spalding United VS Macclesfield | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5907515",
-      "title": "01:45:00 - 19/08 | Torquay United VS Weston Super Mare | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814837",
-      "title": "01:45:00 - 19/08 | Walthamstow VS Grays Athletic | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4765055",
-      "title": "01:45:00 - 19/08 | Walton & Hersham VS Dagenham and Redbridge | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5949184",
-      "title": "01:45:00 - 19/08 | Warrington Rylands VS Quorn | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814113",
-      "title": "01:45:00 - 19/08 | Wroxham VS Felixstowe & Walton Utd. | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4816717",
       "title": "01:45:00 - 20/08 | Afc Portchester VS Bognor Regis Town | Non League Premier",
       "status": "upcoming",
@@ -931,8 +580,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401907955",
-      "title": "02:00:00 - 19/08 | San Antonio Bulo Bulo VS Aurora | Copa Paceña",
+      "id": "4812168",
+      "title": "02:00:00 - 19/08 | San Antonio VS Club Aurora | Copa Paceña",
       "status": "upcoming",
       "league": "Copa Paceña",
       "candidateCount": 0,
@@ -1052,6 +701,15 @@
       "title": "02:00:00 - 21/08 | Atlético FC VS Cumbaya | Ecuador Serie B",
       "status": "upcoming",
       "league": "Ecuador Serie B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6005791",
+      "title": "02:30:00 - 19/08 | Benjamin Aceval VS Nacional | Copa Paraguay",
+      "status": "upcoming",
+      "league": "Copa Paraguay",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
