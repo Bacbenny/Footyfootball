@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 393,
+  "count": 400,
   "matches": [
     {
       "id": "4729869",
@@ -202,15 +202,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401911651",
-      "title": "00:00:00 - 20/08 | Terrassa VS San Cristobal | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4737468",
       "title": "00:00:00 - 20/08 | Vršac VS Dinamo Vranje | Prva Liga",
       "status": "upcoming",
@@ -251,6 +242,15 @@
       "title": "00:30:00 - 20/08 | Concordia Chiajna VS Otelul Galati | Cupa Romaniei - Qualifications",
       "status": "upcoming",
       "league": "Cupa Romaniei - Qualifications",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401911651",
+      "title": "00:30:00 - 20/08 | Terrassa VS San Cristobal | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1435,8 +1435,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401874155",
-      "title": "05:00:00 - 20/08 | Cerro Porteño VS Palmeiras | CONMEBOL Libertadores",
+      "id": "1000012925",
+      "title": "05:00:00 - 20/08 | Cerro Porteno VS Palmeiras | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
       "candidateCount": 0,
@@ -1525,10 +1525,28 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4669852",
+      "title": "05:30:00 - 20/08 | Avai VS Sport Recife | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4762509",
       "title": "05:30:00 - 20/08 | EC Pelotas VS Glória de Vacaria | Gaucho A2",
       "status": "upcoming",
       "league": "Gaucho A2",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190663",
+      "title": "05:30:00 - 20/08 | Fortaleza VS Sao Bernardo | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1660,6 +1678,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "401860288",
+      "title": "06:30:00 - 20/08 | Cuiabá VS Operário PR | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401883762",
       "title": "06:30:00 - 20/08 | Michigan State VS Loyola Chicago | NCAA Women's Soccer",
       "status": "upcoming",
@@ -1673,6 +1700,15 @@
       "title": "06:30:00 - 20/08 | Sarasota Paradise VS Chattanooga Red Wolves | USL League One",
       "status": "upcoming",
       "league": "USL League One",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401860282",
+      "title": "06:30:00 - 20/08 | Vila Nova VS Ponte Preta | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1714,6 +1750,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4669851",
+      "title": "07:30:00 - 19/08 | Náutico VS Ceara | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401903294",
       "title": "07:30:00 - 19/08 | São Paulo VS Bolívar | CONMEBOL Sudamericana",
       "status": "upcoming",
@@ -1736,6 +1781,15 @@
       "title": "07:30:00 - 26/08 | Independiente del Valle VS Deportes Tolima | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190664",
+      "title": "07:35:00 - 19/08 | Goias VS Juventude | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1795,10 +1849,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4735728",
-      "title": "10:06:00 - 18/08 | Pachuca VS Puebla | Mexican Liga BBVA MX",
+      "id": "5848993",
+      "title": "10:00:00 - 19/08 | Real Esteli FC VS Club Sport Herediano | Concacaf Central American Cup",
       "status": "upcoming",
-      "league": "Mexican Liga BBVA MX",
+      "league": "Concacaf Central American Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1921,8 +1975,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994154",
-      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama | Emperors Cup",
+      "id": "4796661",
+      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1930,8 +1984,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994146",
-      "title": "17:00:00 - 19/08 | Gainare Tottori VS Roasso Kumamoto | Emperors Cup",
+      "id": "4800606",
+      "title": "17:00:00 - 19/08 | Gainare Tottori VS Kumamoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1966,8 +2020,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994155",
-      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto Sangyo University | Emperors Cup",
+      "id": "4800607",
+      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2267,6 +2321,15 @@
       "title": "20:00:00 - 19/08 | Al Orouba FC VS Al Yarmok | Yemeni League",
       "status": "upcoming",
       "league": "Yemeni League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4809696",
+      "title": "20:00:00 - 19/08 | Atlético Colegiales VS Club 1 De Marzo Fernando Mora | APF Primera B",
+      "status": "upcoming",
+      "league": "APF Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3028,15 +3091,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4811618",
-      "title": "22:30:00 - 19/08 | Šobec Lesce VS NK Kranj | Hervis Pokal - 1st Round",
-      "status": "upcoming",
-      "league": "Hervis Pokal - 1st Round",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4800754",
       "title": "22:45:00 - 18/08 | Nassaji Mazandaran VS Esteghlal FC Tehran | Persian Gulf Pro League",
       "status": "upcoming",
@@ -3266,6 +3320,15 @@
       "title": "23:00:00 - 19/08 | Persepolis VS Esteghlal Kh | Persian Gulf",
       "status": "upcoming",
       "league": "Persian Gulf",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4811618",
+      "title": "23:00:00 - 19/08 | Šobec Lesce VS NK Kranj | Hervis Pokal - 1st Round",
+      "status": "upcoming",
+      "league": "Hervis Pokal - 1st Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
