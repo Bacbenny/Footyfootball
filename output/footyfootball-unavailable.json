@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 392,
+  "count": 391,
   "matches": [
     {
       "id": "4729869",
@@ -976,7 +976,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949185",
+      "id": "4783481",
       "title": "01:45:00 - 19/08 | Redcar Athletic VS Lancaster City | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -1842,17 +1842,8 @@
     {
       "id": "6014072",
       "title": "16:30:00 - 18/08 | Preston Lions VS South Melbourne | Australia Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Australia Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4809147",
-      "title": "16:30:00 - 18/08 | Sd Raiders VS Sydney FC | Australia Cup - Quarter Finals",
-      "status": "upcoming",
-      "league": "Australia Cup - Quarter Finals",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1984,7 +1975,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814546",
+      "id": "4814537",
       "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | FA Cup - Round of 16",
       "status": "upcoming",
       "league": "FA Cup - Round of 16",
