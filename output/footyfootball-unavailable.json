@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 391,
+  "count": 392,
   "matches": [
     {
       "id": "4729869",
@@ -1842,8 +1842,17 @@
     {
       "id": "6014072",
       "title": "16:30:00 - 18/08 | Preston Lions VS South Melbourne | Australia Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Australia Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4809147",
+      "title": "16:30:00 - 18/08 | Sd Raiders VS Sydney FC | Australia Cup - Quarter Finals",
+      "status": "upcoming",
+      "league": "Australia Cup - Quarter Finals",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1975,7 +1984,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814537",
+      "id": "4814546",
       "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | FA Cup - Round of 16",
       "status": "upcoming",
       "league": "FA Cup - Round of 16",
@@ -2560,10 +2569,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5200620",
-      "title": "22:00:00 - 18/08 | Buxoro VS Neftchi Fargona | Superliga",
+      "id": "4663697",
+      "title": "22:00:00 - 18/08 | Buxoro FK VS Neftchi Fargona | Uzbekistan Super League",
       "status": "upcoming",
-      "league": "Superliga",
+      "league": "Uzbekistan Super League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
