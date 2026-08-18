@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 332,
+  "count": 317,
   "matches": [
     {
       "id": "5903807",
@@ -224,159 +224,6 @@
       "title": "00:45:00 - 20/08 | Dynamo Moscow VS Krasnodar | Russian Cup",
       "status": "upcoming",
       "league": "Russian Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401873749",
-      "title": "01:00:00 - 19/08 | Al Diriyah VS Al Nassr | Saudi King's Cup",
-      "status": "upcoming",
-      "league": "Saudi King's Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401873723",
-      "title": "01:00:00 - 19/08 | Al-Faisaly VS Neom SC | Saudi King's Cup",
-      "status": "upcoming",
-      "league": "Saudi King's Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000922",
-      "title": "01:00:00 - 19/08 | Boston United VS Birmingham U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000868",
-      "title": "01:00:00 - 19/08 | FC Halifax Town VS Derby County U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4806313",
-      "title": "01:00:00 - 19/08 | Godoy Cruz Res. VS Velez Sársfield Res. | Liga Profesional - Reserva",
-      "status": "upcoming",
-      "league": "Liga Profesional - Reserva",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4713010",
-      "title": "01:00:00 - 19/08 | Grêmio Prudente U20 VS RB Bragantino/Sp Youth | Paulista U20 - 1st Stage - Grupo 3",
-      "status": "upcoming",
-      "league": "Paulista U20 - 1st Stage - Grupo 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6030440",
-      "title": "01:00:00 - 19/08 | Levadiakos VS Asteras Tripolis | Cup Preliminary Round",
-      "status": "upcoming",
-      "league": "Cup Preliminary Round",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4805969",
-      "title": "01:00:00 - 19/08 | Leyton Orient VS AFC Wimbledon | English EFL Trophy",
-      "status": "upcoming",
-      "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4806316",
-      "title": "01:00:00 - 19/08 | Newell's Old Boys Res. VS Lanus Res. | Liga Profesional - Reserva",
-      "status": "upcoming",
-      "league": "Liga Profesional - Reserva",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4805968",
-      "title": "01:00:00 - 19/08 | Northampton VS Brighton U21 | English EFL Trophy",
-      "status": "upcoming",
-      "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4816594",
-      "title": "01:00:00 - 19/08 | Puente Genil VS Granada CF B | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4805970",
-      "title": "01:00:00 - 19/08 | Reading VS Wycombe Wanderers | English EFL Trophy",
-      "status": "upcoming",
-      "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000870",
-      "title": "01:00:00 - 19/08 | Scunthorpe VS Stoke City U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000907",
-      "title": "01:00:00 - 19/08 | Solihull Moors VS Middlesbrough U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4805971",
-      "title": "01:00:00 - 19/08 | Stockport VS Everton U21 | English EFL Trophy",
-      "status": "upcoming",
-      "league": "English EFL Trophy",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6000924",
-      "title": "01:00:00 - 19/08 | Truro City VS Southampton U21 | National League Cup",
-      "status": "upcoming",
-      "league": "National League Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4806314",
-      "title": "01:00:00 - 19/08 | Unión Santa Fe Res. VS Racing Club Res. | Liga Profesional - Reserva",
-      "status": "upcoming",
-      "league": "Liga Profesional - Reserva",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -661,15 +508,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4809970",
-      "title": "01:15:00 - 19/08 | Cd Huarte VS Valle De Egüés | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4816722",
       "title": "01:30:00 - 20/08 | Xerez VS Real Jaen | Club Friendlies",
       "status": "upcoming",
@@ -690,7 +528,7 @@
     {
       "id": "6000891",
       "title": "01:45:00 - 19/08 | Aldershot Town VS Fulham U21 | National League Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "National League Cup",
       "candidateCount": 0,
       "providers": [],
@@ -701,6 +539,15 @@
       "title": "01:45:00 - 19/08 | Ashton United VS Whitby | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6016338",
+      "title": "01:45:00 - 19/08 | Barnet VS Arsenal U21 | English EFL Trophy",
+      "status": "upcoming",
+      "league": "English EFL Trophy",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -769,8 +616,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907510",
-      "title": "01:45:00 - 19/08 | Dover VS Tonbridge Angels | National League N/S - Regular Season",
+      "id": "4765049",
+      "title": "01:45:00 - 19/08 | Dover Athletic VS Tonbridge Angels | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -832,7 +679,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4765051",
+      "id": "5907512",
       "title": "01:45:00 - 19/08 | Horsham VS Hampton & Richmond | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
@@ -1070,6 +917,24 @@
       "title": "01:45:00 - 20/08 | Troon Juniors VS Renfrew FC | Lowland League West",
       "status": "upcoming",
       "league": "Lowland League West",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4782132",
+      "title": "02:00:00 - 19/08 | Farense U23 VS Estoril U23 | Liga Revelacao U23",
+      "status": "upcoming",
+      "league": "Liga Revelacao U23",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401907955",
+      "title": "02:00:00 - 19/08 | San Antonio Bulo Bulo VS Aurora | Copa Paceña",
+      "status": "upcoming",
+      "league": "Copa Paceña",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1561,7 +1426,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4710731",
+      "id": "401842036",
       "title": "06:00:00 - 20/08 | One Knoxville VS Portland Hearts of Pine | USL League One",
       "status": "upcoming",
       "league": "USL League One",
@@ -1831,8 +1696,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994154",
-      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama | Emperors Cup",
+      "id": "4796661",
+      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1840,8 +1705,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994146",
-      "title": "17:00:00 - 19/08 | Gainare Tottori VS Roasso Kumamoto | Emperors Cup",
+      "id": "4800606",
+      "title": "17:00:00 - 19/08 | Gainare Tottori VS Kumamoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1876,8 +1741,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5994155",
-      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto Sangyo University | Emperors Cup",
+      "id": "4800607",
+      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1975,10 +1840,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4797591",
-      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | FA Cup - Round of 16",
+      "id": "1000017556",
+      "title": "17:30:00 - 19/08 | Busan I'Park VS Bucheon FC 1995 | Korean FA Cup",
       "status": "upcoming",
-      "league": "FA Cup - Round of 16",
+      "league": "Korean FA Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
