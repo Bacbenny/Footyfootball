@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 298,
+  "count": 290,
   "matches": [
     {
       "id": "5903807",
@@ -89,15 +89,6 @@
       "title": "00:00:00 - 20/08 | Kolding IF (W) VS OB Q (W) | A-Liga",
       "status": "live",
       "league": "A-Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401911646",
-      "title": "00:00:00 - 20/08 | La Calzada VS Mirandés | Club Friendlies",
-      "status": "live",
-      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -274,15 +265,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4812238",
-      "title": "00:30:00 - 20/08 | Concordia Chiajna VS Otelul Galati | Cupa Romaniei - Qualifications",
-      "status": "live",
-      "league": "Cupa Romaniei - Qualifications",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "401911651",
       "title": "00:30:00 - 20/08 | Terrassa VS San Cristobal | Club Friendlies",
       "status": "live",
@@ -296,15 +278,6 @@
       "title": "00:30:00 - 21/08 | Klaksvik VS Riga FC | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4745339",
-      "title": "00:45:00 - 20/08 | Dynamo Moscow VS Krasnodar | Russian Cup",
-      "status": "upcoming",
-      "league": "Russian Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1300,26 +1273,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4798197",
-      "title": "05:00:00 - 20/08 | Atlético Mineiro VS RB Bragantino | CONMEBOL Sudamericana",
-      "status": "upcoming",
-      "league": "CONMEBOL Sudamericana",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "1000012925",
       "title": "05:00:00 - 20/08 | Cerro Porteno VS Palmeiras | CONMEBOL Libertadores",
-      "status": "upcoming",
-      "league": "CONMEBOL Libertadores",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000012924",
-      "title": "05:00:00 - 20/08 | Coquimbo Unido VS Club Atletico Platense | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
       "candidateCount": 0,
@@ -1430,15 +1385,6 @@
       "title": "05:00:00 - 21/08 | Olimpia VS Vasco da Gama | CONMEBOL Sudamericana",
       "status": "upcoming",
       "league": "CONMEBOL Sudamericana",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5190665",
-      "title": "05:30:00 - 20/08 | Avaí VS Sport Recife | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1597,15 +1543,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4669149",
-      "title": "06:30:00 - 20/08 | Cuiabá VS Operário-PR | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "401883762",
       "title": "06:30:00 - 20/08 | Michigan State VS Loyola Chicago | NCAA Women's Soccer",
       "status": "upcoming",
@@ -1619,24 +1556,6 @@
       "title": "06:30:00 - 20/08 | Sarasota Paradise VS Chattanooga Red Wolves SC | USL League One",
       "status": "upcoming",
       "league": "USL League One",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401860282",
-      "title": "06:30:00 - 20/08 | Vila Nova VS Ponte Preta | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4669152",
-      "title": "06:30:00 - 21/08 | Novorizontino VS América Mineiro | Brazilian Serie B",
-      "status": "upcoming",
-      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2501,6 +2420,15 @@
       "title": "23:00:00 - 19/08 | Kagera Sugar VS Singida Black Stars | Tanzanian Premier League",
       "status": "live",
       "league": "Tanzanian Premier League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4811616",
+      "title": "23:00:00 - 19/08 | Komen VS Tabor Sezana | Hervis Pokal - 1st Round",
+      "status": "live",
+      "league": "Hervis Pokal - 1st Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
