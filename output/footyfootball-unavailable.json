@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 365,
+  "count": 361,
   "matches": [
     {
       "id": "5903807",
@@ -715,15 +715,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909629",
-      "title": "01:00:00 - 21/08 | Gornik Zabrze VS AS Monaco | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4762508",
       "title": "01:00:00 - 21/08 | Gramadense VS Lajeadense | Gaucho A2",
       "status": "upcoming",
@@ -735,15 +726,6 @@
     {
       "id": "5987966",
       "title": "01:00:00 - 21/08 | OFI Crete VS CSKA Sofia | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909222",
-      "title": "01:00:00 - 21/08 | Red Star Belgrade VS Viktoria Plzen | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
       "candidateCount": 0,
@@ -953,15 +935,6 @@
       "title": "01:45:00 - 21/08 | Paris 13 Atletico VS Valenciennes | Ligue 3",
       "status": "upcoming",
       "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909637",
-      "title": "01:45:00 - 21/08 | Rangers VS Jablonec | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1633,7 +1606,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401842040",
+      "id": "4712199",
       "title": "06:30:00 - 20/08 | Sarasota Paradise VS Chattanooga Red Wolves | USL League One",
       "status": "upcoming",
       "league": "USL League One",
@@ -1842,7 +1815,7 @@
     {
       "id": "401912503",
       "title": "16:30:00 - 19/08 | Eibar II VS Sestao | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1851,7 +1824,7 @@
     {
       "id": "5994156",
       "title": "16:30:00 - 19/08 | FC Gifu VS Toyama Shinjo Club | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1860,7 +1833,7 @@
     {
       "id": "4815935",
       "title": "16:30:00 - 19/08 | RSD Alcala VS Gimnastica Segoviana | Club Friendlies",
-      "status": "live",
+      "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1869,7 +1842,7 @@
     {
       "id": "4736071",
       "title": "16:30:00 - 19/08 | Src Hiroshima VS Maruyasu Okazaki | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1887,7 +1860,7 @@
     {
       "id": "5994159",
       "title": "17:00:00 - 19/08 | Ehime FC VS International Pacific University | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1896,7 +1869,7 @@
     {
       "id": "4796661",
       "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1914,7 +1887,7 @@
     {
       "id": "5994150",
       "title": "17:00:00 - 19/08 | Giravanz Kitakyushu VS Okinawa | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1923,7 +1896,7 @@
     {
       "id": "4800607",
       "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1932,7 +1905,7 @@
     {
       "id": "5994160",
       "title": "17:00:00 - 19/08 | Nagano Parceiro VS Fukui United FC | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1941,17 +1914,8 @@
     {
       "id": "5994158",
       "title": "17:00:00 - 19/08 | Nara Club VS FC Osaka | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000017551",
-      "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | Korean FA Cup",
-      "status": "live",
-      "league": "Korean FA Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1959,7 +1923,7 @@
     {
       "id": "5994149",
       "title": "17:00:00 - 19/08 | Reilac Shiga VS Japan Soccer College | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1968,7 +1932,7 @@
     {
       "id": "5994153",
       "title": "17:00:00 - 19/08 | Senshu University VS Tsukuba University | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1977,8 +1941,17 @@
     {
       "id": "5994148",
       "title": "17:00:00 - 19/08 | Tochigi SC VS Briobecca Urayasu | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000017554",
+      "title": "17:00:00 - 19/08 | Ulsan Citizen VS Gwangju FC | Korean FA Cup",
+      "status": "upcoming",
+      "league": "Korean FA Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1986,7 +1959,7 @@
     {
       "id": "5994151",
       "title": "17:00:00 - 19/08 | Veroskronos Tsuno VS Kamatamare Sanuki | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1995,7 +1968,7 @@
     {
       "id": "4796662",
       "title": "17:00:00 - 19/08 | Verspah Oita VS Kochi | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -2067,7 +2040,7 @@
     {
       "id": "6022191",
       "title": "19:00:00 - 19/08 | Chelsea U18 VS Norwich U18 | Premier League U18",
-      "status": "upcoming",
+      "status": "live",
       "league": "Premier League U18",
       "candidateCount": 0,
       "providers": [],
@@ -2632,8 +2605,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5897568",
-      "title": "22:00:00 - 19/08 | KamAZ VS Tekstilshchik | Russian First League",
+      "id": "4760473",
+      "title": "22:00:00 - 19/08 | Kamaz VS Tekstilshtik Ivanovo | Russian First League",
       "status": "upcoming",
       "league": "Russian First League",
       "candidateCount": 0,
@@ -3122,15 +3095,6 @@
       "title": "23:00:00 - 20/08 | Lincoln Red Imps FC VS Larne | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909833",
-      "title": "23:00:00 - 20/08 | Mjällby AIF VS RB Salzburg | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
