@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 386,
+  "count": 387,
   "matches": [
     {
       "id": "5903807",
@@ -166,8 +166,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909829",
-      "title": "00:00:00 - 21/08 | Besiktas VS Kauno Zalgiris | UEFA Europa League",
+      "id": "5987964",
+      "title": "00:00:00 - 21/08 | Beşiktaş VS FK Kauno Zalgiris | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
       "candidateCount": 0,
@@ -184,8 +184,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909626",
-      "title": "00:00:00 - 21/08 | FC Nordsjælland VS St. Gallen | UEFA Conference League",
+      "id": "401910952",
+      "title": "00:00:00 - 21/08 | FC Midtjylland VS Rijeka | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -206,6 +206,15 @@
       "title": "00:00:00 - 21/08 | Lech Poznan VS FC Thun | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5988068",
+      "title": "00:00:00 - 21/08 | Nordsjælland VS St. Gallen | UEFA Conference League",
+      "status": "upcoming",
+      "league": "UEFA Conference League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -301,8 +310,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988054",
-      "title": "00:30:00 - 21/08 | Klaksvik VS Riga FC | UEFA Conference League",
+      "id": "401911219",
+      "title": "00:30:00 - 21/08 | KI Klaksvik VS Riga FC | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -607,19 +616,28 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4787296",
-      "title": "01:00:00 - 21/08 | Al Feiha VS Al Hilal Riyadh | Saudi Pro League",
+      "id": "4806488",
+      "title": "01:00:00 - 21/08 | Al Julan VS Karkh SC | Iraqi League",
       "status": "upcoming",
-      "league": "Saudi Pro League",
+      "league": "Iraqi League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806488",
-      "title": "01:00:00 - 21/08 | Al Julan VS Karkh SC | Iraqi League",
+      "id": "6015078",
+      "title": "01:00:00 - 21/08 | Al Minaa VS Zakho | Iraqi League",
       "status": "upcoming",
       "league": "Iraqi League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5970090",
+      "title": "01:00:00 - 21/08 | Al-Fayha VS Al Hilal | Saudi Pro League",
+      "status": "upcoming",
+      "league": "Saudi Pro League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -661,8 +679,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988053",
-      "title": "01:00:00 - 21/08 | Drita VS Inter Club d'Escaldes | UEFA Conference League",
+      "id": "401910956",
+      "title": "01:00:00 - 21/08 | Drita Gjilan VS Inter D'Escaldes | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -697,17 +715,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5987958",
-      "title": "01:00:00 - 21/08 | FK Crvena Zvezda VS Viktoria Plzen | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5988057",
-      "title": "01:00:00 - 21/08 | Górnik Zabrze VS Monaco | UEFA Conference League",
+      "id": "401909629",
+      "title": "01:00:00 - 21/08 | Gornik Zabrze VS AS Monaco | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -724,16 +733,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806489",
-      "title": "01:00:00 - 21/08 | Mina'a Basra VS Zakho | Iraqi League",
-      "status": "upcoming",
-      "league": "Iraqi League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5987966",
+      "id": "401910963",
       "title": "01:00:00 - 21/08 | OFI Crete VS CSKA Sofia | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
@@ -742,8 +742,17 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5987957",
-      "title": "01:00:00 - 21/08 | St.Truiden VS Omonia Nicosia | UEFA Europa League",
+      "id": "401909222",
+      "title": "01:00:00 - 21/08 | Red Star Belgrade VS Viktoria Plzen | UEFA Europa League",
+      "status": "upcoming",
+      "league": "UEFA Europa League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401909615",
+      "title": "01:00:00 - 21/08 | Sint-Truidense VS Omonia Nicosia | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
       "candidateCount": 0,
@@ -760,8 +769,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988070",
-      "title": "01:15:00 - 21/08 | Sion VS Ajax | UEFA Conference League",
+      "id": "401909632",
+      "title": "01:15:00 - 21/08 | FC Sion VS Ajax Amsterdam | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -787,7 +796,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4811318",
+      "id": "401909472",
       "title": "01:30:00 - 21/08 | Atalanta VS Hapoel Tel Aviv | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
@@ -805,8 +814,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988063",
-      "title": "01:30:00 - 21/08 | Gent VS Hibernian | UEFA Conference League",
+      "id": "401909630",
+      "title": "01:30:00 - 21/08 | KAA Gent VS Hibernian | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -814,8 +823,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988056",
-      "title": "01:30:00 - 21/08 | Motherwell VS Freiburg | UEFA Conference League",
+      "id": "401910991",
+      "title": "01:30:00 - 21/08 | Motherwell VS SC Freiburg | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -823,8 +832,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401910974",
-      "title": "01:30:00 - 21/08 | Panathinaikos VS FC Hradec Králové | UEFA Conference League",
+      "id": "5988062",
+      "title": "01:30:00 - 21/08 | Panathinaikos VS Hradec Kralove | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -1102,7 +1111,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5987965",
+      "id": "401910978",
       "title": "02:00:00 - 21/08 | Benfica VS AGF | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
@@ -1120,8 +1129,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988069",
-      "title": "02:00:00 - 21/08 | FC Dinamo City VS Pafos FC | UEFA Conference League",
+      "id": "401909635",
+      "title": "02:00:00 - 21/08 | Dinamo City VS Pafos | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -1129,8 +1138,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988073",
-      "title": "02:00:00 - 21/08 | Getafe VS Partizan Beograd | UEFA Conference League",
+      "id": "401909826",
+      "title": "02:00:00 - 21/08 | Getafe VS Partizan Belgrade | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -1147,8 +1156,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988052",
-      "title": "02:00:00 - 21/08 | Shamrock Rovers VS KuPS | UEFA Conference League",
+      "id": "401910985",
+      "title": "02:00:00 - 21/08 | Shamrock Rovers VS KuPS Kuopio | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -1444,8 +1453,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4728056",
-      "title": "05:00:00 - 21/08 | LDU VS Mirassol | CONMEBOL Libertadores",
+      "id": "1000012919",
+      "title": "05:00:00 - 21/08 | LDU de Quito VS Mirassol | CONMEBOL Libertadores",
       "status": "upcoming",
       "league": "CONMEBOL Libertadores",
       "candidateCount": 0,
@@ -1462,7 +1471,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4798160",
+      "id": "1000013048",
       "title": "05:00:00 - 21/08 | Olimpia VS Vasco da Gama | CONMEBOL Sudamericana",
       "status": "upcoming",
       "league": "CONMEBOL Sudamericana",
@@ -1534,10 +1543,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4732087",
-      "title": "06:00:00 - 20/08 | Cucuta Deportivo VS Internacional de Bogota | Liga BetPlay - Clausura",
+      "id": "1000014057",
+      "title": "06:00:00 - 20/08 | Cucuta VS Internacional de Bogota | Primera A",
       "status": "upcoming",
-      "league": "Liga BetPlay - Clausura",
+      "league": "Primera A",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1786,8 +1795,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000013050",
-      "title": "07:30:00 - 27/08 | River Plate VS Santa Fe | CONMEBOL Sudamericana",
+      "id": "401903295",
+      "title": "07:30:00 - 27/08 | River Plate VS Independiente Santa Fe | CONMEBOL Sudamericana",
       "status": "upcoming",
       "league": "CONMEBOL Sudamericana",
       "candidateCount": 0,
@@ -1795,8 +1804,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4659114",
-      "title": "07:45:00 - 20/08 | North Texas VS Austin Fc II | MLS NEXT Pro",
+      "id": "1000007722",
+      "title": "07:45:00 - 20/08 | North Texas SC VS Austin FC II | MLS NEXT Pro",
       "status": "upcoming",
       "league": "MLS NEXT Pro",
       "candidateCount": 0,
@@ -2020,8 +2029,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4796661",
-      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama Sc | Emperors Cup",
+      "id": "5994154",
+      "title": "17:00:00 - 19/08 | Fukushima United VS Oyama | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2029,8 +2038,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800606",
-      "title": "17:00:00 - 19/08 | Gainare Tottori VS Kumamoto | Emperors Cup",
+      "id": "5994146",
+      "title": "17:00:00 - 19/08 | Gainare Tottori VS Roasso Kumamoto | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2065,8 +2074,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4800607",
-      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto | Emperors Cup",
+      "id": "5994155",
+      "title": "17:00:00 - 19/08 | Kanazawa Seiryo University VS Kyoto Sangyo University | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -2092,7 +2101,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814546",
+      "id": "4814537",
       "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | FA Cup - Round of 16",
       "status": "upcoming",
       "league": "FA Cup - Round of 16",
@@ -2263,15 +2272,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5972950",
-      "title": "19:00:00 - 20/08 | Syunik VS Van | Armenian First League",
-      "status": "upcoming",
-      "league": "Armenian First League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4684605",
       "title": "19:00:00 - 20/08 | Tallinn CF VS FC Nomme United II | Esiliiga",
       "status": "upcoming",
@@ -2285,6 +2285,15 @@
       "title": "19:00:00 - 20/08 | Tartu JK Welko Electer VS Levadia Tallinn II | Esiliiga",
       "status": "upcoming",
       "league": "Esiliiga",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5973016",
+      "title": "19:00:00 - 20/08 | Van VS Syunik | Armenian First League",
+      "status": "upcoming",
+      "league": "Armenian First League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3109,8 +3118,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4760472",
-      "title": "22:30:00 - 20/08 | Arsenal Tula VS Rotor Volgograd | Russian First League",
+      "id": "5897566",
+      "title": "22:30:00 - 20/08 | Arsenal VS FC Rotor Volgograd | Russian First League",
       "status": "upcoming",
       "league": "Russian First League",
       "candidateCount": 0,
