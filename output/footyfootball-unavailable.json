@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 378,
+  "count": 377,
   "matches": [
     {
       "id": "5903807",
@@ -1408,7 +1408,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4812164",
+      "id": "401900545",
       "title": "05:00:00 - 20/08 | Independiente Petrolero VS Blooming | Copa Paceña",
       "status": "upcoming",
       "league": "Copa Paceña",
@@ -1507,8 +1507,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000008690",
-      "title": "06:00:00 - 20/08 | Atlético Ottawa VS Vancouver FC | Canadian Premier League",
+      "id": "4664857",
+      "title": "06:00:00 - 20/08 | Atlético Ottawa VS Vancouver Fc | Canadian Premier League",
       "status": "upcoming",
       "league": "Canadian Premier League",
       "candidateCount": 0,
@@ -1543,8 +1543,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5175949",
-      "title": "06:00:00 - 20/08 | Forge FC VS Supra du Quebec | Canadian Premier League",
+      "id": "4665214",
+      "title": "06:00:00 - 20/08 | Forge FC VS Supra du Québec | Canadian Premier League",
       "status": "upcoming",
       "league": "Canadian Premier League",
       "candidateCount": 0,
@@ -1831,10 +1831,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5849317",
-      "title": "10:00:00 - 20/08 | CD FAS VS CSD Municipal | Concacaf Central American Cup",
+      "id": "4730006",
+      "title": "10:00:00 - 20/08 | CD FAS VS CSD Municipal | CONCACAF Central American Cup - Group Stage - Group D",
       "status": "upcoming",
-      "league": "Concacaf Central American Cup",
+      "league": "CONCACAF Central American Cup - Group Stage - Group D",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1842,17 +1842,8 @@
     {
       "id": "4814863",
       "title": "14:30:00 - 19/08 | CD Leganés B VS CD Toledo | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4811631",
-      "title": "14:30:00 - 19/08 | Fencibles United VS Auckland United | New Zealand National League",
-      "status": "upcoming",
-      "league": "New Zealand National League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1860,7 +1851,7 @@
     {
       "id": "4735607",
       "title": "15:00:00 - 19/08 | Arterivo Wakayama VS Azul Claro Numazu | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1869,7 +1860,7 @@
     {
       "id": "401911784",
       "title": "15:00:00 - 19/08 | Barcelona B VS CE Europa | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1878,7 +1869,7 @@
     {
       "id": "401912266",
       "title": "15:00:00 - 19/08 | Dong Thap VS Ho Chi Minh City FC | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1887,7 +1878,7 @@
     {
       "id": "401912264",
       "title": "15:00:00 - 19/08 | Elche II VS FC Cartagena | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1896,7 +1887,7 @@
     {
       "id": "401912503",
       "title": "16:30:00 - 19/08 | Eibar II VS Sestao | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1905,7 +1896,7 @@
     {
       "id": "5994156",
       "title": "16:30:00 - 19/08 | FC Gifu VS Toyama Shinjo Club | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1914,7 +1905,7 @@
     {
       "id": "4815935",
       "title": "16:30:00 - 19/08 | RSD Alcala VS Gimnastica Segoviana | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -1923,7 +1914,7 @@
     {
       "id": "4736071",
       "title": "16:30:00 - 19/08 | Src Hiroshima VS Maruyasu Okazaki | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -2029,7 +2020,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814546",
+      "id": "4814537",
       "title": "17:00:00 - 19/08 | Pohang Steelers VS Jinju Citizen | FA Cup - Round of 16",
       "status": "upcoming",
       "league": "FA Cup - Round of 16",
@@ -3028,8 +3019,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4745340",
-      "title": "22:30:00 - 19/08 | Rubin Kazan VS Spartak Moscow | Russian Cup",
+      "id": "5851855",
+      "title": "22:30:00 - 19/08 | Rubin VS Spartak | Russian Cup",
       "status": "upcoming",
       "league": "Russian Cup",
       "candidateCount": 0,
@@ -3334,8 +3325,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401873721",
-      "title": "23:30:00 - 19/08 | Jeddah VS Al Kholood | Saudi King's Cup",
+      "id": "4786923",
+      "title": "23:30:00 - 19/08 | Jeddah Club VS Al-Kholood | Saudi King's Cup",
       "status": "upcoming",
       "league": "Saudi King's Cup",
       "candidateCount": 0,
