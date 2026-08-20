@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 395,
+  "count": 396,
   "matches": [
     {
       "id": "401912462",
@@ -71,6 +71,15 @@
       "title": "00:00:00 - 21/08 | Trabzonspor VS Ferencvaros | UEFA Europa League",
       "status": "upcoming",
       "league": "UEFA Europa League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5988060",
+      "title": "00:00:00 - 21/08 | Tromsø VS Brighton | UEFA Conference League",
+      "status": "upcoming",
+      "league": "UEFA Conference League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1408,8 +1417,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909826",
-      "title": "02:00:00 - 21/08 | Getafe VS Partizan Belgrade | UEFA Conference League",
+      "id": "5988073",
+      "title": "02:00:00 - 21/08 | Getafe VS Partizan Beograd | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -2110,6 +2119,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "401911789",
+      "title": "17:00:00 - 20/08 | Xuan Thien Phu Tho VS Hung Yen | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401877683",
       "title": "17:00:00 - 21/08 | Kashiwa Reysol VS V-Varen Nagasaki | Japanese J.League",
       "status": "upcoming",
@@ -2193,15 +2211,6 @@
     {
       "id": "401912464",
       "title": "18:00:00 - 20/08 | Red Arrows VS Power Dynamos | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401911789",
-      "title": "18:00:00 - 20/08 | Xuan Thien Phu Tho VS Hung Yen | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
       "candidateCount": 0,
