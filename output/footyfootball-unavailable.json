@@ -67,15 +67,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988060",
-      "title": "00:00:00 - 21/08 | Tromsø VS Brighton | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5987956",
       "title": "00:00:00 - 21/08 | Universitatea Craiova VS Ararat Armenia | UEFA Europa League",
       "status": "upcoming",
@@ -544,7 +535,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401910971",
+      "id": "5988051",
       "title": "01:00:00 - 21/08 | Vikingur Reykjavik VS Borac Banja Luka | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
@@ -940,8 +931,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988063",
-      "title": "01:30:00 - 21/08 | Gent VS Hibernian | UEFA Conference League",
+      "id": "401909630",
+      "title": "01:30:00 - 21/08 | KAA Gent VS Hibernian | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -949,8 +940,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988062",
-      "title": "01:30:00 - 21/08 | Panathinaikos VS Hradec Kralove | UEFA Conference League",
+      "id": "401910974",
+      "title": "01:30:00 - 21/08 | Panathinaikos VS FC Hradec Králové | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -2002,6 +1993,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "401913090",
+      "title": "15:30:00 - 21/08 | Cádiz II VS Lion City Sailors FC | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4802674",
       "title": "16:00:00 - 20/08 | Fc Dinaz Vyshhorod VS Pheniks-Mariupol | Ukrainian Cup - Round of 64",
       "status": "live",
@@ -2083,18 +2083,9 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4668675",
-      "title": "16:30:00 - 20/08 | FC Elva VS FC Maardu | Esiliiga",
-      "status": "live",
-      "league": "Esiliiga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "401911789",
       "title": "17:00:00 - 20/08 | Xuan Thien Phu Tho VS Hung Yen | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
@@ -2105,6 +2096,15 @@
       "title": "17:00:00 - 21/08 | Kashiwa Reysol VS V-Varen Nagasaki | Japanese J.League",
       "status": "upcoming",
       "league": "Japanese J.League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401913089",
+      "title": "17:00:00 - 21/08 | TBD Home VS Castellón B | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3379,8 +3379,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4778931",
-      "title": "23:30:00 - 20/08 | Al Rayyan VS Lusail Sports Club | Qatar Stars League",
+      "id": "5951963",
+      "title": "23:30:00 - 20/08 | Al-Rayyan VS Lusail SC | Qatar Stars League",
       "status": "upcoming",
       "league": "Qatar Stars League",
       "candidateCount": 0,
