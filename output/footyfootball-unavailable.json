@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 386,
+  "count": 385,
   "matches": [
     {
       "id": "401912462",
@@ -526,7 +526,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988051",
+      "id": "401910971",
       "title": "01:00:00 - 21/08 | Vikingur Reykjavik VS Borac Banja Luka | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
@@ -1966,15 +1966,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4802674",
-      "title": "16:00:00 - 20/08 | Fc Dinaz Vyshhorod VS Pheniks-Mariupol | Ukrainian Cup - Round of 64",
-      "status": "upcoming",
-      "league": "Ukrainian Cup - Round of 64",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4802731",
       "title": "16:00:00 - 21/08 | Bratslav Vinnytsia VS Oleksandriya | Ukrainian Cup - Round of 64",
       "status": "upcoming",
@@ -2202,7 +2193,7 @@
     {
       "id": "4714778",
       "title": "19:00:00 - 20/08 | Kalju Nomme II VS JK Tallinna Kalev | Esiliiga",
-      "status": "upcoming",
+      "status": "live",
       "league": "Esiliiga",
       "candidateCount": 0,
       "providers": [],
@@ -2211,7 +2202,7 @@
     {
       "id": "4684605",
       "title": "19:00:00 - 20/08 | Tallinn CF VS FC Nomme United II | Esiliiga",
-      "status": "upcoming",
+      "status": "live",
       "league": "Esiliiga",
       "candidateCount": 0,
       "providers": [],
@@ -2220,7 +2211,7 @@
     {
       "id": "4668676",
       "title": "19:00:00 - 20/08 | Tartu JK Welko Electer VS Levadia Tallinn II | Esiliiga",
-      "status": "upcoming",
+      "status": "live",
       "league": "Esiliiga",
       "candidateCount": 0,
       "providers": [],
@@ -2229,7 +2220,7 @@
     {
       "id": "4759618",
       "title": "19:00:00 - 20/08 | Van VS Syunik | Armenian First League",
-      "status": "upcoming",
+      "status": "live",
       "league": "Armenian First League",
       "candidateCount": 0,
       "providers": [],
@@ -2875,8 +2866,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806492",
-      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa Baghdad | Iraqi League",
+      "id": "6015080",
+      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa | Iraqi League",
       "status": "upcoming",
       "league": "Iraqi League",
       "candidateCount": 0,
