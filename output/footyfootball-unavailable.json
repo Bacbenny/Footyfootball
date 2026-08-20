@@ -1,22 +1,13 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 396,
+  "count": 392,
   "matches": [
     {
       "id": "401912462",
       "title": "00:00:00 - 21/08 | Amurrio VS CD San Ignacio | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5987964",
-      "title": "00:00:00 - 21/08 | Beşiktaş VS FK Kauno Zalgiris | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -427,15 +418,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988064",
-      "title": "00:45:00 - 21/08 | PAOK Thessaloniki VS Brann | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "1000018416",
       "title": "00:50:00 - 22/08 | Al-Wehda VS Al-Adalah | Saudi First Division",
       "status": "upcoming",
@@ -562,7 +544,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988051",
+      "id": "401910971",
       "title": "01:00:00 - 21/08 | Vikingur Reykjavik VS Borac Banja Luka | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
@@ -960,15 +942,6 @@
     {
       "id": "5988063",
       "title": "01:30:00 - 21/08 | Gent VS Hibernian | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401910991",
-      "title": "01:30:00 - 21/08 | Motherwell VS SC Freiburg | UEFA Conference League",
       "status": "upcoming",
       "league": "UEFA Conference League",
       "candidateCount": 0,
@@ -2031,7 +2004,7 @@
     {
       "id": "4802674",
       "title": "16:00:00 - 20/08 | Fc Dinaz Vyshhorod VS Pheniks-Mariupol | Ukrainian Cup - Round of 64",
-      "status": "upcoming",
+      "status": "live",
       "league": "Ukrainian Cup - Round of 64",
       "candidateCount": 0,
       "providers": [],
@@ -2112,7 +2085,7 @@
     {
       "id": "4668675",
       "title": "16:30:00 - 20/08 | FC Elva VS FC Maardu | Esiliiga",
-      "status": "upcoming",
+      "status": "live",
       "league": "Esiliiga",
       "candidateCount": 0,
       "providers": [],
@@ -2735,15 +2708,6 @@
       "title": "21:45:00 - 21/08 | Molodechno VS Shakhter Soligorsk | Pershaya Liga",
       "status": "upcoming",
       "league": "Pershaya Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5987962",
-      "title": "22:00:00 - 20/08 | Kairat Almaty VS Anderlecht | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
