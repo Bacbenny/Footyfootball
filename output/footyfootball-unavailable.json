@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 329,
+  "count": 313,
   "matches": [
     {
       "id": "4804562",
@@ -706,42 +706,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5988063",
-      "title": "01:30:00 - 21/08 | Gent VS Hibernian | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5988074",
-      "title": "01:30:00 - 21/08 | Lugano VS Maccabi Tel Aviv | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401910991",
-      "title": "01:30:00 - 21/08 | Motherwell VS SC Freiburg | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401910974",
-      "title": "01:30:00 - 21/08 | Panathinaikos VS FC Hradec Králové | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5874949",
       "title": "01:30:00 - 22/08 | Admira Wacker VS First Vienna FC | 2. Liga",
       "status": "upcoming",
@@ -845,105 +809,6 @@
       "title": "01:30:00 - 22/08 | Vicenza VS Catanzaro | Italian Serie B",
       "status": "upcoming",
       "league": "Italian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886493",
-      "title": "01:45:00 - 21/08 | Bourg en Bresse Peronnas VS Thionville Lusitanos | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886494",
-      "title": "01:45:00 - 21/08 | Caen VS SC Aubagne Air Bel | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886495",
-      "title": "01:45:00 - 21/08 | Concarneau VS Villefranche Beaujolais | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886496",
-      "title": "01:45:00 - 21/08 | FC Fleury 91 VS Orléans | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5988059",
-      "title": "01:45:00 - 21/08 | Hearts VS Rapid Wien | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886497",
-      "title": "01:45:00 - 21/08 | La Roche VF VS Cannes | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886498",
-      "title": "01:45:00 - 21/08 | Le Puy VS Amiens | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886499",
-      "title": "01:45:00 - 21/08 | Paris 13 Atletico VS Valenciennes | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909637",
-      "title": "01:45:00 - 21/08 | Rangers VS Jablonec | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886500",
-      "title": "01:45:00 - 21/08 | Rouen VS Quevilly | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5886492",
-      "title": "01:45:00 - 21/08 | SC Bastia VS Versailles | Ligue 3",
-      "status": "upcoming",
-      "league": "Ligue 3",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1336,6 +1201,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "6005795",
+      "title": "02:30:00 - 21/08 | Tacuary VS Libertad | Copa Paraguay",
+      "status": "upcoming",
+      "league": "Copa Paraguay",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5991204",
       "title": "02:30:00 - 22/08 | AD Fafe VS Vitoria de Guimaraes B | Portuguese Liga 3",
       "status": "upcoming",
@@ -1462,28 +1336,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000013053",
-      "title": "05:00:00 - 21/08 | CSD Macara VS Santos FC | CONMEBOL Sudamericana",
-      "status": "upcoming",
-      "league": "CONMEBOL Sudamericana",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4729990",
       "title": "05:00:00 - 21/08 | Defence Force VS Broki | CONCACAF Caribbean Cup - Group Stage",
       "status": "upcoming",
       "league": "CONCACAF Caribbean Cup - Group Stage",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000012919",
-      "title": "05:00:00 - 21/08 | LDU de Quito VS Mirassol | CONMEBOL Libertadores",
-      "status": "upcoming",
-      "league": "CONMEBOL Libertadores",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1696,8 +1552,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5898693",
-      "title": "08:00:00 - 21/08 | Atletico Morelia VS Correcaminos | Mexican Liga de Expansión MX",
+      "id": "4761056",
+      "title": "08:00:00 - 21/08 | Atlético Morelia VS Correcaminos | Mexican Liga de Expansión MX",
       "status": "upcoming",
       "league": "Mexican Liga de Expansión MX",
       "candidateCount": 0,
@@ -2461,8 +2317,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6015080",
-      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa | Iraqi League",
+      "id": "4806492",
+      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa Baghdad | Iraqi League",
       "status": "upcoming",
       "league": "Iraqi League",
       "candidateCount": 0,
