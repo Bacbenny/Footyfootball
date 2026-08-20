@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 313,
+  "count": 307,
   "matches": [
     {
       "id": "4804562",
@@ -1021,78 +1021,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4812170",
-      "title": "02:00:00 - 21/08 | Always Ready VS Real Oruro | Copa Paceña",
-      "status": "upcoming",
-      "league": "Copa Paceña",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5987965",
-      "title": "02:00:00 - 21/08 | Benfica VS AGF | UEFA Europa League",
-      "status": "upcoming",
-      "league": "UEFA Europa League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401910989",
-      "title": "02:00:00 - 21/08 | Braga VS Austria Vienna | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5988069",
-      "title": "02:00:00 - 21/08 | FC Dinamo City VS Pafos FC | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909826",
-      "title": "02:00:00 - 21/08 | Getafe VS Partizan Belgrade | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909634",
-      "title": "02:00:00 - 21/08 | Hajduk Split VS Raków Czestochowa | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5988052",
-      "title": "02:00:00 - 21/08 | Shamrock Rovers VS KuPS | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4746852",
-      "title": "02:00:00 - 21/08 | Sheffield Wed VS Bradford | English League One",
-      "status": "upcoming",
-      "league": "English League One",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4799988",
       "title": "02:00:00 - 22/08 | Alcione VS Renate | Serie C - Regular Season",
       "status": "upcoming",
@@ -1219,10 +1147,46 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4806329",
+      "title": "03:00:00 - 21/08 | Boca Juniors Res. VS Central Cordoba Res. | Liga Profesional - Reserva",
+      "status": "upcoming",
+      "league": "Liga Profesional - Reserva",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4815149",
+      "title": "03:00:00 - 21/08 | Bucaramanga (W) VS Once Caldas (W) | Colombian Women's League",
+      "status": "upcoming",
+      "league": "Colombian Women's League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4815018",
+      "title": "03:00:00 - 21/08 | Independiente Santa Fe (W) VS Fortaleza FC (W) | Colombian Women's League",
+      "status": "upcoming",
+      "league": "Colombian Women's League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4728272",
       "title": "03:00:00 - 21/08 | Juventud Italiana VS Delfin | Copa Ecuador - Round of 16",
-      "status": "live",
+      "status": "upcoming",
       "league": "Copa Ecuador - Round of 16",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4815147",
+      "title": "03:00:00 - 21/08 | Orsomarso (W) VS Dep. Pasto (W) | Colombian Women's League",
+      "status": "upcoming",
+      "league": "Colombian Women's League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1331,24 +1295,6 @@
       "title": "04:30:00 - 22/08 | Sol de America VS Resistencia SC | Division Intermedia",
       "status": "upcoming",
       "league": "Division Intermedia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4729990",
-      "title": "05:00:00 - 21/08 | Defence Force VS Broki | CONCACAF Caribbean Cup - Group Stage",
-      "status": "upcoming",
-      "league": "CONCACAF Caribbean Cup - Group Stage",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000013048",
-      "title": "05:00:00 - 21/08 | Olimpia VS Vasco da Gama | CONMEBOL Sudamericana",
-      "status": "upcoming",
-      "league": "CONMEBOL Sudamericana",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2317,8 +2263,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806492",
-      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa Baghdad | Iraqi League",
+      "id": "6015080",
+      "title": "22:30:00 - 21/08 | Karbalaa VS Al Zawraa | Iraqi League",
       "status": "upcoming",
       "league": "Iraqi League",
       "candidateCount": 0,
