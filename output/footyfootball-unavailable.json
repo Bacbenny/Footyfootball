@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 1170,
+  "count": 1169,
   "matches": [
     {
       "id": "4804562",
@@ -940,7 +940,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814935",
+      "id": "6029557",
       "title": "01:00:00 - 22/08 | Miramar Misiones VS Rentistas | Uruguayan Segunda Division Profesional",
       "status": "upcoming",
       "league": "Uruguayan Segunda Division Profesional",
@@ -2074,10 +2074,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4799988",
-      "title": "02:00:00 - 22/08 | Alcione VS Renate | Serie C - Regular Season",
+      "id": "5990417",
+      "title": "02:00:00 - 22/08 | Alcione VS Renate | Serie C",
       "status": "upcoming",
-      "league": "Serie C - Regular Season",
+      "league": "Serie C",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3073,7 +3073,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814934",
+      "id": "6029558",
       "title": "05:00:00 - 22/08 | Plaza Colonia VS Colon | Uruguayan Segunda Division Profesional",
       "status": "upcoming",
       "league": "Uruguayan Segunda Division Profesional",
@@ -4137,17 +4137,8 @@
     {
       "id": "401913089",
       "title": "17:00:00 - 21/08 | Girona II VS Castellón B | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401877683",
-      "title": "17:00:00 - 21/08 | Kashiwa Reysol VS V-Varen Nagasaki | Japanese J.League",
-      "status": "upcoming",
-      "league": "Japanese J.League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -10354,7 +10345,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5897579",
+      "id": "4760460",
       "title": "23:30:00 - 21/08 | Torpedo Moscow VS Spartak Kostroma | Russian First League",
       "status": "upcoming",
       "league": "Russian First League",
