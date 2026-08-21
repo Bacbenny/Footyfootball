@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 1172,
+  "count": 1180,
   "matches": [
     {
       "id": "4804562",
@@ -841,6 +841,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4815133",
+      "title": "01:00:00 - 22/08 | Ec São Bernardo S20 VS Velo Clube Youth | Paulista U20 - 1st Stage",
+      "status": "upcoming",
+      "league": "Paulista U20 - 1st Stage",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4734307",
       "title": "01:00:00 - 22/08 | Emmen VS Jong AZ Alkmaar | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
@@ -1340,6 +1349,15 @@
       "title": "01:00:00 - 23/08 | Saint-Étienne VS Grenoble | French Ligue 2",
       "status": "upcoming",
       "league": "French Ligue 2",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000011228",
+      "title": "01:00:00 - 23/08 | Santo Andre VS EC Sao Bernardo | Copa Paulista",
+      "status": "upcoming",
+      "league": "Copa Paulista",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2470,6 +2488,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4644045",
+      "title": "02:00:00 - 25/08 | Club Atletico Guemes VS Atletico Rafaela | Primera Nacional",
+      "status": "upcoming",
+      "league": "Primera Nacional",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4661981",
       "title": "02:15:00 - 22/08 | Grotta VS IR Reykjavik | Inkasso Deildin",
       "status": "upcoming",
@@ -2794,6 +2821,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4658965",
+      "title": "04:00:00 - 23/08 | América Mineiro (W) VS RB Bragantino (W) | Brasileirão Women",
+      "status": "upcoming",
+      "league": "Brasileirão Women",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4776143",
       "title": "04:00:00 - 23/08 | Atl. Independiente VS Genesis Policía Nacional FC | Liga Nacional - Apertura - North Group",
       "status": "upcoming",
@@ -2812,8 +2848,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5861233",
-      "title": "04:00:00 - 23/08 | Aurora FC VS CD Suchitepequez | Guatemalan Liga Nacional",
+      "id": "4744318",
+      "title": "04:00:00 - 23/08 | Aurora FC VS Suchitepequez | Guatemalan Liga Nacional",
       "status": "upcoming",
       "league": "Guatemalan Liga Nacional",
       "candidateCount": 0,
@@ -2825,6 +2861,15 @@
       "title": "04:00:00 - 23/08 | Cacahuatique VS Municipal Limeño | Salvadoran Primera Division",
       "status": "upcoming",
       "league": "Salvadoran Primera Division",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190673",
+      "title": "04:00:00 - 23/08 | Ceará VS Londrina EC | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2850,6 +2895,15 @@
     {
       "id": "4658962",
       "title": "04:00:00 - 23/08 | Ferroviária (W) VS Fluminense (W) | Brasileirão Women",
+      "status": "upcoming",
+      "league": "Brasileirão Women",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4660873",
+      "title": "04:00:00 - 23/08 | Flamengo (W) VS Atlético Mineiro (W) | Brasileirão Women",
       "status": "upcoming",
       "league": "Brasileirão Women",
       "candidateCount": 0,
@@ -2938,8 +2992,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4764162",
-      "title": "04:30:00 - 22/08 | Rubio Ñu VS Sportivo Trinidense | Paraguayan Primera División",
+      "id": "1000017384",
+      "title": "04:30:00 - 22/08 | Rubio Nu VS Sportivo Trinidense | Paraguayan Primera División",
       "status": "upcoming",
       "league": "Paraguayan Primera División",
       "candidateCount": 0,
@@ -2960,6 +3014,15 @@
       "title": "04:30:00 - 23/08 | Cobreloa VS Union Espanola | Campeonato Primera B",
       "status": "upcoming",
       "league": "Campeonato Primera B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5190677",
+      "title": "04:30:00 - 23/08 | Cuiabá VS Goiás | Brazilian Serie B",
+      "status": "upcoming",
+      "league": "Brazilian Serie B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3379,8 +3442,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401878649",
-      "title": "06:30:00 - 22/08 | Brooklyn FC VS DC Power FC | USL Super League",
+      "id": "5887365",
+      "title": "06:30:00 - 22/08 | Brooklyn FC (W) VS DC Power FC (W) | USL Super League",
       "status": "upcoming",
       "league": "USL Super League",
       "candidateCount": 0,
@@ -3568,8 +3631,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806265",
-      "title": "07:30:00 - 22/08 | Oriente Petrolero VS San Antonio | Bolivian Primera Division",
+      "id": "401906501",
+      "title": "07:30:00 - 22/08 | Oriente Petrolero VS San Antonio Bulo Bulo | Bolivian Primera Division",
       "status": "upcoming",
       "league": "Bolivian Primera Division",
       "candidateCount": 0,
@@ -3705,7 +3768,7 @@
     {
       "id": "401886971",
       "title": "12:00:00 - 21/08 | Hawai'i VS Western Michigan | NCAA Women's Soccer",
-      "status": "live",
+      "status": "upcoming",
       "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -4153,7 +4216,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4739690",
+      "id": "401877683",
       "title": "17:00:00 - 21/08 | Kashiwa Reysol VS V-Varen Nagasaki | Japanese J.League",
       "status": "upcoming",
       "league": "Japanese J.League",
@@ -4639,10 +4702,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401875177",
-      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | German Cup",
+      "id": "4733027",
+      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | DFB-Pokal - 1st Round",
       "status": "upcoming",
-      "league": "German Cup",
+      "league": "DFB-Pokal - 1st Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -9031,8 +9094,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4663480",
-      "title": "22:00:00 - 21/08 | FK Liepaja VS Grobiņa | Virsliga",
+      "id": "5162050",
+      "title": "22:00:00 - 21/08 | FK Liepaja VS Grobina | Virsliga",
       "status": "upcoming",
       "league": "Virsliga",
       "candidateCount": 0,
@@ -9769,8 +9832,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4636249",
-      "title": "23:00:00 - 21/08 | Malmö FF (W) VS Hammarby (W) | Damallsvenskan",
+      "id": "5107897",
+      "title": "23:00:00 - 21/08 | Malmö FF (W) VS Hammarby IF (W) | Damallsvenskan",
       "status": "upcoming",
       "league": "Damallsvenskan",
       "candidateCount": 0,
@@ -10196,6 +10259,15 @@
       "title": "23:00:00 - 22/08 | Sparta Sarpsborg VS Sarpsborg 08 | NM Cupen",
       "status": "upcoming",
       "league": "NM Cupen",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "1000017208",
+      "title": "23:00:00 - 22/08 | Sport Huancayo VS Club Deportivo Moquegua | Liga 1",
+      "status": "upcoming",
+      "league": "Liga 1",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
