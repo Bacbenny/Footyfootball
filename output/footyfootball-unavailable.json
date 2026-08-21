@@ -1,10 +1,10 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 934,
+  "count": 933,
   "matches": [
     {
-      "id": "4751183",
+      "id": "5868407",
       "title": "00:00:00 - 23/08 | AD Ceuta FC VS Las Palmas | Spanish LALIGA 2",
       "status": "upcoming",
       "league": "Spanish LALIGA 2",
@@ -193,8 +193,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000015247",
-      "title": "00:00:00 - 23/08 | Maccabi Petach Tikva VS Hapoel Ironi Kiryat Shmona | Israeli Premier League",
+      "id": "4738766",
+      "title": "00:00:00 - 23/08 | Maccabi Petah Tikva VS Kiryat Shmona | Israeli Premier League",
       "status": "upcoming",
       "league": "Israeli Premier League",
       "candidateCount": 0,
@@ -445,8 +445,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5114002",
-      "title": "01:00:00 - 23/08 | Argentino de Merlo VS Arsenal Sarandi | Argentine Primera B",
+      "id": "4639084",
+      "title": "01:00:00 - 23/08 | Argentino Merlo VS Arsenal Sarandi | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -467,15 +467,6 @@
       "title": "01:00:00 - 23/08 | Brasil de Farroupilha VS Guarani-VA | Gaucho A2",
       "status": "upcoming",
       "league": "Gaucho A2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5114006",
-      "title": "01:00:00 - 23/08 | CA Defensores Unidos VS San Martin Burzaco | Argentine Primera B",
-      "status": "upcoming",
-      "league": "Argentine Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -512,6 +503,15 @@
       "title": "01:00:00 - 23/08 | Cerro Largo VS Defensor Sporting | Liga AUF Uruguaya",
       "status": "upcoming",
       "league": "Liga AUF Uruguaya",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4639091",
+      "title": "01:00:00 - 23/08 | Defensores Unidos VS San Martín Burzaco | Argentine Primera B",
+      "status": "upcoming",
+      "league": "Argentine Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -769,15 +769,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5114008",
-      "title": "01:00:00 - 24/08 | Dock Sud VS CASD Camioneros | Argentine Primera B",
-      "status": "upcoming",
-      "league": "Argentine Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4639516",
       "title": "01:00:00 - 24/08 | El Porvenir VS Central Ballester | Argentine Primera C",
       "status": "upcoming",
@@ -805,6 +796,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4639093",
+      "title": "01:00:00 - 24/08 | Sportivo Dock Sud VS Camioneros | Argentine Primera B",
+      "status": "upcoming",
+      "league": "Argentine Primera B",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4639523",
       "title": "01:00:00 - 25/08 | Centro Español VS Estrella del Sur | Argentine Primera C",
       "status": "upcoming",
@@ -818,15 +818,6 @@
       "title": "01:00:00 - 25/08 | Claypole VS CA Fenix | Argentine Primera C",
       "status": "upcoming",
       "league": "Argentine Primera C",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000017209",
-      "title": "01:15:00 - 23/08 | CD UT Cajamarca VS Comerciantes Unidos | Liga 1",
-      "status": "upcoming",
-      "league": "Liga 1",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -859,6 +850,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4760857",
+      "title": "01:15:00 - 23/08 | UTC VS Comerciantes Unidos | Peruvian Liga 1",
+      "status": "upcoming",
+      "league": "Peruvian Liga 1",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4644038",
       "title": "01:30:00 - 23/08 | Almagro VS Colegiales | Primera Nacional",
       "status": "upcoming",
@@ -877,8 +877,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5908603",
-      "title": "01:30:00 - 23/08 | Bodrum FK VS Muglaspor | TFF First League",
+      "id": "4767010",
+      "title": "01:30:00 - 23/08 | Bodrumspor VS Muglaspor | TFF First League",
       "status": "upcoming",
       "league": "TFF First League",
       "candidateCount": 0,
@@ -1579,15 +1579,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4801909",
-      "title": "03:30:00 - 22/08 | Sport Huancayo Reserve VS Estudiantil CNI | Liga 2",
-      "status": "upcoming",
-      "league": "Liga 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "1000017202",
       "title": "03:30:00 - 23/08 | ADC Juan Pablo II VS Asociacion Deportiva Tarma | Liga 1",
       "status": "upcoming",
@@ -1822,6 +1813,24 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4764162",
+      "title": "04:30:00 - 22/08 | Rubio Ñu VS Sportivo Trinidense | Paraguayan Primera División",
+      "status": "upcoming",
+      "league": "Paraguayan Primera División",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4816217",
+      "title": "04:30:00 - 22/08 | Sol de America VS Resistencia SC | Division Intermedia",
+      "status": "upcoming",
+      "league": "Division Intermedia",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "1000007287",
       "title": "04:30:00 - 23/08 | Cobreloa VS Union Espanola | Campeonato Primera B",
       "status": "upcoming",
@@ -1948,8 +1957,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5109904",
-      "title": "05:30:00 - 23/08 | Loudoun United FC VS New Mexico United | USL Jägermeister Cup",
+      "id": "4634123",
+      "title": "05:30:00 - 23/08 | Loudoun United FC VS New Mexico | USL Jägermeister Cup",
       "status": "upcoming",
       "league": "USL Jägermeister Cup",
       "candidateCount": 0,
@@ -2155,26 +2164,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5887365",
-      "title": "06:30:00 - 22/08 | Brooklyn FC (W) VS DC Power FC (W) | USL Super League",
-      "status": "upcoming",
-      "league": "USL Super League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4681822",
-      "title": "06:30:00 - 22/08 | Ferrymead Bays Fc VS Nelson Suburbs | New Zealand National League",
-      "status": "upcoming",
-      "league": "New Zealand National League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000007726",
-      "title": "06:30:00 - 23/08 | Carolina Core FC VS FC Cincinnati 2 | MLS NEXT Pro",
+      "id": "4659110",
+      "title": "06:30:00 - 23/08 | Carolina Core VS Fc Cincinnati II | MLS NEXT Pro",
       "status": "upcoming",
       "league": "MLS NEXT Pro",
       "candidateCount": 0,
@@ -2866,8 +2857,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5201116",
-      "title": "17:00:00 - 22/08 | Busan Transport Corp VS Changwon City | K3 League",
+      "id": "4667021",
+      "title": "17:00:00 - 22/08 | Busan Transportation VS Changwon City | K3 League",
       "status": "upcoming",
       "league": "K3 League",
       "candidateCount": 0,
@@ -2884,7 +2875,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5803540",
+      "id": "4739684",
       "title": "17:00:00 - 22/08 | Cerezo Osaka VS Shimizu S-Pulse | Japanese J.League",
       "status": "upcoming",
       "league": "Japanese J.League",
@@ -3550,8 +3541,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4747403",
-      "title": "18:30:00 - 22/08 | Salford City VS Chesterfield | English League Two",
+      "id": "5837879",
+      "title": "18:30:00 - 22/08 | Salford VS Chesterfield | English League Two",
       "status": "upcoming",
       "league": "English League Two",
       "candidateCount": 0,
@@ -3613,8 +3604,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5186590",
-      "title": "18:35:00 - 22/08 | Chengdu Rongcheng FC VS Shanghai Shenhua | Chinese Super League",
+      "id": "4673314",
+      "title": "18:35:00 - 22/08 | Chengdu Rongcheng VS Shanghai Shenhua | Chinese Super League",
       "status": "upcoming",
       "league": "Chinese Super League",
       "candidateCount": 0,
@@ -6259,7 +6250,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5837876",
+      "id": "4747406",
       "title": "21:00:00 - 22/08 | Port Vale VS Tranmere | English League Two",
       "status": "upcoming",
       "league": "English League Two",
@@ -6340,8 +6331,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5793914",
-      "title": "21:00:00 - 22/08 | Rangers VS St. Mirren | Scottish Premiership",
+      "id": "401878400",
+      "title": "21:00:00 - 22/08 | Rangers VS St Mirren | Scottish Premiership",
       "status": "upcoming",
       "league": "Scottish Premiership",
       "candidateCount": 0,
@@ -7096,7 +7087,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5837109",
+      "id": "4746849",
       "title": "21:00:00 - 22/08 | Wigan VS Leyton Orient | English League One",
       "status": "upcoming",
       "league": "English League One",
