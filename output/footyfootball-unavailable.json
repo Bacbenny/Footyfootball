@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 938,
+  "count": 934,
   "matches": [
     {
       "id": "4751183",
@@ -1399,24 +1399,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401886217",
-      "title": "03:00:00 - 22/08 | Alianza Atlético VS Sporting Cristal | Peruvian Liga 1",
-      "status": "upcoming",
-      "league": "Peruvian Liga 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401903363",
-      "title": "03:00:00 - 22/08 | Anzoátegui FC VS Trujillanos | Venezuelan Primera División",
-      "status": "upcoming",
-      "league": "Venezuelan Primera División",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4791903",
       "title": "03:00:00 - 23/08 | Atlántico VS Delfines Del Este | Liga Mayor - Apertura",
       "status": "upcoming",
@@ -1624,8 +1606,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000008692",
-      "title": "03:30:00 - 23/08 | Cavalry FC VS Atlético Ottawa | Canadian Premier League",
+      "id": "4664855",
+      "title": "03:30:00 - 23/08 | Cavalry VS Atlético Ottawa | Canadian Premier League",
       "status": "upcoming",
       "league": "Canadian Premier League",
       "candidateCount": 0,
@@ -1653,7 +1635,7 @@
     {
       "id": "4820196",
       "title": "04:00:00 - 22/08 | CD Rio Blanco VS Tigres de Chinandega | Liga de Ascenso - Apertura",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga de Ascenso - Apertura",
       "candidateCount": 0,
       "providers": [],
@@ -1662,7 +1644,7 @@
     {
       "id": "4778493",
       "title": "04:00:00 - 22/08 | Herrera Ii VS Veraguas Ii | Liga Prom - Apertura - Western Conference - North Zone",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga Prom - Apertura - Western Conference - North Zone",
       "candidateCount": 0,
       "providers": [],
@@ -1671,7 +1653,7 @@
     {
       "id": "401889572",
       "title": "04:00:00 - 22/08 | Kennesaw State VS The Citadel | NCAA Women's Soccer",
-      "status": "live",
+      "status": "upcoming",
       "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -1680,7 +1662,7 @@
     {
       "id": "4778497",
       "title": "04:00:00 - 22/08 | San Francisco Fc Ii VS Unión Coclé II | Liga Prom - Apertura - Western Conference - South Zone",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga Prom - Apertura - Western Conference - South Zone",
       "candidateCount": 0,
       "providers": [],
@@ -1714,8 +1696,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4744318",
-      "title": "04:00:00 - 23/08 | Aurora FC VS Suchitepequez | Guatemalan Liga Nacional",
+      "id": "5861233",
+      "title": "04:00:00 - 23/08 | Aurora FC VS CD Suchitepequez | Guatemalan Liga Nacional",
       "status": "upcoming",
       "league": "Guatemalan Liga Nacional",
       "candidateCount": 0,
@@ -1806,8 +1788,17 @@
     {
       "id": "1000014103",
       "title": "04:05:00 - 22/08 | CD Jaguares VS Chico FC | Primera A",
-      "status": "live",
+      "status": "upcoming",
       "league": "Primera A",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401877994",
+      "title": "04:05:00 - 22/08 | Jaguares de Córdoba VS Boyacá Chicó FC | Colombian Primera A",
+      "status": "upcoming",
+      "league": "Colombian Primera A",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1984,37 +1975,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401903361",
-      "title": "06:00:00 - 22/08 | Caracas FC VS Carabobo | Venezuelan Primera División",
-      "status": "upcoming",
-      "league": "Venezuelan Primera División",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5115952",
-      "title": "06:00:00 - 22/08 | Estudiantes de Rio Cuarto VS San Lorenzo | Argentine Liga Profesional de Fútbol",
-      "status": "upcoming",
-      "league": "Argentine Liga Profesional de Fútbol",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "401897340",
       "title": "06:00:00 - 22/08 | Presbyterian VS Newberry | NCAA Women's Soccer",
-      "status": "upcoming",
+      "status": "live",
       "league": "NCAA Women's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5977319",
-      "title": "06:00:00 - 22/08 | Pumas (W) VS Queretaro (W) | Liga MX Femenil Apertura",
-      "status": "upcoming",
-      "league": "Liga MX Femenil Apertura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2022,7 +1986,7 @@
     {
       "id": "4778496",
       "title": "06:00:00 - 22/08 | San Martín Fc VS Cd Plaza Amador Ii | Liga Prom - Apertura - Eastern Conference - South Zone",
-      "status": "upcoming",
+      "status": "live",
       "league": "Liga Prom - Apertura - Eastern Conference - South Zone",
       "candidateCount": 0,
       "providers": [],
@@ -2031,7 +1995,7 @@
     {
       "id": "401886503",
       "title": "06:00:00 - 22/08 | Vanderbilt VS Memphis | NCAA Women's Soccer",
-      "status": "upcoming",
+      "status": "live",
       "league": "NCAA Women's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -3343,10 +3307,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4733027",
-      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | DFB-Pokal - 1st Round",
+      "id": "401875177",
+      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | German Cup",
       "status": "upcoming",
-      "league": "DFB-Pokal - 1st Round",
+      "league": "German Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4513,7 +4477,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5874955",
+      "id": "4750283",
       "title": "20:30:00 - 22/08 | Rapid Wien II VS Floridsdorfer AC | 2. Liga",
       "status": "upcoming",
       "league": "2. Liga",
@@ -8428,8 +8392,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4788389",
-      "title": "23:45:00 - 22/08 | Zira FK VS Imisli Fk | Premier League",
+      "id": "5987502",
+      "title": "23:45:00 - 22/08 | Zira VS Imisli FK | Premier League",
       "status": "upcoming",
       "league": "Premier League",
       "candidateCount": 0,
