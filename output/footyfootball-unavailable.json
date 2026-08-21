@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 996,
+  "count": 959,
   "matches": [
     {
       "id": "4751183",
@@ -139,7 +139,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000015248",
+      "id": "4738767",
       "title": "00:00:00 - 23/08 | Ironi Tiberias VS Hapoel Petah Tikva | Israeli Premier League",
       "status": "upcoming",
       "league": "Israeli Premier League",
@@ -850,123 +850,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4750287",
-      "title": "01:30:00 - 22/08 | Admira VS First Vienna FC 1894 | 2. Liga",
-      "status": "upcoming",
-      "league": "2. Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6012145",
-      "title": "01:30:00 - 22/08 | Albion VS Boston River | Liga AUF Uruguaya",
-      "status": "upcoming",
-      "league": "Liga AUF Uruguaya",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5862653",
-      "title": "01:30:00 - 22/08 | Chojniczanka Chojnice VS Stal Stalowa Wola | II Liga",
-      "status": "upcoming",
-      "league": "II Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5114005",
-      "title": "01:30:00 - 22/08 | Comunicaciones VS Sportivo Italiano | Argentine Primera B",
-      "status": "upcoming",
-      "league": "Argentine Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4736430",
-      "title": "01:30:00 - 22/08 | Cracovia Krakow VS Wieczysta Krakow | Ekstraklasa",
-      "status": "upcoming",
-      "league": "Ekstraklasa",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4806491",
-      "title": "01:30:00 - 22/08 | Erbil FC VS Quwa Al Jawiya | Iraqi League",
-      "status": "upcoming",
-      "league": "Iraqi League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5904721",
-      "title": "01:30:00 - 22/08 | Erzurumspor FK VS Galatasaray | Turkish Super Lig",
-      "status": "upcoming",
-      "league": "Turkish Super Lig",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5794303",
-      "title": "01:30:00 - 22/08 | Inverness VS Partick Thistle | Scottish Championship",
-      "status": "upcoming",
-      "league": "Scottish Championship",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5908595",
-      "title": "01:30:00 - 22/08 | Karagümrük VS Bursaspor | TFF First League",
-      "status": "upcoming",
-      "league": "TFF First League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4742638",
-      "title": "01:30:00 - 22/08 | Lechia Gdansk VS Pogon Siedlce | I Liga",
-      "status": "upcoming",
-      "league": "I Liga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4820422",
-      "title": "01:30:00 - 22/08 | Puente Genil VS Linares Deportivo | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4644053",
-      "title": "01:30:00 - 22/08 | San Telmo VS Deportivo Moron | Primera Nacional",
-      "status": "upcoming",
-      "league": "Primera Nacional",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4784417",
-      "title": "01:30:00 - 22/08 | Vicenza VS Catanzaro | Italian Serie B",
-      "status": "upcoming",
-      "league": "Italian Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4644038",
       "title": "01:30:00 - 23/08 | Almagro VS Colegiales | Primera Nacional",
       "status": "upcoming",
@@ -1012,7 +895,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5114007",
+      "id": "4639090",
       "title": "01:30:00 - 23/08 | Deportivo Armenio VS Real Pilar | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
@@ -1138,213 +1021,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4745288",
-      "title": "01:45:00 - 22/08 | Ballymena United VS Glentoran | Northern Irish Premiership",
-      "status": "upcoming",
-      "league": "Northern Irish Premiership",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633860",
-      "title": "01:45:00 - 22/08 | Bohemians VS Derry City | Irish Premier Division",
-      "status": "upcoming",
-      "league": "Irish Premier Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5882049",
-      "title": "01:45:00 - 22/08 | Cardiff Met University VS The New Saints | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000016690",
-      "title": "01:45:00 - 22/08 | Celtic B VS Cumnock Juniors | Lowland League West",
-      "status": "upcoming",
-      "league": "Lowland League West",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5882050",
-      "title": "01:45:00 - 22/08 | Colwyn Bay VS Airbus UK Broughton | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633858",
-      "title": "01:45:00 - 22/08 | Dundalk VS Galway United | Irish Premier Division",
-      "status": "upcoming",
-      "league": "Irish Premier Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633680",
-      "title": "01:45:00 - 22/08 | Finn Harps VS Cobh Ramblers | Irish First Division",
-      "status": "upcoming",
-      "league": "Irish First Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4758227",
-      "title": "01:45:00 - 22/08 | Flint Town United VS Briton Ferry | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401875187",
-      "title": "01:45:00 - 22/08 | Hansa Rostock VS VfB Stuttgart | German Cup",
-      "status": "upcoming",
-      "league": "German Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5882052",
-      "title": "01:45:00 - 22/08 | Haverfordwest VS Cambrian United | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4758225",
-      "title": "01:45:00 - 22/08 | Holywell Town VS Barry Town | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401906586",
-      "title": "01:45:00 - 22/08 | HUNGERFORD TOWN VS Wokingham Town | English FA Cup Qualifying",
-      "status": "upcoming",
-      "league": "English FA Cup Qualifying",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633679",
-      "title": "01:45:00 - 22/08 | Kerry VS UC Dublin FC | Irish First Division",
-      "status": "upcoming",
-      "league": "Irish First Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5847406",
-      "title": "01:45:00 - 22/08 | Linfield VS Cliftonville | Northern Irish Premiership",
-      "status": "upcoming",
-      "league": "Northern Irish Premiership",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909162",
-      "title": "01:45:00 - 22/08 | Liversedge VS Ossett United | English FA Cup Qualifying",
-      "status": "upcoming",
-      "league": "English FA Cup Qualifying",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4747651",
-      "title": "01:45:00 - 22/08 | Newry City VS Warrenpoint Town | NIFL Championship",
-      "status": "upcoming",
-      "league": "NIFL Championship",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4758224",
-      "title": "01:45:00 - 22/08 | Penybont VS Llandudno FC | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401906709",
-      "title": "01:45:00 - 22/08 | Redcar Town VS Bridlington Town | English FA Cup Qualifying",
-      "status": "upcoming",
-      "league": "English FA Cup Qualifying",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4740770",
-      "title": "01:45:00 - 22/08 | Standard de Liège VS La Louvière Centre | Belgian Pro League",
-      "status": "upcoming",
-      "league": "Belgian Pro League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5882055",
-      "title": "01:45:00 - 22/08 | Trefelin BGC VS Caernarfon | Cymru Premier",
-      "status": "upcoming",
-      "league": "Cymru Premier",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5101262",
-      "title": "01:45:00 - 22/08 | Wexford FC VS Athlone Town | Irish First Division",
-      "status": "upcoming",
-      "league": "Irish First Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633677",
-      "title": "01:45:00 - 22/08 | Wexford Youths VS Athlone Town | Irish First Division",
-      "status": "upcoming",
-      "league": "Irish First Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401906837",
-      "title": "01:45:00 - 22/08 | Woodbridge Town VS FELIXSTOWE & WALTON UNITED | English FA Cup Qualifying",
-      "status": "upcoming",
-      "league": "English FA Cup Qualifying",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5927576",
       "title": "01:45:00 - 23/08 | FK Velez Mostar VS Sloga Doboj | Premier League of Bosnia and Herzegovina",
       "status": "upcoming",
@@ -1437,7 +1113,7 @@
     {
       "id": "401892331",
       "title": "02:00:00 - 22/08 | Monmouth VS Iona | NCAA Men's Soccer",
-      "status": "live",
+      "status": "upcoming",
       "league": "NCAA Men's Soccer",
       "candidateCount": 0,
       "providers": [],
@@ -1831,9 +1507,18 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "5991204",
+      "title": "02:30:00 - 22/08 | AD Fafe VS Vitoria de Guimaraes B | Portuguese Liga 3",
+      "status": "upcoming",
+      "league": "Portuguese Liga 3",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4820971",
       "title": "02:30:00 - 22/08 | Amazon Callao FC VS Centro Social de Pariacoto | Liga 3",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga 3",
       "candidateCount": 0,
       "providers": [],
@@ -1858,7 +1543,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401885467",
+      "id": "4757131",
       "title": "02:30:00 - 23/08 | Sporting CP VS Alverca | Portuguese Primeira Liga",
       "status": "upcoming",
       "league": "Portuguese Primeira Liga",
@@ -2074,8 +1759,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000008692",
-      "title": "03:30:00 - 23/08 | Cavalry FC VS Atlético Ottawa | Canadian Premier League",
+      "id": "4664855",
+      "title": "03:30:00 - 23/08 | Cavalry VS Atlético Ottawa | Canadian Premier League",
       "status": "upcoming",
       "league": "Canadian Premier League",
       "candidateCount": 0,
@@ -2164,8 +1849,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4744318",
-      "title": "04:00:00 - 23/08 | Aurora FC VS Suchitepequez | Guatemalan Liga Nacional",
+      "id": "5861233",
+      "title": "04:00:00 - 23/08 | Aurora FC VS CD Suchitepequez | Guatemalan Liga Nacional",
       "status": "upcoming",
       "league": "Guatemalan Liga Nacional",
       "candidateCount": 0,
@@ -2281,24 +1966,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000017384",
-      "title": "04:30:00 - 22/08 | Rubio Nu VS Sportivo Trinidense | Paraguayan Primera División",
-      "status": "upcoming",
-      "league": "Paraguayan Primera División",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4816217",
-      "title": "04:30:00 - 22/08 | Sol de America VS Resistencia SC | Division Intermedia",
-      "status": "upcoming",
-      "league": "Division Intermedia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "1000007287",
       "title": "04:30:00 - 23/08 | Cobreloa VS Union Espanola | Campeonato Primera B",
       "status": "upcoming",
@@ -2326,10 +1993,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5115955",
-      "title": "04:30:00 - 23/08 | Independiente VS Independiente Rivadavia | Argentine Liga Profesional de Fútbol",
+      "id": "1000019637",
+      "title": "04:30:00 - 23/08 | Independiente VS Independiente Rivadavia | Liga Profesional",
       "status": "upcoming",
-      "league": "Argentine Liga Profesional de Fútbol",
+      "league": "Liga Profesional",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2749,7 +2416,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5103599",
+      "id": "4632711",
       "title": "06:30:00 - 23/08 | Cruzeiro VS Flamengo | Brazilian Serie A",
       "status": "upcoming",
       "league": "Brazilian Serie A",
@@ -3460,10 +3127,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5934502",
-      "title": "17:00:00 - 22/08 | Eintracht Frankfurt (W) VS FC Köln (W) | Frauen-Bundesliga",
+      "id": "4773769",
+      "title": "17:00:00 - 22/08 | Eintracht Frankfurt (W) VS FC Köln (W) | Frauen Bundesliga",
       "status": "upcoming",
-      "league": "Frauen-Bundesliga",
+      "league": "Frauen Bundesliga",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3748,8 +3415,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4652620",
-      "title": "17:30:00 - 22/08 | Jeju SK VS Gimcheon Sangmu FC | K League 1",
+      "id": "5140001",
+      "title": "17:30:00 - 22/08 | Jeju SK VS Gimcheon Sangmu | K League 1",
       "status": "upcoming",
       "league": "K League 1",
       "candidateCount": 0,
@@ -3865,10 +3532,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4733027",
-      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | DFB-Pokal - 1st Round",
+      "id": "401875177",
+      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | German Cup",
       "status": "upcoming",
-      "league": "DFB-Pokal - 1st Round",
+      "league": "German Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4324,10 +3991,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5911147",
-      "title": "19:00:00 - 22/08 | FC Gütersloh VS Bergisch Gladbach | Regionalliga West",
+      "id": "4769324",
+      "title": "19:00:00 - 22/08 | FC Gutersloh VS Bergisch Gladbach | Regionalliga - West",
       "status": "upcoming",
-      "league": "Regionalliga West",
+      "league": "Regionalliga - West",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4747,7 +4414,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5956672",
+      "id": "4760209",
       "title": "20:00:00 - 22/08 | IJsselmeervogels VS Quick Boys | Dutch Tweede Divisie",
       "status": "upcoming",
       "league": "Dutch Tweede Divisie",
@@ -5035,7 +4702,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5874955",
+      "id": "4750283",
       "title": "20:30:00 - 22/08 | Rapid Wien II VS Floridsdorfer AC | 2. Liga",
       "status": "upcoming",
       "league": "2. Liga",
@@ -5107,8 +4774,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4766647",
-      "title": "21:00:00 - 22/08 | AFC Telford VS Hednesford Town | National League N/S - Regular Season",
+      "id": "5907002",
+      "title": "21:00:00 - 22/08 | AFC Telford United VS Hednesford | National League N/S - Regular Season",
       "status": "upcoming",
       "league": "National League N/S - Regular Season",
       "candidateCount": 0,
@@ -5183,15 +4850,6 @@
       "title": "21:00:00 - 22/08 | Arna-Bjørnar VS Åsane | NM Cupen",
       "status": "upcoming",
       "league": "NM Cupen",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4807353",
-      "title": "21:00:00 - 22/08 | Ascot United VS Penn & Tylers Green | FA Cup - Qualifying Rounds - Preliminary Round",
-      "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -6160,6 +5818,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4806530",
+      "title": "21:00:00 - 22/08 | Hashtag United VS Enfield 1893 | FA Cup - Qualifying Rounds - Preliminary Round",
+      "status": "upcoming",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4807343",
       "title": "21:00:00 - 22/08 | Hayes VS White Ensign | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
@@ -6637,7 +6304,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4746854",
+      "id": "5837104",
       "title": "21:00:00 - 22/08 | MK Dons VS Huddersfield | English League One",
       "status": "upcoming",
       "league": "English League One",
@@ -6830,15 +6497,6 @@
       "title": "21:00:00 - 22/08 | Preston VS Wolves | English League Championship",
       "status": "upcoming",
       "league": "English League Championship",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4807363",
-      "title": "21:00:00 - 22/08 | Punjab United VS SE Dons | FA Cup - Qualifying Rounds - Preliminary Round",
-      "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -7159,6 +6817,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4766638",
+      "title": "21:00:00 - 22/08 | Southport VS Bedford Town | National League N/S - Regular Season",
+      "status": "upcoming",
+      "league": "National League N/S - Regular Season",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5794711",
       "title": "21:00:00 - 22/08 | Spartans FC VS Elgin City | Scottish League Two",
       "status": "upcoming",
@@ -7341,6 +7008,15 @@
     {
       "id": "4807619",
       "title": "21:00:00 - 22/08 | Sutton Common Rovers VS Haywards Heath Town | FA Cup - Qualifying Rounds - Preliminary Round",
+      "status": "upcoming",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4811842",
+      "title": "21:00:00 - 22/08 | Sutton United VS Abbey Hulton United | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
       "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
@@ -7708,15 +7384,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5907013",
-      "title": "21:00:00 - 22/08 | Worksop Town VS Hereford | National League N/S - Regular Season",
-      "status": "upcoming",
-      "league": "National League N/S - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4821025",
       "title": "21:00:00 - 22/08 | Wroxham VS Walthamstow | Non League Premier",
       "status": "upcoming",
@@ -7852,8 +7519,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4788385",
-      "title": "21:30:00 - 22/08 | FK Gabala VS Safa Baku | Premier League",
+      "id": "5987497",
+      "title": "21:30:00 - 22/08 | FK Qabala VS Shafa | Premier League",
       "status": "upcoming",
       "league": "Premier League",
       "candidateCount": 0,
@@ -8950,8 +8617,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4788389",
-      "title": "23:45:00 - 22/08 | Zira FK VS Imisli Fk | Premier League",
+      "id": "5987502",
+      "title": "23:45:00 - 22/08 | Zira VS Imisli FK | Premier League",
       "status": "upcoming",
       "league": "Premier League",
       "candidateCount": 0,
