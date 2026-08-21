@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 959,
+  "count": 938,
   "matches": [
     {
       "id": "4751183",
@@ -26,6 +26,15 @@
       "title": "00:00:00 - 23/08 | Al Ramtha VS Al Hussein | Super Cup - Semi Finals",
       "status": "upcoming",
       "league": "Super Cup - Semi Finals",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5868404",
+      "title": "00:00:00 - 23/08 | Albacete VS Real Sociedad B | Spanish LALIGA 2",
+      "status": "upcoming",
+      "league": "Spanish LALIGA 2",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1057,132 +1066,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4799988",
-      "title": "02:00:00 - 22/08 | Alcione VS Renate | Serie C - Regular Season",
-      "status": "upcoming",
-      "league": "Serie C - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4799989",
-      "title": "02:00:00 - 22/08 | Bari VS Cavese | Serie C - Regular Season",
-      "status": "upcoming",
-      "league": "Serie C - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4799975",
-      "title": "02:00:00 - 22/08 | Calcio Giugliano VS Scafatese | Serie C - Regular Season",
-      "status": "upcoming",
-      "league": "Serie C - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401883224",
-      "title": "02:00:00 - 22/08 | Córdoba VS Girona | Spanish LALIGA 2",
-      "status": "upcoming",
-      "league": "Spanish LALIGA 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4816216",
-      "title": "02:00:00 - 22/08 | Deportivo Capiata VS Guairena FC | Division Intermedia",
-      "status": "upcoming",
-      "league": "Division Intermedia",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4815004",
-      "title": "02:00:00 - 22/08 | FBC Melgar (W) VS Flamengo FBC (W) | Women League - Clausura",
-      "status": "upcoming",
-      "league": "Women League - Clausura",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401892331",
-      "title": "02:00:00 - 22/08 | Monmouth VS Iona | NCAA Men's Soccer",
-      "status": "upcoming",
-      "league": "NCAA Men's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4799973",
-      "title": "02:00:00 - 22/08 | Rossoblu Potenza VS Casarano | Serie C - Regular Season",
-      "status": "upcoming",
-      "league": "Serie C - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633857",
-      "title": "02:00:00 - 22/08 | Shamrock VS Shelbourne | Irish Premier Division",
-      "status": "upcoming",
-      "league": "Irish Premier Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4633856",
-      "title": "02:00:00 - 22/08 | Sligo Rovers VS Waterford FC | Irish Premier Division",
-      "status": "upcoming",
-      "league": "Irish Premier Division",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401885521",
-      "title": "02:00:00 - 22/08 | ST CADOC'S VS Burntisland Shipyard | Scottish Cup Qualifying",
-      "status": "upcoming",
-      "league": "Scottish Cup Qualifying",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4799980",
-      "title": "02:00:00 - 22/08 | Union Brescia VS Carpi | Serie C - Regular Season",
-      "status": "upcoming",
-      "league": "Serie C - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5990808",
-      "title": "02:00:00 - 22/08 | Vado VS Atalanta U23 | Serie C",
-      "status": "upcoming",
-      "league": "Serie C",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4770290",
-      "title": "02:00:00 - 22/08 | Vllaznia VS Skenderbeu | Kategoria Superiore",
-      "status": "upcoming",
-      "league": "Kategoria Superiore",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4732045",
       "title": "02:00:00 - 23/08 | Águilas Doradas VS Millonarios | Liga BetPlay - Clausura",
       "status": "upcoming",
@@ -1489,42 +1372,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4661981",
-      "title": "02:15:00 - 22/08 | Grotta VS IR Reykjavik | Inkasso Deildin",
-      "status": "upcoming",
-      "league": "Inkasso Deildin",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4757992",
-      "title": "02:15:00 - 22/08 | Tondela VS Academica | Liga Portugal 2",
-      "status": "upcoming",
-      "league": "Liga Portugal 2",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5991204",
-      "title": "02:30:00 - 22/08 | AD Fafe VS Vitoria de Guimaraes B | Portuguese Liga 3",
-      "status": "upcoming",
-      "league": "Portuguese Liga 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4820971",
-      "title": "02:30:00 - 22/08 | Amazon Callao FC VS Centro Social de Pariacoto | Liga 3",
-      "status": "upcoming",
-      "league": "Liga 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4751187",
       "title": "02:30:00 - 23/08 | CD Eldense VS Cadiz CF | Spanish LALIGA 2",
       "status": "upcoming",
@@ -1547,6 +1394,24 @@
       "title": "02:30:00 - 23/08 | Sporting CP VS Alverca | Portuguese Primeira Liga",
       "status": "upcoming",
       "league": "Portuguese Primeira Liga",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401886217",
+      "title": "03:00:00 - 22/08 | Alianza Atlético VS Sporting Cristal | Peruvian Liga 1",
+      "status": "upcoming",
+      "league": "Peruvian Liga 1",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401903363",
+      "title": "03:00:00 - 22/08 | Anzoátegui FC VS Trujillanos | Venezuelan Primera División",
+      "status": "upcoming",
+      "league": "Venezuelan Primera División",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1734,7 +1599,7 @@
     {
       "id": "4801909",
       "title": "03:30:00 - 22/08 | Sport Huancayo Reserve VS Estudiantil CNI | Liga 2",
-      "status": "live",
+      "status": "upcoming",
       "league": "Liga 2",
       "candidateCount": 0,
       "providers": [],
@@ -1759,8 +1624,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4664855",
-      "title": "03:30:00 - 23/08 | Cavalry VS Atlético Ottawa | Canadian Premier League",
+      "id": "1000008692",
+      "title": "03:30:00 - 23/08 | Cavalry FC VS Atlético Ottawa | Canadian Premier League",
       "status": "upcoming",
       "league": "Canadian Premier League",
       "candidateCount": 0,
@@ -1849,8 +1714,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5861233",
-      "title": "04:00:00 - 23/08 | Aurora FC VS CD Suchitepequez | Guatemalan Liga Nacional",
+      "id": "4744318",
+      "title": "04:00:00 - 23/08 | Aurora FC VS Suchitepequez | Guatemalan Liga Nacional",
       "status": "upcoming",
       "league": "Guatemalan Liga Nacional",
       "candidateCount": 0,
@@ -2020,18 +1885,9 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5114004",
-      "title": "05:00:00 - 22/08 | Brown de Adrogue VS CD UAI Urquiza | Argentine Primera B",
-      "status": "upcoming",
-      "league": "Argentine Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4644048",
       "title": "05:00:00 - 22/08 | Dep. Madryn VS Mitre SdE | Primera Nacional",
-      "status": "upcoming",
+      "status": "live",
       "league": "Primera Nacional",
       "candidateCount": 0,
       "providers": [],
@@ -2040,35 +1896,8 @@
     {
       "id": "401898329",
       "title": "05:00:00 - 22/08 | Fairleigh Dickinson VS Saint Peter's | NCAA Men's Soccer",
-      "status": "upcoming",
+      "status": "live",
       "league": "NCAA Men's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5114011",
-      "title": "05:00:00 - 22/08 | Laferrere VS Villa Dalmine | Argentine Primera B",
-      "status": "upcoming",
-      "league": "Argentine Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909161",
-      "title": "05:00:00 - 22/08 | Liverpool VS Cerro | Liga AUF Uruguaya",
-      "status": "upcoming",
-      "league": "Liga AUF Uruguaya",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4791904",
-      "title": "05:00:00 - 22/08 | Moca VS Vega Real | Liga Mayor - Apertura",
-      "status": "upcoming",
-      "league": "Liga Mayor - Apertura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2076,17 +1905,8 @@
     {
       "id": "401900049",
       "title": "05:00:00 - 22/08 | New Haven VS Monroe (NY) | NCAA Women's Soccer",
-      "status": "upcoming",
+      "status": "live",
       "league": "NCAA Women's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6029558",
-      "title": "05:00:00 - 22/08 | Plaza Colonia VS Colon | Uruguayan Segunda Division Profesional",
-      "status": "upcoming",
-      "league": "Uruguayan Segunda Division Profesional",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2123,15 +1943,6 @@
       "title": "05:00:00 - 25/08 | Leones VS Real Cartagena | Colombian Primera B",
       "status": "upcoming",
       "league": "Colombian Primera B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000019016",
-      "title": "05:30:00 - 22/08 | The Strongest VS Universitario de Vinto | Bolivian Primera Division",
-      "status": "upcoming",
-      "league": "Bolivian Primera Division",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2569,8 +2380,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401906501",
-      "title": "07:30:00 - 22/08 | Oriente Petrolero VS San Antonio Bulo Bulo | Bolivian Primera Division",
+      "id": "4806265",
+      "title": "07:30:00 - 22/08 | Oriente Petrolero VS San Antonio | Bolivian Primera Division",
       "status": "upcoming",
       "league": "Bolivian Primera Division",
       "candidateCount": 0,
@@ -3532,10 +3343,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401875177",
-      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | German Cup",
+      "id": "4733027",
+      "title": "18:00:00 - 22/08 | Energie Cottbus VS FC Augsburg | DFB-Pokal - 1st Round",
       "status": "upcoming",
-      "league": "German Cup",
+      "league": "DFB-Pokal - 1st Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -4702,7 +4513,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4750283",
+      "id": "5874955",
       "title": "20:30:00 - 22/08 | Rapid Wien II VS Floridsdorfer AC | 2. Liga",
       "status": "upcoming",
       "league": "2. Liga",
@@ -8617,8 +8428,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5987502",
-      "title": "23:45:00 - 22/08 | Zira VS Imisli FK | Premier League",
+      "id": "4788389",
+      "title": "23:45:00 - 22/08 | Zira FK VS Imisli Fk | Premier League",
       "status": "upcoming",
       "league": "Premier League",
       "candidateCount": 0,
