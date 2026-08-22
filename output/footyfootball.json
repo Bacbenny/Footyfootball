@@ -1,307 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 367,
+  "count": 227,
   "matches": [
-    {
-      "id": "4784721",
-      "title": "15:00:00 - 22/08 | Gloria Popești-Leordeni VS FCM Resita | Liga 2 - Regular Season",
-      "league": "Liga 2 - Regular Season",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4784721/gloria-popesti-leordeni-fcm-resita/regular/1"
-    },
-    {
-      "id": "4784723",
-      "title": "15:00:00 - 22/08 | CSM Slatina VS Metalul Buzau | Liga 2 - Regular Season",
-      "league": "Liga 2 - Regular Season",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4784723/csm-slatina-metalul-buzau/regular/1"
-    },
-    {
-      "id": "4784725",
-      "title": "15:00:00 - 22/08 | Ştefăneşti VS Cetatea | Liga 2 - Regular Season",
-      "league": "Liga 2 - Regular Season",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4784725/stefanesti-cetatea/regular/1"
-    },
-    {
-      "id": "5836236",
-      "title": "15:00:00 - 22/08 | Vanraure Hachinohe VS Vegalta Sendai | Japanese J.League 2",
-      "league": "Japanese J.League 2",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4740158/vanraure-hachinohe-vegalta-sendai/regular/1"
-    },
-    {
-      "id": "5976853",
-      "title": "15:00:00 - 22/08 | ASA Targu Mures VS Gloria Bistrita | Romanian Liga II",
-      "league": "Romanian Liga II",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4784719/targu-mures-gloria-bistrita/regular/1"
-    },
-    {
-      "id": "5976851",
-      "title": "15:00:00 - 22/08 | Concordia Chiajna VS ASU Politehnica Timisoara | Romanian Liga II",
-      "league": "Romanian Liga II",
-      "status": "live",
-      "kickoff": "2026-08-22T08:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4784717/concordia-chiajna-asu-poli/regular/1"
-    },
-    {
-      "id": "401912676",
-      "title": "15:30:00 - 22/08 | RANS Nusantara VS Arema Indonesia | Club Friendlies",
-      "league": "Club Friendlies",
-      "status": "live",
-      "kickoff": "2026-08-22T08:30:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/401912676/rans-nusantara-arema-indonesia/regular/1"
-    },
-    {
-      "id": "5836228",
-      "title": "16:00:00 - 22/08 | Blaublitz Akita VS Ventforet Kofu | Japanese J.League 2",
-      "league": "Japanese J.League 2",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4740156/blaublitz-akita-kofu/regular/1"
-    },
-    {
-      "id": "4667022",
-      "title": "16:00:00 - 22/08 | Yangpyeong VS Gyeongju H&N | K3 League",
-      "league": "K3 League",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4667022/yangpyeong-gyeongju-h-n/regular/1"
-    },
-    {
-      "id": "4668020",
-      "title": "16:00:00 - 22/08 | Dangjin Citizen VS Yeoju FC | K3 League",
-      "league": "K3 League",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4668020/dangjin-citizen-yeoju-fc/regular/1"
-    },
-    {
-      "id": "4739688",
-      "title": "16:00:00 - 22/08 | Kashima Antlers VS Fukuoka | Japanese J.League",
-      "league": "Japanese J.League",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4739688/kashima-antlers-fukuoka/regular/1"
-    },
-    {
-      "id": "5987108",
-      "title": "16:00:00 - 22/08 | FC Osaka VS FC Ryukyu | Japanese J.League 3",
-      "league": "Japanese J.League 3",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/5987108/fc-osaka-fc-ryukyu/regular/1"
-    },
-    {
-      "id": "5987109",
-      "title": "16:00:00 - 22/08 | Matsumoto Yamaga VS Ehime FC | Japanese J.League 3",
-      "league": "Japanese J.League 3",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/5987109/matsumoto-yamaga-ehime-fc/regular/1"
-    },
-    {
-      "id": "5987107",
-      "title": "16:00:00 - 22/08 | Nara Club VS Renofa Yamaguchi | Japanese J.League 3",
-      "league": "Japanese J.League 3",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/5987107/nara-club-renofa-yamaguchi/regular/1"
-    },
-    {
-      "id": "1000015895",
-      "title": "16:00:00 - 22/08 | Nojima Stella VS AS Elfen Saitama | WE League",
-      "league": "WE League",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/1000015895/nojima-stella-as-elfen-saitama/regular/1"
-    },
-    {
-      "id": "1000015897",
-      "title": "16:00:00 - 22/08 | INAC Kobe Leonessa VS Sanfrecce Hiroshima Regina | WE League",
-      "league": "WE League",
-      "status": "live",
-      "kickoff": "2026-08-22T09:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/1000015897/inac-kobe-leonessa-sanfrecce-hiroshima-regina/regular/1"
-    },
-    {
-      "id": "6022195",
-      "title": "17:00:00 - 22/08 | Crystal Palace U18 VS Southampton U18 | Premier League U18",
-      "league": "Premier League U18",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T10:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-everton-vs-crystal-palace/1"
-    },
-    {
-      "id": "6022193",
-      "title": "17:00:00 - 22/08 | Man United U18 VS Man City U18 | Premier League U18",
-      "league": "Premier League U18",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T10:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-hull-city-vs-manchester-united/1"
-    },
-    {
-      "id": "6022202",
-      "title": "18:00:00 - 22/08 | Fulham U18 VS Aston Villa U18 | Premier League U18",
-      "league": "Premier League U18",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-aston-villa/1"
-    },
-    {
-      "id": "5795364",
-      "title": "18:30:00 - 22/08 | Hull VS Man United | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/456/1"
-    },
-    {
-      "id": "5836769",
-      "title": "18:30:00 - 22/08 | Lincoln VS Portsmouth | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/523/1"
-    },
-    {
-      "id": "5836766",
-      "title": "18:30:00 - 22/08 | Birmingham VS Bristol City | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-birmingham-city-vs-bristol-city/1"
-    },
-    {
-      "id": "401880324",
-      "title": "18:30:00 - 22/08 | Millwall VS Norwich City | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_championship_millwall-norwich-live-streaming-607235184/1"
-    },
-    {
-      "id": "5906387",
-      "title": "18:30:00 - 22/08 | Kidderminster Harriers VS Aldershot Town | English National League",
-      "league": "English National League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-kidderminster-harriers-vs-aldershot-town/1"
-    },
-    {
-      "id": "5906385",
-      "title": "18:30:00 - 22/08 | Forest Green VS Boreham Wood | English National League",
-      "league": "English National League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-boreham-wood/1"
-    },
     {
       "id": "sm-kidderminster-harriers-vs-aldershot-town-2528192",
       "title": "18:30:00 - 22/08 | Kidderminster Harriers VS Aldershot Town | Football",
@@ -368,174 +68,6 @@
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_premier-league_hull-man-utd-live-streaming-607224384/1"
-    },
-    {
-      "id": "4808049",
-      "title": "19:00:00 - 22/08 | Arsenal U21 VS Crystal Palace U21 | Premier League 2",
-      "league": "Premier League 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T12:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-everton-vs-crystal-palace/1"
-    },
-    {
-      "id": "6022196",
-      "title": "19:00:00 - 22/08 | Reading U18 VS West Ham U18 | Premier League U18",
-      "league": "Premier League U18",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T12:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/525/1"
-    },
-    {
-      "id": "4807662",
-      "title": "21:00:00 - 22/08 | Stabaek (W) VS Bodo Glimt (W) | Toppserien Women",
-      "league": "Toppserien Women",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-bodo-glimt-vs-nec-nijmegen/1"
-    },
-    {
-      "id": "5837878",
-      "title": "21:00:00 - 22/08 | Rotherham VS York City | English League Two",
-      "league": "English League Two",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
-    },
-    {
-      "id": "1000016961",
-      "title": "21:00:00 - 22/08 | Musselburgh Athletic VS Bo'ness United | Lowland League East",
-      "league": "Lowland League East",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-west-ham-united-vs-charlton-athletic/1"
-    },
-    {
-      "id": "5949203",
-      "title": "21:00:00 - 22/08 | FC United of Manchester VS Workington | Non League Premier",
-      "league": "Non League Premier",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_premier-league_hull-man-utd-live-streaming-607224384/1"
-    },
-    {
-      "id": "401880327",
-      "title": "21:00:00 - 22/08 | Blackburn Rovers VS Middlesbrough | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/527/1"
-    },
-    {
-      "id": "4741714",
-      "title": "21:00:00 - 22/08 | Everton VS Crystal Palace | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-everton-vs-crystal-palace/1"
-    },
-    {
-      "id": "4741715",
-      "title": "21:00:00 - 22/08 | Ipswich VS Sunderland | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-ipswich-town-vs-sunderland/1"
-    },
-    {
-      "id": "4741716",
-      "title": "21:00:00 - 22/08 | Nottingham Forest VS Leeds United | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/459/1"
-    },
-    {
-      "id": "5836776",
-      "title": "21:00:00 - 22/08 | West Ham VS Charlton | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/525/1"
-    },
-    {
-      "id": "401880317",
-      "title": "21:00:00 - 22/08 | Wrexham VS Watford | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-wrexham-vs-watford/1"
-    },
-    {
-      "id": "4809943",
-      "title": "21:00:00 - 22/08 | Ipswich Wanderers VS March Town United | FA Cup - Qualifying Rounds - Preliminary Round",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/458/1"
-    },
-    {
-      "id": "401880320",
-      "title": "21:00:00 - 22/08 | Swansea City VS Sheffield United | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
@@ -627,78 +159,6 @@
       "url": "https://embed.st/embed/admin/ppv-everton-vs-crystal-palace/1"
     },
     {
-      "id": "4744756",
-      "title": "21:30:00 - 22/08 | Baník Lehota P.Vtáčnikom VS Slovan Bratislava B | MONACObet LIGA",
-      "league": "MONACObet LIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
-    },
-    {
-      "id": "4759877",
-      "title": "22:00:00 - 22/08 | León U21 VS Monterrey U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-le-n-vs-monterrey/1"
-    },
-    {
-      "id": "4750900",
-      "title": "22:00:00 - 22/08 | Athletic Bilbao VS Sevilla | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-athletic-club-vs-sevilla/1"
-    },
-    {
-      "id": "4759874",
-      "title": "22:00:00 - 22/08 | Cruz Azul U21 VS Atlas U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-atlas/1"
-    },
-    {
-      "id": "4759878",
-      "title": "22:00:00 - 22/08 | Guadalajara U21 VS Tijuana U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-guadalajara-vs-tijuana/1"
-    },
-    {
-      "id": "4759881",
-      "title": "22:00:00 - 22/08 | Puebla U21 VS Santos Laguna U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
-    },
-    {
       "id": "sm-athletic-bilbao-vs-sevilla-2506180",
       "title": "22:00:00 - 22/08 | Athletic Bilbao VS Sevilla | Football",
       "league": "Football",
@@ -709,18 +169,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-athletic-club-vs-sevilla/1"
-    },
-    {
-      "id": "401876490",
-      "title": "22:15:00 - 22/08 | Lens VS AJ Auxerre | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:15:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lens-vs-aj-auxerre/1"
     },
     {
       "id": "sm-lens-vs-auxerre-2489469",
@@ -735,18 +183,6 @@
       "url": "https://embed.st/embed/admin/ppv-lens-vs-aj-auxerre/1"
     },
     {
-      "id": "1000017208",
-      "title": "23:00:00 - 22/08 | Sport Huancayo VS Club Deportivo Moquegua | Liga 1",
-      "league": "Liga 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "sm-ppv-goal-rush",
       "title": "23:00:00 - 22/08 | Goal Rush VS  | Football",
       "league": "Football",
@@ -759,30 +195,6 @@
       "url": "https://embed.st/embed/admin/ppv-goal-rush/1"
     },
     {
-      "id": "4732358",
-      "title": "23:30:00 - 22/08 | Udinese VS Como | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-udinese-vs-como/1"
-    },
-    {
-      "id": "401879321",
-      "title": "23:30:00 - 22/08 | Brentford VS Tottenham Hotspur | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brentford-vs-tottenham-hotspur/1"
-    },
-    {
       "id": "sm-brentford-vs-tottenham-hotspur-2494005",
       "title": "23:30:00 - 22/08 | Brentford VS Tottenham Hotspur | Football",
       "league": "Football",
@@ -792,7 +204,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brentford-vs-tottenham-hotspur/1"
+      "url": "https://embed.st/embed/golf/460/1"
     },
     {
       "id": "sm-inter-milan-vs-monza-2482144",
@@ -819,54 +231,6 @@
       "url": "https://embed.st/embed/admin/ppv-udinese-vs-como/1"
     },
     {
-      "id": "4738520",
-      "title": "00:00:00 - 23/08 | Bijelo Brdo VS Dinamo Zagreb II | Division 2",
-      "league": "Division 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-viking-fk-vs-dinamo-zagreb/1"
-    },
-    {
-      "id": "4659111",
-      "title": "00:00:00 - 23/08 | Atlanta United II VS Orlando City B | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-orlando-city-sc-vs-real-salt-lake/1"
-    },
-    {
-      "id": "5943225",
-      "title": "00:00:00 - 23/08 | AEK Athens VS Iraklis | Greek Super League",
-      "league": "Greek Super League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
-    },
-    {
-      "id": "401882907",
-      "title": "00:30:00 - 23/08 | Valencia VS Celta Vigo | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-valencia-vs-celta-vigo/1"
-    },
-    {
       "id": "sm-valencia-vs-celta-vigo-2506181",
       "title": "00:30:00 - 23/08 | Valencia VS Celta Vigo | Football",
       "league": "Football",
@@ -879,78 +243,6 @@
       "url": "https://embed.st/embed/admin/ppv-valencia-vs-celta-vigo/1"
     },
     {
-      "id": "5781720",
-      "title": "01:00:00 - 23/08 | NEC Nijmegen VS Excelsior | Dutch Eredivisie",
-      "league": "Dutch Eredivisie",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-bodo-glimt-vs-nec-nijmegen/1"
-    },
-    {
-      "id": "1000011228",
-      "title": "01:00:00 - 23/08 | Santo Andre VS EC Sao Bernardo | Copa Paulista",
-      "league": "Copa Paulista",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4733596",
-      "title": "01:15:00 - 23/08 | Levski Sofia VS Spartak Varna | First Professional League",
-      "league": "First Professional League",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:15:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
-    },
-    {
-      "id": "401873679",
-      "title": "01:30:00 - 23/08 | Borussia Dortmund VS Bayern München | German Supercup",
-      "league": "German Supercup",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_super-cup_dortmund-bayern-live-streaming-607968288/1"
-    },
-    {
-      "id": "4735871",
-      "title": "01:30:00 - 23/08 | FC Kosice VS Slovan Bratislava | Niké liga",
-      "league": "Niké liga",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
-    },
-    {
-      "id": "4762409",
-      "title": "01:30:00 - 23/08 | São Luís Atlético Clube VS Tupy Jussara | Goiano 2",
-      "league": "Goiano 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "sm-borussia-dortmund-vs-bayern-munich-2520320",
       "title": "01:30:00 - 23/08 | Borussia Dortmund VS Bayern Munich | Football",
       "league": "Football",
@@ -961,78 +253,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/delta/live_super-cup_dortmund-bayern-live-streaming-607968288/1"
-    },
-    {
-      "id": "401876485",
-      "title": "01:45:00 - 23/08 | Troyes VS Paris FC | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-troyes-vs-paris-fc/1"
-    },
-    {
-      "id": "4732355",
-      "title": "01:45:00 - 23/08 | Parma VS Cagliari | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-parma-vs-cagliari/1"
-    },
-    {
-      "id": "5749644",
-      "title": "01:45:00 - 23/08 | Genoa VS Napoli | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-genoa-vs-napoli/1"
-    },
-    {
-      "id": "401876488",
-      "title": "01:45:00 - 23/08 | Nice VS Lorient | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nice-vs-lorient/1"
-    },
-    {
-      "id": "401876491",
-      "title": "01:45:00 - 23/08 | Le Mans VS Brest | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-le-mans-vs-brest/1"
-    },
-    {
-      "id": "401876486",
-      "title": "01:45:00 - 23/08 | Toulouse VS Lyon | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-toulouse-vs-lyon/1"
     },
     {
       "id": "sm-le-mans-vs-brest-2489470",
@@ -1107,42 +327,6 @@
       "url": "https://embed.st/embed/admin/ppv-genoa-vs-napoli/1"
     },
     {
-      "id": "4732329",
-      "title": "02:00:00 - 23/08 | Dinamo Zagreb VS NK Varaždin | HNL",
-      "league": "HNL",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-viking-fk-vs-dinamo-zagreb/1"
-    },
-    {
-      "id": "4806266",
-      "title": "02:00:00 - 23/08 | Academia del Balompie VS GV San Jose | Bolivian Primera Division",
-      "league": "Bolivian Primera Division",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-minnesota-united-fc/1"
-    },
-    {
-      "id": "4750896",
-      "title": "02:30:00 - 23/08 | Espanyol VS Real Madrid | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T19:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-espanyol-vs-real-madrid/1"
-    },
-    {
       "id": "sm-espanyol-vs-real-madrid-2506183",
       "title": "02:30:00 - 23/08 | Espanyol VS Real Madrid | Football",
       "league": "Football",
@@ -1155,83 +339,11 @@
       "url": "https://embed.st/embed/admin/ppv-espanyol-vs-real-madrid/1"
     },
     {
-      "id": "401912539",
-      "title": "03:00:00 - 23/08 | CD Extremadura VS Atlético Madrid B | Club Friendlies",
-      "league": "Club Friendlies",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T20:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-madrid-vs-villarreal/1"
-    },
-    {
-      "id": "4658965",
-      "title": "04:00:00 - 23/08 | América Mineiro (W) VS RB Bragantino (W) | Brasileirão Women",
-      "league": "Brasileirão Women",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4660873",
-      "title": "04:00:00 - 23/08 | Flamengo (W) VS Atlético Mineiro (W) | Brasileirão Women",
-      "league": "Brasileirão Women",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "1000007724",
-      "title": "04:00:00 - 23/08 | New York City FC II VS New England Revolution II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
-    },
-    {
-      "id": "4669856",
-      "title": "04:00:00 - 23/08 | Ceara VS Londrina | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "cdn-2431398",
       "title": "04:00:00 - 23/08 | Ceará VS Londrina | Brazilian Serie B",
       "league": "Brazilian Serie B",
       "status": "upcoming",
       "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4669145",
-      "title": "04:30:00 - 23/08 | Cuiabá VS Goias | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
       "resolution": "embed",
@@ -1251,30 +363,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "401853978",
-      "title": "05:30:00 - 23/08 | Kansas City Current VS Seattle Reign FC | NWSL",
-      "league": "NWSL",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T22:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-sporting-kansas-city/1"
-    },
-    {
-      "id": "4712198",
-      "title": "06:00:00 - 23/08 | Chattanooga Red Wolves VS New York Cosmos | USL League One",
-      "league": "USL League One",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
-    },
-    {
       "id": "sm-ppv-quer-taro-vs-toluca",
       "title": "06:00:00 - 23/08 | Querétaro VS Toluca | Football",
       "league": "Football",
@@ -1287,18 +375,6 @@
       "url": "https://embed.st/embed/admin/ppv-quer-taro-vs-toluca/1"
     },
     {
-      "id": "4788419",
-      "title": "06:06:00 - 23/08 | Juárez (W) VS Santos Laguna (W) | Liga Femenil BBVA - Apertura",
-      "league": "Liga Femenil BBVA - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:06:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
-    },
-    {
       "id": "sm-cd-guadalajara-vs-tijuana-2487490",
       "title": "06:07:00 - 23/08 | CD Guadalajara VS Tijuana | Football",
       "league": "Football",
@@ -1309,78 +385,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-guadalajara-vs-tijuana/1"
-    },
-    {
-      "id": "4621426",
-      "title": "06:30:00 - 23/08 | Inter Miami VS Toronto FC | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-toronto-fc/1"
-    },
-    {
-      "id": "5071292",
-      "title": "06:30:00 - 23/08 | Cincinnati VS Seattle Sounders | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fc-cincinnati-vs-seattle-sounders-fc/1"
-    },
-    {
-      "id": "761744",
-      "title": "06:30:00 - 23/08 | Red Bull New York VS Chicago Fire FC | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
-    },
-    {
-      "id": "761741",
-      "title": "06:30:00 - 23/08 | Charlotte FC VS D.C. United | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-charlotte-fc-vs-d-c-united/1"
-    },
-    {
-      "id": "5071296",
-      "title": "06:30:00 - 23/08 | Orlando VS Salt Lake | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-orlando-city-sc-vs-real-salt-lake/1"
-    },
-    {
-      "id": "4621424",
-      "title": "06:30:00 - 23/08 | CF Montréal VS Los Angeles Galaxy | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-charlotte-fc-vs-dc-united-2407013",
@@ -1467,54 +471,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "5977322",
-      "title": "07:00:00 - 23/08 | Cruz Azul (W) VS Tigres (W) | Liga MX Femenil Apertura",
-      "league": "Liga MX Femenil Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-atlas/1"
-    },
-    {
-      "id": "5071302",
-      "title": "07:30:00 - 23/08 | St. Louis City VS Houston | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-st-louis-city-sc-vs-houston-dynamo-fc/1"
-    },
-    {
-      "id": "761746",
-      "title": "07:30:00 - 23/08 | Nashville SC VS Columbus Crew | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-columbus-crew/1"
-    },
-    {
-      "id": "5071297",
-      "title": "07:30:00 - 23/08 | Austin FC VS Philadelphia | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-philadelphia-union/1"
-    },
-    {
       "id": "sm-st--louis-city-sc-vs-houston-dynamo-2407016",
       "title": "07:30:00 - 23/08 | St. Louis City SC VS Houston Dynamo | Football",
       "league": "Football",
@@ -1551,42 +507,6 @@
       "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-columbus-crew/1"
     },
     {
-      "id": "1000007728",
-      "title": "07:45:00 - 23/08 | North Texas SC VS Minnesota United 2 | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-minnesota-united-fc/1"
-    },
-    {
-      "id": "401877009",
-      "title": "08:00:00 - 23/08 | Puebla VS Santos | Mexican Liga BBVA MX",
-      "league": "Mexican Liga BBVA MX",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
-    },
-    {
-      "id": "5113427",
-      "title": "08:00:00 - 23/08 | Central Norte VS Club Atlético Estudiantes | Primera Nacional",
-      "league": "Primera Nacional",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "sm-ppv-le-n-vs-monterrey",
       "title": "08:00:00 - 23/08 | León VS Monterrey | Football",
       "league": "Football",
@@ -1611,42 +531,6 @@
       "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
     },
     {
-      "id": "5977321",
-      "title": "08:06:00 - 23/08 | FC Juarez (W) VS Santos Laguna (W) | Liga MX Femenil Apertura",
-      "league": "Liga MX Femenil Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:06:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
-    },
-    {
-      "id": "5071303",
-      "title": "08:30:00 - 23/08 | Vancouver VS Dallas | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-vancouver-whitecaps-vs-fc-dallas/1"
-    },
-    {
-      "id": "5954312",
-      "title": "08:30:00 - 23/08 | Veraguas United VS San Francisco FC | LPF Apertura",
-      "league": "LPF Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-minnesota-united-fc/1"
-    },
-    {
       "id": "sm-vancouver-whitecaps-vs-fc-dallas-2407017",
       "title": "08:30:00 - 23/08 | Vancouver Whitecaps VS FC Dallas | Football",
       "league": "Football",
@@ -1657,54 +541,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-vancouver-whitecaps-vs-fc-dallas/1"
-    },
-    {
-      "id": "5833774",
-      "title": "09:00:00 - 23/08 | Club Sport Herediano VS Sporting FC | Costa Rican Primera Division",
-      "league": "Costa Rican Primera Division",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T02:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "761750",
-      "title": "09:30:00 - 23/08 | San Diego FC VS Colorado Rapids | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T02:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-san-diego-fc-vs-colorado-rapids/1"
-    },
-    {
-      "id": "761752",
-      "title": "09:30:00 - 23/08 | San Jose Earthquakes VS Minnesota United FC | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T02:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-minnesota-united-fc/1"
-    },
-    {
-      "id": "761751",
-      "title": "09:30:00 - 23/08 | LAFC VS Portland Timbers | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T02:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lafc-vs-portland-timbers/1"
     },
     {
       "id": "sm-ppv-lafc-vs-portland-timbers",
@@ -1743,18 +579,6 @@
       "url": "https://embed.st/embed/admin/ppv-san-diego-fc-vs-colorado-rapids/1"
     },
     {
-      "id": "401877003",
-      "title": "10:00:00 - 23/08 | Cruz Azul VS Atlas | Mexican Liga BBVA MX",
-      "league": "Mexican Liga BBVA MX",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T03:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-atlas/1"
-    },
-    {
       "id": "sm-cruz-azul-vs-atlas-2487494",
       "title": "10:00:00 - 23/08 | Cruz Azul VS Atlas | Football",
       "league": "Football",
@@ -1767,30 +591,6 @@
       "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-atlas/1"
     },
     {
-      "id": "401880319",
-      "title": "18:00:00 - 23/08 | West Bromwich Albion VS Burnley | English League Championship",
-      "league": "English League Championship",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T11:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
-    },
-    {
-      "id": "1000019093",
-      "title": "18:00:00 - 23/08 | Middlesbrough U21 VS Norwich City U21 | Premier League 2",
-      "league": "Premier League 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T11:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_championship_millwall-norwich-live-streaming-607235184/1"
-    },
-    {
       "id": "sm-west-bromwich-albion-vs-burnley-2501266",
       "title": "18:00:00 - 23/08 | West Bromwich Albion VS Burnley | Football",
       "league": "Football",
@@ -1801,54 +601,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
-    },
-    {
-      "id": "4808047",
-      "title": "19:00:00 - 23/08 | Leeds United U21 VS West Bromwich Albion U21 | Premier League 2",
-      "league": "Premier League 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T12:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_championship_west-ham-charlton-live-streaming-607998960/1"
-    },
-    {
-      "id": "4741718",
-      "title": "20:00:00 - 23/08 | Brighton VS Aston Villa | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T13:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-aston-villa/1"
-    },
-    {
-      "id": "5802901",
-      "title": "20:00:00 - 23/08 | Angers VS Lille | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T13:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-angers-vs-lille/1"
-    },
-    {
-      "id": "401879320",
-      "title": "20:00:00 - 23/08 | Manchester City VS AFC Bournemouth | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T13:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_premier-league_hull-man-utd-live-streaming-607224384/1"
     },
     {
       "id": "sm-brighton-and-hove-albion-vs-aston-villa-2494007",
@@ -1887,54 +639,6 @@
       "url": "https://embed.st/embed/admin/ppv-angers-vs-lille/1"
     },
     {
-      "id": "4749196",
-      "title": "21:45:00 - 23/08 | Genoa U19 VS Inter Milan U19 | Primavera 1",
-      "league": "Primavera 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T14:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-milan-vs-monza/1"
-    },
-    {
-      "id": "401882915",
-      "title": "22:00:00 - 23/08 | Atlético de Madrid VS Villarreal | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-madrid-vs-villarreal/1"
-    },
-    {
-      "id": "4759875",
-      "title": "22:00:00 - 23/08 | Atlético San Luis U21 VS Pachuca U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
-      "id": "4759873",
-      "title": "22:00:00 - 23/08 | Pumas UNAM U21 VS Necaxa U21 | Liga MX U21 - Apertura",
-      "league": "Liga MX U21 - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-necaxa/1"
-    },
-    {
       "id": "sm-atl-tico-madrid-vs-villarreal-2506179",
       "title": "22:00:00 - 23/08 | Atlético Madrid VS Villarreal | Football",
       "league": "Football",
@@ -1945,18 +649,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-atl-tico-madrid-vs-villarreal/1"
-    },
-    {
-      "id": "5802902",
-      "title": "22:15:00 - 23/08 | Le Havre VS Monaco | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T15:15:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-le-havre-ac-vs-as-monaco/1"
     },
     {
       "id": "sm-le-havre-vs-monaco-2489468",
@@ -1971,18 +663,6 @@
       "url": "https://embed.st/embed/admin/ppv-le-havre-ac-vs-as-monaco/1"
     },
     {
-      "id": "401879319",
-      "title": "22:30:00 - 23/08 | Newcastle United VS Liverpool | English Premier League",
-      "league": "English Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T15:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-newcastle-united-vs-liverpool/1"
-    },
-    {
       "id": "sm-newcastle-united-vs-liverpool-2494008",
       "title": "22:30:00 - 23/08 | Newcastle United VS Liverpool | Football",
       "league": "Football",
@@ -1992,43 +672,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-newcastle-united-vs-liverpool/1"
-    },
-    {
-      "id": "4799977",
-      "title": "23:00:00 - 23/08 | Catania VS Inter Milan U23 | Serie C - Regular Season",
-      "league": "Serie C - Regular Season",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T16:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-milan-vs-monza/1"
-    },
-    {
-      "id": "401874930",
-      "title": "23:30:00 - 23/08 | Frosinone VS Juventus | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-frosinone-vs-juventus/1"
-    },
-    {
-      "id": "4732359",
-      "title": "23:30:00 - 23/08 | Venezia VS Lecce | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-venezia-vs-lecce/1"
+      "url": "https://embed.st/embed/golf/463/1"
     },
     {
       "id": "sm-venezia-vs-lecce-2482146",
@@ -2055,30 +699,6 @@
       "url": "https://embed.st/embed/admin/ppv-frosinone-vs-juventus/1"
     },
     {
-      "id": "4820554",
-      "title": "00:00:00 - 24/08 | Atlético Balboa (Reserves) VS Fuerte San Francisco Reserves | Torneo Reservas - Apertura",
-      "league": "Torneo Reservas - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
-      "id": "5868026",
-      "title": "00:30:00 - 24/08 | Getafe VS Racing Santander | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-getafe-vs-racing-santander/1"
-    },
-    {
       "id": "sm-getafe-vs-racing-de-santander-2506185",
       "title": "00:30:00 - 24/08 | Getafe VS Racing de Santander | Football",
       "league": "Football",
@@ -2089,66 +709,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-getafe-vs-racing-santander/1"
-    },
-    {
-      "id": "4797218",
-      "title": "01:00:00 - 24/08 | Deportivo Rincón VS Juventud Unida San Luis | Federal A Relegation Zona B",
-      "league": "Federal A Relegation Zona B",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
-      "id": "4788421",
-      "title": "01:00:00 - 24/08 | Puebla (W) VS Atlético San Luis (W) | Liga MX Femenil - Apertura",
-      "league": "Liga MX Femenil - Apertura",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
-      "id": "4732357",
-      "title": "01:45:00 - 24/08 | Torino VS AC Milan | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-torino-vs-ac-milan/1"
-    },
-    {
-      "id": "4732350",
-      "title": "01:45:00 - 24/08 | Atalanta VS Sassuolo | Italian Serie A",
-      "league": "Italian Serie A",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atalanta-vs-sassuolo/1"
-    },
-    {
-      "id": "401876487",
-      "title": "01:45:00 - 24/08 | Stade Rennais VS Paris Saint-Germain | French Ligue 1",
-      "league": "French Ligue 1",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-paris-saint-germain-vs-stade-rennais/1"
     },
     {
       "id": "sm-paris-saint-germain-vs-rennes-2489465",
@@ -2187,54 +747,6 @@
       "url": "https://embed.st/embed/admin/ppv-atalanta-vs-sassuolo/1"
     },
     {
-      "id": "5190669",
-      "title": "02:00:00 - 24/08 | Ponte Preta VS Avaí | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "1000008073",
-      "title": "02:00:00 - 24/08 | Philadelphia Union II VS Connecticut United | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-philadelphia-union/1"
-    },
-    {
-      "id": "1000014100",
-      "title": "02:00:00 - 24/08 | Fortaleza FC VS Atletico Nacional | Primera A",
-      "league": "Primera A",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "5190670",
-      "title": "02:00:00 - 24/08 | São Bernardo VS Náutico | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "cdn-2431403",
       "title": "02:00:00 - 24/08 | Ponte Preta VS Avaí | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -2259,30 +771,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "4750898",
-      "title": "02:30:00 - 24/08 | Elche VS FC Barcelona | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
-    },
-    {
-      "id": "4820428",
-      "title": "02:30:00 - 24/08 | Club Atletico Barinas VS Ureña SC | Liga FUTVE 2",
-      "league": "Liga FUTVE 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T19:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
       "id": "sm-elche-vs-barcelona-2506188",
       "title": "02:30:00 - 24/08 | Elche VS Barcelona | Football",
       "league": "Football",
@@ -2293,42 +781,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
-    },
-    {
-      "id": "4659107",
-      "title": "03:00:00 - 24/08 | Chicago Fire II VS Inter Miami II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T20:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
-    },
-    {
-      "id": "4665213",
-      "title": "03:00:00 - 24/08 | Inter Toronto FC VS Supra du Québec | Canadian Premier League",
-      "league": "Canadian Premier League",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T20:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-toronto-fc/1"
-    },
-    {
-      "id": "761753",
-      "title": "03:30:00 - 24/08 | New England Revolution VS New York City FC | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T20:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
     },
     {
       "id": "sm-new-england-revolution-vs-new-york-city-fc-2407021",
@@ -2343,47 +795,11 @@
       "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
     },
     {
-      "id": "5190672",
-      "title": "04:00:00 - 24/08 | Operário VS Vila Nova | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4783870",
-      "title": "04:00:00 - 24/08 | Atlético Balboa VS Fuerte San Francisco | Salvadoran Primera Division",
-      "league": "Salvadoran Primera Division",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
       "id": "cdn-2431402",
       "title": "04:00:00 - 24/08 | Operário Ferroviário VS Vila Nova | Brazilian Serie B",
       "league": "Brazilian Serie B",
       "status": "upcoming",
       "kickoff": "2026-08-23T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "5190675",
-      "title": "04:30:00 - 24/08 | Criciúma VS Fortaleza | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T21:30:00.000Z",
       "quality": "HD",
       "provider": "cdnlive",
       "resolution": "embed",
@@ -2401,78 +817,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4659104",
-      "title": "06:00:00 - 24/08 | Huntsville VS Columbus Crew II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-columbus-crew/1"
-    },
-    {
-      "id": "761754",
-      "title": "06:00:00 - 24/08 | Atlanta United FC VS Sporting Kansas City | MLS",
-      "league": "MLS",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/456/1"
-    },
-    {
-      "id": "4735720",
-      "title": "06:00:00 - 24/08 | Atlético San Luis VS Pachuca | Mexican Liga BBVA MX",
-      "league": "Mexican Liga BBVA MX",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
-    },
-    {
-      "id": "1000007733",
-      "title": "06:00:00 - 24/08 | Red Bull New York  II VS Toronto FC II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
-    },
-    {
-      "id": "4659106",
-      "title": "06:00:00 - 24/08 | Ventura County FC VS Portland Timbers II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lafc-vs-portland-timbers/1"
-    },
-    {
-      "id": "4659101",
-      "title": "06:00:00 - 24/08 | St. Louis City II VS Houston Dynamo Academy | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-st-louis-city-sc-vs-houston-dynamo-fc/1"
     },
     {
       "id": "sm-atl-tico-de-san-luis-vs-pachuca-2487495",
@@ -2497,18 +841,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-sporting-kansas-city/1"
-    },
-    {
-      "id": "1000007734",
-      "title": "07:00:00 - 24/08 | St. Louis City 2 VS Houston Dynamo 2 | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-24T00:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-st-louis-city-sc-vs-houston-dynamo-fc/1"
     },
     {
       "id": "sm-ppv-pumas-unam-vs-necaxa",
@@ -2557,18 +889,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-as-roma-vs-fiorentina/1"
-    },
-    {
-      "id": "4644045",
-      "title": "02:00:00 - 25/08 | Club Atletico Guemes VS Atletico Rafaela | Primera Nacional",
-      "league": "Primera Nacional",
-      "status": "upcoming",
-      "kickoff": "2026-08-24T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-ppv-fulham-vs-chelsea",
@@ -2679,30 +999,6 @@
       "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "sm-ppv-viking-fk-vs-dinamo-zagreb",
-      "title": "02:00:00 - 27/08 | Viking FK VS Dinamo Zagreb | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-viking-fk-vs-dinamo-zagreb/1"
-    },
-    {
-      "id": "sm-ppv-nk-celje-vs-slovan-bratislava",
-      "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
-    },
-    {
       "id": "sm-ppv-lyon-vs-fenerbahce",
       "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
       "league": "Football",
@@ -2725,6 +1021,30 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
+    },
+    {
+      "id": "sm-ppv-viking-fk-vs-dinamo-zagreb",
+      "title": "02:00:00 - 27/08 | Viking FK VS Dinamo Zagreb | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-viking-fk-vs-dinamo-zagreb/1"
+    },
+    {
+      "id": "sm-ppv-nk-celje-vs-slovan-bratislava",
+      "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
     },
     {
       "id": "cdn-2431411",
