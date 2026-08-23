@@ -1,546 +1,66 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 227,
+  "count": 235,
   "matches": [
     {
-      "id": "sm-kidderminster-harriers-vs-aldershot-town-2528192",
-      "title": "18:30:00 - 22/08 | Kidderminster Harriers VS Aldershot Town | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
+      "id": "5109907",
+      "title": "10:00:00 - 23/08 | Sacramento Republic FC VS Phoenix Rising FC | USL Jägermeister Cup",
+      "league": "USL Jägermeister Cup",
+      "status": "live",
+      "kickoff": "2026-08-23T03:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-kidderminster-harriers-vs-aldershot-town/1"
+      "url": "https://sportsembed.su/embed/4634120/sacramento-republic-phoenix-rising-fc/regular/1"
     },
     {
-      "id": "sm-forest-green-rovers-vs-boreham-wood-2528185",
-      "title": "18:30:00 - 22/08 | Forest Green Rovers VS Boreham Wood | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
+      "id": "5109512",
+      "title": "10:00:00 - 23/08 | AV Alta VS FC Naples | USL League One",
+      "league": "USL League One",
+      "status": "live",
+      "kickoff": "2026-08-23T03:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-forest-green-rovers-vs-boreham-wood/1"
+      "url": "https://sportsembed.su/embed/4714700/alta-fc-naples/regular/1"
     },
     {
-      "id": "sm-lincoln-city-vs-portsmouth-2501271",
-      "title": "18:30:00 - 22/08 | Lincoln City VS Portsmouth | Football",
-      "league": "Football",
+      "id": "4621417",
+      "title": "09:30:00 - 23/08 | Los Angeles FC VS Portland Timbers | MLS",
+      "league": "MLS",
       "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
+      "kickoff": "2026-08-23T02:30:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lincoln-city-vs-portsmouth/1"
+      "url": "https://sportsembed.su/embed/761751/lafc-portland-timbers/hd/1"
     },
     {
-      "id": "sm-millwall-vs-norwich-city-2501264",
-      "title": "18:30:00 - 22/08 | Millwall VS Norwich City | Football",
-      "league": "Football",
+      "id": "5071301",
+      "title": "09:30:00 - 23/08 | San Jose VS Minnesota | MLS",
+      "league": "MLS",
       "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
+      "kickoff": "2026-08-23T02:30:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_championship_millwall-norwich-live-streaming-607235184/1"
+      "url": "https://sportsembed.su/embed/761752/san-jose-earthquakes-minnesota-united-fc/hd/1"
     },
     {
-      "id": "sm-birmingham-city-vs-bristol-city-2501263",
-      "title": "18:30:00 - 22/08 | Birmingham City VS Bristol City | Football",
-      "league": "Football",
+      "id": "761750",
+      "title": "09:30:00 - 23/08 | San Diego FC VS Colorado Rapids | MLS",
+      "league": "MLS",
       "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
+      "kickoff": "2026-08-23T02:30:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-birmingham-city-vs-bristol-city/1"
-    },
-    {
-      "id": "sm-hull-city-vs-manchester-united-2494001",
-      "title": "18:30:00 - 22/08 | Hull City VS Manchester United | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T11:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_premier-league_hull-man-utd-live-streaming-607224384/1"
-    },
-    {
-      "id": "sm-wrexham-vs-watford-2501272",
-      "title": "21:00:00 - 22/08 | Wrexham VS Watford | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-wrexham-vs-watford/1"
-    },
-    {
-      "id": "sm-blackburn-rovers-vs-middlesbrough-2501267",
-      "title": "21:00:00 - 22/08 | Blackburn Rovers VS Middlesbrough | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-blackburn-rovers-vs-middlesbrough/1"
-    },
-    {
-      "id": "sm-preston-north-end-vs-wolverhampton-wanderers-2501265",
-      "title": "21:00:00 - 22/08 | Preston North End VS Wolverhampton Wanderers | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-preston-north-end-vs-wolverhampton-wanderers/1"
-    },
-    {
-      "id": "sm-west-ham-united-vs-charlton-athletic-2501262",
-      "title": "21:00:00 - 22/08 | West Ham United VS Charlton Athletic | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-west-ham-united-vs-charlton-athletic/1"
-    },
-    {
-      "id": "sm-nottingham-forest-vs-leeds-united-2494004",
-      "title": "21:00:00 - 22/08 | Nottingham Forest VS Leeds United | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/459/1"
-    },
-    {
-      "id": "sm-ipswich-town-vs-sunderland-2494003",
-      "title": "21:00:00 - 22/08 | Ipswich Town VS Sunderland | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-ipswich-town-vs-sunderland/1"
-    },
-    {
-      "id": "sm-everton-vs-crystal-palace-2494002",
-      "title": "21:00:00 - 22/08 | Everton VS Crystal Palace | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-everton-vs-crystal-palace/1"
-    },
-    {
-      "id": "sm-athletic-bilbao-vs-sevilla-2506180",
-      "title": "22:00:00 - 22/08 | Athletic Bilbao VS Sevilla | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-athletic-club-vs-sevilla/1"
-    },
-    {
-      "id": "sm-lens-vs-auxerre-2489469",
-      "title": "22:15:00 - 22/08 | Lens VS Auxerre | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T15:15:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lens-vs-aj-auxerre/1"
-    },
-    {
-      "id": "sm-ppv-goal-rush",
-      "title": "23:00:00 - 22/08 | Goal Rush VS  | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-goal-rush/1"
-    },
-    {
-      "id": "sm-brentford-vs-tottenham-hotspur-2494005",
-      "title": "23:30:00 - 22/08 | Brentford VS Tottenham Hotspur | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/460/1"
-    },
-    {
-      "id": "sm-inter-milan-vs-monza-2482144",
-      "title": "23:30:00 - 22/08 | Inter Milan VS Monza | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-milan-vs-monza/1"
-    },
-    {
-      "id": "sm-udinese-vs-como-2482138",
-      "title": "23:30:00 - 22/08 | Udinese VS Como | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T16:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-udinese-vs-como/1"
-    },
-    {
-      "id": "sm-valencia-vs-celta-vigo-2506181",
-      "title": "00:30:00 - 23/08 | Valencia VS Celta Vigo | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-valencia-vs-celta-vigo/1"
-    },
-    {
-      "id": "sm-borussia-dortmund-vs-bayern-munich-2520320",
-      "title": "01:30:00 - 23/08 | Borussia Dortmund VS Bayern Munich | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_super-cup_dortmund-bayern-live-streaming-607968288/1"
-    },
-    {
-      "id": "sm-le-mans-vs-brest-2489470",
-      "title": "01:45:00 - 23/08 | Le Mans VS Brest | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-le-mans-vs-brest/1"
-    },
-    {
-      "id": "sm-troyes-vs-paris-fc-2489467",
-      "title": "01:45:00 - 23/08 | Troyes VS Paris FC | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-troyes-vs-paris-fc/1"
-    },
-    {
-      "id": "sm-toulouse-vs-lyon-2489466",
-      "title": "01:45:00 - 23/08 | Toulouse VS Lyon | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-toulouse-vs-lyon/1"
-    },
-    {
-      "id": "sm-nice-vs-lorient-2489464",
-      "title": "01:45:00 - 23/08 | Nice VS Lorient | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nice-vs-lorient/1"
-    },
-    {
-      "id": "sm-parma-vs-cagliari-2482147",
-      "title": "01:45:00 - 23/08 | Parma VS Cagliari | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-parma-vs-cagliari/1"
-    },
-    {
-      "id": "sm-genoa-vs-napoli-2482139",
-      "title": "01:45:00 - 23/08 | Genoa VS Napoli | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-genoa-vs-napoli/1"
-    },
-    {
-      "id": "sm-espanyol-vs-real-madrid-2506183",
-      "title": "02:30:00 - 23/08 | Espanyol VS Real Madrid | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T19:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-espanyol-vs-real-madrid/1"
-    },
-    {
-      "id": "cdn-2431398",
-      "title": "04:00:00 - 23/08 | Ceará VS Londrina | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "cdn-2431400",
-      "title": "04:30:00 - 23/08 | Cuiabá VS Goiás | Brazilian Serie B",
-      "league": "Brazilian Serie B",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T21:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "sm-ppv-quer-taro-vs-toluca",
-      "title": "06:00:00 - 23/08 | Querétaro VS Toluca | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-quer-taro-vs-toluca/1"
-    },
-    {
-      "id": "sm-cd-guadalajara-vs-tijuana-2487490",
-      "title": "06:07:00 - 23/08 | CD Guadalajara VS Tijuana | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:07:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-guadalajara-vs-tijuana/1"
-    },
-    {
-      "id": "sm-charlotte-fc-vs-dc-united-2407013",
-      "title": "06:30:00 - 23/08 | Charlotte FC VS DC United | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-charlotte-fc-vs-d-c-united/1"
-    },
-    {
-      "id": "sm-orlando-city-vs-real-salt-lake-2407012",
-      "title": "06:30:00 - 23/08 | Orlando City VS Real Salt Lake | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-orlando-city-sc-vs-real-salt-lake/1"
-    },
-    {
-      "id": "sm-new-york-red-bulls-vs-chicago-fire-2407011",
-      "title": "06:30:00 - 23/08 | New York Red Bulls VS Chicago Fire | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-chicago-fire-fc/1"
-    },
-    {
-      "id": "sm-cf-montr-al-vs-la-galaxy-2407010",
-      "title": "06:30:00 - 23/08 | CF Montréal VS LA Galaxy | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-cf-montr-al-vs-la-galaxy/1"
-    },
-    {
-      "id": "sm-fc-cincinnati-vs-seattle-sounders-2407009",
-      "title": "06:30:00 - 23/08 | FC Cincinnati VS Seattle Sounders | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fc-cincinnati-vs-seattle-sounders-fc/1"
-    },
-    {
-      "id": "sm-inter-miami-vs-toronto-fc-2407008",
-      "title": "06:30:00 - 23/08 | Inter Miami VS Toronto FC | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-toronto-fc/1"
-    },
-    {
-      "id": "cdn-2407010",
-      "title": "06:30:00 - 23/08 | CF Montréal VS LA Galaxy | American Major League Soccer",
-      "league": "American Major League Soccer",
-      "status": "upcoming",
-      "kickoff": "2026-08-22T23:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205%20FHD%20CA&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "sm-st--louis-city-sc-vs-houston-dynamo-2407016",
-      "title": "07:30:00 - 23/08 | St. Louis City SC VS Houston Dynamo | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-st-louis-city-sc-vs-houston-dynamo-fc/1"
-    },
-    {
-      "id": "sm-austin-fc-vs-philadelphia-union-2407015",
-      "title": "07:30:00 - 23/08 | Austin FC VS Philadelphia Union | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-austin-fc-vs-philadelphia-union/1"
-    },
-    {
-      "id": "sm-nashville-sc-vs-columbus-crew-2407014",
-      "title": "07:30:00 - 23/08 | Nashville SC VS Columbus Crew | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-columbus-crew/1"
-    },
-    {
-      "id": "sm-ppv-le-n-vs-monterrey",
-      "title": "08:00:00 - 23/08 | León VS Monterrey | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-le-n-vs-monterrey/1"
-    },
-    {
-      "id": "sm-puebla-vs-santos-laguna-2487488",
-      "title": "08:00:00 - 23/08 | Puebla VS Santos Laguna | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-puebla-vs-santos/1"
-    },
-    {
-      "id": "sm-vancouver-whitecaps-vs-fc-dallas-2407017",
-      "title": "08:30:00 - 23/08 | Vancouver Whitecaps VS FC Dallas | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-23T01:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-vancouver-whitecaps-vs-fc-dallas/1"
+      "url": "https://sportsembed.su/embed/761750/san-diego-fc-colorado-rapids/hd/1"
     },
     {
       "id": "sm-ppv-lafc-vs-portland-timbers",
@@ -579,6 +99,18 @@
       "url": "https://embed.st/embed/admin/ppv-san-diego-fc-vs-colorado-rapids/1"
     },
     {
+      "id": "4735721",
+      "title": "10:00:00 - 23/08 | Cruz Azul VS Atlas Guadalajara | Mexican Liga BBVA MX",
+      "league": "Mexican Liga BBVA MX",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T03:00:00.000Z",
+      "quality": "HD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/401877003/cruz-azul-atlas/hd/1"
+    },
+    {
       "id": "sm-cruz-azul-vs-atlas-2487494",
       "title": "10:00:00 - 23/08 | Cruz Azul VS Atlas | Football",
       "league": "Football",
@@ -589,6 +121,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-cruz-azul-vs-atlas/1"
+    },
+    {
+      "id": "5836775",
+      "title": "18:00:00 - 23/08 | West Brom VS Burnley | English League Championship",
+      "league": "English League Championship",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T11:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
     },
     {
       "id": "sm-west-bromwich-albion-vs-burnley-2501266",
@@ -603,6 +147,54 @@
       "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
     },
     {
+      "id": "4808047",
+      "title": "19:00:00 - 23/08 | Leeds United U21 VS West Bromwich Albion U21 | Premier League 2",
+      "league": "Premier League 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T12:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
+    },
+    {
+      "id": "4741718",
+      "title": "20:00:00 - 23/08 | Brighton VS Aston Villa | English Premier League",
+      "league": "English Premier League",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T13:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-aston-villa/1"
+    },
+    {
+      "id": "4741719",
+      "title": "20:00:00 - 23/08 | Manchester City VS Bournemouth | English Premier League",
+      "league": "English Premier League",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T13:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-manchester-city-vs-afc-bournemouth/1"
+    },
+    {
+      "id": "5802901",
+      "title": "20:00:00 - 23/08 | Angers VS Lille | French Ligue 1",
+      "league": "French Ligue 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T13:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-angers-vs-lille/1"
+    },
+    {
       "id": "sm-brighton-and-hove-albion-vs-aston-villa-2494007",
       "title": "20:00:00 - 23/08 | Brighton and Hove Albion VS Aston Villa | Football",
       "league": "Football",
@@ -612,7 +204,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-aston-villa/1"
+      "url": "https://embed.st/embed/golf/462/1"
     },
     {
       "id": "sm-manchester-city-vs-bournemouth-2494006",
@@ -624,7 +216,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-city-vs-afc-bournemouth/1"
+      "url": "https://embed.st/embed/golf/461/1"
     },
     {
       "id": "sm-angers-vs-lille-2489462",
@@ -639,6 +231,42 @@
       "url": "https://embed.st/embed/admin/ppv-angers-vs-lille/1"
     },
     {
+      "id": "4759875",
+      "title": "22:00:00 - 23/08 | Atlético San Luis U21 VS Pachuca U21 | Liga MX U21 - Apertura",
+      "league": "Liga MX U21 - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T15:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "4750899",
+      "title": "22:00:00 - 23/08 | Atletico Madrid VS Villarreal | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T15:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-madrid-vs-villarreal/1"
+    },
+    {
+      "id": "4759873",
+      "title": "22:00:00 - 23/08 | Pumas UNAM U21 VS Necaxa U21 | Liga MX U21 - Apertura",
+      "league": "Liga MX U21 - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T15:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-necaxa/1"
+    },
+    {
       "id": "sm-atl-tico-madrid-vs-villarreal-2506179",
       "title": "22:00:00 - 23/08 | Atlético Madrid VS Villarreal | Football",
       "league": "Football",
@@ -649,6 +277,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-atl-tico-madrid-vs-villarreal/1"
+    },
+    {
+      "id": "5802902",
+      "title": "22:15:00 - 23/08 | Le Havre VS Monaco | French Ligue 1",
+      "league": "French Ligue 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T15:15:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-le-havre-ac-vs-as-monaco/1"
     },
     {
       "id": "sm-le-havre-vs-monaco-2489468",
@@ -663,6 +303,18 @@
       "url": "https://embed.st/embed/admin/ppv-le-havre-ac-vs-as-monaco/1"
     },
     {
+      "id": "5795371",
+      "title": "22:30:00 - 23/08 | Newcastle VS Liverpool | English Premier League",
+      "league": "English Premier League",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T15:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-newcastle-united-vs-liverpool/1"
+    },
+    {
       "id": "sm-newcastle-united-vs-liverpool-2494008",
       "title": "22:30:00 - 23/08 | Newcastle United VS Liverpool | Football",
       "league": "Football",
@@ -673,6 +325,30 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/golf/463/1"
+    },
+    {
+      "id": "401874930",
+      "title": "23:30:00 - 23/08 | Frosinone VS Juventus | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T16:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-frosinone-vs-juventus/1"
+    },
+    {
+      "id": "4732359",
+      "title": "23:30:00 - 23/08 | Venezia VS Lecce | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T16:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-venezia-vs-lecce/1"
     },
     {
       "id": "sm-venezia-vs-lecce-2482146",
@@ -699,6 +375,30 @@
       "url": "https://embed.st/embed/admin/ppv-frosinone-vs-juventus/1"
     },
     {
+      "id": "4820554",
+      "title": "00:00:00 - 24/08 | Atlético Balboa (Reserves) VS Fuerte San Francisco Reserves | Torneo Reservas - Apertura",
+      "league": "Torneo Reservas - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "5868026",
+      "title": "00:30:00 - 24/08 | Getafe VS Racing Santander | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T17:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-getafe-vs-racing-santander/1"
+    },
+    {
       "id": "sm-getafe-vs-racing-de-santander-2506185",
       "title": "00:30:00 - 24/08 | Getafe VS Racing de Santander | Football",
       "league": "Football",
@@ -711,7 +411,67 @@
       "url": "https://embed.st/embed/admin/ppv-getafe-vs-racing-santander/1"
     },
     {
-      "id": "sm-paris-saint-germain-vs-rennes-2489465",
+      "id": "4797218",
+      "title": "01:00:00 - 24/08 | Deportivo Rincón VS Juventud Unida San Luis | Federal A Relegation Zona B",
+      "league": "Federal A Relegation Zona B",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "5977323",
+      "title": "01:00:00 - 24/08 | Puebla (W) VS Atletico de San Luis (W) | Liga MX Femenil Apertura",
+      "league": "Liga MX Femenil Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "5749647",
+      "title": "01:45:00 - 24/08 | Torino VS Milan | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-torino-vs-ac-milan/1"
+    },
+    {
+      "id": "4732350",
+      "title": "01:45:00 - 24/08 | Atalanta VS Sassuolo | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atalanta-vs-sassuolo/1"
+    },
+    {
+      "id": "401876487",
+      "title": "01:45:00 - 24/08 | Stade Rennais VS Paris Saint-Germain | French Ligue 1",
+      "league": "French Ligue 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-paris-saint-germain-vs-stade-rennais/1"
+    },
+    {
+      "id": "sm-rennes-vs-paris-saint-germain-2489465",
       "title": "01:45:00 - 24/08 | Paris Saint-Germain VS Rennes | Football",
       "league": "Football",
       "status": "upcoming",
@@ -747,6 +507,42 @@
       "url": "https://embed.st/embed/admin/ppv-atalanta-vs-sassuolo/1"
     },
     {
+      "id": "5190670",
+      "title": "02:00:00 - 24/08 | São Bernardo VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "5190669",
+      "title": "02:00:00 - 24/08 | Ponte Preta VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "1000014100",
+      "title": "02:00:00 - 24/08 | Fortaleza FC VS Atletico Nacional | Primera A",
+      "league": "Primera A",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "cdn-2431403",
       "title": "02:00:00 - 24/08 | Ponte Preta VS Avaí | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -756,7 +552,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431404",
@@ -768,7 +564,31 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4820428",
+      "title": "02:30:00 - 24/08 | Club Atletico Barinas VS Ureña SC | Liga FUTVE 2",
+      "league": "Liga FUTVE 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T19:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "5868024",
+      "title": "02:30:00 - 24/08 | Elche VS Barcelona | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T19:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
     },
     {
       "id": "sm-elche-vs-barcelona-2506188",
@@ -783,6 +603,18 @@
       "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
     },
     {
+      "id": "761753",
+      "title": "03:30:00 - 24/08 | New England Revolution VS New York City FC | MLS",
+      "league": "MLS",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T20:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
+    },
+    {
       "id": "sm-new-england-revolution-vs-new-york-city-fc-2407021",
       "title": "03:30:00 - 24/08 | New England Revolution VS New York City FC | Football",
       "league": "Football",
@@ -795,6 +627,30 @@
       "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
     },
     {
+      "id": "4783870",
+      "title": "04:00:00 - 24/08 | Atlético Balboa VS Fuerte San Francisco | Salvadoran Primera Division",
+      "league": "Salvadoran Primera Division",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T21:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "5190672",
+      "title": "04:00:00 - 24/08 | Operário VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T21:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "cdn-2431402",
       "title": "04:00:00 - 24/08 | Operário Ferroviário VS Vila Nova | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -804,7 +660,19 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4669857",
+      "title": "04:30:00 - 24/08 | Criciúma VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431399",
@@ -816,7 +684,55 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "5071304",
+      "title": "06:00:00 - 24/08 | Atlanta United VS Sporting KC | MLS",
+      "league": "MLS",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%204%20FHD%20BG&code=bg&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4659103",
+      "title": "06:00:00 - 24/08 | New York Red Bulls II VS Toronto FC II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-new-england-revolution-vs-new-york-city-fc/1"
+    },
+    {
+      "id": "4735720",
+      "title": "06:00:00 - 24/08 | Atlético San Luis VS Pachuca | Mexican Liga BBVA MX",
+      "league": "Mexican Liga BBVA MX",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "4659106",
+      "title": "06:00:00 - 24/08 | Ventura County FC VS Portland Timbers II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lafc-vs-portland-timbers/1"
     },
     {
       "id": "sm-atl-tico-de-san-luis-vs-pachuca-2487495",
@@ -843,7 +759,55 @@
       "url": "https://embed.st/embed/admin/ppv-atlanta-united-fc-vs-sporting-kansas-city/1"
     },
     {
-      "id": "sm-ppv-pumas-unam-vs-necaxa",
+      "id": "cdn-2407022",
+      "title": "06:00:00 - 24/08 | Atlanta United VS Sporting Kansas City | American Major League Soccer",
+      "league": "American Major League Soccer",
+      "status": "upcoming",
+      "kickoff": "2026-08-23T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%204%20FHD%20BG&code=bg&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "1000007727",
+      "title": "07:00:00 - 24/08 | Colorado Rapids 2 VS Real Monarchs SLC | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T00:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-san-diego-fc-vs-colorado-rapids/1"
+    },
+    {
+      "id": "1000007735",
+      "title": "07:30:00 - 24/08 | Austin FC II VS San Jose Earthquakes II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-san-jose-earthquakes-vs-minnesota-united-fc/1"
+    },
+    {
+      "id": "1000014543",
+      "title": "08:00:00 - 24/08 | Pumas VS Necaxa | Mexican Liga BBVA MX",
+      "league": "Mexican Liga BBVA MX",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T01:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-necaxa/1"
+    },
+    {
+      "id": "sm-pumas-unam-vs-necaxa-2487496",
       "title": "08:00:00 - 24/08 | Pumas UNAM VS Necaxa | Football",
       "league": "Football",
       "status": "upcoming",
@@ -855,7 +819,31 @@
       "url": "https://embed.st/embed/admin/ppv-pumas-unam-vs-necaxa/1"
     },
     {
-      "id": "sm-ppv-bologna-vs-lazio",
+      "id": "1000007730",
+      "title": "09:00:00 - 24/08 | Ventura County FC VS Portland Timbers 2 | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T02:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lafc-vs-portland-timbers/1"
+    },
+    {
+      "id": "401874927",
+      "title": "23:30:00 - 24/08 | Bologna VS Lazio | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T16:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-bologna-vs-lazio/1"
+    },
+    {
+      "id": "sm-bologna-vs-lazio-2482142",
       "title": "23:30:00 - 24/08 | Bologna VS Lazio | Football",
       "league": "Football",
       "status": "upcoming",
@@ -867,7 +855,31 @@
       "url": "https://embed.st/embed/admin/ppv-bologna-vs-lazio/1"
     },
     {
-      "id": "sm-ppv-osasuna-vs-levante",
+      "id": "4749193",
+      "title": "00:00:00 - 25/08 | Milan U19 VS Torino U19 | Primavera 1",
+      "league": "Primavera 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-torino-vs-ac-milan/1"
+    },
+    {
+      "id": "401882909",
+      "title": "00:30:00 - 25/08 | Osasuna VS Levante | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T17:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-osasuna-vs-levante/1"
+    },
+    {
+      "id": "sm-osasuna-vs-levante-2506186",
       "title": "00:30:00 - 25/08 | Osasuna VS Levante | Football",
       "league": "Football",
       "status": "upcoming",
@@ -879,8 +891,20 @@
       "url": "https://embed.st/embed/admin/ppv-osasuna-vs-levante/1"
     },
     {
-      "id": "sm-ppv-as-roma-vs-fiorentina",
-      "title": "01:45:00 - 25/08 | AS Roma VS Fiorentina | Football",
+      "id": "5749640",
+      "title": "01:45:00 - 25/08 | Roma VS Fiorentina | Italian Serie A",
+      "league": "Italian Serie A",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-as-roma-vs-fiorentina/1"
+    },
+    {
+      "id": "sm-roma-vs-fiorentina-2482140",
+      "title": "01:45:00 - 25/08 | Roma VS Fiorentina | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-24T18:45:00.000Z",
@@ -891,9 +915,9 @@
       "url": "https://embed.st/embed/admin/ppv-as-roma-vs-fiorentina/1"
     },
     {
-      "id": "sm-ppv-fulham-vs-chelsea",
-      "title": "02:00:00 - 25/08 | Fulham VS Chelsea | Football",
-      "league": "Football",
+      "id": "4741721",
+      "title": "02:00:00 - 25/08 | Fulham VS Chelsea | English Premier League",
+      "league": "English Premier League",
       "status": "upcoming",
       "kickoff": "2026-08-24T19:00:00.000Z",
       "quality": "HD",
@@ -903,8 +927,32 @@
       "url": "https://embed.st/embed/admin/ppv-fulham-vs-chelsea/1"
     },
     {
-      "id": "sm-ppv-m-laga-vs-deportivo",
-      "title": "02:30:00 - 25/08 | Málaga VS Deportivo | Football",
+      "id": "sm-fulham-vs-chelsea-2494009",
+      "title": "02:00:00 - 25/08 | Fulham VS Chelsea | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/464/1"
+    },
+    {
+      "id": "4750894",
+      "title": "02:30:00 - 25/08 | Malaga VS Deportivo A Coruña | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T19:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-m-laga-vs-deportivo/1"
+    },
+    {
+      "id": "sm-m-laga-vs-deportivo-de-a-coru-a-2506182",
+      "title": "02:30:00 - 25/08 | Málaga VS Deportivo de A Coruña | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-24T19:30:00.000Z",
@@ -913,6 +961,30 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-m-laga-vs-deportivo/1"
+    },
+    {
+      "id": "4669858",
+      "title": "05:30:00 - 25/08 | Sport Recife VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4669148",
+      "title": "05:30:00 - 25/08 | Athletic Club VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431396",
@@ -924,7 +996,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431405",
@@ -936,7 +1008,31 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "1000007285",
+      "title": "06:30:00 - 25/08 | San Luis VS Santiago Wanderers | Campeonato Primera B",
+      "league": "Campeonato Primera B",
+      "status": "upcoming",
+      "kickoff": "2026-08-24T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atl-tico-de-san-luis-vs-pachuca/1"
+    },
+    {
+      "id": "1000007736",
+      "title": "09:00:00 - 25/08 | Tacoma Defiance VS Sporting Kansas City II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T02:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%204%20FHD%20BG&code=bg&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-ppv-sabah-fk-vs-hapoel-be-er",
@@ -951,18 +1047,6 @@
       "url": "https://embed.st/embed/admin/ppv-sabah-fk-vs-hapoel-be-er/1"
     },
     {
-      "id": "sm-ppv-lask-linz-vs-celtic",
-      "title": "02:00:00 - 26/08 | LASK Linz VS Celtic | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-25T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lask-linz-vs-celtic/1"
-    },
-    {
       "id": "sm-ppv-bodo-glimt-vs-nec-nijmegen",
       "title": "02:00:00 - 26/08 | Bodo/Glimt VS NEC Nijmegen | Football",
       "league": "Football",
@@ -975,6 +1059,18 @@
       "url": "https://embed.st/embed/admin/ppv-bodo-glimt-vs-nec-nijmegen/1"
     },
     {
+      "id": "sm-ppv-lask-linz-vs-celtic",
+      "title": "02:00:00 - 26/08 | LASK Linz VS Celtic | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lask-linz-vs-celtic/1"
+    },
+    {
       "id": "cdn-2431397",
       "title": "05:30:00 - 26/08 | Atlético Goianiense VS Botafogo-SP | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -984,7 +1080,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431401",
@@ -996,19 +1092,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "sm-ppv-lyon-vs-fenerbahce",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-ppv-aek-athens-vs-levski-sofia",
@@ -1047,6 +1131,18 @@
       "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
     },
     {
+      "id": "sm-ppv-lyon-vs-fenerbahce",
+      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
+    },
+    {
       "id": "cdn-2431411",
       "title": "05:30:00 - 29/08 | Goiás VS São Bernardo | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -1056,7 +1152,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431413",
@@ -1068,7 +1164,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431414",
@@ -1080,7 +1176,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431408",
@@ -1092,7 +1188,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431407",
@@ -1104,7 +1200,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431406",
@@ -1116,7 +1212,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431409",
@@ -1128,7 +1224,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431415",
@@ -1140,7 +1236,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431410",
@@ -1152,7 +1248,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431412",
@@ -1164,7 +1260,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431423",
@@ -1176,7 +1272,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431419",
@@ -1188,7 +1284,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431416",
@@ -1200,7 +1296,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431418",
@@ -1212,7 +1308,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431420",
@@ -1224,7 +1320,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431424",
@@ -1236,7 +1332,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431421",
@@ -1248,7 +1344,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431417",
@@ -1260,7 +1356,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431422",
@@ -1272,7 +1368,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431425",
@@ -1284,7 +1380,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431430",
@@ -1296,7 +1392,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431429",
@@ -1308,7 +1404,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431428",
@@ -1320,7 +1416,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431431",
@@ -1332,7 +1428,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431426",
@@ -1344,7 +1440,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431432",
@@ -1356,7 +1452,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431427",
@@ -1368,7 +1464,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431433",
@@ -1380,7 +1476,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431435",
@@ -1392,7 +1488,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431434",
@@ -1404,7 +1500,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431437",
@@ -1416,7 +1512,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431442",
@@ -1428,7 +1524,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431441",
@@ -1440,7 +1536,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431445",
@@ -1452,7 +1548,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431436",
@@ -1464,7 +1560,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431439",
@@ -1476,7 +1572,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431438",
@@ -1488,7 +1584,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431443",
@@ -1500,7 +1596,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431444",
@@ -1512,7 +1608,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431440",
@@ -1524,7 +1620,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431455",
@@ -1536,7 +1632,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431447",
@@ -1548,7 +1644,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431453",
@@ -1560,7 +1656,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431454",
@@ -1572,7 +1668,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431446",
@@ -1584,7 +1680,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431452",
@@ -1596,7 +1692,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431450",
@@ -1608,7 +1704,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431451",
@@ -1620,7 +1716,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431448",
@@ -1632,7 +1728,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431449",
@@ -1644,7 +1740,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431463",
@@ -1656,7 +1752,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431465",
@@ -1668,7 +1764,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431464",
@@ -1680,7 +1776,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431462",
@@ -1692,7 +1788,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431461",
@@ -1704,7 +1800,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431459",
@@ -1716,7 +1812,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431458",
@@ -1728,7 +1824,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431460",
@@ -1740,7 +1836,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431456",
@@ -1752,7 +1848,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431457",
@@ -1764,7 +1860,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431466",
@@ -1776,7 +1872,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431467",
@@ -1788,7 +1884,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431468",
@@ -1800,7 +1896,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431469",
@@ -1812,7 +1908,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431470",
@@ -1824,7 +1920,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431471",
@@ -1836,7 +1932,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431472",
@@ -1848,7 +1944,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431473",
@@ -1860,7 +1956,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431474",
@@ -1872,7 +1968,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431475",
@@ -1884,7 +1980,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431476",
@@ -1896,7 +1992,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431477",
@@ -1908,7 +2004,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431478",
@@ -1920,7 +2016,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431479",
@@ -1932,7 +2028,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431480",
@@ -1944,7 +2040,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431481",
@@ -1956,7 +2052,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431482",
@@ -1968,7 +2064,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431483",
@@ -1980,7 +2076,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431484",
@@ -1992,7 +2088,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431485",
@@ -2004,7 +2100,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431486",
@@ -2016,7 +2112,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431487",
@@ -2028,7 +2124,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431488",
@@ -2040,7 +2136,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431489",
@@ -2052,7 +2148,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431490",
@@ -2064,7 +2160,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431491",
@@ -2076,7 +2172,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431492",
@@ -2088,7 +2184,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431493",
@@ -2100,7 +2196,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431494",
@@ -2112,7 +2208,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431495",
@@ -2124,7 +2220,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431496",
@@ -2136,7 +2232,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431497",
@@ -2148,7 +2244,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431498",
@@ -2160,7 +2256,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431499",
@@ -2172,7 +2268,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431500",
@@ -2184,7 +2280,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431501",
@@ -2196,7 +2292,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431502",
@@ -2208,7 +2304,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431503",
@@ -2220,7 +2316,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431504",
@@ -2232,7 +2328,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431505",
@@ -2244,7 +2340,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431506",
@@ -2256,7 +2352,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431507",
@@ -2268,7 +2364,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431508",
@@ -2280,7 +2376,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431509",
@@ -2292,7 +2388,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431510",
@@ -2304,7 +2400,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431511",
@@ -2316,7 +2412,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431512",
@@ -2328,7 +2424,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431513",
@@ -2340,7 +2436,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431514",
@@ -2352,7 +2448,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431515",
@@ -2364,7 +2460,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431516",
@@ -2376,7 +2472,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431517",
@@ -2388,7 +2484,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431518",
@@ -2400,7 +2496,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431519",
@@ -2412,7 +2508,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431520",
@@ -2424,7 +2520,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431521",
@@ -2436,7 +2532,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431522",
@@ -2448,7 +2544,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431523",
@@ -2460,7 +2556,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431524",
@@ -2472,7 +2568,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431525",
@@ -2484,7 +2580,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431526",
@@ -2496,7 +2592,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431527",
@@ -2508,7 +2604,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431528",
@@ -2520,7 +2616,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431529",
@@ -2532,7 +2628,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431530",
@@ -2544,7 +2640,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431531",
@@ -2556,7 +2652,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431532",
@@ -2568,7 +2664,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431533",
@@ -2580,7 +2676,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431534",
@@ -2592,7 +2688,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431535",
@@ -2604,7 +2700,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431536",
@@ -2616,7 +2712,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431537",
@@ -2628,7 +2724,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431538",
@@ -2640,7 +2736,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431539",
@@ -2652,7 +2748,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431540",
@@ -2664,7 +2760,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431541",
@@ -2676,7 +2772,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431542",
@@ -2688,7 +2784,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431543",
@@ -2700,7 +2796,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431544",
@@ -2712,7 +2808,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431545",
@@ -2724,7 +2820,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%202%20HD%20BR&code=&user=cdnlivetv&plan=free"
     }
   ]
 }
