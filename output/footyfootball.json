@@ -1,18 +1,66 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 223,
+  "count": 227,
   "matches": [
     {
       "id": "401912725",
       "title": "15:00:00 - 23/08 | Dong Tam Long An VS Dong Thap | Club Friendlies",
       "league": "Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "kickoff": "2026-08-23T08:00:00.000Z",
       "quality": "WHD",
       "provider": "watchfooty",
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://sportsembed.su/embed/401912725/dong-tam-long-an-dong-thap/sigma/1"
+    },
+    {
+      "id": "4667019",
+      "title": "15:00:00 - 23/08 | Jeonbuk Motors II VS Ulsan Citizen | K3 League",
+      "league": "K3 League",
+      "status": "live",
+      "kickoff": "2026-08-23T08:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4667019/jeonbuk-motors-ii-ulsan-citizen/regular/1"
+    },
+    {
+      "id": "4667020",
+      "title": "15:00:00 - 23/08 | Siheung Citizen VS Daejeon Korail | K3 League",
+      "league": "K3 League",
+      "status": "live",
+      "kickoff": "2026-08-23T08:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4667020/siheung-citizen-daejeon-korail/regular/1"
+    },
+    {
+      "id": "4784718",
+      "title": "15:00:00 - 23/08 | CSA Steaua Bucuresti VS Dumbravita | Liga 2 - Regular Season",
+      "league": "Liga 2 - Regular Season",
+      "status": "live",
+      "kickoff": "2026-08-23T08:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4784718/csa-steaua-bucuresti-dumbravita/regular/1"
+    },
+    {
+      "id": "1000015688",
+      "title": "15:15:00 - 23/08 | Slavia Prague B VS Hanacka Slavia Kromeriz | Czech National Football League",
+      "league": "Czech National Football League",
+      "status": "live",
+      "kickoff": "2026-08-23T08:15:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4744166/slavia-praha-ii-slavia-kromeriz/regular/1"
     },
     {
       "id": "5836775",
@@ -24,7 +72,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
+      "url": "https://embed.st/embed/golf/532/1"
     },
     {
       "id": "sm-west-bromwich-albion-vs-burnley-2501266",
@@ -48,7 +96,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-west-bromwich-albion-vs-burnley/1"
+      "url": "https://embed.st/embed/golf/532/1"
     },
     {
       "id": "4741718",
@@ -72,7 +120,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-city-vs-afc-bournemouth/1"
+      "url": "https://embed.st/embed/delta/live_premier-league_man-city-bournemouth-live-streaming-607970880/1"
     },
     {
       "id": "5802901",
@@ -96,7 +144,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-aston-villa/1"
+      "url": "https://embed.st/embed/golf/462/1"
     },
     {
       "id": "sm-manchester-city-vs-bournemouth-2494006",
@@ -108,7 +156,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-city-vs-afc-bournemouth/1"
+      "url": "https://embed.st/embed/golf/461/1"
     },
     {
       "id": "sm-angers-vs-lille-2489462",
@@ -204,7 +252,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-newcastle-united-vs-liverpool/1"
+      "url": "https://embed.st/embed/golf/463/1"
     },
     {
       "id": "sm-newcastle-united-vs-liverpool-2494008",
@@ -468,7 +516,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
+      "url": "https://embed.st/embed/golf/564/1"
     },
     {
       "id": "4820428",
@@ -492,7 +540,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/564/1"
+      "url": "https://embed.st/embed/admin/ppv-elche-vs-barcelona/1"
     },
     {
       "id": "761753",
@@ -780,7 +828,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fulham-vs-chelsea/1"
+      "url": "https://embed.st/embed/golf/464/1"
     },
     {
       "id": "4750894",
@@ -951,8 +999,8 @@
       "url": "https://embed.st/embed/golf/581/1"
     },
     {
-      "id": "sm-ppv-aek-athens-vs-levski-sofia",
-      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | Football",
+      "id": "sm-ppv-lyon-vs-fenerbahce",
+      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-26T19:00:00.000Z",
@@ -960,7 +1008,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
+      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
     },
     {
       "id": "sm-ppv-viking-fk-vs-dinamo-zagreb",
@@ -975,6 +1023,18 @@
       "url": "https://embed.st/embed/admin/ppv-viking-fk-vs-dinamo-zagreb/1"
     },
     {
+      "id": "sm-ppv-aek-athens-vs-levski-sofia",
+      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
+    },
+    {
       "id": "sm-ppv-nk-celje-vs-slovan-bratislava",
       "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | Football",
       "league": "Football",
@@ -985,18 +1045,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
-    },
-    {
-      "id": "sm-ppv-lyon-vs-fenerbahce",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
     },
     {
       "id": "cdn-2431411",

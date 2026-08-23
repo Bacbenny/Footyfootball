@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 607,
+  "count": 603,
   "matches": [
     {
       "id": "4795185",
@@ -229,7 +229,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4784414",
+      "id": "5967046",
       "title": "00:00:00 - 24/08 | Pisa VS Padova | Italian Serie B",
       "status": "upcoming",
       "league": "Italian Serie B",
@@ -2038,7 +2038,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401853981",
+      "id": "4653922",
       "title": "05:00:00 - 24/08 | Bay FC VS Houston Dash | NWSL",
       "status": "upcoming",
       "league": "NWSL",
@@ -2182,10 +2182,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000013694",
-      "title": "06:00:00 - 24/08 | Deportes Quindio VS Envigado | Primera B",
+      "id": "4732166",
+      "title": "06:00:00 - 24/08 | Deportes Quindio VS Envigado FC | Colombian Primera B",
       "status": "upcoming",
-      "league": "Primera B",
+      "league": "Colombian Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2605,27 +2605,9 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4784718",
-      "title": "15:00:00 - 23/08 | CSA Steaua Bucuresti VS Dumbravita | Liga 2 - Regular Season",
-      "status": "upcoming",
-      "league": "Liga 2 - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5201117",
       "title": "15:00:00 - 23/08 | Jeonbuk Hyundai Motors FC Reserves VS Ulsan Citizen | K3 League",
-      "status": "upcoming",
-      "league": "K3 League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4667019",
-      "title": "15:00:00 - 23/08 | Jeonbuk Motors II VS Ulsan Citizen | K3 League",
-      "status": "upcoming",
+      "status": "live",
       "league": "K3 League",
       "candidateCount": 0,
       "providers": [],
@@ -2634,17 +2616,8 @@
     {
       "id": "401913067",
       "title": "15:00:00 - 23/08 | Rovato Vertovese VS Sant'Angelo | Club Friendlies",
-      "status": "upcoming",
+      "status": "live",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5201118",
-      "title": "15:00:00 - 23/08 | Siheung Citizen VS Daejeon Korail | K3 League",
-      "status": "upcoming",
-      "league": "K3 League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2652,17 +2625,8 @@
     {
       "id": "4784724",
       "title": "15:00:00 - 23/08 | Viitorul Selimbar VS CS Afumati | Liga 2 - Regular Season",
-      "status": "upcoming",
+      "status": "live",
       "league": "Liga 2 - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "1000015688",
-      "title": "15:15:00 - 23/08 | Slavia Prague B VS Hanacka Slavia Kromeriz | Czech National Football League",
-      "status": "upcoming",
-      "league": "Czech National Football League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -5134,8 +5098,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401888319",
-      "title": "23:00:00 - 23/08 | Trabzonspor VS Istanbul Basaksehir | Turkish Super Lig",
+      "id": "5904713",
+      "title": "23:00:00 - 23/08 | Trabzonspor VS Başakşehir | Turkish Super Lig",
       "status": "upcoming",
       "league": "Turkish Super Lig",
       "candidateCount": 0,
