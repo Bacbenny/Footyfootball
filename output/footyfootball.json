@@ -1,31 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 172,
+  "count": 170,
   "matches": [
-    {
-      "id": "1000007730",
-      "title": "09:00:00 - 24/08 | Ventura County FC VS Portland Timbers 2 | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "live",
-      "kickoff": "2026-08-24T02:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4659106/ventura-county-fc-portland-timbers-ii/regular/1"
-    },
-    {
-      "id": "5861235",
-      "title": "09:00:00 - 24/08 | Deportivo Malacateco VS San Pedro | Guatemalan Liga Nacional",
-      "league": "Guatemalan Liga Nacional",
-      "status": "live",
-      "kickoff": "2026-08-24T02:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4744320/deportivo-malacateco-san-pedro/regular/1"
-    },
     {
       "id": "4732351",
       "title": "23:30:00 - 24/08 | Bologna VS Lazio | Italian Serie A",
@@ -36,7 +12,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_serie-a_bologna-lazio-live-streaming-608506128/1"
+      "url": "https://embed.st/embed/admin/ppv-bologna-vs-lazio/1"
     },
     {
       "id": "sm-bologna-vs-lazio-2482142",
@@ -339,6 +315,18 @@
       "url": "https://embed.st/embed/golf/581/1"
     },
     {
+      "id": "sm-ppv-aek-athens-vs-levski-sofia",
+      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
+    },
+    {
       "id": "sm-ppv-viking-fk-vs-dinamo-zagreb",
       "title": "02:00:00 - 27/08 | Viking FK VS Dinamo Zagreb | Football",
       "league": "Football",
@@ -373,18 +361,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
-    },
-    {
-      "id": "sm-ppv-aek-athens-vs-levski-sofia",
-      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
     },
     {
       "id": "cdn-2431411",
