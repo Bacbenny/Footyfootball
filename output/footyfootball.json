@@ -84,7 +84,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fulham-vs-chelsea/1"
+      "url": "https://embed.st/embed/golf/464/1"
     },
     {
       "id": "sm-fulham-vs-chelsea-2494009",
@@ -315,30 +315,6 @@
       "url": "https://embed.st/embed/golf/581/1"
     },
     {
-      "id": "sm-ppv-lyon-vs-fenerbahce",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
-    },
-    {
-      "id": "sm-ppv-nk-celje-vs-slovan-bratislava",
-      "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
-    },
-    {
       "id": "sm-ppv-viking-fk-vs-dinamo-zagreb",
       "title": "02:00:00 - 27/08 | Viking FK VS Dinamo Zagreb | Football",
       "league": "Football",
@@ -361,6 +337,30 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-aek-athens-vs-levski-sofia/1"
+    },
+    {
+      "id": "sm-ppv-nk-celje-vs-slovan-bratislava",
+      "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-nk-celje-vs-slovan-bratislava/1"
+    },
+    {
+      "id": "sm-ppv-lyon-vs-fenerbahce",
+      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
     },
     {
       "id": "sm-603",
