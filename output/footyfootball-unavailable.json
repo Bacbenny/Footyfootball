@@ -31,6 +31,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4760468",
+      "title": "00:00:00 - 25/08 | FC Pari Nizhny Novgorod VS SKA Khabarovsk | Russian First League",
+      "status": "upcoming",
+      "league": "Russian First League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5127899",
       "title": "00:00:00 - 25/08 | Hässleholms IF VS Laholms FK | Ettan Soedra",
       "status": "upcoming",
@@ -71,15 +80,6 @@
       "title": "00:00:00 - 25/08 | Milan U19 VS Torino U19 | Primavera 1",
       "status": "upcoming",
       "league": "Primavera 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5897577",
-      "title": "00:00:00 - 25/08 | Nizhny Novgorod VS SKA-Khabarovsk | Russian First League",
-      "status": "upcoming",
-      "league": "Russian First League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -220,8 +220,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4640736",
-      "title": "00:00:00 - 26/08 | Örebro SK VS Varbergs BoIS | Superettan",
+      "id": "5125601",
+      "title": "00:00:00 - 26/08 | Örebro VS Varbergs BoIS FC | Superettan",
       "status": "upcoming",
       "league": "Superettan",
       "candidateCount": 0,
@@ -391,8 +391,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4734300",
-      "title": "01:00:00 - 25/08 | Jong PSV Eindhoven VS TOP Oss | Dutch Keuken Kampioen Divisie",
+      "id": "401875966",
+      "title": "01:00:00 - 25/08 | Jong FC Utrecht VS Heracles Almelo | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
       "league": "Dutch Keuken Kampioen Divisie",
       "candidateCount": 0,
@@ -400,8 +400,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4734301",
-      "title": "01:00:00 - 25/08 | Jong Utrecht VS Heracles | Dutch Keuken Kampioen Divisie",
+      "id": "4734300",
+      "title": "01:00:00 - 25/08 | Jong PSV Eindhoven VS TOP Oss | Dutch Keuken Kampioen Divisie",
       "status": "upcoming",
       "league": "Dutch Keuken Kampioen Divisie",
       "candidateCount": 0,
@@ -526,7 +526,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909640",
+      "id": "6014861",
       "title": "01:00:00 - 26/08 | Blackpool VS Aston Villa U21 | English EFL Trophy",
       "status": "upcoming",
       "league": "English EFL Trophy",
@@ -598,8 +598,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5114018",
-      "title": "01:00:00 - 26/08 | Real Pilar VS Brown de Adrogue | Argentine Primera B",
+      "id": "4639079",
+      "title": "01:00:00 - 26/08 | Real Pilar VS Brown Adrogue | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -607,8 +607,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401845060",
-      "title": "01:00:00 - 26/08 | San Martín (Burzaco) VS Argentino de Quilmes | Argentine Primera B",
+      "id": "4639076",
+      "title": "01:00:00 - 26/08 | San Martín Burzaco VS Argentino Quilmes | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -814,15 +814,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6028514",
-      "title": "01:45:00 - 26/08 | Al Quwa Al Jawiya VS Ghaz Al-Shamal SC | Iraqi League",
-      "status": "upcoming",
-      "league": "Iraqi League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5949215",
       "title": "01:45:00 - 26/08 | Alfreton Town VS Hyde United | Non League Premier",
       "status": "upcoming",
@@ -832,8 +823,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401896351",
-      "title": "01:45:00 - 26/08 | Alloa Athletic VS Motherwell B | Scottish League Challenge Cup",
+      "id": "401896350",
+      "title": "01:45:00 - 26/08 | Annan Athletic VS Berwick Rangers | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
       "candidateCount": 0,
@@ -850,19 +841,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4821719",
-      "title": "01:45:00 - 26/08 | Badshot Lea VS Afc Stoneham | FA Cup - Qualifying Rounds - Preliminary Round",
+      "id": "401913565",
+      "title": "01:45:00 - 26/08 | Badshot Lea VS AFC Stoneham | English FA Cup Qualifying",
       "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "league": "English FA Cup Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4821714",
-      "title": "01:45:00 - 26/08 | Baldock Town VS Romford FC | FA Cup - Qualifying Rounds - Preliminary Round",
+      "id": "401913566",
+      "title": "01:45:00 - 26/08 | Baldock Town VS Romford | English FA Cup Qualifying",
       "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "league": "English FA Cup Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -895,7 +886,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4808216",
+      "id": "6005651",
       "title": "01:45:00 - 26/08 | Blackpool VS Lincoln | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
@@ -913,10 +904,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4821808",
-      "title": "01:45:00 - 26/08 | Bourne Town VS Bottesford Town | FA Cup - Qualifying Rounds - Preliminary Round",
+      "id": "401913637",
+      "title": "01:45:00 - 26/08 | Bourne Town VS Bottesford Town | English FA Cup Qualifying",
       "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "league": "English FA Cup Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -931,7 +922,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401907952",
+      "id": "4808206",
       "title": "01:45:00 - 26/08 | Cambridge United VS Millwall | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
@@ -967,7 +958,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401896346",
+      "id": "5959550",
       "title": "01:45:00 - 26/08 | Cowdenbeath VS East Kilbride | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
@@ -976,7 +967,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5959551",
+      "id": "401896345",
       "title": "01:45:00 - 26/08 | Cumbernauld Colts VS Kilmarnock B | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
@@ -1003,8 +994,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401896343",
-      "title": "01:45:00 - 26/08 | East Fife VS St Mirren B | Scottish League Challenge Cup",
+      "id": "5959553",
+      "title": "01:45:00 - 26/08 | East Fife VS St. Mirren B | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
       "candidateCount": 0,
@@ -1012,8 +1003,17 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913571",
-      "title": "01:45:00 - 26/08 | Fakenham Town VS St. Ives Town | English FA Cup Qualifying",
+      "id": "4821709",
+      "title": "01:45:00 - 26/08 | Fakenham Town VS St Ives Town | FA Cup - Qualifying Rounds - Preliminary Round",
+      "status": "upcoming",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401913558",
+      "title": "01:45:00 - 26/08 | Faversham Town VS Bedfont | English FA Cup Qualifying",
       "status": "upcoming",
       "league": "English FA Cup Qualifying",
       "candidateCount": 0,
@@ -1030,7 +1030,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5959555",
+      "id": "401896341",
       "title": "01:45:00 - 26/08 | Fraserburgh VS Aberdeen B | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
@@ -1093,10 +1093,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913568",
-      "title": "01:45:00 - 26/08 | Horbury Town VS 1874 Norwich | English FA Cup Qualifying",
+      "id": "4821716",
+      "title": "01:45:00 - 26/08 | Horbury Town VS 1874 Northwich | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1106,15 +1106,6 @@
       "title": "01:45:00 - 26/08 | Ipswich Town VS Leicester City | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814966",
-      "title": "01:45:00 - 26/08 | Littlehampton Town VS Bognor Regis Town | Non League Premier",
-      "status": "upcoming",
-      "league": "Non League Premier",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1156,7 +1147,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4808228",
+      "id": "6005664",
       "title": "01:45:00 - 26/08 | Plymouth VS Coventry | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
@@ -1165,19 +1156,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913591",
-      "title": "01:45:00 - 26/08 | Portishead Town VS Larkhall Athletic | English FA Cup Qualifying",
+      "id": "4821713",
+      "title": "01:45:00 - 26/08 | Portishead Town VS Larkhall Athletic | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913567",
-      "title": "01:45:00 - 26/08 | Potters Bar Town VS Witham Town | English FA Cup Qualifying",
+      "id": "4821710",
+      "title": "01:45:00 - 26/08 | Potters Bar Town VS Witham Town | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1192,7 +1183,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401896336",
+      "id": "5959560",
       "title": "01:45:00 - 26/08 | Queen of the South VS Hibernian B | Scottish League Challenge Cup",
       "status": "upcoming",
       "league": "Scottish League Challenge Cup",
@@ -1205,6 +1196,15 @@
       "title": "01:45:00 - 26/08 | Quorn VS Gainsborough | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4806521",
+      "title": "01:45:00 - 26/08 | Quwa Al Jawiya VS Gas Alshimal | Iraqi League",
+      "status": "upcoming",
+      "league": "Iraqi League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1309,10 +1309,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913564",
-      "title": "01:45:00 - 26/08 | Tadley Calleva VS Hamble Club | English FA Cup Qualifying",
+      "id": "4821675",
+      "title": "01:45:00 - 26/08 | Tadley Calleva VS Hamble Club | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1327,8 +1327,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401907949",
-      "title": "01:45:00 - 26/08 | Watford VS Peterborough United | English Carabao Cup",
+      "id": "6005662",
+      "title": "01:45:00 - 26/08 | Watford VS Peterborough | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
       "candidateCount": 0,
@@ -1336,19 +1336,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913593",
-      "title": "01:45:00 - 26/08 | Westbury United VS AFC Portchester | English FA Cup Qualifying",
+      "id": "4821712",
+      "title": "01:45:00 - 26/08 | Westbury United VS Afc Portchester | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4821807",
-      "title": "01:45:00 - 26/08 | Wisbech Town VS Yaxley | FA Cup - Qualifying Rounds - Preliminary Round",
+      "id": "401913594",
+      "title": "01:45:00 - 26/08 | Wisbech Town VS Yaxley | English FA Cup Qualifying",
       "status": "upcoming",
-      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
+      "league": "English FA Cup Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1358,6 +1358,15 @@
       "title": "01:45:00 - 26/08 | Witham Town VS Concord Rangers | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401913535",
+      "title": "01:45:00 - 26/08 | Wokingham Town VS Hungerford Town | English FA Cup Qualifying",
+      "status": "upcoming",
+      "league": "English FA Cup Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1471,8 +1480,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401907951",
-      "title": "02:00:00 - 26/08 | Birmingham City VS Brentford | English Carabao Cup",
+      "id": "4808210",
+      "title": "02:00:00 - 26/08 | Birmingham VS Brentford | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
       "candidateCount": 0,
@@ -1525,7 +1534,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4653780",
+      "id": "5225717",
       "title": "02:15:00 - 25/08 | Breidablik VS Fram Reykjavik | Besta deildin",
       "status": "upcoming",
       "league": "Besta deildin",
@@ -1615,10 +1624,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000013695",
-      "title": "03:30:00 - 26/08 | Boca Juniors de Cali VS Bogota FC | Primera B",
+      "id": "4732165",
+      "title": "03:30:00 - 26/08 | Boca Juniors Cali VS Bogotá FC | Colombian Primera B",
       "status": "upcoming",
-      "league": "Primera B",
+      "league": "Colombian Primera B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1687,6 +1696,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4814966",
+      "title": "04:45:00 - 27/08 | Littlehampton Town VS Bognor Regis Town | Non League Premier",
+      "status": "upcoming",
+      "league": "Non League Premier",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401901568",
       "title": "05:00:00 - 25/08 | Detroit Mercy VS Adrian | NCAA Men's Soccer",
       "status": "upcoming",
@@ -1741,8 +1759,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5115962",
-      "title": "05:00:00 - 25/08 | Tigre VS Central Cordoba de Santiago | Argentine Liga Profesional de Fútbol",
+      "id": "4633358",
+      "title": "05:00:00 - 25/08 | Tigre VS Central Córdoba SdE | Argentine Liga Profesional de Fútbol",
       "status": "upcoming",
       "league": "Argentine Liga Profesional de Fútbol",
       "candidateCount": 0,
@@ -1930,7 +1948,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401845063",
+      "id": "5114016",
       "title": "06:00:00 - 26/08 | Excursionistas VS Argentino de Merlo | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
@@ -2065,10 +2083,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5977327",
-      "title": "08:00:00 - 25/08 | Atlas (W) VS Club Tijuana (W) | Liga MX Femenil Apertura",
+      "id": "4788424",
+      "title": "08:00:00 - 25/08 | Atlas (W) VS Club Tijuana (W) | Liga MX Femenil - Apertura",
       "status": "upcoming",
-      "league": "Liga MX Femenil Apertura",
+      "league": "Liga MX Femenil - Apertura",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2083,10 +2101,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4732035",
-      "title": "08:00:00 - 26/08 | Cucuta Deportivo VS Alianza FC | Liga BetPlay - Clausura",
+      "id": "401878054",
+      "title": "08:00:00 - 26/08 | Cúcuta Deportivo VS Alianza FC | Colombian Primera A",
       "status": "upcoming",
-      "league": "Liga BetPlay - Clausura",
+      "league": "Colombian Primera A",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2137,7 +2155,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5140008",
+      "id": "4652617",
       "title": "17:30:00 - 25/08 | FC Seoul VS Bucheon FC 1995 | K League 1",
       "status": "upcoming",
       "league": "K League 1",
@@ -2155,7 +2173,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4652615",
+      "id": "5140007",
       "title": "17:30:00 - 25/08 | Jeju SK VS Pohang Steelers | K League 1",
       "status": "upcoming",
       "league": "K League 1",
@@ -2191,27 +2209,9 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4760656",
-      "title": "19:00:00 - 24/08 | Araks Ararat VS Cilicia | Armenian Cup - Preliminary Round",
-      "status": "live",
-      "league": "Armenian Cup - Preliminary Round",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4784524",
-      "title": "19:15:00 - 24/08 | Sabah FA VS Imigresen | Liga Super - Regular Season",
-      "status": "upcoming",
-      "league": "Liga Super - Regular Season",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5998145",
       "title": "19:15:00 - 24/08 | Sabah VS Star City | Malaysian Super League",
-      "status": "upcoming",
+      "status": "live",
       "league": "Malaysian Super League",
       "candidateCount": 0,
       "providers": [],
@@ -2238,7 +2238,7 @@
     {
       "id": "4820430",
       "title": "20:00:00 - 24/08 | Penarol Reserves VS Albion Fc (Reserves) | Reserve League - Clausura",
-      "status": "upcoming",
+      "status": "live",
       "league": "Reserve League - Clausura",
       "candidateCount": 0,
       "providers": [],
@@ -2335,8 +2335,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6011783",
-      "title": "21:15:00 - 25/08 | NB Bornholm VS HIK | DBU Pokalen",
+      "id": "4806280",
+      "title": "21:15:00 - 25/08 | NB Bornholm VS Hik Hellerup | DBU Pokalen",
       "status": "upcoming",
       "league": "DBU Pokalen",
       "candidateCount": 0,
@@ -2371,10 +2371,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000017962",
-      "title": "21:30:00 - 25/08 | NK Kustosija VS NK Zadar | Croatia Cup",
+      "id": "4795213",
+      "title": "21:30:00 - 25/08 | Kustosija VS NK Zadar | Croatia Cup - Round of 64",
       "status": "upcoming",
-      "league": "Croatia Cup",
+      "league": "Croatia Cup - Round of 64",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2470,6 +2470,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4749839",
+      "title": "22:00:00 - 25/08 | Cska Sofia II VS Ludogorets II | Vtora Liga",
+      "status": "upcoming",
+      "league": "Vtora Liga",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4663693",
       "title": "22:00:00 - 25/08 | Dinamo Samarkand VS Pakhtakor | Uzbekistan Super League",
       "status": "upcoming",
@@ -2501,15 +2510,6 @@
       "title": "22:00:00 - 25/08 | NK Bled Hirter VS Triglav Kranj | Hervis Pokal - 1st Round",
       "status": "upcoming",
       "league": "Hervis Pokal - 1st Round",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5874173",
-      "title": "22:00:00 - 25/08 | PFC CSKA Sofia II VS Ludogorets Razgrad II | Vtora Liga",
-      "status": "upcoming",
-      "league": "Vtora Liga",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2668,8 +2668,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4805997",
-      "title": "22:30:00 - 25/08 | Munkebo Bk VS Naesby | DBU Pokalen",
+      "id": "6011786",
+      "title": "22:30:00 - 25/08 | Munkebo BK VS Næsby | DBU Pokalen",
       "status": "upcoming",
       "league": "DBU Pokalen",
       "candidateCount": 0,
@@ -2785,7 +2785,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6028517",
+      "id": "4806526",
       "title": "22:45:00 - 25/08 | Zakho VS Diyala | Iraqi League",
       "status": "upcoming",
       "league": "Iraqi League",
