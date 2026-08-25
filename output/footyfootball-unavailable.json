@@ -328,8 +328,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4637119",
-      "title": "00:00:00 - 27/08 | Stabaek VS Ranheim | OBOS-ligaen",
+      "id": "5105230",
+      "title": "00:00:00 - 27/08 | Stabæk VS Ranheim | OBOS-ligaen",
       "status": "upcoming",
       "league": "OBOS-ligaen",
       "candidateCount": 0,
@@ -1111,8 +1111,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6005654",
-      "title": "01:45:00 - 26/08 | Fleetwood VS Shrewsbury | English Carabao Cup",
+      "id": "401908135",
+      "title": "01:45:00 - 26/08 | Fleetwood Town VS Shrewsbury Town | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
       "candidateCount": 0,
@@ -1273,7 +1273,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4822502",
+      "id": "4783450",
       "title": "01:45:00 - 26/08 | Quorn VS Gainsborough | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -2884,15 +2884,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6065378",
-      "title": "22:00:00 - 25/08 | FK Varnsdorf VS Usti nad Labem | MOL Cup",
-      "status": "upcoming",
-      "league": "MOL Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4782337",
       "title": "22:00:00 - 25/08 | Namungo FC VS Fountain Gate | Tanzanian Premier League",
       "status": "upcoming",
@@ -2906,6 +2897,15 @@
       "title": "22:00:00 - 25/08 | NK Bled Hirter VS Triglav Kranj | Hervis Pokal - 1st Round",
       "status": "upcoming",
       "league": "Hervis Pokal - 1st Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4814819",
+      "title": "22:00:00 - 25/08 | Slovan Varnsdorf VS Usti Nad Labem | MOL Cup - Round of 16",
+      "status": "upcoming",
+      "league": "MOL Cup - Round of 16",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
