@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 434,
+  "count": 432,
   "matches": [
     {
       "id": "4764658",
@@ -26,15 +26,6 @@
       "title": "00:00:00 - 26/08 | Dynamo Stavropol VS FC Astrakhan | Russian Cup - Regions Path - Playoffs",
       "status": "upcoming",
       "league": "Russian Cup - Regions Path - Playoffs",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4818719",
-      "title": "00:00:00 - 26/08 | FC Barcelona B VS Reus FC Reddis | Club Friendlies",
-      "status": "upcoming",
-      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -179,6 +170,15 @@
       "title": "00:00:00 - 27/08 | Czarni Sosnowiec (W) VS Oud-Heverlee Leuven (W) | UEFA Women's Champions League",
       "status": "upcoming",
       "league": "UEFA Women's Champions League",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4818719",
+      "title": "00:00:00 - 27/08 | FC Barcelona B VS Reus FC Reddis | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -337,8 +337,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4637119",
-      "title": "00:00:00 - 27/08 | Stabaek VS Ranheim | OBOS-ligaen",
+      "id": "5105230",
+      "title": "00:00:00 - 27/08 | Stabæk VS Ranheim | OBOS-ligaen",
       "status": "upcoming",
       "league": "OBOS-ligaen",
       "candidateCount": 0,
@@ -536,7 +536,7 @@
     },
     {
       "id": "5114013",
-      "title": "01:00:00 - 26/08 | Arsenal Sarandi VS Ituzaingo | Argentine Primera B",
+      "title": "01:00:00 - 26/08 | Arsenal Sarandi VS Ituzaingó | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -617,7 +617,7 @@
     },
     {
       "id": "5114019",
-      "title": "01:00:00 - 26/08 | San Martin Burzaco VS Argentino de Quilmes | Argentine Primera B",
+      "title": "01:00:00 - 26/08 | San Martín Burzaco VS Argentino de Quilmes | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -662,7 +662,7 @@
     },
     {
       "id": "5114022",
-      "title": "01:00:00 - 26/08 | Villa Dalmine VS CA Talleres Remedios de Escalada | Argentine Primera B",
+      "title": "01:00:00 - 26/08 | Villa Dálmine VS CA Talleres Remedios de Escalada | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -1273,7 +1273,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4822502",
+      "id": "4783450",
       "title": "01:45:00 - 26/08 | Quorn VS Gainsborough | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -1526,7 +1526,7 @@
     },
     {
       "id": "6005796",
-      "title": "02:00:00 - 26/08 | General Caballero JLM VS Rubio Nu | Copa Paraguay",
+      "title": "02:00:00 - 26/08 | General Caballero JLM VS Rubio Ñú | Copa Paraguay",
       "status": "upcoming",
       "league": "Copa Paraguay",
       "candidateCount": 0,
@@ -2075,7 +2075,7 @@
     },
     {
       "id": "1000014109",
-      "title": "08:00:00 - 26/08 | Cucuta VS Alianza FC | Primera A",
+      "title": "08:00:00 - 26/08 | Cúcuta VS Alianza FC | Primera A",
       "status": "upcoming",
       "league": "Primera A",
       "candidateCount": 0,
@@ -2177,24 +2177,6 @@
       "title": "16:30:00 - 26/08 | Yokohama FC VS Criacao Shinjuku | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4811351",
-      "title": "17:00:00 - 25/08 | Avangard Kursk VS Kaluga | Russian Cup - Regions Path - Playoffs",
-      "status": "live",
-      "league": "Russian Cup - Regions Path - Playoffs",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4811882",
-      "title": "17:00:00 - 25/08 | Estoril U23 VS Moreirense FC U23 | Liga Revelacao U23 - Regular Season",
-      "status": "live",
-      "league": "Liga Revelacao U23 - Regular Season",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2849,7 +2831,7 @@
     },
     {
       "id": "6065378",
-      "title": "22:00:00 - 25/08 | FK Varnsdorf VS Usti nad Labem | MOL Cup",
+      "title": "22:00:00 - 25/08 | FK Varnsdorf VS Ústí nad Labem | MOL Cup",
       "status": "upcoming",
       "league": "MOL Cup",
       "candidateCount": 0,
@@ -3083,7 +3065,7 @@
     },
     {
       "id": "6065379",
-      "title": "22:30:00 - 25/08 | Horni Redice VS Dukla Praha | MOL Cup",
+      "title": "22:30:00 - 25/08 | Horní Ředice VS Dukla Praha | MOL Cup",
       "status": "upcoming",
       "league": "MOL Cup",
       "candidateCount": 0,
@@ -3146,7 +3128,7 @@
     },
     {
       "id": "6065380",
-      "title": "22:30:00 - 25/08 | SK Zapy VS Bohemians 1905 | MOL Cup",
+      "title": "22:30:00 - 25/08 | SK Zápy VS Bohemians 1905 | MOL Cup",
       "status": "upcoming",
       "league": "MOL Cup",
       "candidateCount": 0,
