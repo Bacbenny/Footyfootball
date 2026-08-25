@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 432,
+  "count": 433,
   "matches": [
     {
       "id": "4764658",
@@ -931,15 +931,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401896350",
-      "title": "01:45:00 - 26/08 | Annan Athletic VS Berwick Rangers | Scottish League Challenge Cup",
-      "status": "upcoming",
-      "league": "Scottish League Challenge Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4821719",
       "title": "01:45:00 - 26/08 | Badshot Lea VS Afc Stoneham | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
@@ -1115,6 +1106,15 @@
       "title": "01:45:00 - 26/08 | Fleetwood VS Shrewsbury | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5959554",
+      "title": "01:45:00 - 26/08 | Forfar Athletic VS Formartine United | Scottish League Challenge Cup",
+      "status": "upcoming",
+      "league": "Scottish League Challenge Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2177,6 +2177,15 @@
       "title": "16:30:00 - 26/08 | Yokohama FC VS Criacao Shinjuku | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4811351",
+      "title": "17:00:00 - 25/08 | Avangard Kursk VS Kaluga | Russian Cup - Regions Path - Playoffs",
+      "status": "upcoming",
+      "league": "Russian Cup - Regions Path - Playoffs",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"

@@ -1,31 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 287,
+  "count": 286,
   "matches": [
-    {
-      "id": "4811351",
-      "title": "17:00:00 - 25/08 | Avangard Kursk VS Kaluga | Russian Cup - Regions Path - Playoffs",
-      "league": "Russian Cup - Regions Path - Playoffs",
-      "status": "live",
-      "kickoff": "2026-08-25T10:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4811351/avangard-kursk-kaluga/regular/1"
-    },
-    {
-      "id": "4811882",
-      "title": "17:00:00 - 25/08 | Estoril U23 VS Moreirense FC U23 | Liga Revelacao U23 - Regular Season",
-      "league": "Liga Revelacao U23 - Regular Season",
-      "status": "live",
-      "kickoff": "2026-08-25T10:00:00.000Z",
-      "quality": "SD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/4811882/estoril-u23-moreirense-fc-u23/regular/1"
-    },
     {
       "id": "4652615",
       "title": "17:30:00 - 25/08 | Jeju SK VS Pohang Steelers | K League 1",
@@ -63,6 +39,18 @@
       "url": "https://sportsembed.su/embed/4652617/fc-seoul-bucheon-fc-1995/sigma/1"
     },
     {
+      "id": "4811882",
+      "title": "17:00:00 - 25/08 | Estoril U23 VS Moreirense FC U23 | Liga Revelacao U23 - Regular Season",
+      "league": "Liga Revelacao U23 - Regular Season",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T10:00:00.000Z",
+      "quality": "SD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4811882/estoril-u23-moreirense-fc-u23/regular/1"
+    },
+    {
       "id": "4822196",
       "title": "21:00:00 - 25/08 | Hapoel Beer Sheva U19 VS Hapoel Jerusalem U19 | Youth League",
       "league": "Youth League",
@@ -75,8 +63,8 @@
       "url": "https://embed.st/embed/admin/ppv-sabah-fk-vs-hapoel-be-er/1"
     },
     {
-      "id": "4809603",
-      "title": "23:45:00 - 25/08 | Sabah VS Hapoel Beer Sheva | UEFA Champions League",
+      "id": "5987809",
+      "title": "23:45:00 - 25/08 | Sabah FK VS Hapoel Beer Sheva | UEFA Champions League",
       "league": "UEFA Champions League",
       "status": "upcoming",
       "kickoff": "2026-08-25T16:45:00.000Z",
@@ -384,7 +372,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-liverpool-vs-nottingham-forest/1"
+      "url": "https://embed.st/embed/admin/ppv-nottingham-forest-vs-leeds-united/1"
     },
     {
       "id": "401909196",
@@ -696,7 +684,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/581/1"
+      "url": "https://embed.st/embed/admin/ppv-real-sociedad-vs-espanyol/1"
     },
     {
       "id": "5987810",
@@ -1635,18 +1623,6 @@
       "url": "https://embed.st/embed/admin/ppv-stade-rennais-vs-le-mans/1"
     },
     {
-      "id": "sm-ppv-manchester-united-vs-ipswich-town",
-      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T15:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
-    },
-    {
       "id": "sm-ppv-fc-augsburg-vs-schalke-04",
       "title": "22:30:00 - 30/08 | FC Augsburg VS Schalke 04 | Football",
       "league": "Football",
@@ -1657,6 +1633,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-fc-augsburg-vs-schalke-04/1"
+    },
+    {
+      "id": "sm-ppv-manchester-united-vs-ipswich-town",
+      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T15:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
     },
     {
       "id": "sm-ppv-napoli-vs-como",
@@ -1683,18 +1671,6 @@
       "url": "https://embed.st/embed/admin/ppv-deportivo-vs-valencia/1"
     },
     {
-      "id": "sm-ppv-as-monaco-vs-marseille",
-      "title": "01:45:00 - 31/08 | AS Monaco VS Marseille | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-marseille/1"
-    },
-    {
       "id": "sm-ppv-lazio-vs-genoa",
       "title": "01:45:00 - 31/08 | Lazio VS Genoa | Football",
       "league": "Football",
@@ -1705,6 +1681,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-lazio-vs-genoa/1"
+    },
+    {
+      "id": "sm-ppv-as-monaco-vs-marseille",
+      "title": "01:45:00 - 31/08 | AS Monaco VS Marseille | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-marseille/1"
     },
     {
       "id": "sm-ppv-cagliari-vs-inter-milan",
