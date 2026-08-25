@@ -1,7 +1,43 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 282,
+  "count": 285,
   "matches": [
+    {
+      "id": "4652615",
+      "title": "17:30:00 - 25/08 | Jeju SK VS Pohang Steelers | K League 1",
+      "league": "K League 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T10:30:00.000Z",
+      "quality": "FHD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4652615/jeju-sk-pohang-steelers/sigma/1"
+    },
+    {
+      "id": "4652616",
+      "title": "17:30:00 - 25/08 | Gimcheon Sangmu FC VS Jeonbuk Hyundai Motors | K League 1",
+      "league": "K League 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T10:30:00.000Z",
+      "quality": "WHD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4652616/gimcheon-sangmu-fc-jeonbuk-hyundai-motors/sigma/1"
+    },
+    {
+      "id": "4652617",
+      "title": "17:30:00 - 25/08 | FC Seoul VS Bucheon FC 1995 | K League 1",
+      "league": "K League 1",
+      "status": "upcoming",
+      "kickoff": "2026-08-25T10:30:00.000Z",
+      "quality": "FHD",
+      "provider": "watchfooty",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://sportsembed.su/embed/4652617/fc-seoul-bucheon-fc-1995/sigma/1"
+    },
     {
       "id": "4822196",
       "title": "21:00:00 - 25/08 | Hapoel Beer Sheva U19 VS Hapoel Jerusalem U19 | Youth League",
@@ -156,7 +192,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
+      "url": "https://embed.st/embed/delta/live_efl-cup_ipswich-leicester-live-streaming-608512608/1"
     },
     {
       "id": "6005661",
@@ -252,7 +288,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_efl-cup_ipswich-leicester-live-streaming-608512608/1"
+      "url": "https://embed.st/embed/admin/ppv-ipswich-town-vs-leicester-city/1"
     },
     {
       "id": "sm-southampton-vs-west-ham-united-2570486",
@@ -324,7 +360,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-liverpool-vs-nottingham-forest/1"
+      "url": "https://embed.st/embed/admin/ppv-nottingham-forest-vs-leeds-united/1"
     },
     {
       "id": "401909196",
@@ -372,7 +408,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_uefa-champions-league-playoff-round_bodoglimt-nec-live-streaming-608504400/1"
+      "url": "https://embed.st/embed/admin/ppv-bodo-glimt-vs-nec-nijmegen/1"
     },
     {
       "id": "sm-lask-vs-celtic-2558134",
@@ -543,28 +579,28 @@
       "url": "https://embed.st/embed/admin/ppv-cagliari-vs-inter-milan/1"
     },
     {
-      "id": "401909085",
-      "title": "00:00:00 - 27/08 | Eintracht Frankfurt VS Paris Saint-Germain | UEFA Women's Champions League Qualifying",
-      "league": "UEFA Women's Champions League Qualifying",
+      "id": "6009056",
+      "title": "00:00:00 - 27/08 | Eintracht Frankfurt (W) VS Paris Saint Germain (W) | UEFA Women's Champions League",
+      "league": "UEFA Women's Champions League",
       "status": "upcoming",
       "kickoff": "2026-08-26T17:00:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lille-vs-paris-saint-germain/1"
+      "url": "https://embed.st/embed/admin/ppv-1-fc-union-berlin-vs-eintracht-frankfurt/1"
     },
     {
-      "id": "401909082",
-      "title": "00:30:00 - 27/08 | Ajax Amsterdam VS Real Madrid | UEFA Women's Champions League Qualifying",
-      "league": "UEFA Women's Champions League Qualifying",
+      "id": "4809285",
+      "title": "00:30:00 - 27/08 | Ajax (W) VS Real Madrid (W) | UEFA Women's Champions League",
+      "league": "UEFA Women's Champions League",
       "status": "upcoming",
       "kickoff": "2026-08-26T17:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-m-laga/1"
+      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
     },
     {
       "id": "5911840",
@@ -588,7 +624,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/581/1"
+      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
     },
     {
       "id": "4806341",
@@ -636,7 +672,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
+      "url": "https://embed.st/embed/admin/ppv-real-sociedad-vs-espanyol/1"
     },
     {
       "id": "5987810",
@@ -744,7 +780,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/581/1"
+      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
     },
     {
       "id": "4762407",
@@ -804,7 +840,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/603/1"
+      "url": "https://embed.st/embed/admin/ppv-barcelona-vs-athletic-club/1"
     },
     {
       "id": "cdn-2479767",
@@ -900,7 +936,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/612/1"
+      "url": "https://embed.st/embed/admin/ppv-crystal-palace-vs-manchester-city/1"
     },
     {
       "id": "sm-ppv-alav-s-vs-villarreal",
@@ -1383,6 +1419,18 @@
       "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-fc-cincinnati/1"
     },
     {
+      "id": "sm-ppv-sporting-kansas-city-vs-vancouver-whitecaps",
+      "title": "07:30:00 - 30/08 | Sporting Kansas City VS Vancouver Whitecaps | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-sporting-kansas-city-vs-vancouver-whitecaps/1"
+    },
+    {
       "id": "sm-ppv-houston-dynamo-fc-vs-san-jose-earthquakes",
       "title": "07:30:00 - 30/08 | Houston Dynamo FC VS San Jose Earthquakes | Football",
       "league": "Football",
@@ -1405,18 +1453,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-minnesota-united-fc-vs-orlando-city-sc/1"
-    },
-    {
-      "id": "sm-ppv-sporting-kansas-city-vs-vancouver-whitecaps",
-      "title": "07:30:00 - 30/08 | Sporting Kansas City VS Vancouver Whitecaps | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sporting-kansas-city-vs-vancouver-whitecaps/1"
     },
     {
       "id": "sm-ppv-am-rica-vs-puebla",
@@ -1575,18 +1611,6 @@
       "url": "https://embed.st/embed/admin/ppv-stade-rennais-vs-le-mans/1"
     },
     {
-      "id": "sm-ppv-manchester-united-vs-ipswich-town",
-      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T15:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
-    },
-    {
       "id": "sm-ppv-fc-augsburg-vs-schalke-04",
       "title": "22:30:00 - 30/08 | FC Augsburg VS Schalke 04 | Football",
       "league": "Football",
@@ -1597,6 +1621,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-fc-augsburg-vs-schalke-04/1"
+    },
+    {
+      "id": "sm-ppv-manchester-united-vs-ipswich-town",
+      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T15:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
     },
     {
       "id": "sm-ppv-napoli-vs-como",
@@ -1623,8 +1659,8 @@
       "url": "https://embed.st/embed/admin/ppv-deportivo-vs-valencia/1"
     },
     {
-      "id": "sm-ppv-as-monaco-vs-marseille",
-      "title": "01:45:00 - 31/08 | AS Monaco VS Marseille | Football",
+      "id": "sm-ppv-cagliari-vs-inter-milan",
+      "title": "01:45:00 - 31/08 | Cagliari VS Inter Milan | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T18:45:00.000Z",
@@ -1632,7 +1668,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-marseille/1"
+      "url": "https://embed.st/embed/admin/ppv-cagliari-vs-inter-milan/1"
     },
     {
       "id": "sm-ppv-lazio-vs-genoa",
@@ -1647,8 +1683,8 @@
       "url": "https://embed.st/embed/admin/ppv-lazio-vs-genoa/1"
     },
     {
-      "id": "sm-ppv-cagliari-vs-inter-milan",
-      "title": "01:45:00 - 31/08 | Cagliari VS Inter Milan | Football",
+      "id": "sm-ppv-as-monaco-vs-marseille",
+      "title": "01:45:00 - 31/08 | AS Monaco VS Marseille | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T18:45:00.000Z",
@@ -1656,7 +1692,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-cagliari-vs-inter-milan/1"
+      "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-marseille/1"
     },
     {
       "id": "cdn-2431406",

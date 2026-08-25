@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 433,
+  "count": 430,
   "matches": [
     {
       "id": "4764658",
@@ -337,8 +337,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4637119",
-      "title": "00:00:00 - 27/08 | Stabaek VS Ranheim | OBOS-ligaen",
+      "id": "5105230",
+      "title": "00:00:00 - 27/08 | Stabæk VS Ranheim | OBOS-ligaen",
       "status": "upcoming",
       "league": "OBOS-ligaen",
       "candidateCount": 0,
@@ -832,8 +832,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909154",
-      "title": "01:00:00 - 27/08 | Spartak Subotica VS Brondby | UEFA Women's Europa Cup",
+      "id": "1000019447",
+      "title": "01:00:00 - 27/08 | ZFK Spartak Subotica VS Brøndby IF | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -1021,8 +1021,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5949211",
-      "title": "01:45:00 - 26/08 | Cleethorpes Town VS Whitby | Non League Premier",
+      "id": "4783452",
+      "title": "01:45:00 - 26/08 | Cleethorpes Town VS Whitby Town | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
       "candidateCount": 0,
@@ -1102,8 +1102,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401908135",
-      "title": "01:45:00 - 26/08 | Fleetwood Town VS Shrewsbury Town | English Carabao Cup",
+      "id": "6005654",
+      "title": "01:45:00 - 26/08 | Fleetwood VS Shrewsbury | English Carabao Cup",
       "status": "upcoming",
       "league": "English Carabao Cup",
       "candidateCount": 0,
@@ -1156,10 +1156,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401913560",
-      "title": "01:45:00 - 26/08 | Haywards Heath Town VS Sutton Common Rovers | English FA Cup Qualifying",
+      "id": "4821674",
+      "title": "01:45:00 - 26/08 | Haywards Heath Town VS Sutton Common Rovers | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
-      "league": "English FA Cup Qualifying",
+      "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1264,7 +1264,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4822502",
+      "id": "4783450",
       "title": "01:45:00 - 26/08 | Quorn VS Gainsborough | Non League Premier",
       "status": "upcoming",
       "league": "Non League Premier",
@@ -2407,33 +2407,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4652617",
-      "title": "17:30:00 - 25/08 | FC Seoul VS Bucheon FC 1995 | K League 1",
-      "status": "upcoming",
-      "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5140006",
-      "title": "17:30:00 - 25/08 | Gimcheon Sangmu VS Jeonbuk Hyundai Motors FC | K League 1",
-      "status": "upcoming",
-      "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5140007",
-      "title": "17:30:00 - 25/08 | Jeju SK VS Pohang Steelers | K League 1",
-      "status": "upcoming",
-      "league": "K League 1",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5140010",
       "title": "17:30:00 - 26/08 | Daejeon Hana Citizen VS Ulsan HD FC | K League 1",
       "status": "upcoming",
@@ -2443,7 +2416,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5140009",
+      "id": "4652614",
       "title": "17:30:00 - 26/08 | FC Anyang VS Incheon United | K League 1",
       "status": "upcoming",
       "league": "K League 1",
@@ -3181,10 +3154,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814820",
-      "title": "22:30:00 - 26/08 | Admira Prague VS Taborsko | MOL Cup - Round of 16",
+      "id": "6065390",
+      "title": "22:30:00 - 26/08 | Admira Prague VS FC Silon Taborsko | MOL Cup",
       "status": "upcoming",
-      "league": "MOL Cup - Round of 16",
+      "league": "MOL Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3246,15 +3219,6 @@
     {
       "id": "4814815",
       "title": "22:30:00 - 26/08 | Dvur Kralove VS Loko Vltavin | MOL Cup - Round of 16",
-      "status": "upcoming",
-      "league": "MOL Cup - Round of 16",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4814824",
-      "title": "22:30:00 - 26/08 | FC Pisek VS Pardubice | MOL Cup - Round of 16",
       "status": "upcoming",
       "league": "MOL Cup - Round of 16",
       "candidateCount": 0,
@@ -3383,6 +3347,15 @@
       "title": "22:30:00 - 26/08 | Petro Luanda VS Recreativo Libolo | Girabola",
       "status": "upcoming",
       "league": "Girabola",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6065387",
+      "title": "22:30:00 - 26/08 | Pisek VS Pardubice | MOL Cup",
+      "status": "upcoming",
+      "league": "MOL Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -3694,8 +3667,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4787508",
-      "title": "23:05:00 - 25/08 | Abha Club VS Al Khaleej Club | Saudi Pro League",
+      "id": "401900390",
+      "title": "23:05:00 - 25/08 | Abha VS Al Khaleej | Saudi Pro League",
       "status": "upcoming",
       "league": "Saudi Pro League",
       "candidateCount": 0,
