@@ -1,13 +1,22 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 311,
+  "count": 314,
   "matches": [
     {
       "id": "4815921",
       "title": "00:00:00 - 27/08 | Adria VS Bilje | Hervis Pokal - 1st Round",
       "status": "upcoming",
       "league": "Hervis Pokal - 1st Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401909176",
+      "title": "00:00:00 - 27/08 | Anderlecht VS Feyenoord Rotterdam | UEFA Women's Europa Cup",
+      "status": "upcoming",
+      "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -184,15 +193,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4822593",
-      "title": "00:00:00 - 27/08 | Rsc Anderlecht (W) VS Feyenoord (W) | UEFA Women's Europa Cup",
-      "status": "upcoming",
-      "league": "UEFA Women's Europa Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4705719",
       "title": "00:00:00 - 27/08 | Santos (W) VS Mirassol (W) | Paulista Women",
       "status": "upcoming",
@@ -296,15 +296,6 @@
       "title": "00:00:00 - 28/08 | CD Ebro VS San Sebastian De Los Reyes | Club Friendlies",
       "status": "upcoming",
       "league": "Club Friendlies",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909621",
-      "title": "00:00:00 - 28/08 | F.C. København VS FC Inter Turku | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -634,8 +625,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000019447",
-      "title": "01:00:00 - 27/08 | ZFK Spartak Subotica VS Brøndby IF | UEFA Women's Europa Cup",
+      "id": "401909154",
+      "title": "01:00:00 - 27/08 | Spartak Subotica VS Brondby | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -751,15 +742,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401910988",
-      "title": "01:30:00 - 28/08 | Austria Vienna VS Braga | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5988075",
       "title": "01:30:00 - 28/08 | Borac Banja Luka VS Víkingur Reykjavík | UEFA Conference League",
       "status": "upcoming",
@@ -845,15 +827,6 @@
       "title": "01:45:00 - 28/08 | Caen VS SC Bastia | Ligue 3",
       "status": "upcoming",
       "league": "Ligue 3",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909617",
-      "title": "01:45:00 - 28/08 | Rijeka VS FC Midtjylland | UEFA Conference League",
-      "status": "upcoming",
-      "league": "UEFA Conference League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1021,7 +994,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5989695",
+      "id": "4802754",
       "title": "03:00:00 - 28/08 | MC Alger VS MC Oran | Algerian Ligue 1",
       "status": "upcoming",
       "league": "Algerian Ligue 1",
@@ -1561,33 +1534,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062166",
-      "title": "16:30:00 - 26/08 | Machida Zelvia VS Grulla Morioka | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062167",
-      "title": "16:30:00 - 26/08 | Nagoya Grampus VS Gainare Tottori | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062168",
-      "title": "16:30:00 - 26/08 | Sanfrecce VS Okinawa | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "6062169",
       "title": "16:30:00 - 26/08 | Tokushima Vortis VS FC Tokushima | Emperors Cup",
       "status": "live",
@@ -1597,8 +1543,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062171",
-      "title": "16:30:00 - 26/08 | Yokohama FC VS Criacao Shinjuku | Emperors Cup",
+      "id": "6062172",
+      "title": "17:00:00 - 26/08 | Albirex Niigata VS Kagoshima United | Emperors Cup",
       "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1608,16 +1554,52 @@
     {
       "id": "6062173",
       "title": "17:00:00 - 26/08 | Avispa Fukuoka VS Verspah Oita | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062177",
-      "title": "17:00:00 - 26/08 | Kashima Antlers VS Atletico Suzuka | Emperors Cup",
-      "status": "upcoming",
+      "id": "4735610",
+      "title": "17:00:00 - 26/08 | Consadole Sapporo VS Kofu | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5840159",
+      "title": "17:00:00 - 26/08 | FC Imabari VS Blaublitz Akita | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4824117",
+      "title": "17:00:00 - 26/08 | Gamba Osaka VS Reilac Shiga | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5840165",
+      "title": "17:00:00 - 26/08 | Iwaki FC VS Oita Trinita | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4735609",
+      "title": "17:00:00 - 26/08 | Jubilo Iwata VS Tegevajaro Miyazaki | Emperors Cup",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1626,7 +1608,43 @@
     {
       "id": "6062178",
       "title": "17:00:00 - 26/08 | Kashiwa Reysol VS Senshu University | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5840161",
+      "title": "17:00:00 - 26/08 | Montedio Yamagata VS Fujieda MYFC | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5840162",
+      "title": "17:00:00 - 26/08 | RB Omiya Ardija VS Vanraure Hachinohe | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4735606",
+      "title": "17:00:00 - 26/08 | Sagan Tosu VS Toyama | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062183",
+      "title": "17:00:00 - 26/08 | Shimizu S-Pulse VS FC Osaka | Emperors Cup",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1635,16 +1653,25 @@
     {
       "id": "6062184",
       "title": "17:00:00 - 26/08 | Shonan Bellmare VS Rein Meer Aomori | Emperors Cup",
-      "status": "upcoming",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4824115",
-      "title": "17:00:00 - 26/08 | Urawa Red Diamonds VS Yamanashi Gakuin | Emperors Cup",
-      "status": "upcoming",
+      "id": "6062186",
+      "title": "17:00:00 - 26/08 | V-Varen Nagasaki VS Ehime FC | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062187",
+      "title": "17:00:00 - 26/08 | Vissel Kobe VS Veroskronos Tsuno | Emperors Cup",
+      "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
