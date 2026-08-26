@@ -1,22 +1,13 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 307,
+  "count": 314,
   "matches": [
     {
       "id": "4815921",
       "title": "00:00:00 - 27/08 | Adria VS Bilje | Hervis Pokal - 1st Round",
       "status": "upcoming",
       "league": "Hervis Pokal - 1st Round",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909176",
-      "title": "00:00:00 - 27/08 | Anderlecht VS Feyenoord Rotterdam | UEFA Women's Europa Cup",
-      "status": "upcoming",
-      "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -121,8 +112,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5996693",
-      "title": "00:00:00 - 27/08 | National Bank VS Zamalek SC | Egyptian Premier League",
+      "id": "4804588",
+      "title": "00:00:00 - 27/08 | National Bank Of Egypt VS Zamalek SC | Egyptian Premier League",
       "status": "upcoming",
       "league": "Egyptian Premier League",
       "candidateCount": 0,
@@ -188,6 +179,15 @@
       "title": "00:00:00 - 27/08 | PSV Eindhoven VS HB Køge | UEFA Women's Champions League Qualifying",
       "status": "upcoming",
       "league": "UEFA Women's Champions League Qualifying",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4822593",
+      "title": "00:00:00 - 27/08 | Rsc Anderlecht (W) VS Feyenoord (W) | UEFA Women's Europa Cup",
+      "status": "upcoming",
+      "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -625,8 +625,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909154",
-      "title": "01:00:00 - 27/08 | Spartak Subotica VS Brondby | UEFA Women's Europa Cup",
+      "id": "1000019447",
+      "title": "01:00:00 - 27/08 | ZFK Spartak Subotica VS Brøndby IF | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -994,7 +994,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4802754",
+      "id": "5989695",
       "title": "03:00:00 - 28/08 | MC Alger VS MC Oran | Algerian Ligue 1",
       "status": "upcoming",
       "league": "Algerian Ligue 1",
@@ -1390,10 +1390,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5848995",
-      "title": "07:30:00 - 27/08 | CD Marathón VS Real Estelí FC | Concacaf Central American Cup",
+      "id": "4730000",
+      "title": "07:30:00 - 27/08 | CD Marathon VS Real Estelí FC | CONCACAF Central American Cup - Group Stage - Group B",
       "status": "upcoming",
-      "league": "Concacaf Central American Cup",
+      "league": "CONCACAF Central American Cup - Group Stage - Group B",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1403,6 +1403,15 @@
       "title": "07:30:00 - 27/08 | Central Norte VS Deportivo Moron | Primera Nacional",
       "status": "upcoming",
       "league": "Primera Nacional",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "401878116",
+      "title": "07:30:00 - 27/08 | Club Deportivo Marathón VS Real Estelí | Concacaf Central American Cup",
+      "status": "upcoming",
+      "league": "Concacaf Central American Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1516,9 +1525,54 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "6062166",
+      "title": "16:30:00 - 26/08 | Machida Zelvia VS Grulla Morioka | Emperors Cup",
+      "status": "upcoming",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062167",
+      "title": "16:30:00 - 26/08 | Nagoya Grampus VS Gainare Tottori | Emperors Cup",
+      "status": "upcoming",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062168",
+      "title": "16:30:00 - 26/08 | Sanfrecce VS Okinawa | Emperors Cup",
+      "status": "upcoming",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "6062169",
       "title": "16:30:00 - 26/08 | Tokushima Vortis VS FC Tokushima | Emperors Cup",
-      "status": "live",
+      "status": "upcoming",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062170",
+      "title": "16:30:00 - 26/08 | Tokyo Verdy VS Thespa Gunma | Emperors Cup",
+      "status": "upcoming",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062171",
+      "title": "16:30:00 - 26/08 | Yokohama FC VS Criacao Shinjuku | Emperors Cup",
+      "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
       "providers": [],
@@ -1536,6 +1590,15 @@
     {
       "id": "5840165",
       "title": "17:00:00 - 26/08 | Iwaki FC VS Oita Trinita | Emperors Cup",
+      "status": "live",
+      "league": "Emperors Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "6062174",
+      "title": "17:00:00 - 26/08 | JEF United Chiba VS Azul Claro Numazu | Emperors Cup",
       "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1966,8 +2029,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909188",
-      "title": "22:00:00 - 26/08 | Apollon Limassol VS FH | UEFA Women's Europa Cup",
+      "id": "1000019444",
+      "title": "22:00:00 - 26/08 | Apollon Limassol LFC VS FH Hafnarfjordur | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -2209,8 +2272,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909180",
-      "title": "22:30:00 - 26/08 | Hajduk Split VS Fortuna Hjorring | UEFA Women's Europa Cup",
+      "id": "1000019437",
+      "title": "22:30:00 - 26/08 | Hajduk Split VS Fortuna Hjørring | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
