@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 340,
+  "count": 337,
   "matches": [
     {
       "id": "4815921",
@@ -103,7 +103,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4637139",
+      "id": "5105227",
       "title": "00:00:00 - 27/08 | Moss VS Sogndal | OBOS-ligaen",
       "status": "upcoming",
       "league": "OBOS-ligaen",
@@ -125,6 +125,15 @@
       "title": "00:00:00 - 27/08 | Nk Polana VS Odranci | Hervis Pokal - 1st Round",
       "status": "upcoming",
       "league": "Hervis Pokal - 1st Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4824042",
+      "title": "00:00:00 - 27/08 | Numancia VS Utebo FC | Club Friendlies",
+      "status": "upcoming",
+      "league": "Club Friendlies",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -499,8 +508,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909659",
-      "title": "01:00:00 - 27/08 | Al Ahli VS Auckland FC | FIFA Intercontinental Cup",
+      "id": "4816603",
+      "title": "01:00:00 - 27/08 | Al Ahli Jeddah VS Auckland City | FIFA Intercontinental Cup",
       "status": "upcoming",
       "league": "FIFA Intercontinental Cup",
       "candidateCount": 0,
@@ -895,8 +904,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401906495",
-      "title": "02:00:00 - 27/08 | San Antonio Bulo Bulo VS The Strongest | Bolivian Primera Division",
+      "id": "4806257",
+      "title": "02:00:00 - 27/08 | San Antonio VS The Strongest | Bolivian Primera Division",
       "status": "upcoming",
       "league": "Bolivian Primera Division",
       "candidateCount": 0,
@@ -1399,6 +1408,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "1000014114",
+      "title": "06:20:00 - 27/08 | América de Cali VS Junior FC | Primera A",
+      "status": "upcoming",
+      "league": "Primera A",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4710720",
       "title": "06:30:00 - 27/08 | FC Naples VS Union Omaha | USL League One",
       "status": "upcoming",
@@ -1570,53 +1588,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062165",
-      "title": "16:30:00 - 26/08 | Cerezo Osaka VS FC Gifu | Emperors Cup",
-      "status": "upcoming",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062166",
-      "title": "16:30:00 - 26/08 | Machida Zelvia VS Grulla Morioka | Emperors Cup",
-      "status": "upcoming",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062167",
-      "title": "16:30:00 - 26/08 | Nagoya Grampus VS Gainare Tottori | Emperors Cup",
-      "status": "upcoming",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062168",
-      "title": "16:30:00 - 26/08 | Sanfrecce VS Okinawa | Emperors Cup",
-      "status": "upcoming",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "6062169",
       "title": "16:30:00 - 26/08 | Tokushima Vortis VS FC Tokushima | Emperors Cup",
-      "status": "upcoming",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062170",
-      "title": "16:30:00 - 26/08 | Tokyo Verdy VS Thespa Gunma | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
