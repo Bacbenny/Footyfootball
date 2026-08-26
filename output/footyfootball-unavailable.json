@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 342,
+  "count": 341,
   "matches": [
     {
       "id": "4815921",
@@ -49,19 +49,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6011802",
-      "title": "00:00:00 - 27/08 | FA 2000 VS Lyngby | DBU Pokalen",
+      "id": "5910823",
+      "title": "00:00:00 - 27/08 | Erzgebirge Aue VS Hertha Berlin II | Regionalliga Northeast",
       "status": "upcoming",
-      "league": "DBU Pokalen",
+      "league": "Regionalliga Northeast",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4764657",
-      "title": "00:00:00 - 27/08 | FC Erzgebirge Aue VS Hertha Berlin II | Regionalliga Northeast",
+      "id": "6011802",
+      "title": "00:00:00 - 27/08 | FA 2000 VS Lyngby | DBU Pokalen",
       "status": "upcoming",
-      "league": "Regionalliga Northeast",
+      "league": "DBU Pokalen",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -418,10 +418,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401902059",
-      "title": "00:30:00 - 27/08 | Golden Arrows VS Stellenbosch | South African Premier Division",
+      "id": "5955074",
+      "title": "00:30:00 - 27/08 | Lamontville Golden Arrows VS Stellenbosch FC | Premier Soccer League",
       "status": "upcoming",
-      "league": "South African Premier Division",
+      "league": "Premier Soccer League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -832,8 +832,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4822132",
-      "title": "01:45:00 - 27/08 | Bootle VS 1874 Northwich | FA Cup - Qualifying Rounds - Preliminary Round",
+      "id": "4822154",
+      "title": "01:45:00 - 27/08 | Bootle VS Northwich Victoria FC | FA Cup - Qualifying Rounds - Preliminary Round",
       "status": "upcoming",
       "league": "FA Cup - Qualifying Rounds - Preliminary Round",
       "candidateCount": 0,
@@ -859,10 +859,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909084",
-      "title": "01:45:00 - 27/08 | St. Pölten VS Juventus | UEFA Women's Champions League Qualifying",
+      "id": "6009058",
+      "title": "01:45:00 - 27/08 | SKN St. Pölten (W) VS Juventus (W) | UEFA Women's Champions League",
       "status": "upcoming",
-      "league": "UEFA Women's Champions League Qualifying",
+      "league": "UEFA Women's Champions League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -913,8 +913,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "1000019441",
-      "title": "02:00:00 - 27/08 | Torreense VS FC Kolos Kovalivka | UEFA Women's Europa Cup",
+      "id": "401909177",
+      "title": "02:00:00 - 27/08 | Torreense VS Kolos Kovalivka | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -980,15 +980,6 @@
       "title": "03:00:00 - 27/08 | Astillero VS Universidad Catolica | Ecuador Serie B",
       "status": "upcoming",
       "league": "Ecuador Serie B",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4778488",
-      "title": "03:00:00 - 27/08 | FC Chorrillo VS Arabe Unido Ii | Liga Prom - Apertura - Eastern Conference - South Zone",
-      "status": "upcoming",
-      "league": "Liga Prom - Apertura - Eastern Conference - South Zone",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1183,8 +1174,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4639073",
-      "title": "05:00:00 - 27/08 | Deportivo Merlo VS Sportivo Dock Sud | Argentine Primera B",
+      "id": "401845064",
+      "title": "05:00:00 - 27/08 | Deportivo Merlo VS Dock Sud | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -1354,6 +1345,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "4778488",
+      "title": "06:00:00 - 27/08 | FC Chorrillo VS Arabe Unido Ii | Liga Prom - Apertura - Eastern Conference - South Zone",
+      "status": "upcoming",
+      "league": "Liga Prom - Apertura - Eastern Conference - South Zone",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "401892232",
       "title": "06:00:00 - 27/08 | Lafayette VS Binghamton | NCAA Men's Soccer",
       "status": "upcoming",
@@ -1493,15 +1493,6 @@
       "title": "07:30:00 - 27/08 | Drake VS Grand View | NCAA Women's Soccer",
       "status": "upcoming",
       "league": "NCAA Women's Soccer",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401874438",
-      "title": "07:30:00 - 27/08 | Herediano VS Antigua GFC | Concacaf Central American Cup",
-      "status": "upcoming",
-      "league": "Concacaf Central American Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1732,8 +1723,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4735609",
-      "title": "17:00:00 - 26/08 | Jubilo Iwata VS Tegevajaro Miyazaki | Emperors Cup",
+      "id": "5840166",
+      "title": "17:00:00 - 26/08 | Júbilo Iwata VS Tegevajaro Miyazaki | Emperors Cup",
       "status": "upcoming",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1948,10 +1939,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5998147",
-      "title": "20:00:00 - 26/08 | Kuala Lumpur City VS Kuching City | Malaysian Super League",
+      "id": "4784523",
+      "title": "20:00:00 - 26/08 | Kuala Lumpur VS Kuching City FC | Liga Super - Regular Season",
       "status": "upcoming",
-      "league": "Malaysian Super League",
+      "league": "Liga Super - Regular Season",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2137,6 +2128,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "1000017965",
+      "title": "21:30:00 - 26/08 | NK Uskok Klis VS Podravina | Croatia Cup",
+      "status": "upcoming",
+      "league": "Croatia Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "1000017971",
       "title": "21:30:00 - 26/08 | NK Vardarac VS Ližnjan | Croatia Cup",
       "status": "upcoming",
@@ -2202,15 +2202,6 @@
     {
       "id": "4780171",
       "title": "21:30:00 - 26/08 | Tomislav Drnje VS NK Uljanik | Croatia Cup - Round of 64",
-      "status": "upcoming",
-      "league": "Croatia Cup - Round of 64",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4795215",
-      "title": "21:30:00 - 26/08 | Uskok Klis VS Podravina Ludbreg | Croatia Cup - Round of 64",
       "status": "upcoming",
       "league": "Croatia Cup - Round of 64",
       "candidateCount": 0,
@@ -2398,6 +2389,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "6065399",
+      "title": "22:30:00 - 26/08 | 1. BFK Frýdlant nad Ostravici VS FC Zbrojovka Brno | MOL Cup",
+      "status": "upcoming",
+      "league": "MOL Cup",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "4814820",
       "title": "22:30:00 - 26/08 | Admira Prague VS Taborsko | MOL Cup - Round of 16",
       "status": "upcoming",
@@ -2479,15 +2479,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4814805",
-      "title": "22:30:00 - 26/08 | Frýdlant VS Zbrojovka Brno | MOL Cup - Round of 16",
-      "status": "upcoming",
-      "league": "MOL Cup - Round of 16",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "1000019437",
       "title": "22:30:00 - 26/08 | Hajduk Split VS Fortuna Hjørring | UEFA Women's Europa Cup",
       "status": "upcoming",
@@ -2524,7 +2515,7 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6011797",
+      "id": "4806001",
       "title": "22:30:00 - 26/08 | KRFK VS Brabrand | DBU Pokalen",
       "status": "upcoming",
       "league": "DBU Pokalen",
@@ -2623,10 +2614,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6065396",
-      "title": "22:30:00 - 26/08 | Velká Bíteš VS Slovácko | MOL Cup",
+      "id": "4814812",
+      "title": "22:30:00 - 26/08 | Velká Bíteš VS Slovacko | MOL Cup - Round of 16",
       "status": "upcoming",
-      "league": "MOL Cup",
+      "league": "MOL Cup - Round of 16",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2650,10 +2641,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6065403",
-      "title": "22:30:00 - 26/08 | Zábřeh VS MFK Havířov | MOL Cup",
+      "id": "4814806",
+      "title": "22:30:00 - 26/08 | Zabreh VS Havirov | MOL Cup - Round of 16",
       "status": "upcoming",
-      "league": "MOL Cup",
+      "league": "MOL Cup - Round of 16",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -2731,8 +2722,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806000",
-      "title": "23:00:00 - 26/08 | FC Fredericia VS Odense | DBU Pokalen",
+      "id": "6011790",
+      "title": "23:00:00 - 26/08 | Fredericia VS OB | DBU Pokalen",
       "status": "upcoming",
       "league": "DBU Pokalen",
       "candidateCount": 0,
