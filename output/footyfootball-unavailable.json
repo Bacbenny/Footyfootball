@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 294,
+  "count": 291,
   "matches": [
     {
       "id": "4815921",
@@ -157,19 +157,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4809295",
-      "title": "00:00:00 - 27/08 | PSV (W) VS Koge (W) | UEFA Women's Champions League",
+      "id": "6009050",
+      "title": "00:00:00 - 27/08 | PSV (W) VS HB Køge (W) | UEFA Women's Champions League",
       "status": "upcoming",
       "league": "UEFA Women's Champions League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401909087",
-      "title": "00:00:00 - 27/08 | PSV Eindhoven VS HB Køge | UEFA Women's Champions League Qualifying",
-      "status": "upcoming",
-      "league": "UEFA Women's Champions League Qualifying",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -391,10 +382,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "5955073",
-      "title": "00:30:00 - 27/08 | Mamelodi Sundowns FC VS AmaZulu FC | Premier Soccer League",
+      "id": "401902060",
+      "title": "00:30:00 - 27/08 | Mamelodi Sundowns VS AmaZulu | South African Premier Division",
       "status": "upcoming",
-      "league": "Premier Soccer League",
+      "league": "South African Premier Division",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -625,8 +616,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "401909154",
-      "title": "01:00:00 - 27/08 | Spartak Subotica VS Brondby | UEFA Women's Europa Cup",
+      "id": "1000019447",
+      "title": "01:00:00 - 27/08 | ZFK Spartak Subotica VS Brøndby IF | UEFA Women's Europa Cup",
       "status": "upcoming",
       "league": "UEFA Women's Europa Cup",
       "candidateCount": 0,
@@ -769,15 +760,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4806523",
-      "title": "01:45:00 - 27/08 | Al Talaba Baghdad VS Newroz | Iraqi League",
-      "status": "upcoming",
-      "league": "Iraqi League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "4783446",
       "title": "01:45:00 - 27/08 | Avro VS Leek Town | Non League Premier",
       "status": "upcoming",
@@ -836,6 +818,15 @@
       "title": "01:45:00 - 28/08 | Caen VS SC Bastia | Ligue 3",
       "status": "upcoming",
       "league": "Ligue 3",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "4806523",
+      "title": "02:00:00 - 27/08 | Al Talaba Baghdad VS Newroz | Iraqi League",
+      "status": "upcoming",
+      "league": "Iraqi League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1525,19 +1516,19 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062173",
-      "title": "18:00:00 - 26/08 | Avispa Fukuoka VS Verspah Oita | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
+      "id": "4758786",
+      "title": "19:00:00 - 26/08 | Lernayin Artsakh VS Ecoville | Armenian Cup - Preliminary Round",
+      "status": "upcoming",
+      "league": "Armenian Cup - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4823371",
-      "title": "18:00:00 - 26/08 | Sportivo Trinidense (W) VS Sportivo 2 de Mayo (W) | Championship (W)",
-      "status": "upcoming",
-      "league": "Championship (W)",
+      "id": "4758788",
+      "title": "19:00:00 - 26/08 | Mika VS FC Bentonit | Armenian Cup - Preliminary Round",
+      "status": "live",
+      "league": "Armenian Cup - Preliminary Round",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1547,6 +1538,15 @@
       "title": "19:00:00 - 27/08 | Sardarapat FC VS Syunik | Armenian Cup - Preliminary Round",
       "status": "upcoming",
       "league": "Armenian Cup - Preliminary Round",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
+      "id": "5998146",
+      "title": "19:15:00 - 26/08 | Johor Darul Ta'zim VS Kelantan Red Warrior | Malaysian Super League",
+      "status": "upcoming",
+      "league": "Malaysian Super League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1644,26 +1644,8 @@
     {
       "id": "4822197",
       "title": "21:00:00 - 26/08 | FC Cabinda VS Desportivo Huila | Girabola",
-      "status": "upcoming",
+      "status": "live",
       "league": "Girabola",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4663689",
-      "title": "21:00:00 - 26/08 | Lokomotiv Tashkent VS FC Bunyodkor | Uzbekistan Super League",
-      "status": "upcoming",
-      "league": "Uzbekistan Super League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4663687",
-      "title": "21:00:00 - 26/08 | Mash'al Mubarek VS Navbahor | Uzbekistan Super League",
-      "status": "upcoming",
-      "league": "Uzbekistan Super League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1671,17 +1653,8 @@
     {
       "id": "5200631",
       "title": "21:00:00 - 26/08 | Mashal Muborak VS Navbahor Namangan | Superliga",
-      "status": "upcoming",
+      "status": "live",
       "league": "Superliga",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "5996692",
-      "title": "21:00:00 - 26/08 | Smouha SC VS Asyut Petroleum | Egyptian Premier League",
-      "status": "upcoming",
-      "league": "Egyptian Premier League",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
