@@ -1,7 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
   "note": "Only direct media URLs or resolvable media manifests enter footyfootball.m3u.",
-  "count": 314,
+  "count": 307,
   "matches": [
     {
       "id": "4815921",
@@ -1111,8 +1111,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4639073",
-      "title": "05:00:00 - 27/08 | Deportivo Merlo VS Sportivo Dock Sud | Argentine Primera B",
+      "id": "401845064",
+      "title": "05:00:00 - 27/08 | Deportivo Merlo VS Dock Sud | Argentine Primera B",
       "status": "upcoming",
       "league": "Argentine Primera B",
       "candidateCount": 0,
@@ -1390,10 +1390,10 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "4730000",
-      "title": "07:30:00 - 27/08 | CD Marathon VS Real Estelí FC | CONCACAF Central American Cup - Group Stage - Group B",
+      "id": "5848995",
+      "title": "07:30:00 - 27/08 | CD Marathón VS Real Estelí FC | Concacaf Central American Cup",
       "status": "upcoming",
-      "league": "CONCACAF Central American Cup - Group Stage - Group B",
+      "league": "Concacaf Central American Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1403,15 +1403,6 @@
       "title": "07:30:00 - 27/08 | Central Norte VS Deportivo Moron | Primera Nacional",
       "status": "upcoming",
       "league": "Primera Nacional",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "401878116",
-      "title": "07:30:00 - 27/08 | Club Deportivo Marathón VS Real Estelí | Concacaf Central American Cup",
-      "status": "upcoming",
-      "league": "Concacaf Central American Cup",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
@@ -1525,15 +1516,6 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062165",
-      "title": "16:30:00 - 26/08 | Cerezo Osaka VS FC Gifu | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "6062169",
       "title": "16:30:00 - 26/08 | Tokushima Vortis VS FC Tokushima | Emperors Cup",
       "status": "live",
@@ -1543,44 +1525,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062172",
-      "title": "17:00:00 - 26/08 | Albirex Niigata VS Kagoshima United | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062173",
-      "title": "17:00:00 - 26/08 | Avispa Fukuoka VS Verspah Oita | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4735610",
-      "title": "17:00:00 - 26/08 | Consadole Sapporo VS Kofu | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
       "id": "5840159",
       "title": "17:00:00 - 26/08 | FC Imabari VS Blaublitz Akita | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4824117",
-      "title": "17:00:00 - 26/08 | Gamba Osaka VS Reilac Shiga | Emperors Cup",
       "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1660,17 +1606,8 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
-      "id": "6062186",
-      "title": "17:00:00 - 26/08 | V-Varen Nagasaki VS Ehime FC | Emperors Cup",
-      "status": "live",
-      "league": "Emperors Cup",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "6062187",
-      "title": "17:00:00 - 26/08 | Vissel Kobe VS Veroskronos Tsuno | Emperors Cup",
+      "id": "6062173",
+      "title": "18:00:00 - 26/08 | Avispa Fukuoka VS Verspah Oita | Emperors Cup",
       "status": "live",
       "league": "Emperors Cup",
       "candidateCount": 0,
@@ -1680,7 +1617,7 @@
     {
       "id": "4823371",
       "title": "18:00:00 - 26/08 | Sportivo Trinidense (W) VS Sportivo 2 de Mayo (W) | Championship (W)",
-      "status": "upcoming",
+      "status": "live",
       "league": "Championship (W)",
       "candidateCount": 0,
       "providers": [],
@@ -2740,6 +2677,15 @@
       "reason": "no_upstream_stream_candidate"
     },
     {
+      "id": "5820453",
+      "title": "23:30:00 - 26/08 | FC Stockholm VS Hammarby | Svenska Cupen",
+      "status": "upcoming",
+      "league": "Svenska Cupen",
+      "candidateCount": 0,
+      "providers": [],
+      "reason": "no_upstream_stream_candidate"
+    },
+    {
       "id": "5820452",
       "title": "23:30:00 - 26/08 | Friska Viljor VS Sirius | Svenska Cupen",
       "status": "upcoming",
@@ -2771,15 +2717,6 @@
       "title": "23:30:00 - 26/08 | Sparta Praha (W) VS Servette (W) | UEFA Women's Champions League",
       "status": "upcoming",
       "league": "UEFA Women's Champions League",
-      "candidateCount": 0,
-      "providers": [],
-      "reason": "no_upstream_stream_candidate"
-    },
-    {
-      "id": "4731553",
-      "title": "23:30:00 - 26/08 | Stockholm Internazionale VS Hammarby | Svenska Cupen",
-      "status": "upcoming",
-      "league": "Svenska Cupen",
       "candidateCount": 0,
       "providers": [],
       "reason": "no_upstream_stream_candidate"
