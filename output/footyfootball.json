@@ -1,487 +1,7 @@
 {
   "source": "OgBek/footyLive-compatible public provider APIs",
-  "count": 162,
+  "count": 285,
   "matches": [
-    {
-      "id": "401900386",
-      "title": "23:00:00 - 26/08 | Al-Faisaly VS Al Fateh | Saudi Pro League",
-      "league": "Saudi Pro League",
-      "status": "live",
-      "kickoff": "2026-08-26T16:00:00.000Z",
-      "quality": "WHD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/401900386/al-faisaly-al-fateh/sigma/1"
-    },
-    {
-      "id": "401909061",
-      "title": "23:00:00 - 26/08 | VfL Wolfsburg VS Internazionale | UEFA Women's Champions League Qualifying",
-      "league": "UEFA Women's Champions League Qualifying",
-      "status": "live",
-      "kickoff": "2026-08-26T16:00:00.000Z",
-      "quality": "WHD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/401909061/vfl-wolfsburg-internazionale/sigma/1"
-    },
-    {
-      "id": "401910982",
-      "title": "23:45:00 - 26/08 | Rapid Vienna VS Heart of Midlothian | UEFA Conference League",
-      "league": "UEFA Conference League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T16:45:00.000Z",
-      "quality": "FHD",
-      "provider": "watchfooty",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://sportsembed.su/embed/401910982/rapid-vienna-heart-of-midlothian/sigma/3"
-    },
-    {
-      "id": "sm-rapid-vienna-vs-heart-of-midlothian-2572962",
-      "title": "23:45:00 - 26/08 | Rapid Vienna VS Heart of Midlothian | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T16:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-rapid-vienna-vs-heart-of-midlothian/1"
-    },
-    {
-      "id": "6009056",
-      "title": "00:00:00 - 27/08 | Eintracht Frankfurt (W) VS Paris Saint Germain (W) | UEFA Women's Champions League",
-      "league": "UEFA Women's Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-1-fc-union-berlin-vs-eintracht-frankfurt/1"
-    },
-    {
-      "id": "6009064",
-      "title": "00:30:00 - 27/08 | Ajax (W) VS Real Madrid (W) | UEFA Women's Champions League",
-      "league": "UEFA Women's Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
-    },
-    {
-      "id": "5911840",
-      "title": "00:30:00 - 27/08 | SV Drochtersen/Assel VS Werder Bremen II | Regionalliga North",
-      "league": "Regionalliga North",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T17:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sc-freiburg-vs-werder-bremen/1"
-    },
-    {
-      "id": "6009062",
-      "title": "00:45:00 - 27/08 | Chelsea (W) VS Real Sociedad (W) | UEFA Women's Champions League",
-      "league": "UEFA Women's Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T17:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
-    },
-    {
-      "id": "4806341",
-      "title": "01:00:00 - 27/08 | Estudiantes de La Plata Res. VS Boca Juniors Res. | Liga Profesional - Reserva - Clausura",
-      "league": "Liga Profesional - Reserva - Clausura",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4811421",
-      "title": "01:00:00 - 27/08 | Fulham U21 VS Borussia Dortmund U21 | PL International Cup",
-      "league": "PL International Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-borussia-dortmund-vs-hamburg-sv/1"
-    },
-    {
-      "id": "6005653",
-      "title": "01:45:00 - 27/08 | Bradford VS Burnley | English Carabao Cup",
-      "league": "English Carabao Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/636/1"
-    },
-    {
-      "id": "6005645",
-      "title": "01:45:00 - 27/08 | Newcastle VS West Brom | English Carabao Cup",
-      "league": "English Carabao Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-newcastle-united-vs-west-bromwich-albion/1"
-    },
-    {
-      "id": "4808226",
-      "title": "01:45:00 - 27/08 | Tottenham VS Charlton | English Carabao Cup",
-      "league": "English Carabao Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/635/1"
-    },
-    {
-      "id": "sm-bradford-city-vs-burnley-2570492",
-      "title": "01:45:00 - 27/08 | Bradford City VS Burnley | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-bradford-city-vs-burnley/1"
-    },
-    {
-      "id": "sm-tottenham-hotspur-vs-charlton-athletic-2570488",
-      "title": "01:45:00 - 27/08 | Tottenham Hotspur VS Charlton Athletic | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/635/1"
-    },
-    {
-      "id": "sm-newcastle-united-vs-west-bromwich-albion-2570485",
-      "title": "01:45:00 - 27/08 | Newcastle United VS West Bromwich Albion | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/634/1"
-    },
-    {
-      "id": "401909181",
-      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | UEFA Champions League",
-      "league": "UEFA Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/632/1"
-    },
-    {
-      "id": "5987810",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahçe | UEFA Champions League",
-      "league": "UEFA Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
-    },
-    {
-      "id": "401909157",
-      "title": "02:00:00 - 27/08 | Viking FK VS Dinamo Zagreb | UEFA Champions League",
-      "league": "UEFA Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/633/1"
-    },
-    {
-      "id": "401882919",
-      "title": "02:00:00 - 27/08 | Real Madrid VS Real Sociedad | Spanish LALIGA",
-      "league": "Spanish LALIGA",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-real-sociedad/1"
-    },
-    {
-      "id": "401909194",
-      "title": "02:00:00 - 27/08 | NK Celje VS Slovan Bratislava | UEFA Champions League",
-      "league": "UEFA Champions League",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_uefa-champions-league-playoff-round_celje-slovan-live-streaming-608851728/1"
-    },
-    {
-      "id": "6005650",
-      "title": "02:00:00 - 27/08 | Preston VS Everton | English Carabao Cup",
-      "league": "English Carabao Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/637/1"
-    },
-    {
-      "id": "sm-ppv-lyon-vs-fenerbahce",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahce | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lyon-vs-fenerbahce/1"
-    },
-    {
-      "id": "sm-preston-north-end-vs-everton-2570505",
-      "title": "02:00:00 - 27/08 | Preston North End VS Everton | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/637/1"
-    },
-    {
-      "id": "sm-viking-vs-dinamo-zagreb-2570484",
-      "title": "02:00:00 - 27/08 | Viking VS Dinamo Zagreb | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/633/1"
-    },
-    {
-      "id": "sm-aek-athens-vs-levski-sofia-2570483",
-      "title": "02:00:00 - 27/08 | AEK Athens VS Levski Sofia | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/632/1"
-    },
-    {
-      "id": "sm-lyon-vs-fenerbah-e-2570482",
-      "title": "02:00:00 - 27/08 | Lyon VS Fenerbahçe | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/631/1"
-    },
-    {
-      "id": "sm-celje-vs-slovan-bratislava-2570481",
-      "title": "02:00:00 - 27/08 | Celje VS Slovan Bratislava | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/delta/live_uefa-champions-league-playoff-round_celje-slovan-live-streaming-608851728/1"
-    },
-    {
-      "id": "sm-real-madrid-vs-real-sociedad-2506175",
-      "title": "02:00:00 - 27/08 | Real Madrid VS Real Sociedad | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T19:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/581/1"
-    },
-    {
-      "id": "1000017716",
-      "title": "05:15:00 - 27/08 | Aldosivi VS Independiente Rivadavia | Copa Argentina",
-      "league": "Copa Argentina",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T22:15:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "cdn-2541587",
-      "title": "05:15:00 - 27/08 | Aldosivi VS Independiente Rivadavia | Copa Argentina",
-      "league": "Copa Argentina",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T22:15:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "4762407",
-      "title": "05:30:00 - 27/08 | Mineiros-GO VS São Luís Atlético Clube | Goiano 2",
-      "league": "Goiano 2",
-      "status": "upcoming",
-      "kickoff": "2026-08-26T22:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-monterrey-vs-atl-tico-de-san-luis/1"
-    },
-    {
-      "id": "6028325",
-      "title": "07:30:00 - 27/08 | Toluca VS Austin FC | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "sm-toluca-vs-austin-fc-2574551",
-      "title": "07:30:00 - 27/08 | Toluca VS Austin FC | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-toluca-vs-austin-fc/1"
-    },
-    {
-      "id": "cdn-2574551",
-      "title": "07:30:00 - 27/08 | Toluca VS Austin FC | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T00:30:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "1000007608",
-      "title": "08:00:00 - 27/08 | Vancouver Whitecaps 2 VS Los Angeles FC II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sporting-kansas-city-vs-vancouver-whitecaps/1"
-    },
-    {
-      "id": "4659228",
-      "title": "08:00:00 - 27/08 | Vancouver Whitecaps II VS Los Angeles FC II | MLS NEXT Pro",
-      "league": "MLS NEXT Pro",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T01:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sporting-kansas-city-vs-vancouver-whitecaps/1"
-    },
-    {
-      "id": "6028327",
-      "title": "09:45:00 - 27/08 | América VS Columbus | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T02:45:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
-    },
-    {
-      "id": "sm-am-rica-vs-columbus-crew-2574552",
-      "title": "09:45:00 - 27/08 | América VS Columbus Crew | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T02:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-am-rica-vs-columbus-crew/1"
-    },
-    {
-      "id": "cdn-2574552",
-      "title": "09:45:00 - 27/08 | América VS Columbus Crew | Leagues Cup",
-      "league": "Leagues Cup",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T02:45:00.000Z",
-      "quality": "HD",
-      "provider": "cdnlive",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%201%20FHD%20US&code=us&user=cdnlivetv&plan=free"
-    },
     {
       "id": "5988091",
       "title": "23:00:00 - 27/08 | Jablonec VS Rangers | UEFA Conference League",
@@ -507,6 +27,18 @@
       "url": "https://embed.st/embed/admin/ppv-jablonec-vs-rangers/1"
     },
     {
+      "id": "401910990",
+      "title": "23:45:00 - 27/08 | SC Freiburg VS Motherwell | UEFA Conference League",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-27T16:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-sc-freiburg-vs-motherwell/1"
+    },
+    {
       "id": "401909628",
       "title": "23:45:00 - 27/08 | AS Monaco VS Gornik Zabrze | UEFA Conference League",
       "league": "UEFA Conference League",
@@ -517,18 +49,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-gornik-zabrze/1"
-    },
-    {
-      "id": "5988080",
-      "title": "23:45:00 - 27/08 | Freiburg VS Motherwell | UEFA Conference League",
-      "league": "UEFA Conference League",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T16:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sc-freiburg-vs-motherwell/1"
     },
     {
       "id": "sm-freiburg-vs-motherwell-2572952",
@@ -555,20 +75,8 @@
       "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-gornik-zabrze/1"
     },
     {
-      "id": "5987969",
-      "title": "00:00:00 - 28/08 | Omonia Nicosia VS St.Truiden | UEFA Europa League",
-      "league": "UEFA Europa League",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-omonia-nicosia-vs-sint-truidense/1"
-    },
-    {
-      "id": "401909614",
-      "title": "00:00:00 - 28/08 | RB Salzburg VS Mjällby AIF | UEFA Europa League",
+      "id": "5987973",
+      "title": "00:00:00 - 28/08 | Salzburg VS Mjällby | UEFA Europa League",
       "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-27T17:00:00.000Z",
@@ -579,8 +87,20 @@
       "url": "https://embed.st/embed/admin/ppv-rb-salzburg-vs-mj-llby-aif/1"
     },
     {
-      "id": "5987976",
-      "title": "00:00:00 - 28/08 | FK Kauno Žalgiris VS Beşiktaş | UEFA Europa League",
+      "id": "401909830",
+      "title": "00:00:00 - 28/08 | Omonia Nicosia VS Sint-Truidense | UEFA Europa League",
+      "league": "UEFA Europa League",
+      "status": "upcoming",
+      "kickoff": "2026-08-27T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-omonia-nicosia-vs-sint-truidense/1"
+    },
+    {
+      "id": "401909828",
+      "title": "00:00:00 - 28/08 | Kauno Zalgiris VS Besiktas | UEFA Europa League",
       "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-27T17:00:00.000Z",
@@ -589,6 +109,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-kauno-zalgiris-vs-besiktas/1"
+    },
+    {
+      "id": "5988082",
+      "title": "00:00:00 - 28/08 | FC København VS FC Inter Turku | UEFA Conference League",
+      "league": "UEFA Conference League",
+      "status": "upcoming",
+      "kickoff": "2026-08-27T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-f-c-k-benhavn-vs-fc-inter-turku/1"
     },
     {
       "id": "401909221",
@@ -603,18 +135,6 @@
       "url": "https://embed.st/embed/admin/ppv-viktoria-plzen-vs-red-star-belgrade/1"
     },
     {
-      "id": "401909621",
-      "title": "00:00:00 - 28/08 | F.C. København VS FC Inter Turku | UEFA Conference League",
-      "league": "UEFA Conference League",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-f-c-k-benhavn-vs-fc-inter-turku/1"
-    },
-    {
       "id": "sm-ppv-viktoria-plzen-vs-red-star-belgrade",
       "title": "00:00:00 - 28/08 | Viktoria Plzen VS Red Star Belgrade | Football",
       "league": "Football",
@@ -627,18 +147,6 @@
       "url": "https://embed.st/embed/admin/ppv-viktoria-plzen-vs-red-star-belgrade/1"
     },
     {
-      "id": "sm-ppv-rb-salzburg-vs-mj-llby-aif",
-      "title": "00:00:00 - 28/08 | RB Salzburg VS Mjällby AIF | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-27T17:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-rb-salzburg-vs-mj-llby-aif/1"
-    },
-    {
       "id": "sm-ppv-kauno-zalgiris-vs-besiktas",
       "title": "00:00:00 - 28/08 | Kauno Zalgiris VS Besiktas | Football",
       "league": "Football",
@@ -649,6 +157,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-kauno-zalgiris-vs-besiktas/1"
+    },
+    {
+      "id": "sm-ppv-rb-salzburg-vs-mj-llby-aif",
+      "title": "00:00:00 - 28/08 | RB Salzburg VS Mjällby AIF | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-27T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-rb-salzburg-vs-mj-llby-aif/1"
     },
     {
       "id": "sm-omonia-nicosia-vs-sint-truiden-2573294",
@@ -684,19 +204,19 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
     },
     {
-      "id": "401910975",
-      "title": "01:30:00 - 28/08 | Anderlecht VS Kairat Almaty | UEFA Europa League",
-      "league": "UEFA Europa League",
+      "id": "5988084",
+      "title": "01:30:00 - 28/08 | Brighton VS Tromsø | UEFA Conference League",
+      "league": "UEFA Conference League",
       "status": "upcoming",
       "kickoff": "2026-08-27T18:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-anderlecht-vs-kairat-almaty/1"
+      "url": "https://embed.st/embed/admin/ppv-brighton-hove-albion-vs-tromso/1"
     },
     {
       "id": "5988095",
@@ -723,16 +243,16 @@
       "url": "https://embed.st/embed/admin/ppv-chelsea-vs-luton-town/1"
     },
     {
-      "id": "401909618",
-      "title": "01:30:00 - 28/08 | Brighton & Hove Albion VS Tromso | UEFA Conference League",
-      "league": "UEFA Conference League",
+      "id": "5987974",
+      "title": "01:30:00 - 28/08 | Anderlecht VS Kairat Almaty | UEFA Europa League",
+      "league": "UEFA Europa League",
       "status": "upcoming",
       "kickoff": "2026-08-27T18:30:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-chelsea-vs-brighton-hove-albion/1"
+      "url": "https://embed.st/embed/admin/ppv-anderlecht-vs-kairat-almaty/1"
     },
     {
       "id": "sm-anderlecht-vs-kairat-almaty-2573290",
@@ -825,10 +345,10 @@
       "status": "upcoming",
       "kickoff": "2026-08-27T19:00:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-barcelona-vs-athletic-club/1"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "4808207",
@@ -840,7 +360,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/639/1"
+      "url": "https://embed.st/embed/admin/ppv-fulham-vs-afc-wimbledon/1"
     },
     {
       "id": "sm-fulham-vs-afc-wimbledon-2570507",
@@ -867,8 +387,8 @@
       "url": "https://embed.st/embed/golf/603/1"
     },
     {
-      "id": "1000013488",
-      "title": "05:00:00 - 28/08 | Estudiantes VS Barracas Central | Copa Argentina",
+      "id": "4729963",
+      "title": "05:00:00 - 28/08 | Estudiantes de La Plata VS Barracas Central | Copa Argentina",
       "league": "Copa Argentina",
       "status": "upcoming",
       "kickoff": "2026-08-27T22:00:00.000Z",
@@ -876,7 +396,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2479767",
@@ -888,11 +408,71 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201%20FHD%20PT&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
     },
     {
-      "id": "sm-ppv-racing-santander-vs-elche",
-      "title": "00:00:00 - 29/08 | Racing Santander VS Elche | Football",
+      "id": "1000012881",
+      "title": "07:15:00 - 28/08 | Club Atlético Platense VS Instituto | Copa Argentina",
+      "league": "Copa Argentina",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T00:15:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2479769",
+      "title": "07:15:00 - 28/08 | Platense VS Instituto | Copa Argentina",
+      "league": "Copa Argentina",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T00:15:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=TYC%20Sports%20FHD%20ARG&code=ar&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4759872",
+      "title": "22:00:00 - 28/08 | Necaxa U21 VS Cruz Azul U21 | Liga MX U21 - Apertura",
+      "league": "Liga MX U21 - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T15:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-necaxa-vs-cruz-azul/1"
+    },
+    {
+      "id": "4757692",
+      "title": "23:30:00 - 28/08 | Eintracht Braunschweig VS Hertha Berlin | German 2. Bundesliga",
+      "league": "German 2. Bundesliga",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T16:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-1-fc-union-berlin-vs-eintracht-frankfurt/1"
+    },
+    {
+      "id": "5868037",
+      "title": "00:00:00 - 29/08 | Racing Santander VS Elche | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T17:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-racing-santander-vs-elche/1"
+    },
+    {
+      "id": "sm-racing-de-santander-vs-elche-2506198",
+      "title": "00:00:00 - 29/08 | Racing de Santander VS Elche | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-28T17:00:00.000Z",
@@ -903,8 +483,68 @@
       "url": "https://embed.st/embed/admin/ppv-racing-santander-vs-elche/1"
     },
     {
-      "id": "sm-ppv-bayern-munich-vs-vf-b-stuttgart",
-      "title": "01:30:00 - 29/08 | Bayern Munich VS VfB Stuttgart | Football",
+      "id": "1000019104",
+      "title": "01:00:00 - 29/08 | Nottingham Forest U21 VS Manchester City U21 | Premier League 2",
+      "league": "Premier League 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/612/1"
+    },
+    {
+      "id": "1000019105",
+      "title": "01:00:00 - 29/08 | Ipswich Town U21 VS Blackburn Rovers U21 | Premier League 2",
+      "league": "Premier League 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
+    },
+    {
+      "id": "4759871",
+      "title": "01:00:00 - 29/08 | Atlante U21 VS León U21 | Liga MX U21 - Apertura",
+      "league": "Liga MX U21 - Apertura",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atlante-vs-le-n/1"
+    },
+    {
+      "id": "4808041",
+      "title": "01:00:00 - 29/08 | Aston Villa U21 VS Crystal Palace U21 | Premier League 2",
+      "league": "Premier League 2",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-aston-villa-vs-arsenal/1"
+    },
+    {
+      "id": "4755425",
+      "title": "01:30:00 - 29/08 | Bayern Munich VS Stuttgart | German Bundesliga",
+      "league": "German Bundesliga",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-vf-b-stuttgart/1"
+    },
+    {
+      "id": "sm-bayern-munich-vs-stuttgart-2508333",
+      "title": "01:30:00 - 29/08 | Bayern Munich VS Stuttgart | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-28T18:30:00.000Z",
@@ -915,21 +555,21 @@
       "url": "https://embed.st/embed/admin/ppv-bayern-munich-vs-vf-b-stuttgart/1"
     },
     {
-      "id": "sm-ppv-lille-vs-paris-saint-germain",
-      "title": "01:45:00 - 29/08 | Lille VS Paris Saint-Germain | Football",
-      "league": "Football",
+      "id": "4747647",
+      "title": "01:45:00 - 29/08 | Strabane Athletic VS Newington Youth Club | NIFL Championship",
+      "league": "NIFL Championship",
       "status": "upcoming",
       "kickoff": "2026-08-28T18:45:00.000Z",
       "quality": "HD",
-      "provider": "streamed",
+      "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lille-vs-paris-saint-germain/1"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "sm-ppv-ac-milan-vs-venezia",
-      "title": "01:45:00 - 29/08 | AC Milan VS Venezia | Football",
-      "league": "Football",
+      "id": "5749650",
+      "title": "01:45:00 - 29/08 | Milan VS Venezia | Italian Serie A",
+      "league": "Italian Serie A",
       "status": "upcoming",
       "kickoff": "2026-08-28T18:45:00.000Z",
       "quality": "HD",
@@ -939,7 +579,43 @@
       "url": "https://embed.st/embed/admin/ppv-ac-milan-vs-venezia/1"
     },
     {
-      "id": "sm-ppv-afc-fylde-vs-forest-green-rovers",
+      "id": "401889355",
+      "title": "01:45:00 - 29/08 | AFC Fylde VS Forest Green Rovers | English National League",
+      "league": "English National League",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-afc-fylde-vs-forest-green-rovers/1"
+    },
+    {
+      "id": "401889347",
+      "title": "01:45:00 - 29/08 | Southend United VS Kidderminster Harriers | English National League",
+      "league": "English National League",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-southend-united-vs-kidderminster-harriers/1"
+    },
+    {
+      "id": "4758217",
+      "title": "01:45:00 - 29/08 | Penybont VS Flint Town United | Cymru Premier",
+      "league": "Cymru Premier",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/688/1"
+    },
+    {
+      "id": "sm-afc-fylde-vs-forest-green-rovers-2528202",
       "title": "01:45:00 - 29/08 | AFC Fylde VS Forest Green Rovers | Football",
       "league": "Football",
       "status": "upcoming",
@@ -951,7 +627,7 @@
       "url": "https://embed.st/embed/admin/ppv-afc-fylde-vs-forest-green-rovers/1"
     },
     {
-      "id": "sm-ppv-southend-united-vs-kidderminster-harriers",
+      "id": "sm-southend-united-vs-kidderminster-harriers-2528196",
       "title": "01:45:00 - 29/08 | Southend United VS Kidderminster Harriers | Football",
       "league": "Football",
       "status": "upcoming",
@@ -963,7 +639,55 @@
       "url": "https://embed.st/embed/admin/ppv-southend-united-vs-kidderminster-harriers/1"
     },
     {
-      "id": "sm-613",
+      "id": "sm-lille-vs-paris-saint-germain-2489479",
+      "title": "01:45:00 - 29/08 | Lille VS Paris Saint-Germain | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lille-vs-paris-saint-germain/1"
+    },
+    {
+      "id": "sm-ac-milan-vs-venezia-2482150",
+      "title": "01:45:00 - 29/08 | AC Milan VS Venezia | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-ac-milan-vs-venezia/1"
+    },
+    {
+      "id": "5836789",
+      "title": "02:00:00 - 29/08 | Wrexham VS Birmingham | English League Championship",
+      "league": "English League Championship",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/613/1"
+    },
+    {
+      "id": "4742087",
+      "title": "02:00:00 - 29/08 | Crystal Palace VS Manchester City | English Premier League",
+      "league": "English Premier League",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/612/1"
+    },
+    {
+      "id": "sm-wrexham-vs-birmingham-city-2501284",
       "title": "02:00:00 - 29/08 | Wrexham VS Birmingham City | Football",
       "league": "Football",
       "status": "upcoming",
@@ -975,7 +699,7 @@
       "url": "https://embed.st/embed/golf/613/1"
     },
     {
-      "id": "sm-ppv-crystal-palace-vs-manchester-city",
+      "id": "sm-crystal-palace-vs-manchester-city-2494015",
       "title": "02:00:00 - 29/08 | Crystal Palace VS Manchester City | Football",
       "league": "Football",
       "status": "upcoming",
@@ -984,11 +708,23 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/612/1"
+      "url": "https://embed.st/embed/admin/ppv-crystal-palace-vs-manchester-city/1"
     },
     {
-      "id": "sm-ppv-alav-s-vs-villarreal",
-      "title": "02:30:00 - 29/08 | Alavés VS Villarreal | Football",
+      "id": "4750890",
+      "title": "02:30:00 - 29/08 | Alaves VS Villarreal | Spanish LALIGA",
+      "league": "Spanish LALIGA",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T19:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-alav-s-vs-villarreal/1"
+    },
+    {
+      "id": "sm-deportivo-alav-s-vs-villarreal-2506194",
+      "title": "02:30:00 - 29/08 | Deportivo Alavés VS Villarreal | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-28T19:30:00.000Z",
@@ -997,6 +733,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-alav-s-vs-villarreal/1"
+    },
+    {
+      "id": "4669865",
+      "title": "05:30:00 - 29/08 | Goias VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "cdn-2431411",
@@ -1008,19 +756,103 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
-      "id": "sm-ppv-atlante-vs-le-n",
-      "title": "08:00:00 - 29/08 | Atlante VS León | Football",
-      "league": "Football",
+      "id": "4759870",
+      "title": "05:45:00 - 29/08 | Tijuana U21 VS Pumas UNAM U21 | Liga MX U21 - Apertura",
+      "league": "Liga MX U21 - Apertura",
       "status": "upcoming",
-      "kickoff": "2026-08-29T01:00:00.000Z",
+      "kickoff": "2026-08-28T22:45:00.000Z",
       "quality": "HD",
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-atlante-vs-le-n/1"
+      "url": "https://embed.st/embed/admin/ppv-tijuana-vs-pumas-unam/1"
+    },
+    {
+      "id": "4659096",
+      "title": "06:00:00 - 29/08 | Toronto FC II VS New York City II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-red-bull-new-york-vs-philadelphia-union/1"
+    },
+    {
+      "id": "1000007739",
+      "title": "06:00:00 - 29/08 | Inter Miami CF II VS Atlanta United 2 | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-cf-montr-al/1"
+    },
+    {
+      "id": "4659098",
+      "title": "06:00:00 - 29/08 | Inter Miami II VS Atlanta United II | MLS NEXT Pro",
+      "league": "MLS NEXT Pro",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-cf-montr-al/1"
+    },
+    {
+      "id": "5190686",
+      "title": "06:30:00 - 29/08 | Náutico VS Athletic Club | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "4669860",
+      "title": "06:30:00 - 29/08 | Novorizontino VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431413",
+      "title": "06:30:00 - 29/08 | Náutico VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431414",
+      "title": "06:30:00 - 29/08 | Novorizontino VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-28T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-ppv-necaxa-vs-cruz-azul",
@@ -1033,6 +865,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-necaxa-vs-cruz-azul/1"
+    },
+    {
+      "id": "sm-ppv-atlante-vs-le-n",
+      "title": "08:00:00 - 29/08 | Atlante VS León | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-29T01:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-atlante-vs-le-n/1"
     },
     {
       "id": "sm-ppv-tijuana-vs-pumas-unam",
@@ -1095,18 +939,6 @@
       "url": "https://embed.st/embed/golf/651/1"
     },
     {
-      "id": "sm-ppv-fc-cologne-vs-tsg-hoffenheim",
-      "title": "20:30:00 - 29/08 | FC Cologne VS TSG Hoffenheim | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-29T13:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fc-cologne-vs-tsg-hoffenheim/1"
-    },
-    {
       "id": "sm-ppv-mainz-vs-sc-paderborn-07",
       "title": "20:30:00 - 29/08 | Mainz VS SC Paderborn 07 | Football",
       "league": "Football",
@@ -1129,6 +961,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-1-fc-union-berlin-vs-eintracht-frankfurt/1"
+    },
+    {
+      "id": "sm-ppv-fc-cologne-vs-tsg-hoffenheim",
+      "title": "20:30:00 - 29/08 | FC Cologne VS TSG Hoffenheim | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-29T13:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-fc-cologne-vs-tsg-hoffenheim/1"
     },
     {
       "id": "sm-ppv-rb-leipzig-vs-borussia-m-nchengladbach",
@@ -1251,18 +1095,6 @@
       "url": "https://embed.st/embed/golf/658/1"
     },
     {
-      "id": "sm-ppv-coventry-city-vs-hull-city",
-      "title": "21:00:00 - 29/08 | Coventry City VS Hull City | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-29T14:00:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/golf/653/1"
-    },
-    {
       "id": "sm-ppv-afc-bournemouth-vs-everton",
       "title": "21:00:00 - 29/08 | AFC Bournemouth VS Everton | Football",
       "league": "Football",
@@ -1273,6 +1105,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-afc-bournemouth-vs-everton/1"
+    },
+    {
+      "id": "sm-ppv-coventry-city-vs-hull-city",
+      "title": "21:00:00 - 29/08 | Coventry City VS Hull City | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-29T14:00:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/653/1"
     },
     {
       "id": "sm-ppv-levante-vs-real-betis",
@@ -1299,8 +1143,8 @@
       "url": "https://embed.st/embed/admin/ppv-strasbourg-vs-lens/1"
     },
     {
-      "id": "sm-ppv-fiorentina-vs-frosinone",
-      "title": "23:30:00 - 29/08 | Fiorentina VS Frosinone | Football",
+      "id": "sm-ppv-monza-vs-udinese",
+      "title": "23:30:00 - 29/08 | Monza VS Udinese | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T16:30:00.000Z",
@@ -1308,7 +1152,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-fiorentina-vs-frosinone/1"
+      "url": "https://embed.st/embed/admin/ppv-monza-vs-udinese/1"
     },
     {
       "id": "sm-ppv-borussia-dortmund-vs-hamburg-sv",
@@ -1335,8 +1179,8 @@
       "url": "https://embed.st/embed/golf/654/1"
     },
     {
-      "id": "sm-ppv-monza-vs-udinese",
-      "title": "23:30:00 - 29/08 | Monza VS Udinese | Football",
+      "id": "sm-ppv-fiorentina-vs-frosinone",
+      "title": "23:30:00 - 29/08 | Fiorentina VS Frosinone | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T16:30:00.000Z",
@@ -1344,7 +1188,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-monza-vs-udinese/1"
+      "url": "https://embed.st/embed/admin/ppv-fiorentina-vs-frosinone/1"
     },
     {
       "id": "sm-ppv-sassuolo-vs-torino",
@@ -1371,8 +1215,8 @@
       "url": "https://embed.st/embed/admin/ppv-real-sociedad-vs-espanyol/1"
     },
     {
-      "id": "sm-ppv-aj-auxerre-vs-angers",
-      "title": "01:45:00 - 30/08 | AJ Auxerre VS Angers | Football",
+      "id": "sm-ppv-brest-vs-toulouse",
+      "title": "01:45:00 - 30/08 | Brest VS Toulouse | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T18:45:00.000Z",
@@ -1380,7 +1224,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-aj-auxerre-vs-angers/1"
+      "url": "https://embed.st/embed/admin/ppv-brest-vs-toulouse/1"
     },
     {
       "id": "sm-ppv-juventus-vs-parma",
@@ -1395,8 +1239,8 @@
       "url": "https://embed.st/embed/admin/ppv-juventus-vs-parma/1"
     },
     {
-      "id": "sm-ppv-brest-vs-toulouse",
-      "title": "01:45:00 - 30/08 | Brest VS Toulouse | Football",
+      "id": "sm-ppv-aj-auxerre-vs-angers",
+      "title": "01:45:00 - 30/08 | AJ Auxerre VS Angers | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T18:45:00.000Z",
@@ -1404,7 +1248,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-brest-vs-toulouse/1"
+      "url": "https://embed.st/embed/admin/ppv-aj-auxerre-vs-angers/1"
     },
     {
       "id": "sm-ppv-lorient-vs-troyes",
@@ -1455,6 +1299,18 @@
       "url": "https://embed.st/embed/admin/ppv-seattle-sounders-fc-vs-chicago-fire-fc/1"
     },
     {
+      "id": "cdn-2431408",
+      "title": "04:30:00 - 30/08 | Botafogo-SP VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-29T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "sm-ppv-atlas-vs-quer-taro",
       "title": "06:00:00 - 30/08 | Atlas VS Querétaro | Football",
       "league": "Football",
@@ -1479,8 +1335,8 @@
       "url": "https://embed.st/embed/admin/ppv-pachuca-vs-guadalajara/1"
     },
     {
-      "id": "sm-ppv-d-c-united-vs-lafc",
-      "title": "06:30:00 - 30/08 | D.C. United VS LAFC | Football",
+      "id": "sm-ppv-inter-miami-cf-vs-cf-montr-al",
+      "title": "06:30:00 - 30/08 | Inter Miami CF VS CF Montréal | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T23:30:00.000Z",
@@ -1488,7 +1344,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-d-c-united-vs-lafc/1"
+      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-cf-montr-al/1"
     },
     {
       "id": "sm-ppv-atlanta-united-fc-vs-charlotte-fc",
@@ -1515,8 +1371,8 @@
       "url": "https://embed.st/embed/admin/ppv-columbus-crew-vs-new-england-revolution/1"
     },
     {
-      "id": "sm-ppv-inter-miami-cf-vs-cf-montr-al",
-      "title": "06:30:00 - 30/08 | Inter Miami CF VS CF Montréal | Football",
+      "id": "sm-ppv-d-c-united-vs-lafc",
+      "title": "06:30:00 - 30/08 | D.C. United VS LAFC | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-29T23:30:00.000Z",
@@ -1524,7 +1380,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-inter-miami-cf-vs-cf-montr-al/1"
+      "url": "https://embed.st/embed/admin/ppv-d-c-united-vs-lafc/1"
     },
     {
       "id": "sm-ppv-red-bull-new-york-vs-philadelphia-union",
@@ -1551,8 +1407,8 @@
       "url": "https://embed.st/embed/admin/ppv-toronto-fc-vs-new-york-city-fc/1"
     },
     {
-      "id": "sm-ppv-minnesota-united-fc-vs-orlando-city-sc",
-      "title": "07:30:00 - 30/08 | Minnesota United FC VS Orlando City SC | Football",
+      "id": "sm-ppv-nashville-sc-vs-fc-cincinnati",
+      "title": "07:30:00 - 30/08 | Nashville SC VS FC Cincinnati | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T00:30:00.000Z",
@@ -1560,7 +1416,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-minnesota-united-fc-vs-orlando-city-sc/1"
+      "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-fc-cincinnati/1"
     },
     {
       "id": "sm-ppv-houston-dynamo-fc-vs-san-jose-earthquakes",
@@ -1575,8 +1431,8 @@
       "url": "https://embed.st/embed/admin/ppv-houston-dynamo-fc-vs-san-jose-earthquakes/1"
     },
     {
-      "id": "sm-ppv-nashville-sc-vs-fc-cincinnati",
-      "title": "07:30:00 - 30/08 | Nashville SC VS FC Cincinnati | Football",
+      "id": "sm-ppv-minnesota-united-fc-vs-orlando-city-sc",
+      "title": "07:30:00 - 30/08 | Minnesota United FC VS Orlando City SC | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T00:30:00.000Z",
@@ -1584,7 +1440,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-nashville-sc-vs-fc-cincinnati/1"
+      "url": "https://embed.st/embed/admin/ppv-minnesota-united-fc-vs-orlando-city-sc/1"
     },
     {
       "id": "sm-ppv-sporting-kansas-city-vs-vancouver-whitecaps",
@@ -1623,18 +1479,6 @@
       "url": "https://embed.st/embed/admin/ppv-colorado-rapids-vs-real-salt-lake/1"
     },
     {
-      "id": "sm-ppv-portland-timbers-vs-austin-fc",
-      "title": "09:30:00 - 30/08 | Portland Timbers VS Austin FC | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T02:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-portland-timbers-vs-austin-fc/1"
-    },
-    {
       "id": "sm-ppv-san-diego-fc-vs-la-galaxy",
       "title": "09:30:00 - 30/08 | San Diego FC VS LA Galaxy | Football",
       "league": "Football",
@@ -1645,6 +1489,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-san-diego-fc-vs-la-galaxy/1"
+    },
+    {
+      "id": "sm-ppv-portland-timbers-vs-austin-fc",
+      "title": "09:30:00 - 30/08 | Portland Timbers VS Austin FC | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T02:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-portland-timbers-vs-austin-fc/1"
     },
     {
       "id": "sm-ppv-santos-vs-tigres-uanl",
@@ -1659,8 +1515,8 @@
       "url": "https://embed.st/embed/admin/ppv-santos-vs-tigres-uanl/1"
     },
     {
-      "id": "sm-ppv-sunderland-vs-fulham",
-      "title": "20:00:00 - 30/08 | Sunderland VS Fulham | Football",
+      "id": "sm-ppv-paris-fc-vs-nice",
+      "title": "20:00:00 - 30/08 | Paris FC VS Nice | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T13:00:00.000Z",
@@ -1668,7 +1524,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-sunderland-vs-fulham/1"
+      "url": "https://embed.st/embed/admin/ppv-paris-fc-vs-nice/1"
     },
     {
       "id": "sm-ppv-chelsea-vs-brighton-hove-albion",
@@ -1695,8 +1551,8 @@
       "url": "https://embed.st/embed/admin/ppv-leeds-united-vs-brentford/1"
     },
     {
-      "id": "sm-ppv-paris-fc-vs-nice",
-      "title": "20:00:00 - 30/08 | Paris FC VS Nice | Football",
+      "id": "sm-ppv-sunderland-vs-fulham",
+      "title": "20:00:00 - 30/08 | Sunderland VS Fulham | Football",
       "league": "Football",
       "status": "upcoming",
       "kickoff": "2026-08-30T13:00:00.000Z",
@@ -1704,7 +1560,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-paris-fc-vs-nice/1"
+      "url": "https://embed.st/embed/golf/687/1"
     },
     {
       "id": "sm-ppv-sc-freiburg-vs-werder-bremen",
@@ -1728,7 +1584,7 @@
       "provider": "streamed",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-real-madrid-vs-m-laga/1"
+      "url": "https://embed.st/embed/golf/689/1"
     },
     {
       "id": "sm-ppv-stade-rennais-vs-le-mans",
@@ -1743,6 +1599,18 @@
       "url": "https://embed.st/embed/admin/ppv-stade-rennais-vs-le-mans/1"
     },
     {
+      "id": "sm-ppv-manchester-united-vs-ipswich-town",
+      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T15:30:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/golf/688/1"
+    },
+    {
       "id": "sm-ppv-fc-augsburg-vs-schalke-04",
       "title": "22:30:00 - 30/08 | FC Augsburg VS Schalke 04 | Football",
       "league": "Football",
@@ -1753,18 +1621,6 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-fc-augsburg-vs-schalke-04/1"
-    },
-    {
-      "id": "sm-ppv-manchester-united-vs-ipswich-town",
-      "title": "22:30:00 - 30/08 | Manchester United VS Ipswich Town | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T15:30:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-manchester-united-vs-ipswich-town/1"
     },
     {
       "id": "sm-ppv-napoli-vs-como",
@@ -1791,18 +1647,6 @@
       "url": "https://embed.st/embed/admin/ppv-deportivo-vs-valencia/1"
     },
     {
-      "id": "sm-ppv-lazio-vs-genoa",
-      "title": "01:45:00 - 31/08 | Lazio VS Genoa | Football",
-      "league": "Football",
-      "status": "upcoming",
-      "kickoff": "2026-08-30T18:45:00.000Z",
-      "quality": "HD",
-      "provider": "streamed",
-      "resolution": "embed",
-      "streamCheck": "pending",
-      "url": "https://embed.st/embed/admin/ppv-lazio-vs-genoa/1"
-    },
-    {
       "id": "sm-ppv-cagliari-vs-inter-milan",
       "title": "01:45:00 - 31/08 | Cagliari VS Inter Milan | Football",
       "league": "Football",
@@ -1813,6 +1657,18 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-cagliari-vs-inter-milan/1"
+    },
+    {
+      "id": "sm-ppv-lazio-vs-genoa",
+      "title": "01:45:00 - 31/08 | Lazio VS Genoa | Football",
+      "league": "Football",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T18:45:00.000Z",
+      "quality": "HD",
+      "provider": "streamed",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://embed.st/embed/admin/ppv-lazio-vs-genoa/1"
     },
     {
       "id": "sm-ppv-as-monaco-vs-marseille",
@@ -1827,6 +1683,30 @@
       "url": "https://embed.st/embed/admin/ppv-as-monaco-vs-marseille/1"
     },
     {
+      "id": "cdn-2431406",
+      "title": "02:00:00 - 31/08 | América Mineiro VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431407",
+      "title": "02:00:00 - 31/08 | Avaí VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "sm-ppv-celta-vigo-vs-athletic-club",
       "title": "02:30:00 - 31/08 | Celta Vigo VS Athletic Club | Football",
       "league": "Football",
@@ -1839,6 +1719,18 @@
       "url": "https://embed.st/embed/admin/ppv-celta-vigo-vs-athletic-club/1"
     },
     {
+      "id": "cdn-2431409",
+      "title": "04:00:00 - 31/08 | CRB VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-30T21:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
       "id": "cdn-2431415",
       "title": "04:30:00 - 31/08 | Vila Nova VS Ceará | Brazilian Serie B",
       "league": "Brazilian Serie B",
@@ -1848,7 +1740,7 @@
       "provider": "cdnlive",
       "resolution": "embed",
       "streamCheck": "pending",
-      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Brasil%20HD%20BR&code=&user=cdnlivetv&plan=free"
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     },
     {
       "id": "sm-ppv-st-louis-city-sc-vs-fc-dallas",
@@ -1945,6 +1837,1590 @@
       "resolution": "embed",
       "streamCheck": "pending",
       "url": "https://embed.st/embed/admin/ppv-barcelona-vs-rayo-vallecano/1"
+    },
+    {
+      "id": "cdn-2431410",
+      "title": "05:30:00 - 01/09 | Fortaleza VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-08-31T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431412",
+      "title": "05:30:00 - 02/09 | Londrina VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-01T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431423",
+      "title": "06:00:00 - 04/09 | Náutico VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-03T23:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431419",
+      "title": "05:30:00 - 05/09 | Criciúma VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-04T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431416",
+      "title": "06:30:00 - 05/09 | Athletic Club-MG VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-04T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431418",
+      "title": "07:30:00 - 05/09 | CRB VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-05T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431420",
+      "title": "02:00:00 - 06/09 | Goiás VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-05T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431424",
+      "title": "02:00:00 - 06/09 | Novorizontino VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-05T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431421",
+      "title": "04:00:00 - 06/09 | Juventude VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-05T21:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431417",
+      "title": "04:30:00 - 06/09 | Ceará VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-05T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431422",
+      "title": "21:00:00 - 06/09 | Londrina VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-06T14:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431425",
+      "title": "04:30:00 - 07/09 | Ponte Preta VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-06T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431430",
+      "title": "06:30:00 - 09/09 | Cuiabá VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-08T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431429",
+      "title": "07:30:00 - 09/09 | Criciúma VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-09T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431428",
+      "title": "05:30:00 - 10/09 | Botafogo-SP VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-09T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431431",
+      "title": "05:30:00 - 10/09 | Fortaleza VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-09T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431426",
+      "title": "06:30:00 - 10/09 | América Mineiro VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-09T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431432",
+      "title": "06:30:00 - 10/09 | Operário Ferroviário VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-09T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431427",
+      "title": "07:30:00 - 10/09 | Atlético Goianiense VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-10T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431433",
+      "title": "05:30:00 - 11/09 | São Bernardo VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-10T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431435",
+      "title": "05:30:00 - 11/09 | Vila Nova VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-10T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431434",
+      "title": "07:30:00 - 11/09 | Sport Recife VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-11T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431437",
+      "title": "02:00:00 - 14/09 | Atlético Goianiense VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-13T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431442",
+      "title": "04:00:00 - 14/09 | Juventude VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-13T21:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431441",
+      "title": "04:30:00 - 14/09 | Fortaleza VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-13T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431445",
+      "title": "04:30:00 - 14/09 | Novorizontino VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-13T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431436",
+      "title": "05:30:00 - 15/09 | América Mineiro VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-14T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431439",
+      "title": "05:30:00 - 15/09 | Botafogo-SP VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-14T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431438",
+      "title": "07:30:00 - 15/09 | Avaí VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-15T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431443",
+      "title": "05:30:00 - 16/09 | Londrina VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-15T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431444",
+      "title": "05:30:00 - 16/09 | Náutico VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-15T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431440",
+      "title": "07:30:00 - 16/09 | CRB VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-16T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431455",
+      "title": "05:30:00 - 19/09 | Vila Nova VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-18T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431447",
+      "title": "06:30:00 - 19/09 | Ceará VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-18T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431453",
+      "title": "07:00:00 - 19/09 | São Bernardo VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-19T00:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431454",
+      "title": "02:00:00 - 20/09 | Sport Recife VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-19T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431446",
+      "title": "04:30:00 - 20/09 | Athletic Club-MG VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-19T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431452",
+      "title": "21:00:00 - 20/09 | Ponte Preta VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-20T14:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431450",
+      "title": "02:00:00 - 21/09 | Goiás VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-20T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431451",
+      "title": "04:30:00 - 21/09 | Londrina VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-20T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431448",
+      "title": "05:30:00 - 22/09 | Criciúma VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-21T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431449",
+      "title": "07:30:00 - 22/09 | Cuiabá VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-22T00:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431463",
+      "title": "05:30:00 - 26/09 | Novorizontino VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-25T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431465",
+      "title": "06:30:00 - 26/09 | Vila Nova VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-25T23:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431464",
+      "title": "02:00:00 - 27/09 | Operário Ferroviário VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-26T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431462",
+      "title": "02:30:00 - 27/09 | Náutico VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-26T19:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431461",
+      "title": "04:30:00 - 27/09 | Goiás VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-26T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431459",
+      "title": "21:00:00 - 27/09 | Criciúma VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-27T14:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431458",
+      "title": "02:00:00 - 28/09 | CRB VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-27T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431460",
+      "title": "04:30:00 - 28/09 | Fortaleza VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-27T21:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431456",
+      "title": "05:30:00 - 29/09 | América Mineiro VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-28T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431457",
+      "title": "05:30:00 - 30/09 | Botafogo-SP VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-09-29T22:30:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431466",
+      "title": "02:00:00 - 04/10 | Athletic Club-MG VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431467",
+      "title": "02:00:00 - 04/10 | Atlético Goianiense VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431468",
+      "title": "02:00:00 - 04/10 | Avaí VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431469",
+      "title": "02:00:00 - 04/10 | Botafogo-SP VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431470",
+      "title": "02:00:00 - 04/10 | Cuiabá VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431471",
+      "title": "02:00:00 - 04/10 | Fortaleza VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431472",
+      "title": "02:00:00 - 04/10 | Juventude VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431473",
+      "title": "02:00:00 - 04/10 | Londrina VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431474",
+      "title": "02:00:00 - 04/10 | Novorizontino VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431475",
+      "title": "02:00:00 - 04/10 | São Bernardo VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-03T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431476",
+      "title": "02:00:00 - 07/10 | América Mineiro VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431477",
+      "title": "02:00:00 - 07/10 | Avaí VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431478",
+      "title": "02:00:00 - 07/10 | Ceará VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431479",
+      "title": "02:00:00 - 07/10 | CRB VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431480",
+      "title": "02:00:00 - 07/10 | Goiás VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431481",
+      "title": "02:00:00 - 07/10 | Náutico VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431482",
+      "title": "02:00:00 - 07/10 | Operário Ferroviário VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431483",
+      "title": "02:00:00 - 07/10 | Ponte Preta VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431484",
+      "title": "02:00:00 - 07/10 | Sport Recife VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431485",
+      "title": "02:00:00 - 07/10 | Vila Nova VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-06T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431486",
+      "title": "02:00:00 - 11/10 | Athletic Club-MG VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431487",
+      "title": "02:00:00 - 11/10 | Atlético Goianiense VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431488",
+      "title": "02:00:00 - 11/10 | Botafogo-SP VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431489",
+      "title": "02:00:00 - 11/10 | Criciúma VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431490",
+      "title": "02:00:00 - 11/10 | Cuiabá VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431491",
+      "title": "02:00:00 - 11/10 | Fortaleza VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431492",
+      "title": "02:00:00 - 11/10 | Náutico VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431493",
+      "title": "02:00:00 - 11/10 | Novorizontino VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431494",
+      "title": "02:00:00 - 11/10 | Operário Ferroviário VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-10T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431495",
+      "title": "02:00:00 - 18/10 | América Mineiro VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431496",
+      "title": "02:00:00 - 18/10 | Avaí VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431497",
+      "title": "02:00:00 - 18/10 | Ceará VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431498",
+      "title": "02:00:00 - 18/10 | CRB VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431499",
+      "title": "02:00:00 - 18/10 | Goiás VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431500",
+      "title": "02:00:00 - 18/10 | Juventude VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431501",
+      "title": "02:00:00 - 18/10 | Londrina VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431502",
+      "title": "02:00:00 - 18/10 | Ponte Preta VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431503",
+      "title": "02:00:00 - 18/10 | São Bernardo VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431504",
+      "title": "02:00:00 - 18/10 | Sport Recife VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431505",
+      "title": "02:00:00 - 18/10 | Vila Nova VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-17T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431506",
+      "title": "02:00:00 - 25/10 | América Mineiro VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431507",
+      "title": "02:00:00 - 25/10 | Atlético Goianiense VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431508",
+      "title": "02:00:00 - 25/10 | Avaí VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431509",
+      "title": "02:00:00 - 25/10 | Ceará VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431510",
+      "title": "02:00:00 - 25/10 | CRB VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431511",
+      "title": "02:00:00 - 25/10 | Juventude VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431512",
+      "title": "02:00:00 - 25/10 | Operário Ferroviário VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431513",
+      "title": "02:00:00 - 25/10 | Ponte Preta VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431514",
+      "title": "02:00:00 - 25/10 | São Bernardo VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431515",
+      "title": "02:00:00 - 25/10 | Sport Recife VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-24T19:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431516",
+      "title": "03:00:00 - 01/11 | Athletic Club-MG VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431517",
+      "title": "03:00:00 - 01/11 | Botafogo-SP VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431518",
+      "title": "03:00:00 - 01/11 | Criciúma VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431519",
+      "title": "03:00:00 - 01/11 | Cuiabá VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431520",
+      "title": "03:00:00 - 01/11 | Fortaleza VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431521",
+      "title": "03:00:00 - 01/11 | Goiás VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431522",
+      "title": "03:00:00 - 01/11 | Londrina VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431523",
+      "title": "03:00:00 - 01/11 | Náutico VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431524",
+      "title": "03:00:00 - 01/11 | Novorizontino VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431525",
+      "title": "03:00:00 - 01/11 | Vila Nova VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-10-31T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431526",
+      "title": "03:00:00 - 08/11 | Athletic Club-MG VS Atlético Goianiense | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431527",
+      "title": "03:00:00 - 08/11 | Avaí VS São Bernardo | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431528",
+      "title": "03:00:00 - 08/11 | Botafogo-SP VS Londrina | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431529",
+      "title": "03:00:00 - 08/11 | Ceará VS América Mineiro | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431530",
+      "title": "03:00:00 - 08/11 | Cuiabá VS Juventude | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431531",
+      "title": "03:00:00 - 08/11 | Goiás VS Ponte Preta | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431532",
+      "title": "03:00:00 - 08/11 | Náutico VS CRB | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431533",
+      "title": "03:00:00 - 08/11 | Novorizontino VS Fortaleza | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431534",
+      "title": "03:00:00 - 08/11 | Operário Ferroviário VS Sport Recife | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431535",
+      "title": "03:00:00 - 08/11 | Vila Nova VS Criciúma | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-07T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431536",
+      "title": "03:00:00 - 15/11 | América Mineiro VS Avaí | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431537",
+      "title": "03:00:00 - 15/11 | Atlético Goianiense VS Cuiabá | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431538",
+      "title": "03:00:00 - 15/11 | CRB VS Ceará | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431539",
+      "title": "03:00:00 - 15/11 | Criciúma VS Novorizontino | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431540",
+      "title": "03:00:00 - 15/11 | Fortaleza VS Vila Nova | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431541",
+      "title": "03:00:00 - 15/11 | Juventude VS Botafogo-SP | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431542",
+      "title": "03:00:00 - 15/11 | Londrina VS Náutico | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431543",
+      "title": "03:00:00 - 15/11 | Ponte Preta VS Operário Ferroviário | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431544",
+      "title": "03:00:00 - 15/11 | São Bernardo VS Athletic Club-MG | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
+    },
+    {
+      "id": "cdn-2431545",
+      "title": "03:00:00 - 15/11 | Sport Recife VS Goiás | Brazilian Serie B",
+      "league": "Brazilian Serie B",
+      "status": "upcoming",
+      "kickoff": "2026-11-14T20:00:00.000Z",
+      "quality": "HD",
+      "provider": "cdnlive",
+      "resolution": "embed",
+      "streamCheck": "pending",
+      "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premiere%20Clubes%20HD%20BR&code=&user=cdnlivetv&plan=free"
     }
   ]
 }
