@@ -13,6 +13,8 @@ from typing import Any
 from urllib.parse import urlparse
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ANONYMOUS_URL = "https://api.fptplay.net/api/v7.1_w/user/anonymous"
 HIGHLIGHTS_URL = "https://api.fptplay.net/api/v7.1_w/navigation/block/highlight/632f01322089bd00e5c5ed3d"
@@ -133,7 +135,8 @@ def is_stream_url(value: Any, key: str) -> bool:
     path = urlparse(value).path.lower()
     if re.search(r"\.(?:jpg|jpeg|png|gif|webp|svg)(?:$|/)", path):
         return False
-    return key != "url" or any(marker in value.lower() for marker in (".m3u8", ".mpd", "manifest", "stream"))
+    # Stream endpoints sometimes return signed URLs without a recognizable extension.
+    return key in STREAM_KEYS
 
 
 def find_clear_key(value: Any) -> tuple[str, str] | None:
@@ -210,8 +213,18 @@ def main() -> None:
         raise RuntimeError("USER_TOKEN is not set; add it as a GitHub Actions secret")
 
     headers = {**REQUEST_HEADERS, "Authorization": f"Bearer {user_token}"}
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=1,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET", "POST"}),
+        raise_on_status=False,
+    )
     with requests.Session() as session:
         session.headers.update(headers)
+        session.mount("https://", HTTPAdapter(max_retries=retry))
         anonymous_response = session.post(ANONYMOUS_URL, timeout=30)
         anonymous_payload = response_json(anonymous_response, "FPT Play anonymous API")
         st_token = find_st_token(anonymous_payload)
