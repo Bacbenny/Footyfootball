@@ -23,14 +23,16 @@ API_BASE_URL = "https://api.fptplay.net"
 API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
 APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
-BLOCK_HIGHLIGHT_URL = (
-    "https://api.fptplay.net/api/v7.1_w/navigation/block/highlight/"
+ANONYMOUS_URL = f"{API_BASE_URL}/api/{API_VERSION}/user/anonymous"
+BLOCK_HIGHLIGHT_URL_TEMPLATE = (
+    f"{API_BASE_URL}/api/{API_VERSION}/navigation/block/highlight/"
     "632f01322089bd00e5c5ed3d?"
     "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=&"
-    "st=Usc8ZRLFvbSv3g9L6eLjgw&e=1788060689&"
-    "device=Microsoft%20Edge%20Simulate(version%3A127.0.6533.144)&"
+    "st={st}&e={e}&"
+    "device=Microsoft+Edge+Simulate(version%3A127.0.6533.144)&"
     "drm=1&version=8.7.21"
 )
+VN_PROXY = os.environ.get("VN_PROXY")
 STREAM_URL_TEMPLATE = os.environ.get(
     "FPT_STREAM_URL_TEMPLATE",
     "/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate",
@@ -167,9 +169,10 @@ def api_request(
     """Call an FPT endpoint with the same signed URL scheme as fptplay.vn."""
     clean_path = "/" + path.lstrip("/")
     url = f"{API_BASE_URL}/api/{API_VERSION}{clean_path}"
-    headers: dict[str, str] = {
+    headers: dict[str, str] = dict(REQUEST_HEADERS)
+    headers.update({
         "X-Did": os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
-    }
+    })
     if user_token:
         headers["Authorization"] = f"{os.environ.get('FPT_AUTH_SCHEME', 'Bearer')} {user_token}"
 
@@ -179,6 +182,7 @@ def api_request(
         params=build_signed_params(clean_path, params, st_token=st_token),
         headers=headers,
         timeout=30,
+        **request_options(),
     )
     if not response.ok:
         raise FptApiError(label, response.status_code, _safe_response_detail(response))
@@ -188,11 +192,66 @@ def api_request(
         raise RuntimeError(f"{label} returned invalid JSON") from exc
 
 
-def block_highlight_request(session: requests.Session) -> Any:
-    """Fetch the known-good Block Highlight URL without changing its query."""
+def request_options() -> dict[str, Any]:
+    """Return proxy options for every outbound request when configured."""
+    proxy = VN_PROXY or os.environ.get("VN_PROXY")
+    if not proxy:
+        return {}
+    return {"proxies": {"http": proxy, "https": proxy}}
+
+
+def find_st_token(payload: Any) -> str | None:
+    """Extract the short-lived ST token from the anonymous response."""
+    for mapping in walk_dicts(payload):
+        for key in ("st", "st_token", "stToken", "ST_TOKEN", "token"):
+            value = mapping.get(key)
+            if isinstance(value, str) and value.strip():
+                return value.strip()
+    return None
+
+
+def fetch_st_token(session: requests.Session) -> str:
+    """Get a fresh ST token before every Block Highlight scrape."""
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
-    response = session.get(BLOCK_HIGHLIGHT_URL, headers=headers, timeout=30)
+    response = session.post(
+        ANONYMOUS_URL,
+        headers=headers,
+        timeout=30,
+        **request_options(),
+    )
+    if not response.ok:
+        raise FptApiError(
+            "FPT Play anonymous API",
+            response.status_code,
+            _safe_response_detail(response),
+        )
+    try:
+        payload = response.json()
+    except ValueError as exc:
+        raise RuntimeError("FPT Play anonymous API returned invalid JSON") from exc
+    token = find_st_token(payload)
+    if not token:
+        raise RuntimeError("FPT Play anonymous API returned no ST token")
+    return token
+
+
+def build_block_highlight_url(st_token: str) -> str:
+    """Build the Block Highlight URL with a fresh token and one-hour expiry."""
+    expires = int(time.time() + 3600)
+    return BLOCK_HIGHLIGHT_URL_TEMPLATE.format(st=quote(st_token, safe=""), e=expires)
+
+
+def block_highlight_request(session: requests.Session, st_token: str) -> Any:
+    """Fetch Block Highlight using the complete URL and browser headers."""
+    headers = dict(REQUEST_HEADERS)
+    headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
+    response = session.get(
+        build_block_highlight_url(st_token),
+        headers=headers,
+        timeout=30,
+        **request_options(),
+    )
     if not response.ok:
         raise FptApiError(
             "FPT Play Block Highlight API",
@@ -321,10 +380,11 @@ def build_playlist(
     user_token: str | None = None,
 ) -> str:
     try:
-        block_payload = block_highlight_request(session)
+        st_token = fetch_st_token(session)
+        block_payload = block_highlight_request(session, st_token)
     except (FptApiError, requests.RequestException, RuntimeError) as exc:
-        LOGGER.warning("Block Highlight unavailable; keeping existing playlist: %s", exc)
-        raise RuntimeError("FPT Play Block Highlight API unavailable; playlist was not replaced") from exc
+        LOGGER.warning("FPT Play data request unavailable; keeping existing playlist: %s", exc)
+        raise RuntimeError("FPT Play data request failed; playlist was not replaced") from exc
 
     events = find_block_items(block_payload)
 

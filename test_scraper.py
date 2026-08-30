@@ -25,28 +25,46 @@ class ScraperTests(unittest.TestCase):
         session = Mock()
         session.get.return_value = response
 
+        with patch.object(scraper.time, "time", return_value=1_700_000_000):
+            url = scraper.build_block_highlight_url("fresh/st token")
+            scraper.block_highlight_request(session, "fresh/st token")
+
+        self.assertIn("st=fresh%2Fst%20token", url)
+        self.assertIn("e=1700003600", url)
         self.assertIn(
             "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=",
-            scraper.BLOCK_HIGHLIGHT_URL,
+            url,
         )
-        self.assertIn("st=Usc8ZRLFvbSv3g9L6eLjgw", scraper.BLOCK_HIGHLIGHT_URL)
-        self.assertIn("e=1788060689", scraper.BLOCK_HIGHLIGHT_URL)
         self.assertIn(
-            "device=Microsoft%20Edge%20Simulate(version%3A127.0.6533.144)",
-            scraper.BLOCK_HIGHLIGHT_URL,
+            "device=Microsoft+Edge+Simulate(version%3A127.0.6533.144)",
+            url,
         )
-        self.assertIn("drm=1&version=8.7.21", scraper.BLOCK_HIGHLIGHT_URL)
-
-        scraper.block_highlight_request(session)
+        self.assertIn("drm=1&version=8.7.21", url)
         request_headers = session.get.call_args.kwargs["headers"]
         self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
         self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
         self.assertEqual(request_headers["Origin"], "https://fptplay.vn")
         session.get.assert_called_once_with(
-            scraper.BLOCK_HIGHLIGHT_URL,
+            url,
             headers=request_headers,
             timeout=30,
         )
+
+    def test_fetch_st_token_uses_anonymous_post_and_vn_proxy(self):
+        response = Mock(ok=True)
+        response.json.return_value = {"data": {"st": "fresh-token"}}
+        session = Mock()
+        session.post.return_value = response
+
+        with patch.object(scraper, "VN_PROXY", "http://vn-proxy.test:8080"):
+            token = scraper.fetch_st_token(session)
+
+        self.assertEqual(token, "fresh-token")
+        self.assertEqual(
+            session.post.call_args.kwargs["proxies"],
+            {"http": "http://vn-proxy.test:8080", "https": "http://vn-proxy.test:8080"},
+        )
+        self.assertEqual(session.post.call_args.args[0], scraper.ANONYMOUS_URL)
 
     def test_block_items_parser_extracts_events(self):
         payload = {
@@ -92,14 +110,15 @@ class ScraperTests(unittest.TestCase):
             }
         }
         session = Mock()
-        with patch.object(scraper, "block_highlight_request", return_value=block_payload), patch.object(
-            scraper, "api_request", return_value=stream_payload
-        ) as stream_request:
+        with patch.object(scraper, "fetch_st_token", return_value="fresh-token"), patch.object(
+            scraper, "block_highlight_request", return_value=block_payload
+        ) as block_request, patch.object(scraper, "api_request", return_value=stream_payload) as stream_request:
             playlist = scraper.build_playlist(session)
 
         self.assertIn('group-title="Sự Kiện FPT",Sự kiện thể thao', playlist)
         self.assertIn("https://cdn.example.test/event-1/master.m3u8", playlist)
         self.assertNotIn("/topic", playlist)
+        block_request.assert_called_once_with(session, "fresh-token")
         stream_request.assert_called_once()
         self.assertNotIn("st_token", stream_request.call_args.kwargs)
 

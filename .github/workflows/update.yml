@@ -32,6 +32,7 @@ jobs:
       - name: Generate playlist
         env:
           USER_TOKEN: ${{ secrets.USE_TOKEN || secrets.USER_TOKEN }}
+          VN_PROXY: ${{ secrets.VN_PROXY }}
           FPT_USE_USER_TOKEN: 'true'
         run: python scraper.py
 
