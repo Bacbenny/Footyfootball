@@ -21,7 +21,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: python -m pip install --disable-pip-version-check requests
+        run: python -m pip install --disable-pip-version-check 'requests[socks]'
 
       - name: Compile scraper
         run: python -m py_compile scraper.py

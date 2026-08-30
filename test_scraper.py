@@ -66,6 +66,44 @@ class ScraperTests(unittest.TestCase):
         )
         self.assertEqual(session.post.call_args.args[0], scraper.ANONYMOUS_URL)
 
+    def test_fetch_st_token_falls_back_from_http_to_socks5(self):
+        failed_response = Mock(ok=False, status_code=403)
+        failed_response.headers = {"content-type": "text/html"}
+        failed_response.text = "Forbidden"
+        success_response = Mock(ok=True)
+        success_response.json.return_value = {"data": {"st": "socks-token"}}
+        session = Mock()
+        session.post.side_effect = [failed_response, success_response]
+
+        with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
+            scraper, "ensure_socks_support"
+        ) as ensure_socks:
+            token = scraper.fetch_st_token(session)
+
+        self.assertEqual(token, "socks-token")
+        ensure_socks.assert_called_once()
+        self.assertEqual(session.post.call_count, 2)
+        self.assertEqual(
+            session.post.call_args_list[0].kwargs["proxies"],
+            {"http": "http://user:pass@proxy.test:443", "https": "http://user:pass@proxy.test:443"},
+        )
+        self.assertEqual(
+            session.post.call_args_list[1].kwargs["proxies"],
+            {"http": "socks5://user:pass@proxy.test:443", "https": "socks5://user:pass@proxy.test:443"},
+        )
+
+    def test_request_options_uses_active_socks_proxy(self):
+        with patch.object(scraper, "ACTIVE_PROXY_URL", "socks5://user:pass@proxy.test:443"):
+            self.assertEqual(
+                scraper.request_options(),
+                {
+                    "proxies": {
+                        "http": "socks5://user:pass@proxy.test:443",
+                        "https": "socks5://user:pass@proxy.test:443",
+                    }
+                },
+            )
+
     def test_block_items_parser_extracts_events(self):
         payload = {
             "data": {
@@ -124,7 +162,7 @@ class ScraperTests(unittest.TestCase):
 
     def test_build_playlist_rejects_empty_block_items(self):
         session = Mock()
-        with patch.object(
+        with patch.object(scraper, "fetch_st_token", return_value="fresh-token"), patch.object(
             scraper,
             "block_highlight_request",
             return_value={"status": True, "data": {"items": None}},

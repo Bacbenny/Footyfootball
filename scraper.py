@@ -6,14 +6,17 @@ from __future__ import annotations
 import base64
 import hashlib
 import html
+import importlib
 import logging
 import os
 import re
+import subprocess
+import sys
 import time
 from collections.abc import Iterator, Mapping
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlparse, urlunparse
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -33,6 +36,7 @@ BLOCK_HIGHLIGHT_URL_TEMPLATE = (
     "drm=1&version=8.7.21"
 )
 VN_PROXY = os.environ.get("VN_PROXY")
+ACTIVE_PROXY_URL: str | None = None
 STREAM_URL_TEMPLATE = os.environ.get(
     "FPT_STREAM_URL_TEMPLATE",
     "/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate",
@@ -194,10 +198,60 @@ def api_request(
 
 def request_options() -> dict[str, Any]:
     """Return proxy options for every outbound request when configured."""
-    proxy = VN_PROXY or os.environ.get("VN_PROXY")
+    proxy = ACTIVE_PROXY_URL or VN_PROXY or os.environ.get("VN_PROXY")
     if not proxy:
         return {}
     return {"proxies": {"http": proxy, "https": proxy}}
+
+
+def configured_proxy_urls() -> list[str | None]:
+    """Return HTTP first, then SOCKS5, preserving proxy credentials."""
+    raw_proxy = VN_PROXY or os.environ.get("VN_PROXY")
+    if not raw_proxy:
+        return [None]
+    raw_proxy = raw_proxy.strip()
+    if "://" not in raw_proxy:
+        raw_proxy = f"http://{raw_proxy}"
+    parsed = urlparse(raw_proxy)
+    http_url = urlunparse(parsed._replace(scheme="http"))
+    socks_url = urlunparse(parsed._replace(scheme="socks5"))
+    return list(dict.fromkeys((http_url, socks_url)))
+
+
+def request_options_for(proxy_url: str | None) -> dict[str, Any]:
+    """Build request options for the selected proxy candidate."""
+    if not proxy_url:
+        return {}
+    return {"proxies": {"http": proxy_url, "https": proxy_url}}
+
+
+def ensure_socks_support() -> None:
+    """Install PySocks on demand for requests' SOCKS5 transport."""
+    try:
+        importlib.import_module("socks")
+        return
+    except ImportError:
+        pass
+
+    result = subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "pip",
+            "install",
+            "--disable-pip-version-check",
+            "PySocks",
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("Could not install PySocks for SOCKS5 fallback")
+    try:
+        importlib.import_module("socks")
+    except ImportError as exc:
+        raise RuntimeError("PySocks installation completed but import still failed") from exc
 
 
 def find_st_token(payload: Any) -> str | None:
@@ -211,29 +265,50 @@ def find_st_token(payload: Any) -> str | None:
 
 
 def fetch_st_token(session: requests.Session) -> str:
-    """Get a fresh ST token before every Block Highlight scrape."""
+    """Get a fresh ST token, falling back from authenticated HTTP to SOCKS5."""
+    global ACTIVE_PROXY_URL
+    ACTIVE_PROXY_URL = None
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
-    response = session.post(
-        ANONYMOUS_URL,
-        headers=headers,
-        timeout=30,
-        **request_options(),
-    )
-    if not response.ok:
-        raise FptApiError(
-            "FPT Play anonymous API",
-            response.status_code,
-            _safe_response_detail(response),
-        )
-    try:
-        payload = response.json()
-    except ValueError as exc:
-        raise RuntimeError("FPT Play anonymous API returned invalid JSON") from exc
-    token = find_st_token(payload)
-    if not token:
-        raise RuntimeError("FPT Play anonymous API returned no ST token")
-    return token
+    last_error: Exception | None = None
+
+    for proxy_url in configured_proxy_urls():
+        if proxy_url and urlparse(proxy_url).scheme.lower().startswith("socks"):
+            try:
+                ensure_socks_support()
+            except RuntimeError as exc:
+                last_error = exc
+                LOGGER.warning("SOCKS5 fallback unavailable: %s", exc)
+                continue
+        try:
+            response = session.post(
+                ANONYMOUS_URL,
+                headers=headers,
+                timeout=30,
+                **request_options_for(proxy_url),
+            )
+            if not response.ok:
+                raise FptApiError(
+                    "FPT Play anonymous API",
+                    response.status_code,
+                    _safe_response_detail(response),
+                )
+            try:
+                payload = response.json()
+            except ValueError as exc:
+                raise RuntimeError("FPT Play anonymous API returned invalid JSON") from exc
+            token = find_st_token(payload)
+            if not token:
+                raise RuntimeError("FPT Play anonymous API returned no ST token")
+            ACTIVE_PROXY_URL = proxy_url
+            LOGGER.info("FPT Play anonymous API succeeded via %s proxy", "direct" if not proxy_url else urlparse(proxy_url).scheme)
+            return token
+        except (FptApiError, requests.RequestException, RuntimeError) as exc:
+            last_error = exc
+            scheme = "direct" if not proxy_url else urlparse(proxy_url).scheme
+            LOGGER.warning("FPT Play anonymous API failed via %s proxy; trying next: %s", scheme, exc)
+
+    raise RuntimeError("FPT Play anonymous API failed through all configured proxy modes") from last_error
 
 
 def build_block_highlight_url(st_token: str) -> str:
