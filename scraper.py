@@ -26,6 +26,7 @@ API_BASE_URL = "https://api.fptplay.net"
 API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
 APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
+CURL_IMPERSONATE = "chrome120"
 ANONYMOUS_URL = f"{API_BASE_URL}/api/{API_VERSION}/user/anonymous"
 BLOCK_HIGHLIGHT_URL_TEMPLATE = (
     f"{API_BASE_URL}/api/{API_VERSION}/navigation/block/highlight/"
@@ -254,6 +255,34 @@ def ensure_socks_support() -> None:
         raise RuntimeError("PySocks installation completed but import still failed") from exc
 
 
+def curl_requests_module() -> Any:
+    """Load curl_cffi.requests, installing curl_cffi if this runner lacks it."""
+    try:
+        return importlib.import_module("curl_cffi.requests")
+    except ImportError:
+        pass
+
+    result = subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "pip",
+            "install",
+            "--disable-pip-version-check",
+            "curl_cffi",
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("Could not install curl_cffi for Chrome impersonation")
+    try:
+        return importlib.import_module("curl_cffi.requests")
+    except ImportError as exc:
+        raise RuntimeError("curl_cffi installation completed but import still failed") from exc
+
+
 def find_st_token(payload: Any) -> str | None:
     """Extract the short-lived ST token from the anonymous response."""
     for mapping in walk_dicts(payload):
@@ -270,6 +299,7 @@ def fetch_st_token(session: requests.Session) -> str:
     ACTIVE_PROXY_URL = None
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
+    curl_requests = curl_requests_module()
     last_error: Exception | None = None
 
     for proxy_url in configured_proxy_urls():
@@ -281,11 +311,12 @@ def fetch_st_token(session: requests.Session) -> str:
                 LOGGER.warning("SOCKS5 fallback unavailable: %s", exc)
                 continue
         try:
-            response = session.post(
+            response = curl_requests.post(
                 ANONYMOUS_URL,
                 headers=headers,
-                timeout=30,
+                impersonate=CURL_IMPERSONATE,
                 **request_options_for(proxy_url),
+                timeout=30,
             )
             if not response.ok:
                 raise FptApiError(
@@ -303,7 +334,7 @@ def fetch_st_token(session: requests.Session) -> str:
             ACTIVE_PROXY_URL = proxy_url
             LOGGER.info("FPT Play anonymous API succeeded via %s proxy", "direct" if not proxy_url else urlparse(proxy_url).scheme)
             return token
-        except (FptApiError, requests.RequestException, RuntimeError) as exc:
+        except Exception as exc:
             last_error = exc
             scheme = "direct" if not proxy_url else urlparse(proxy_url).scheme
             LOGGER.warning("FPT Play anonymous API failed via %s proxy; trying next: %s", scheme, exc)
@@ -321,12 +352,17 @@ def block_highlight_request(session: requests.Session, st_token: str) -> Any:
     """Fetch Block Highlight using the complete URL and browser headers."""
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
-    response = session.get(
-        build_block_highlight_url(st_token),
-        headers=headers,
-        timeout=30,
-        **request_options(),
-    )
+    try:
+        curl_requests = curl_requests_module()
+        response = curl_requests.get(
+            build_block_highlight_url(st_token),
+            headers=headers,
+            impersonate=CURL_IMPERSONATE,
+            **request_options(),
+            timeout=30,
+        )
+    except Exception as exc:
+        raise RuntimeError("FPT Play Block Highlight request failed") from exc
     if not response.ok:
         raise FptApiError(
             "FPT Play Block Highlight API",

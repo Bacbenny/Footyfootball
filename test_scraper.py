@@ -7,6 +7,14 @@ import scraper
 
 
 class ScraperTests(unittest.TestCase):
+    def setUp(self):
+        self.proxy_env = patch.dict(scraper.os.environ, {"VN_PROXY": ""})
+        self.proxy_env.start()
+        self.addCleanup(self.proxy_env.stop)
+        self.proxy_value = patch.object(scraper, "VN_PROXY", None)
+        self.proxy_value.start()
+        self.addCleanup(self.proxy_value.stop)
+
     def test_signature_is_url_safe_base64_md5(self):
         self.assertEqual(scraper.md5_base64url("abc"), "kAFQmDzST7DWlj99KOF_cg")
 
@@ -23,9 +31,12 @@ class ScraperTests(unittest.TestCase):
         response = Mock(ok=True)
         response.json.return_value = {"status": True, "data": {"items": None}}
         session = Mock()
-        session.get.return_value = response
+        curl_client = Mock()
+        curl_client.get.return_value = response
 
-        with patch.object(scraper.time, "time", return_value=1_700_000_000):
+        with patch.object(scraper.time, "time", return_value=1_700_000_000), patch.object(
+            scraper, "curl_requests_module", return_value=curl_client
+        ):
             url = scraper.build_block_highlight_url("fresh/st token")
             scraper.block_highlight_request(session, "fresh/st token")
 
@@ -40,13 +51,14 @@ class ScraperTests(unittest.TestCase):
             url,
         )
         self.assertIn("drm=1&version=8.7.21", url)
-        request_headers = session.get.call_args.kwargs["headers"]
+        request_headers = curl_client.get.call_args.kwargs["headers"]
         self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
         self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
         self.assertEqual(request_headers["Origin"], "https://fptplay.vn")
-        session.get.assert_called_once_with(
+        curl_client.get.assert_called_once_with(
             url,
             headers=request_headers,
+            impersonate="chrome120",
             timeout=30,
         )
 
@@ -54,17 +66,21 @@ class ScraperTests(unittest.TestCase):
         response = Mock(ok=True)
         response.json.return_value = {"data": {"st": "fresh-token"}}
         session = Mock()
-        session.post.return_value = response
+        curl_client = Mock()
+        curl_client.post.return_value = response
 
-        with patch.object(scraper, "VN_PROXY", "http://vn-proxy.test:8080"):
+        with patch.object(scraper, "VN_PROXY", "http://vn-proxy.test:8080"), patch.object(
+            scraper, "curl_requests_module", return_value=curl_client
+        ):
             token = scraper.fetch_st_token(session)
 
         self.assertEqual(token, "fresh-token")
         self.assertEqual(
-            session.post.call_args.kwargs["proxies"],
+            curl_client.post.call_args.kwargs["proxies"],
             {"http": "http://vn-proxy.test:8080", "https": "http://vn-proxy.test:8080"},
         )
-        self.assertEqual(session.post.call_args.args[0], scraper.ANONYMOUS_URL)
+        self.assertEqual(curl_client.post.call_args.args[0], scraper.ANONYMOUS_URL)
+        self.assertEqual(curl_client.post.call_args.kwargs["impersonate"], "chrome120")
 
     def test_fetch_st_token_falls_back_from_http_to_socks5(self):
         failed_response = Mock(ok=False, status_code=403)
@@ -73,24 +89,40 @@ class ScraperTests(unittest.TestCase):
         success_response = Mock(ok=True)
         success_response.json.return_value = {"data": {"st": "socks-token"}}
         session = Mock()
-        session.post.side_effect = [failed_response, success_response]
+        curl_client = Mock()
+        curl_client.post.side_effect = [failed_response, success_response]
 
         with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
             scraper, "ensure_socks_support"
-        ) as ensure_socks:
+        ) as ensure_socks, patch.object(scraper, "curl_requests_module", return_value=curl_client):
             token = scraper.fetch_st_token(session)
 
         self.assertEqual(token, "socks-token")
         ensure_socks.assert_called_once()
-        self.assertEqual(session.post.call_count, 2)
+        self.assertEqual(curl_client.post.call_count, 2)
         self.assertEqual(
-            session.post.call_args_list[0].kwargs["proxies"],
+            curl_client.post.call_args_list[0].kwargs["proxies"],
             {"http": "http://user:pass@proxy.test:443", "https": "http://user:pass@proxy.test:443"},
         )
         self.assertEqual(
-            session.post.call_args_list[1].kwargs["proxies"],
+            curl_client.post.call_args_list[1].kwargs["proxies"],
             {"http": "socks5://user:pass@proxy.test:443", "https": "socks5://user:pass@proxy.test:443"},
         )
+
+    def test_fetch_st_token_falls_back_for_curl_transport_error(self):
+        success_response = Mock(ok=True)
+        success_response.json.return_value = {"data": {"st": "socks-token"}}
+        session = Mock()
+        curl_client = Mock()
+        curl_client.post.side_effect = [OSError("curl CONNECT aborted"), success_response]
+
+        with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
+            scraper, "ensure_socks_support"
+        ), patch.object(scraper, "curl_requests_module", return_value=curl_client):
+            token = scraper.fetch_st_token(session)
+
+        self.assertEqual(token, "socks-token")
+        self.assertEqual(curl_client.post.call_count, 2)
 
     def test_request_options_uses_active_socks_proxy(self):
         with patch.object(scraper, "ACTIVE_PROXY_URL", "socks5://user:pass@proxy.test:443"):
