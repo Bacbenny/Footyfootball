@@ -3,22 +3,33 @@
 
 from __future__ import annotations
 
+import base64
+import hashlib
 import html
 import logging
 import os
 import re
+import time
 from collections.abc import Iterator, Mapping
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-ANONYMOUS_URL = "https://api.fptplay.net/api/v7.1_w/user/anonymous"
-HIGHLIGHTS_URL = "https://api.fptplay.net/api/v7.1_w/navigation/block/highlight/632f01322089bd00e5c5ed3d"
-STREAM_URL_TEMPLATE = "https://api.fptplay.net/api/v7.1_w/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate"
+API_BASE_URL = "https://api.fptplay.net"
+API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
+APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
+SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
+PAGE_ID = os.environ.get("FPT_PAGE_ID", "home")
+BLOCK_ID = os.environ.get("FPT_BLOCK_ID", "632f01322089bd00e5c5ed3d")
+BLOCK_TYPE = os.environ.get("FPT_BLOCK_TYPE", "highlight")
+STREAM_URL_TEMPLATE = os.environ.get(
+    "FPT_STREAM_URL_TEMPLATE",
+    "/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate",
+)
 OUTPUT_PATH = Path("playlist.m3u")
 GROUP_TITLE = "Sự Kiện FPT"
 
@@ -31,6 +42,7 @@ REQUEST_HEADERS = {
     "User-Agent": USER_AGENT,
     "Referer": "https://fptplay.vn/",
     "Origin": "https://fptplay.vn",
+    "Accept": "application/json, text/plain, */*",
 }
 PLAYLIST_HEADERS = f"|User-Agent={USER_AGENT}&Referer=https://fptplay.vn/"
 ALLOWED_TYPES = {"vod", "event", "live"}
@@ -52,8 +64,25 @@ STREAM_KEYS = (
     "dash_url",
     "dashUrl",
 )
-HIGHLIGHT_ID_KEYS = ("highlight_id", "highlightId", "highlightID")
-TYPE_KEYS = ("type", "stream_type", "streamType", "content_type", "contentType")
+HIGHLIGHT_ID_KEYS = (
+    "highlight_id",
+    "highlightId",
+    "highlightID",
+    "content_id",
+    "contentId",
+    "target_id",
+    "targetId",
+    "id",
+    "_id",
+)
+TYPE_KEYS = (
+    "type",
+    "stream_type",
+    "streamType",
+    "content_type",
+    "contentType",
+    "data_type",
+)
 TITLE_KEYS = (
     "title",
     "name",
@@ -62,12 +91,89 @@ TITLE_KEYS = (
     "eventName",
     "display_name",
     "displayName",
+    "title_vie",
+    "title_vi",
 )
 KEY_ID_KEYS = ("keyId", "key_id", "keyID", "kid", "contentId", "content_id")
 KEY_VALUE_KEYS = ("key", "clearKey", "clear_key", "clearkey", "license_key", "licenseKey")
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 LOGGER = logging.getLogger(__name__)
+
+
+class FptApiError(RuntimeError):
+    """An API error whose message is safe to print in CI logs."""
+
+    def __init__(self, label: str, status: int, detail: str) -> None:
+        super().__init__(f"{label} failed with HTTP {status}: {detail}")
+        self.label = label
+        self.status = status
+
+
+def _safe_response_detail(response: requests.Response) -> str:
+    """Return a short, non-sensitive response description for workflow logs."""
+    content_type = response.headers.get("content-type", "unknown").split(";")[0]
+    body = re.sub(r"\s+", " ", response.text[:240]).strip()
+    body = re.sub(r"(?i)(bearer|token|authorization)\s*[:=]\s*\S+", r"\1=[redacted]", body)
+    return f"content-type={content_type}; body={body or '<empty>'}"
+
+
+def md5_base64url(value: str) -> str:
+    """Match FPT Play's browser request signature (MD5 bytes, URL-safe base64)."""
+    digest_hex = hashlib.md5(value.encode("utf-8")).hexdigest()
+    return base64.urlsafe_b64encode(bytes.fromhex(digest_hex)).decode("ascii").rstrip("=")
+
+
+def build_signed_params(path: str, extra: Mapping[str, Any] | None = None) -> dict[str, Any]:
+    """Build the signed query used by the current FPT Play web client."""
+    clean_path = path.lstrip("/")
+    expires = int(time.time()) + 3600
+    suffix = f"/api/{API_VERSION}/{clean_path}"
+    signature = md5_base64url(f"{SIGNATURE_SECRET}{expires}{suffix}")
+    params: dict[str, Any] = dict(extra or {})
+    params.update(
+        {
+            "st": signature,
+            "e": expires,
+            "device": "Chrome(version:127.0.0.0)",
+            "drm": 1,
+            "version": APP_VERSION,
+        }
+    )
+    return params
+
+
+def api_request(
+    session: requests.Session,
+    method: str,
+    path: str,
+    *,
+    user_token: str | None = None,
+    params: Mapping[str, Any] | None = None,
+    label: str,
+) -> Any:
+    """Call an FPT endpoint with the same signed URL scheme as fptplay.vn."""
+    clean_path = "/" + path.lstrip("/")
+    url = f"{API_BASE_URL}/api/{API_VERSION}{clean_path}"
+    headers: dict[str, str] = {
+        "X-Did": os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
+    }
+    if user_token:
+        headers["Authorization"] = f"{os.environ.get('FPT_AUTH_SCHEME', 'Bearer')} {user_token}"
+
+    response = session.request(
+        method,
+        url,
+        params=build_signed_params(clean_path, params),
+        headers=headers,
+        timeout=30,
+    )
+    if not response.ok:
+        raise FptApiError(label, response.status_code, _safe_response_detail(response))
+    try:
+        return response.json()
+    except ValueError as exc:
+        raise RuntimeError(f"{label} returned invalid JSON") from exc
 
 
 def walk_dicts(value: Any) -> Iterator[Mapping[str, Any]]:
@@ -88,24 +194,6 @@ def first_text(mapping: Mapping[str, Any], keys: tuple[str, ...]) -> str | None:
             text = str(value).strip()
             if text:
                 return text
-    return None
-
-
-def response_json(response: requests.Response, label: str) -> Any:
-    response.raise_for_status()
-    try:
-        return response.json()
-    except ValueError as exc:
-        raise RuntimeError(f"{label} returned invalid JSON") from exc
-
-
-def find_st_token(payload: Any) -> str | None:
-    token_keys = ("st", "st_token", "stToken", "ST_TOKEN", "token")
-    for mapping in walk_dicts(payload):
-        for key in token_keys:
-            value = mapping.get(key)
-            if isinstance(value, str) and value.strip():
-                return value.strip()
     return None
 
 
@@ -132,10 +220,19 @@ def find_highlights(payload: Any) -> list[dict[str, str]]:
 def is_stream_url(value: Any, key: str) -> bool:
     if not isinstance(value, str) or not value.startswith(("http://", "https://")):
         return False
-    path = urlparse(value).path.lower()
+    parsed = urlparse(value)
+    path = parsed.path.lower()
     if re.search(r"\.(?:jpg|jpeg|png|gif|webp|svg)(?:$|/)", path):
         return False
-    # Stream endpoints sometimes return signed URLs without a recognizable extension.
+    if parsed.hostname and parsed.hostname.lower() in {
+        "fptplay.vn",
+        "www.fptplay.vn",
+        "api.fptplay.net",
+    }:
+        return False
+    if re.search(r"(?:/embed/|\.html?$)", path):
+        return False
+    # Stream endpoints sometimes return signed CDN URLs without an extension.
     return key in STREAM_KEYS
 
 
@@ -169,22 +266,102 @@ def clean_title(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip() or "FPT Play event"
 
 
-def build_playlist(session: requests.Session, st_token: str) -> str:
-    navigation_response = session.get(HIGHLIGHTS_URL, params={"st": st_token}, timeout=30)
-    navigation = response_json(navigation_response, "FPT Play highlight API")
-    highlights = find_highlights(navigation)
+def page_blocks(payload: Any) -> list[Mapping[str, Any]]:
+    """Return the blocks from /navigation/page/{page_id}."""
+    if isinstance(payload, Mapping):
+        data = payload.get("data")
+        if isinstance(data, Mapping) and isinstance(data.get("blocks"), list):
+            return [block for block in data["blocks"] if isinstance(block, Mapping)]
+    return []
+
+
+def select_block(payload: Any) -> tuple[str, str]:
+    """Select the configured event block, with a title-based fallback."""
+    blocks = page_blocks(payload)
+
+    # Prefer the current home-page block by its title/type. The numeric ID is
+    # intentionally only a fallback because FPT periodically rotates blocks.
+    for block in blocks:
+        title = clean_title(first_text(block, TITLE_KEYS) or "").lower()
+        data_type = first_text(block, ("data_type", "dataType", "type")) or ""
+        block_id = first_text(block, ("id", "block_id", "blockId"))
+        if block_id and data_type == BLOCK_TYPE and (
+            "sự kiện" in title or "sport" in title or "thể thao" in title
+        ):
+            LOGGER.info("Using event block %s (%s)", block_id, title)
+            return data_type, block_id
+
+    for block in blocks:
+        block_id = first_text(block, ("id", "block_id", "blockId"))
+        if block_id == BLOCK_ID:
+            block_type = first_text(block, ("type", "data_type", "dataType")) or BLOCK_TYPE
+            return block_type, block_id
+
+    # The configured ID remains useful when the page metadata is incomplete,
+    # and the block endpoint can still return data for it.
+    LOGGER.info("Falling back to configured event block %s (%s)", BLOCK_ID, BLOCK_TYPE)
+    return BLOCK_TYPE, BLOCK_ID
+
+
+def atomic_write(path: Path, content: str) -> None:
+    """Replace the playlist only after a complete valid playlist was generated."""
+    temporary = path.with_name(f".{path.name}.tmp")
+    temporary.write_text(content, encoding="utf-8")
+    temporary.replace(path)
+
+
+def build_playlist(
+    session: requests.Session,
+    *,
+    user_token: str | None = None,
+) -> str:
+    page_payload = api_request(
+        session,
+        "GET",
+        f"/navigation/page/{quote(PAGE_ID, safe='')}",
+        user_token=user_token,
+        label="FPT Play page API",
+    )
+    block_type, block_id = select_block(page_payload)
+    block_payload = api_request(
+        session,
+        "GET",
+        f"/navigation/block/{quote(block_type, safe='')}/{quote(block_id, safe='')}",
+        user_token=user_token,
+        params={
+            "page_id": PAGE_ID,
+            "page_index": 1,
+            "page_size": 30,
+            "block_type": block_type,
+            "watching_version": "v1",
+            "handle_event": 1,
+        },
+        label="FPT Play event block API",
+    )
+    highlights = find_highlights(block_payload)
     LOGGER.info("Found %d FPT Play highlights", len(highlights))
     if not highlights:
-        raise RuntimeError("No supported FPT Play highlights were found")
+        raise RuntimeError(
+            "FPT Play returned no event items; playlist was not replaced. "
+            "This can mean there are currently no published events."
+        )
 
     lines = ["#EXTM3U"]
     playlist_urls: set[str] = set()
     for highlight in highlights:
-        url = STREAM_URL_TEMPLATE.format(stream_type=highlight["type"], highlight_id=highlight["id"])
+        path = STREAM_URL_TEMPLATE.format(
+            stream_type=quote(highlight["type"], safe=""),
+            highlight_id=quote(highlight["id"], safe=""),
+        )
         try:
-            stream_response = session.get(url, params={"st": st_token}, timeout=30)
-            stream_payload = response_json(stream_response, f"stream API for {highlight['id']}")
-        except requests.RequestException as exc:
+            stream_payload = api_request(
+                session,
+                "GET",
+                path,
+                user_token=user_token,
+                label=f"FPT Play stream API for {highlight['id']}",
+            )
+        except (FptApiError, requests.RequestException, RuntimeError) as exc:
             LOGGER.warning("Skipping %s: %s", highlight["id"], exc)
             continue
 
@@ -209,10 +386,10 @@ def build_playlist(session: requests.Session, st_token: str) -> str:
 
 def main() -> None:
     user_token = os.environ.get("USER_TOKEN")
-    if not user_token:
-        raise RuntimeError("USER_TOKEN is not set; add it as a GitHub Actions secret")
+    use_user_token = os.environ.get("FPT_USE_USER_TOKEN", "false").lower() in {"1", "true", "yes"}
+    if use_user_token and not user_token:
+        raise RuntimeError("FPT_USE_USER_TOKEN is enabled but USER_TOKEN is not set")
 
-    headers = {**REQUEST_HEADERS, "Authorization": f"Bearer {user_token}"}
     retry = Retry(
         total=3,
         connect=3,
@@ -223,16 +400,14 @@ def main() -> None:
         raise_on_status=False,
     )
     with requests.Session() as session:
-        session.headers.update(headers)
+        session.headers.update(REQUEST_HEADERS)
         session.mount("https://", HTTPAdapter(max_retries=retry))
-        anonymous_response = session.post(ANONYMOUS_URL, timeout=30)
-        anonymous_payload = response_json(anonymous_response, "FPT Play anonymous API")
-        st_token = find_st_token(anonymous_payload)
-        if not st_token:
-            raise RuntimeError("FPT Play anonymous API did not return an ST_TOKEN")
-        playlist = build_playlist(session, st_token)
+        playlist = build_playlist(
+            session,
+            user_token=user_token if use_user_token else None,
+        )
 
-    OUTPUT_PATH.write_text(playlist, encoding="utf-8")
+    atomic_write(OUTPUT_PATH, playlist)
     LOGGER.info("Wrote %s", OUTPUT_PATH)
 
 

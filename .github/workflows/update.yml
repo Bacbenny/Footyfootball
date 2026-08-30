@@ -23,9 +23,16 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests
 
+      - name: Compile scraper
+        run: python -m py_compile scraper.py
+
+      - name: Run offline tests
+        run: python -m unittest -v test_scraper.py
+
       - name: Generate playlist
         env:
-          USER_TOKEN: ${{ secrets.USER_TOKEN }}
+          USER_TOKEN: ${{ secrets.USE_TOKEN || secrets.USER_TOKEN }}
+          FPT_USE_USER_TOKEN: 'true'
         run: python scraper.py
 
       - name: Commit updated playlist
