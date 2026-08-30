@@ -30,6 +30,24 @@ class ScraperTests(unittest.TestCase):
         }
         self.assertEqual(scraper.select_block(payload), ("highlight", "new-event-block"))
 
+    def test_discovery_ignores_page_metadata_and_prioritizes_event_title(self):
+        payload = {
+            "data": {
+                "page": {"id": "page-1", "type": "page", "title": "Thể thao"},
+                "blocks": [
+                    {"block_id": "sports-block", "data_type": "highlight", "title": "Thể thao"},
+                    {
+                        "block_id": "event-block",
+                        "data_type": "highlight",
+                        "title": "Sự kiện Thể thao",
+                    },
+                ],
+            }
+        }
+        candidates = scraper.discover_event_blocks(payload)
+        self.assertEqual(candidates[0]["id"], "event-block")
+        self.assertNotIn("page-1", {candidate["id"] for candidate in candidates})
+
     def test_parser_handles_current_item_shape_and_clearkey(self):
         payload = {
             "data": {
