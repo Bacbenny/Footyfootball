@@ -54,6 +54,7 @@ REQUEST_HEADERS = {
     "User-Agent": USER_AGENT,
     "Referer": "https://fptplay.vn/",
     "Origin": "https://fptplay.vn",
+    "Content-Type": "application/json",
     "Accept": "application/json, text/plain, */*",
 }
 PLAYLIST_HEADERS = f"|User-Agent={USER_AGENT}&Referer=https://fptplay.vn/"
@@ -313,12 +314,17 @@ def fetch_st_token(session: requests.Session) -> str:
         try:
             response = curl_requests.post(
                 ANONYMOUS_URL,
+                json={},
                 headers=headers,
                 impersonate=CURL_IMPERSONATE,
                 **request_options_for(proxy_url),
                 timeout=30,
             )
             if not response.ok:
+                if response.status_code == 403:
+                    print("FPT Play anonymous API 403 Forbidden")
+                    print(f"Status Code: {response.status_code}")
+                    print(f"Response Text: {response.text}", flush=True)
                 raise FptApiError(
                     "FPT Play anonymous API",
                     response.status_code,

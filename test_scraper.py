@@ -80,6 +80,8 @@ class ScraperTests(unittest.TestCase):
             {"http": "http://vn-proxy.test:8080", "https": "http://vn-proxy.test:8080"},
         )
         self.assertEqual(curl_client.post.call_args.args[0], scraper.ANONYMOUS_URL)
+        self.assertEqual(curl_client.post.call_args.kwargs["json"], {})
+        self.assertEqual(curl_client.post.call_args.kwargs["headers"]["Content-Type"], "application/json")
         self.assertEqual(curl_client.post.call_args.kwargs["impersonate"], "chrome120")
 
     def test_fetch_st_token_falls_back_from_http_to_socks5(self):
@@ -94,12 +96,17 @@ class ScraperTests(unittest.TestCase):
 
         with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
             scraper, "ensure_socks_support"
-        ) as ensure_socks, patch.object(scraper, "curl_requests_module", return_value=curl_client):
+        ) as ensure_socks, patch.object(
+            scraper, "curl_requests_module", return_value=curl_client
+        ), patch("builtins.print") as print_mock:
             token = scraper.fetch_st_token(session)
 
         self.assertEqual(token, "socks-token")
         ensure_socks.assert_called_once()
         self.assertEqual(curl_client.post.call_count, 2)
+        printed = " ".join(str(call) for call in print_mock.call_args_list)
+        self.assertIn("Status Code: 403", printed)
+        self.assertIn("Response Text: Forbidden", printed)
         self.assertEqual(
             curl_client.post.call_args_list[0].kwargs["proxies"],
             {"http": "http://user:pass@proxy.test:443", "https": "http://user:pass@proxy.test:443"},
