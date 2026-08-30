@@ -143,6 +143,16 @@ class ScraperTests(unittest.TestCase):
                 },
             )
 
+    def test_configured_proxy_urls_parses_host_port_username_password(self):
+        with patch.object(scraper, "VN_PROXY", "proxy.test:8080:user:pass"):
+            self.assertEqual(
+                scraper.configured_proxy_urls(),
+                [
+                    "http://user:pass@proxy.test:8080",
+                    "socks5://user:pass@proxy.test:8080",
+                ],
+            )
+
     def test_block_items_parser_extracts_events(self):
         payload = {
             "data": {

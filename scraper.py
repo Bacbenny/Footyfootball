@@ -213,7 +213,15 @@ def configured_proxy_urls() -> list[str | None]:
         return [None]
     raw_proxy = raw_proxy.strip()
     if "://" not in raw_proxy:
-        raw_proxy = f"http://{raw_proxy}"
+        parts = raw_proxy.split(":")
+        if len(parts) == 4 and parts[1].isdigit():
+            host, port, username, password = parts
+            raw_proxy = (
+                f"http://{quote(username, safe='')}:{quote(password, safe='')}"
+                f"@{host}:{port}"
+            )
+        else:
+            raw_proxy = f"http://{raw_proxy}"
     parsed = urlparse(raw_proxy)
     http_url = urlunparse(parsed._replace(scheme="http"))
     socks_url = urlunparse(parsed._replace(scheme="socks5"))
