@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 import scraper
 
@@ -19,15 +19,38 @@ class ScraperTests(unittest.TestCase):
         self.assertNotIn("=", params["st"])
         self.assertNotIn("/", params["st"])
 
-    def test_find_st_token_and_preserve_it_for_signed_requests(self):
-        self.assertEqual(scraper.find_st_token({"data": {"ST_TOKEN": "st-token"}}), "st-token")
-        params = scraper.build_signed_params("/topic", st_token="st-token")
-        self.assertEqual(params["st"], "st-token")
+    def test_block_request_uses_full_url_and_browser_headers(self):
+        response = Mock(ok=True)
+        response.json.return_value = {"status": True, "data": {"items": None}}
+        session = Mock()
+        session.get.return_value = response
 
-    def test_topic_category_parser_extracts_live_events(self):
+        self.assertIn(
+            "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=",
+            scraper.BLOCK_HIGHLIGHT_URL,
+        )
+        self.assertIn("st=Usc8ZRLFvbSv3g9L6eLjgw", scraper.BLOCK_HIGHLIGHT_URL)
+        self.assertIn("e=1788060689", scraper.BLOCK_HIGHLIGHT_URL)
+        self.assertIn(
+            "device=Microsoft%20Edge%20Simulate(version%3A127.0.6533.144)",
+            scraper.BLOCK_HIGHLIGHT_URL,
+        )
+        self.assertIn("drm=1&version=8.7.21", scraper.BLOCK_HIGHLIGHT_URL)
+
+        scraper.block_highlight_request(session)
+        request_headers = session.get.call_args.kwargs["headers"]
+        self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
+        self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
+        self.assertEqual(request_headers["Origin"], "https://fptplay.vn")
+        session.get.assert_called_once_with(
+            scraper.BLOCK_HIGHLIGHT_URL,
+            headers=request_headers,
+            timeout=30,
+        )
+
+    def test_block_items_parser_extracts_events(self):
         payload = {
             "data": {
-                "page": {"id": "page-1", "type": "page", "title": "Thể thao"},
                 "items": [
                     {
                         "id": "event-1",
@@ -37,7 +60,7 @@ class ScraperTests(unittest.TestCase):
                 ],
             }
         }
-        events = scraper.find_event_items(payload, {"items": []})
+        events = scraper.find_block_items(payload)
         self.assertEqual(
             events,
             [
@@ -48,6 +71,47 @@ class ScraperTests(unittest.TestCase):
                 }
             ],
         )
+        self.assertEqual(scraper.find_block_items({"data": {"items": None}}), [])
+
+    def test_build_playlist_uses_block_items_and_streams(self):
+        block_payload = {
+            "status": True,
+            "data": {
+                "items": [
+                    {
+                        "id": "event-1",
+                        "type": "event",
+                        "title": "Sự kiện thể thao",
+                    }
+                ]
+            },
+        }
+        stream_payload = {
+            "data": {
+                "url": "https://cdn.example.test/event-1/master.m3u8",
+            }
+        }
+        session = Mock()
+        with patch.object(scraper, "block_highlight_request", return_value=block_payload), patch.object(
+            scraper, "api_request", return_value=stream_payload
+        ) as stream_request:
+            playlist = scraper.build_playlist(session)
+
+        self.assertIn('group-title="Sự Kiện FPT",Sự kiện thể thao', playlist)
+        self.assertIn("https://cdn.example.test/event-1/master.m3u8", playlist)
+        self.assertNotIn("/topic", playlist)
+        stream_request.assert_called_once()
+        self.assertNotIn("st_token", stream_request.call_args.kwargs)
+
+    def test_build_playlist_rejects_empty_block_items(self):
+        session = Mock()
+        with patch.object(
+            scraper,
+            "block_highlight_request",
+            return_value={"status": True, "data": {"items": None}},
+        ):
+            with self.assertRaisesRegex(RuntimeError, "playlist was not replaced"):
+                scraper.build_playlist(session)
 
     def test_parser_handles_current_item_shape_and_clearkey(self):
         payload = {

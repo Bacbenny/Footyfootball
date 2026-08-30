@@ -6,7 +6,6 @@ from __future__ import annotations
 import base64
 import hashlib
 import html
-import json
 import logging
 import os
 import re
@@ -24,12 +23,14 @@ API_BASE_URL = "https://api.fptplay.net"
 API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
 APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
-PAGE_ID = os.environ.get("FPT_PAGE_ID", "home")
-BLOCK_ID = os.environ.get("FPT_BLOCK_ID", "632f01322089bd00e5c5ed3d")
-BLOCK_TYPE = os.environ.get("FPT_BLOCK_TYPE", "highlight")
-ANONYMOUS_PATH = "/user/anonymous"
-TOPIC_PATH = "/topic"
-CATEGORY_PATH = "/category"
+BLOCK_HIGHLIGHT_URL = (
+    "https://api.fptplay.net/api/v7.1_w/navigation/block/highlight/"
+    "632f01322089bd00e5c5ed3d?"
+    "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=&"
+    "st=Usc8ZRLFvbSv3g9L6eLjgw&e=1788060689&"
+    "device=Microsoft%20Edge%20Simulate(version%3A127.0.6533.144)&"
+    "drm=1&version=8.7.21"
+)
 STREAM_URL_TEMPLATE = os.environ.get(
     "FPT_STREAM_URL_TEMPLATE",
     "/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate",
@@ -187,6 +188,23 @@ def api_request(
         raise RuntimeError(f"{label} returned invalid JSON") from exc
 
 
+def block_highlight_request(session: requests.Session) -> Any:
+    """Fetch the known-good Block Highlight URL without changing its query."""
+    headers = dict(REQUEST_HEADERS)
+    headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
+    response = session.get(BLOCK_HIGHLIGHT_URL, headers=headers, timeout=30)
+    if not response.ok:
+        raise FptApiError(
+            "FPT Play Block Highlight API",
+            response.status_code,
+            _safe_response_detail(response),
+        )
+    try:
+        return response.json()
+    except ValueError as exc:
+        raise RuntimeError("FPT Play Block Highlight API returned invalid JSON") from exc
+
+
 def walk_dicts(value: Any) -> Iterator[Mapping[str, Any]]:
     """Yield every mapping nested in an API response."""
     if isinstance(value, Mapping):
@@ -213,8 +231,8 @@ def find_highlights(payload: Any) -> list[dict[str, str]]:
     seen: set[tuple[str, str]] = set()
     for mapping in walk_dicts(payload):
         highlight_id = first_text(mapping, HIGHLIGHT_ID_KEYS)
-        stream_type = first_text(mapping, TYPE_KEYS)
-        if not highlight_id or not stream_type:
+        stream_type = first_text(mapping, TYPE_KEYS) or "event"
+        if not highlight_id:
             continue
         stream_type = stream_type.lower()
         if stream_type not in ALLOWED_TYPES:
@@ -277,124 +295,17 @@ def clean_title(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip() or "FPT Play event"
 
 
-def find_st_token(payload: Any) -> str | None:
-    """Extract the short-lived ST token returned by the anonymous endpoint."""
-    token_keys = ("st", "st_token", "stToken", "ST_TOKEN", "token")
-    for mapping in walk_dicts(payload):
-        for key in token_keys:
-            value = mapping.get(key)
-            if isinstance(value, str) and value.strip():
-                return value.strip()
-    return None
-
-
-def print_json_payload(label: str, payload: Any) -> None:
-    """Print complete catalog JSON so schema changes are visible in CI logs."""
-    print(f"\n===== FPT Play {label} JSON =====")
-    print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True, default=str))
-    print(f"===== End FPT Play {label} JSON =====\n")
-
-
-def _event_title(value: str | None) -> bool:
-    if not value:
-        return False
-    title = clean_title(value).casefold()
-    return any(term in title for term in ("pickleball", "thể thao", "sự kiện", "live"))
-
-
-def _walk_with_title(value: Any, inherited_title: str | None = None) -> Iterator[tuple[Mapping[str, Any], str | None]]:
-    if isinstance(value, Mapping):
-        title = first_text(value, TITLE_KEYS) or inherited_title
-        yield value, title
-        for nested in value.values():
-            yield from _walk_with_title(nested, title)
-    elif isinstance(value, list):
-        for nested in value:
-            yield from _walk_with_title(nested, inherited_title)
-
-
-def find_event_items(*payloads: Any) -> list[dict[str, str]]:
-    """Extract event items from topic/category responses, including nested lists."""
-    events: list[dict[str, str]] = []
-    seen: set[tuple[str, str]] = set()
-    for payload in payloads:
-        for mapping, context_title in _walk_with_title(payload):
-            own_title = first_text(mapping, TITLE_KEYS)
-            title = own_title or context_title
-            if not _event_title(title):
-                continue
-            event_id = first_text(mapping, HIGHLIGHT_ID_KEYS)
-            if not event_id:
-                continue
-            event_type = first_text(mapping, TYPE_KEYS)
-            if not event_type:
-                event_type = "event"
-            event_type = event_type.lower()
-            if event_type not in ALLOWED_TYPES:
-                continue
-            identity = (event_type, event_id)
-            if identity in seen:
-                continue
-            seen.add(identity)
-            events.append(
-                {
-                    "id": event_id,
-                    "type": event_type,
-                    "title": clean_title(title or f"FPT {event_type} {event_id}"),
-                }
-            )
-    return events
-
-
-def fetch_st_token(session: requests.Session, user_token: str | None = None) -> str | None:
-    """Try the requested anonymous flow; signed requests remain the fallback."""
-    try:
-        payload = api_request(
-            session,
-            "POST",
-            ANONYMOUS_PATH,
-            user_token=user_token,
-            label="FPT Play anonymous API",
-        )
-    except (FptApiError, requests.RequestException, RuntimeError) as exc:
-        LOGGER.warning("ST token endpoint unavailable; using signed requests: %s", exc)
-        return None
-    token = find_st_token(payload)
-    if not token:
-        LOGGER.warning("FPT Play anonymous API returned no ST token")
-        return None
-    LOGGER.info("Obtained ST token from FPT Play anonymous API")
-    return token
-
-
-def fetch_event_catalogs(
-    session: requests.Session,
-    *,
-    st_token: str | None,
-    user_token: str | None = None,
-) -> tuple[Any, Any]:
-    """Fetch and print both new event catalogs."""
-    responses: list[Any] = []
-    for label, path, params in (
-        ("topic", TOPIC_PATH, {}),
-        ("category", CATEGORY_PATH, {"type": "event"}),
-    ):
-        try:
-            payload = api_request(
-                session,
-                "GET",
-                path,
-                user_token=user_token,
-                st_token=st_token,
-                params=params,
-                label=f"FPT Play {label} API",
-            )
-        except (FptApiError, requests.RequestException, RuntimeError) as exc:
-            LOGGER.warning("FPT Play %s API unavailable: %s", label, exc)
-            payload = {}
-        print_json_payload(label, payload)
-        responses.append(payload)
-    return responses[0], responses[1]
+def find_block_items(payload: Any) -> list[dict[str, str]]:
+    """Extract only event records from the Block Highlight data.items array."""
+    if not isinstance(payload, Mapping):
+        return []
+    data = payload.get("data")
+    if not isinstance(data, Mapping):
+        return []
+    items = data.get("items")
+    if not isinstance(items, list) or not items:
+        return []
+    return find_highlights(items)
 
 
 def atomic_write(path: Path, content: str) -> None:
@@ -409,13 +320,13 @@ def build_playlist(
     *,
     user_token: str | None = None,
 ) -> str:
-    st_token = fetch_st_token(session, user_token=user_token)
-    topic_payload, category_payload = fetch_event_catalogs(
-        session,
-        st_token=st_token,
-        user_token=user_token,
-    )
-    events = find_event_items(topic_payload, category_payload)
+    try:
+        block_payload = block_highlight_request(session)
+    except (FptApiError, requests.RequestException, RuntimeError) as exc:
+        LOGGER.warning("Block Highlight unavailable; keeping existing playlist: %s", exc)
+        raise RuntimeError("FPT Play Block Highlight API unavailable; playlist was not replaced") from exc
+
+    events = find_block_items(block_payload)
 
     LOGGER.info("Found %d FPT Play event items", len(events))
     print(f"FPT Play events found: {len(events)}")
@@ -423,8 +334,7 @@ def build_playlist(
         print(f"- {event['title']} [{event['type']}/{event['id']}]")
     if not events:
         raise RuntimeError(
-            "FPT Play topic/category returned no event items; "
-            "playlist was not replaced."
+            "FPT Play Block Highlight returned no items; playlist was not replaced."
         )
 
     lines = ["#EXTM3U"]
@@ -440,7 +350,6 @@ def build_playlist(
                 "GET",
                 path,
                 user_token=user_token,
-                st_token=st_token,
                 label=f"FPT Play stream API for {event['id']}",
             )
         except (FptApiError, requests.RequestException, RuntimeError) as exc:
