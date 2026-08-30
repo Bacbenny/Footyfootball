@@ -19,34 +19,35 @@ class ScraperTests(unittest.TestCase):
         self.assertNotIn("=", params["st"])
         self.assertNotIn("/", params["st"])
 
-    def test_select_block_prefers_current_title_over_old_id(self):
-        payload = {
-            "data": {
-                "blocks": [
-                    {"id": scraper.BLOCK_ID, "data_type": "highlight", "title": "Old"},
-                    {"id": "new-event-block", "data_type": "highlight", "title": "Sự kiện Thể thao"},
-                ]
-            }
-        }
-        self.assertEqual(scraper.select_block(payload), ("highlight", "new-event-block"))
+    def test_find_st_token_and_preserve_it_for_signed_requests(self):
+        self.assertEqual(scraper.find_st_token({"data": {"ST_TOKEN": "st-token"}}), "st-token")
+        params = scraper.build_signed_params("/topic", st_token="st-token")
+        self.assertEqual(params["st"], "st-token")
 
-    def test_discovery_ignores_page_metadata_and_prioritizes_event_title(self):
+    def test_topic_category_parser_extracts_live_events(self):
         payload = {
             "data": {
                 "page": {"id": "page-1", "type": "page", "title": "Thể thao"},
-                "blocks": [
-                    {"block_id": "sports-block", "data_type": "highlight", "title": "Thể thao"},
+                "items": [
                     {
-                        "block_id": "event-block",
-                        "data_type": "highlight",
-                        "title": "Sự kiện Thể thao",
-                    },
+                        "id": "event-1",
+                        "type": "event",
+                        "title": "Heineken Pickleball World Cup 2026",
+                    }
                 ],
             }
         }
-        candidates = scraper.discover_event_blocks(payload)
-        self.assertEqual(candidates[0]["id"], "event-block")
-        self.assertNotIn("page-1", {candidate["id"] for candidate in candidates})
+        events = scraper.find_event_items(payload, {"items": []})
+        self.assertEqual(
+            events,
+            [
+                {
+                    "id": "event-1",
+                    "type": "event",
+                    "title": "Heineken Pickleball World Cup 2026",
+                }
+            ],
+        )
 
     def test_parser_handles_current_item_shape_and_clearkey(self):
         payload = {

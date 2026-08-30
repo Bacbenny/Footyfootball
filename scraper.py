@@ -6,6 +6,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import html
+import json
 import logging
 import os
 import re
@@ -26,7 +27,9 @@ SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
 PAGE_ID = os.environ.get("FPT_PAGE_ID", "home")
 BLOCK_ID = os.environ.get("FPT_BLOCK_ID", "632f01322089bd00e5c5ed3d")
 BLOCK_TYPE = os.environ.get("FPT_BLOCK_TYPE", "highlight")
-DISCOVERY_PATHS = ("/navigation/sport", "/home", "/navigation/page/home")
+ANONYMOUS_PATH = "/user/anonymous"
+TOPIC_PATH = "/topic"
+CATEGORY_PATH = "/category"
 STREAM_URL_TEMPLATE = os.environ.get(
     "FPT_STREAM_URL_TEMPLATE",
     "/stream/{stream_type}/{highlight_id}/0/adaptive_bitrate",
@@ -126,7 +129,12 @@ def md5_base64url(value: str) -> str:
     return base64.urlsafe_b64encode(bytes.fromhex(digest_hex)).decode("ascii").rstrip("=")
 
 
-def build_signed_params(path: str, extra: Mapping[str, Any] | None = None) -> dict[str, Any]:
+def build_signed_params(
+    path: str,
+    extra: Mapping[str, Any] | None = None,
+    *,
+    st_token: str | None = None,
+) -> dict[str, Any]:
     """Build the signed query used by the current FPT Play web client."""
     clean_path = path.lstrip("/")
     expires = int(time.time()) + 3600
@@ -135,7 +143,7 @@ def build_signed_params(path: str, extra: Mapping[str, Any] | None = None) -> di
     params: dict[str, Any] = dict(extra or {})
     params.update(
         {
-            "st": signature,
+            "st": st_token or signature,
             "e": expires,
             "device": "Chrome(version:127.0.0.0)",
             "drm": 1,
@@ -151,6 +159,7 @@ def api_request(
     path: str,
     *,
     user_token: str | None = None,
+    st_token: str | None = None,
     params: Mapping[str, Any] | None = None,
     label: str,
 ) -> Any:
@@ -166,7 +175,7 @@ def api_request(
     response = session.request(
         method,
         url,
-        params=build_signed_params(clean_path, params),
+        params=build_signed_params(clean_path, params, st_token=st_token),
         headers=headers,
         timeout=30,
     )
@@ -268,98 +277,124 @@ def clean_title(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip() or "FPT Play event"
 
 
-def page_blocks(payload: Any) -> list[Mapping[str, Any]]:
-    """Return the blocks from /navigation/page/{page_id}."""
-    if isinstance(payload, Mapping):
-        data = payload.get("data")
-        if isinstance(data, Mapping) and isinstance(data.get("blocks"), list):
-            return [block for block in data["blocks"] if isinstance(block, Mapping)]
-    return []
-
-
-def is_event_block_title(value: str) -> bool:
-    title = clean_title(value).casefold()
-    return any(term in title for term in ("sự kiện thể thao", "sự kiện", "thể thao"))
-
-
-def discover_event_blocks(payload: Any) -> list[dict[str, str]]:
-    """Find all matching blocks and retain every possible API identifier."""
-    candidates: list[dict[str, str]] = []
-    seen: set[tuple[str, str]] = set()
+def find_st_token(payload: Any) -> str | None:
+    """Extract the short-lived ST token returned by the anonymous endpoint."""
+    token_keys = ("st", "st_token", "stToken", "ST_TOKEN", "token")
     for mapping in walk_dicts(payload):
-        title = first_text(mapping, TITLE_KEYS)
-        if not title or not is_event_block_title(title):
-            continue
-        block_type = first_text(
-            mapping, ("block_type", "blockType", "data_type", "dataType", "type")
-        ) or BLOCK_TYPE
-        if block_type not in ALLOWED_TYPES and block_type != BLOCK_TYPE:
-            continue
-        for key in BLOCK_ID_KEYS:
-            block_id = first_text(mapping, (key,))
-            if not block_id:
+        for key in token_keys:
+            value = mapping.get(key)
+            if isinstance(value, str) and value.strip():
+                return value.strip()
+    return None
+
+
+def print_json_payload(label: str, payload: Any) -> None:
+    """Print complete catalog JSON so schema changes are visible in CI logs."""
+    print(f"\n===== FPT Play {label} JSON =====")
+    print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True, default=str))
+    print(f"===== End FPT Play {label} JSON =====\n")
+
+
+def _event_title(value: str | None) -> bool:
+    if not value:
+        return False
+    title = clean_title(value).casefold()
+    return any(term in title for term in ("pickleball", "thể thao", "sự kiện", "live"))
+
+
+def _walk_with_title(value: Any, inherited_title: str | None = None) -> Iterator[tuple[Mapping[str, Any], str | None]]:
+    if isinstance(value, Mapping):
+        title = first_text(value, TITLE_KEYS) or inherited_title
+        yield value, title
+        for nested in value.values():
+            yield from _walk_with_title(nested, title)
+    elif isinstance(value, list):
+        for nested in value:
+            yield from _walk_with_title(nested, inherited_title)
+
+
+def find_event_items(*payloads: Any) -> list[dict[str, str]]:
+    """Extract event items from topic/category responses, including nested lists."""
+    events: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for payload in payloads:
+        for mapping, context_title in _walk_with_title(payload):
+            own_title = first_text(mapping, TITLE_KEYS)
+            title = own_title or context_title
+            if not _event_title(title):
                 continue
-            identity = (block_type, block_id)
+            event_id = first_text(mapping, HIGHLIGHT_ID_KEYS)
+            if not event_id:
+                continue
+            event_type = first_text(mapping, TYPE_KEYS)
+            if not event_type:
+                event_type = "event"
+            event_type = event_type.lower()
+            if event_type not in ALLOWED_TYPES:
+                continue
+            identity = (event_type, event_id)
             if identity in seen:
                 continue
             seen.add(identity)
-            candidates.append({"type": block_type, "id": block_id, "title": clean_title(title)})
-
-    def priority(candidate: dict[str, str]) -> tuple[int, str]:
-        title = candidate["title"].casefold()
-        if "sự kiện thể thao" in title:
-            return 0, title
-        if "sự kiện" in title:
-            return 1, title
-        return 2, title
-
-    return sorted(candidates, key=priority)
+            events.append(
+                {
+                    "id": event_id,
+                    "type": event_type,
+                    "title": clean_title(title or f"FPT {event_type} {event_id}"),
+                }
+            )
+    return events
 
 
-def select_block(payload: Any) -> tuple[str, str]:
-    """Select the first dynamically discovered event block."""
-    candidates = discover_event_blocks(payload)
-    if candidates:
-        candidate = candidates[0]
-        LOGGER.info(
-            "Using event block %s (%s) discovered from page data",
-            candidate["id"],
-            candidate["title"],
+def fetch_st_token(session: requests.Session, user_token: str | None = None) -> str | None:
+    """Try the requested anonymous flow; signed requests remain the fallback."""
+    try:
+        payload = api_request(
+            session,
+            "POST",
+            ANONYMOUS_PATH,
+            user_token=user_token,
+            label="FPT Play anonymous API",
         )
-        return candidate["type"], candidate["id"]
-    LOGGER.info("Falling back to configured event block %s (%s)", BLOCK_ID, BLOCK_TYPE)
-    return BLOCK_TYPE, BLOCK_ID
+    except (FptApiError, requests.RequestException, RuntimeError) as exc:
+        LOGGER.warning("ST token endpoint unavailable; using signed requests: %s", exc)
+        return None
+    token = find_st_token(payload)
+    if not token:
+        LOGGER.warning("FPT Play anonymous API returned no ST token")
+        return None
+    LOGGER.info("Obtained ST token from FPT Play anonymous API")
+    return token
 
 
-def discover_event_block_candidates(
+def fetch_event_catalogs(
     session: requests.Session,
     *,
+    st_token: str | None,
     user_token: str | None = None,
-) -> list[dict[str, str]]:
-    """Discover blocks from the requested catalogs, then the current page API."""
-    candidates: list[dict[str, str]] = []
-    seen: set[tuple[str, str]] = set()
-    for path in DISCOVERY_PATHS:
+) -> tuple[Any, Any]:
+    """Fetch and print both new event catalogs."""
+    responses: list[Any] = []
+    for label, path, params in (
+        ("topic", TOPIC_PATH, {}),
+        ("category", CATEGORY_PATH, {"type": "event"}),
+    ):
         try:
             payload = api_request(
                 session,
                 "GET",
                 path,
                 user_token=user_token,
-                label=f"FPT Play block discovery {path}",
+                st_token=st_token,
+                params=params,
+                label=f"FPT Play {label} API",
             )
         except (FptApiError, requests.RequestException, RuntimeError) as exc:
-            LOGGER.warning("Block discovery skipped for %s: %s", path, exc)
-            continue
-        for candidate in discover_event_blocks(payload):
-            identity = (candidate["type"], candidate["id"])
-            if identity not in seen:
-                seen.add(identity)
-                candidates.append(candidate)
-
-    if not candidates:
-        candidates.append({"type": BLOCK_TYPE, "id": BLOCK_ID, "title": GROUP_TITLE})
-    return candidates
+            LOGGER.warning("FPT Play %s API unavailable: %s", label, exc)
+            payload = {}
+        print_json_payload(label, payload)
+        responses.append(payload)
+    return responses[0], responses[1]
 
 
 def atomic_write(path: Path, content: str) -> None:
@@ -374,48 +409,30 @@ def build_playlist(
     *,
     user_token: str | None = None,
 ) -> str:
-    block_candidates = discover_event_block_candidates(session, user_token=user_token)
-    highlights: list[dict[str, str]] = []
-    for candidate in block_candidates:
-        try:
-            block_payload = api_request(
-                session,
-                "GET",
-                f"/navigation/block/{quote(candidate['type'], safe='')}/{quote(candidate['id'], safe='')}",
-                user_token=user_token,
-                params={
-                    "page_id": PAGE_ID,
-                    "page": 1,
-                    "page_size": 31,
-                    "block_type": candidate["type"],
-                    "custom_data": "",
-                },
-                label=f"FPT Play event block API {candidate['id']}",
-            )
-            highlights = find_highlights(block_payload)
-        except (FptApiError, requests.RequestException, RuntimeError) as exc:
-            LOGGER.warning("Event block skipped for %s: %s", candidate["id"], exc)
-            continue
-        if highlights:
-            LOGGER.info("Using event block %s (%s)", candidate["id"], candidate["title"])
-            break
+    st_token = fetch_st_token(session, user_token=user_token)
+    topic_payload, category_payload = fetch_event_catalogs(
+        session,
+        st_token=st_token,
+        user_token=user_token,
+    )
+    events = find_event_items(topic_payload, category_payload)
 
-    LOGGER.info("Found %d FPT Play highlights", len(highlights))
-    print(f"FPT Play events found: {len(highlights)}")
-    for highlight in highlights:
-        print(f"- {clean_title(highlight['title'])} [{highlight['type']}/{highlight['id']}]")
-    if not highlights:
+    LOGGER.info("Found %d FPT Play event items", len(events))
+    print(f"FPT Play events found: {len(events)}")
+    for event in events:
+        print(f"- {event['title']} [{event['type']}/{event['id']}]")
+    if not events:
         raise RuntimeError(
-            "FPT Play returned no event items; playlist was not replaced. "
-            "This can mean there are currently no published events."
+            "FPT Play topic/category returned no event items; "
+            "playlist was not replaced."
         )
 
     lines = ["#EXTM3U"]
     playlist_urls: set[str] = set()
-    for highlight in highlights:
+    for event in events:
         path = STREAM_URL_TEMPLATE.format(
-            stream_type=quote(highlight["type"], safe=""),
-            highlight_id=quote(highlight["id"], safe=""),
+            stream_type=quote(event["type"], safe=""),
+            highlight_id=quote(event["id"], safe=""),
         )
         try:
             stream_payload = api_request(
@@ -423,10 +440,11 @@ def build_playlist(
                 "GET",
                 path,
                 user_token=user_token,
-                label=f"FPT Play stream API for {highlight['id']}",
+                st_token=st_token,
+                label=f"FPT Play stream API for {event['id']}",
             )
         except (FptApiError, requests.RequestException, RuntimeError) as exc:
-            LOGGER.warning("Skipping %s: %s", highlight["id"], exc)
+            LOGGER.warning("Skipping %s: %s", event["id"], exc)
             continue
 
         streams = find_streams(stream_payload)
@@ -435,7 +453,7 @@ def build_playlist(
             if not stream_url or stream_url in playlist_urls:
                 continue
             playlist_urls.add(stream_url)
-            title = clean_title(highlight["title"])
+            title = clean_title(event["title"])
             lines.append(f'#EXTINF:-1 group-title="{GROUP_TITLE}",{title}')
             if stream["key_id"] and stream["key"]:
                 lines.append("#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey")
