@@ -13,6 +13,12 @@
 #
 set -euo pipefail
 
+if [[ -n "${PREFIX:-}" || "${TERMUX_VERSION:-}" != "" ]]; then
+  printf '\033[1;31m[error]\033[0m Bạn đang dùng Termux. Script này chỉ dành cho Ubuntu/Debian VPS.\n'
+  printf 'Hãy chạy: bash deploy/install-termux.sh\n'
+  exit 1
+fi
+
 INSTALL_DIR="${INSTALL_DIR:-/opt/footyfootball}"
 HTTP_PORT="${HTTP_PORT:-8000}"
 SERVICE_USER="${SERVICE_USER:-footy}"
