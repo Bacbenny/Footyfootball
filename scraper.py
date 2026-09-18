@@ -566,7 +566,8 @@ def main() -> None:
     user_token = os.environ.get("USER_TOKEN")
     use_user_token = os.environ.get("FPT_USE_USER_TOKEN", "false").lower() in {"1", "true", "yes"}
     if use_user_token and not user_token:
-        raise RuntimeError("FPT_USE_USER_TOKEN is enabled but USER_TOKEN is not set")
+        LOGGER.warning("FPT_USE_USER_TOKEN is enabled but USER_TOKEN is not set; falling back to anonymous mode")
+        use_user_token = False
 
     retry = Retry(
         total=3,

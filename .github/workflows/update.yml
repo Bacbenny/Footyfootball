@@ -36,7 +36,7 @@ jobs:
         env:
           USER_TOKEN: ${{ secrets.USE_TOKEN || secrets.USER_TOKEN }}
           VN_PROXY: ${{ secrets.VN_PROXY }}
-          FPT_USE_USER_TOKEN: 'true'
+          FPT_USE_USER_TOKEN: ${{ secrets.USE_TOKEN != '' && 'true' || 'false' }}
         run: python scraper.py
 
       - name: Commit updated playlist
