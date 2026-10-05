@@ -1,22 +1,29 @@
-name: Validate scraper
+name: Update FPT event playlist
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
-  workflow_dispatch:
+    paths:
+      - "scraper.py"
+      - "test_scraper.py"
+      - ".github/workflows/update.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  update-playlist:
+    runs-on: [self-hosted]
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,8 +33,29 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check "requests[socks]" curl_cffi
 
-      - name: Compile scraper
-        run: python -m py_compile scraper.py
-
-      - name: Run offline tests
+      - name: Run tests
         run: python -m unittest -v test_scraper.py
+
+      - name: Generate playlist
+        env:
+          VN_PROXY: ${{ secrets.VN_PROXY }}
+          USER_TOKEN: ${{ secrets.USER_TOKEN }}
+          FPT_USE_USER_TOKEN: ${{ secrets.FPT_USE_USER_TOKEN }}
+        run: python scraper.py
+
+      - name: Validate playlist
+        run: |
+          test -s playlist.m3u
+          grep -q '^#EXTINF:' playlist.m3u
+
+      - name: Publish playlist
+        run: |
+          git config user.name "footyfootball-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add playlist.m3u
+          if git diff --cached --quiet; then
+            echo "Playlist không thay đổi"
+            exit 0
+          fi
+          git commit -m "chore: update FPT event playlist"
+          git push

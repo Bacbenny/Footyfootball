@@ -16,7 +16,7 @@ import time
 from collections.abc import Iterator, Mapping
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urlparse, urlunparse
+from urllib.parse import quote, urlencode, urlparse, urlunparse
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -27,7 +27,6 @@ API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
 APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
 CURL_IMPERSONATE = "chrome120"
-ANONYMOUS_URL = f"{API_BASE_URL}/api/{API_VERSION}/user/anonymous"
 BLOCK_HIGHLIGHT_URL_TEMPLATE = (
     f"{API_BASE_URL}/api/{API_VERSION}/navigation/block/highlight/"
     "632f01322089bd00e5c5ed3d?"
@@ -292,84 +291,30 @@ def curl_requests_module() -> Any:
         raise RuntimeError("curl_cffi installation completed but import still failed") from exc
 
 
-def find_st_token(payload: Any) -> str | None:
-    """Extract the short-lived ST token from the anonymous response."""
-    for mapping in walk_dicts(payload):
-        for key in ("st", "st_token", "stToken", "ST_TOKEN", "token"):
-            value = mapping.get(key)
-            if isinstance(value, str) and value.strip():
-                return value.strip()
-    return None
+def build_block_highlight_url() -> str:
+    """Build the current signed Block Highlight URL."""
+    path = "/navigation/block/highlight/632f01322089bd00e5c5ed3d"
+    params = build_signed_params(
+        path,
+        {
+            "block_type": "horizontal_slider",
+            "custom_data": "",
+            "page": 1,
+            "page_size": 31,
+            "page_id": "",
+        },
+    )
+    return f"{API_BASE_URL}/api/{API_VERSION}{path}?{urlencode(params)}"
 
 
-def fetch_st_token(session: requests.Session) -> str:
-    """Get a fresh ST token, falling back from authenticated HTTP to SOCKS5."""
-    global ACTIVE_PROXY_URL
-    ACTIVE_PROXY_URL = None
-    headers = dict(REQUEST_HEADERS)
-    headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
-    curl_requests = curl_requests_module()
-    last_error: Exception | None = None
-
-    for proxy_url in configured_proxy_urls():
-        if proxy_url and urlparse(proxy_url).scheme.lower().startswith("socks"):
-            try:
-                ensure_socks_support()
-            except RuntimeError as exc:
-                last_error = exc
-                LOGGER.warning("SOCKS5 fallback unavailable: %s", exc)
-                continue
-        try:
-            response = curl_requests.post(
-                ANONYMOUS_URL,
-                json={},
-                headers=headers,
-                impersonate=CURL_IMPERSONATE,
-                **request_options_for(proxy_url),
-                timeout=30,
-            )
-            if not response.ok:
-                if response.status_code == 403:
-                    print("FPT Play anonymous API 403 Forbidden")
-                    print(f"Status Code: {response.status_code}")
-                    print(f"Response Text: {response.text}", flush=True)
-                raise FptApiError(
-                    "FPT Play anonymous API",
-                    response.status_code,
-                    _safe_response_detail(response),
-                )
-            try:
-                payload = response.json()
-            except ValueError as exc:
-                raise RuntimeError("FPT Play anonymous API returned invalid JSON") from exc
-            token = find_st_token(payload)
-            if not token:
-                raise RuntimeError("FPT Play anonymous API returned no ST token")
-            ACTIVE_PROXY_URL = proxy_url
-            LOGGER.info("FPT Play anonymous API succeeded via %s proxy", "direct" if not proxy_url else urlparse(proxy_url).scheme)
-            return token
-        except Exception as exc:
-            last_error = exc
-            scheme = "direct" if not proxy_url else urlparse(proxy_url).scheme
-            LOGGER.warning("FPT Play anonymous API failed via %s proxy; trying next: %s", scheme, exc)
-
-    raise RuntimeError("FPT Play anonymous API failed through all configured proxy modes") from last_error
-
-
-def build_block_highlight_url(st_token: str) -> str:
-    """Build the Block Highlight URL with a fresh token and one-hour expiry."""
-    expires = int(time.time() + 3600)
-    return BLOCK_HIGHLIGHT_URL_TEMPLATE.format(st=quote(st_token, safe=""), e=expires)
-
-
-def block_highlight_request(session: requests.Session, st_token: str) -> Any:
-    """Fetch Block Highlight using the complete URL and browser headers."""
+def block_highlight_request(session: requests.Session) -> Any:
+    """Fetch Block Highlight using the current signed endpoint."""
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
     try:
         curl_requests = curl_requests_module()
         response = curl_requests.get(
-            build_block_highlight_url(st_token),
+            build_block_highlight_url(),
             headers=headers,
             impersonate=CURL_IMPERSONATE,
             **request_options(),
@@ -505,8 +450,7 @@ def build_playlist(
     user_token: str | None = None,
 ) -> str:
     try:
-        st_token = fetch_st_token(session)
-        block_payload = block_highlight_request(session, st_token)
+        block_payload = block_highlight_request(session)
     except (FptApiError, requests.RequestException, RuntimeError) as exc:
         LOGGER.warning("FPT Play data request unavailable; keeping existing playlist: %s", exc)
         raise RuntimeError("FPT Play data request failed; playlist was not replaced") from exc

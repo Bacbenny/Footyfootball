@@ -27,7 +27,7 @@ class ScraperTests(unittest.TestCase):
         self.assertNotIn("=", params["st"])
         self.assertNotIn("/", params["st"])
 
-    def test_block_request_uses_full_url_and_browser_headers(self):
+    def test_block_request_uses_current_signed_endpoint(self):
         response = Mock(ok=True)
         response.json.return_value = {"status": True, "data": {"items": None}}
         session = Mock()
@@ -37,20 +37,15 @@ class ScraperTests(unittest.TestCase):
         with patch.object(scraper.time, "time", return_value=1_700_000_000), patch.object(
             scraper, "curl_requests_module", return_value=curl_client
         ):
-            url = scraper.build_block_highlight_url("fresh/st token")
-            scraper.block_highlight_request(session, "fresh/st token")
+            url = scraper.build_block_highlight_url()
+            scraper.block_highlight_request(session)
 
-        self.assertIn("st=fresh%2Fst%20token", url)
+        self.assertIn("/navigation/block/highlight/632f01322089bd00e5c5ed3d?", url)
+        self.assertIn("block_type=horizontal_slider", url)
+        self.assertIn("st=", url)
         self.assertIn("e=1700003600", url)
-        self.assertIn(
-            "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=",
-            url,
-        )
-        self.assertIn(
-            "device=Microsoft+Edge+Simulate(version%3A127.0.6533.144)",
-            url,
-        )
-        self.assertIn("drm=1&version=8.7.21", url)
+        self.assertIn("drm=1", url)
+        self.assertIn("version=8.7.21", url)
         request_headers = curl_client.get.call_args.kwargs["headers"]
         self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
         self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
@@ -61,75 +56,6 @@ class ScraperTests(unittest.TestCase):
             impersonate="chrome120",
             timeout=30,
         )
-
-    def test_fetch_st_token_uses_anonymous_post_and_vn_proxy(self):
-        response = Mock(ok=True)
-        response.json.return_value = {"data": {"st": "fresh-token"}}
-        session = Mock()
-        curl_client = Mock()
-        curl_client.post.return_value = response
-
-        with patch.object(scraper, "VN_PROXY", "http://vn-proxy.test:8080"), patch.object(
-            scraper, "curl_requests_module", return_value=curl_client
-        ):
-            token = scraper.fetch_st_token(session)
-
-        self.assertEqual(token, "fresh-token")
-        self.assertEqual(
-            curl_client.post.call_args.kwargs["proxies"],
-            {"http": "http://vn-proxy.test:8080", "https": "http://vn-proxy.test:8080"},
-        )
-        self.assertEqual(curl_client.post.call_args.args[0], scraper.ANONYMOUS_URL)
-        self.assertEqual(curl_client.post.call_args.kwargs["json"], {})
-        self.assertEqual(curl_client.post.call_args.kwargs["headers"]["Content-Type"], "application/json")
-        self.assertEqual(curl_client.post.call_args.kwargs["impersonate"], "chrome120")
-
-    def test_fetch_st_token_falls_back_from_http_to_socks5(self):
-        failed_response = Mock(ok=False, status_code=403)
-        failed_response.headers = {"content-type": "text/html"}
-        failed_response.text = "Forbidden"
-        success_response = Mock(ok=True)
-        success_response.json.return_value = {"data": {"st": "socks-token"}}
-        session = Mock()
-        curl_client = Mock()
-        curl_client.post.side_effect = [failed_response, success_response]
-
-        with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
-            scraper, "ensure_socks_support"
-        ) as ensure_socks, patch.object(
-            scraper, "curl_requests_module", return_value=curl_client
-        ), patch("builtins.print") as print_mock:
-            token = scraper.fetch_st_token(session)
-
-        self.assertEqual(token, "socks-token")
-        ensure_socks.assert_called_once()
-        self.assertEqual(curl_client.post.call_count, 2)
-        printed = " ".join(str(call) for call in print_mock.call_args_list)
-        self.assertIn("Status Code: 403", printed)
-        self.assertIn("Response Text: Forbidden", printed)
-        self.assertEqual(
-            curl_client.post.call_args_list[0].kwargs["proxies"],
-            {"http": "http://user:pass@proxy.test:443", "https": "http://user:pass@proxy.test:443"},
-        )
-        self.assertEqual(
-            curl_client.post.call_args_list[1].kwargs["proxies"],
-            {"http": "socks5://user:pass@proxy.test:443", "https": "socks5://user:pass@proxy.test:443"},
-        )
-
-    def test_fetch_st_token_falls_back_for_curl_transport_error(self):
-        success_response = Mock(ok=True)
-        success_response.json.return_value = {"data": {"st": "socks-token"}}
-        session = Mock()
-        curl_client = Mock()
-        curl_client.post.side_effect = [OSError("curl CONNECT aborted"), success_response]
-
-        with patch.object(scraper, "VN_PROXY", "http://user:pass@proxy.test:443"), patch.object(
-            scraper, "ensure_socks_support"
-        ), patch.object(scraper, "curl_requests_module", return_value=curl_client):
-            token = scraper.fetch_st_token(session)
-
-        self.assertEqual(token, "socks-token")
-        self.assertEqual(curl_client.post.call_count, 2)
 
     def test_request_options_uses_active_socks_proxy(self):
         with patch.object(scraper, "ACTIVE_PROXY_URL", "socks5://user:pass@proxy.test:443"):
@@ -197,21 +123,21 @@ class ScraperTests(unittest.TestCase):
             }
         }
         session = Mock()
-        with patch.object(scraper, "fetch_st_token", return_value="fresh-token"), patch.object(
-            scraper, "block_highlight_request", return_value=block_payload
-        ) as block_request, patch.object(scraper, "api_request", return_value=stream_payload) as stream_request:
+        with patch.object(scraper, "block_highlight_request", return_value=block_payload) as block_request, patch.object(
+            scraper, "api_request", return_value=stream_payload
+        ) as stream_request:
             playlist = scraper.build_playlist(session)
 
         self.assertIn('group-title="Sự Kiện FPT",Sự kiện thể thao', playlist)
         self.assertIn("https://cdn.example.test/event-1/master.m3u8", playlist)
         self.assertNotIn("/topic", playlist)
-        block_request.assert_called_once_with(session, "fresh-token")
+        block_request.assert_called_once_with(session)
         stream_request.assert_called_once()
         self.assertNotIn("st_token", stream_request.call_args.kwargs)
 
     def test_build_playlist_rejects_empty_block_items(self):
         session = Mock()
-        with patch.object(scraper, "fetch_st_token", return_value="fresh-token"), patch.object(
+        with patch.object(
             scraper,
             "block_highlight_request",
             return_value={"status": True, "data": {"items": None}},
