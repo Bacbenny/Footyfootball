@@ -301,7 +301,7 @@ def build_block_highlight_url() -> str:
             "custom_data": "",
             "page": 1,
             "page_size": 31,
-            "page_id": "",
+            "page_id": "sport",
         },
     )
     return f"{API_BASE_URL}/api/{API_VERSION}{path}?{urlencode(params)}"
