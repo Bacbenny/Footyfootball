@@ -1,10 +1,14 @@
-name: Update FPT event playlist
+name: Validate FPT scraper
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 * * * *"
   push:
+    branches: [main]
+    paths:
+      - "scraper.py"
+      - "test_scraper.py"
+      - ".github/workflows/update.yml"
+  pull_request:
     branches: [main]
     paths:
       - "scraper.py"
@@ -12,11 +16,11 @@ on:
       - ".github/workflows/update.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update-playlist:
-    runs-on: [self-hosted]
+  test:
+    runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
@@ -28,34 +32,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Install dependencies
-        run: python -m pip install --disable-pip-version-check "requests[socks]" curl_cffi
+        run: python -m pip install --disable-pip-version-check "requests[socks]"
 
       - name: Run tests
         run: python -m unittest -v test_scraper.py
-
-      - name: Generate playlist
-        env:
-          VN_PROXY: ${{ secrets.VN_PROXY }}
-          USER_TOKEN: ${{ secrets.USER_TOKEN }}
-          FPT_USE_USER_TOKEN: ${{ secrets.FPT_USE_USER_TOKEN }}
-        run: python scraper.py
-
-      - name: Validate playlist
-        run: |
-          test -s playlist.m3u
-          grep -q '^#EXTINF:' playlist.m3u
-
-      - name: Publish playlist
-        run: |
-          git config user.name "footyfootball-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add playlist.m3u
-          if git diff --cached --quiet; then
-            echo "Playlist không thay đổi"
-            exit 0
-          fi
-          git commit -m "chore: update FPT event playlist"
-          git push
+      - name: Compile Python files
+        run: python -m compileall -q scraper.py test_scraper.py

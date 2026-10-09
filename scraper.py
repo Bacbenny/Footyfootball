@@ -24,17 +24,9 @@ from urllib3.util.retry import Retry
 
 API_BASE_URL = "https://api.fptplay.net"
 API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
-APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.7.21")
+APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.8.23")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
 CURL_IMPERSONATE = "chrome120"
-BLOCK_HIGHLIGHT_URL_TEMPLATE = (
-    f"{API_BASE_URL}/api/{API_VERSION}/navigation/block/highlight/"
-    "632f01322089bd00e5c5ed3d?"
-    "block_type=horizontal_slider&custom_data=&page=1&page_size=31&page_id=&"
-    "st={st}&e={e}&"
-    "device=Microsoft+Edge+Simulate(version%3A127.0.6533.144)&"
-    "drm=1&version=8.7.21"
-)
 VN_PROXY = os.environ.get("VN_PROXY")
 ACTIVE_PROXY_URL: str | None = None
 STREAM_URL_TEMPLATE = os.environ.get(
@@ -87,11 +79,33 @@ HIGHLIGHT_ID_KEYS = (
     "id",
     "_id",
 )
-BLOCK_ID_KEYS = ("block_id", "blockId", "_id", "id")
-TYPE_KEYS = (
-    "type",
+PLAYBACK_ID_KEYS = (
+    "stream_id",
+    "streamId",
+    "playback_id",
+    "playbackId",
+    "channel_id",
+    "channelId",
+    "tv_id",
+    "tvId",
+    "media_id",
+    "mediaId",
+    "stream_code",
+    "streamCode",
+)
+PLAYBACK_TYPE_KEYS = (
     "stream_type",
     "streamType",
+    "playback_type",
+    "playbackType",
+    "channel_type",
+    "channelType",
+)
+BLOCK_ID_KEYS = ("block_id", "blockId", "_id", "id")
+TYPE_KEYS = (
+    "stream_type",
+    "streamType",
+    "type",
     "content_type",
     "contentType",
     "data_type",
@@ -355,23 +369,94 @@ def first_text(mapping: Mapping[str, Any], keys: tuple[str, ...]) -> str | None:
     return None
 
 
+def find_playback_target(
+    record: Mapping[str, Any],
+) -> tuple[str, str] | None:
+    """Find an explicit stream/channel target without confusing it with the event ID."""
+    for mapping in walk_dicts(record):
+        playback_id = first_text(mapping, PLAYBACK_ID_KEYS)
+        if not playback_id:
+            continue
+
+        playback_type = first_text(mapping, PLAYBACK_TYPE_KEYS)
+        if not playback_type and any(
+            mapping.get(key) is not None
+            for key in ("channel_id", "channelId", "tv_id", "tvId")
+        ):
+            playback_type = "tv"
+        if not playback_type and re.fullmatch(r"event-\d+", playback_id, re.IGNORECASE):
+            playback_type = "tv"
+        playback_type = (playback_type or first_text(mapping, TYPE_KEYS) or "event").lower()
+        if playback_type in ALLOWED_TYPES:
+            return playback_type, playback_id
+
+    # Some responses nest a typed playback target as {type: "tv", id: "..."}.
+    for mapping in walk_dicts(record):
+        playback_type = first_text(mapping, TYPE_KEYS)
+        playback_id = first_text(mapping, HIGHLIGHT_ID_KEYS)
+        if playback_type and playback_id and playback_type.lower() in {"tv", "live", "vod"}:
+            return playback_type.lower(), playback_id
+        if (
+            playback_type
+            and playback_type.lower() == "event"
+            and playback_id
+            and re.fullmatch(r"event-\d+", playback_id, re.IGNORECASE)
+        ):
+            return "tv", playback_id
+    return None
+
+
 def find_highlights(payload: Any) -> list[dict[str, str]]:
+    """Normalize event records while retaining any separate playback target."""
+    if isinstance(payload, Mapping):
+        data = payload.get("data")
+        items = data.get("items") if isinstance(data, Mapping) else None
+        records = items if isinstance(items, list) else list(walk_dicts(payload))
+    elif isinstance(payload, list):
+        records = payload
+    else:
+        records = []
+
     highlights: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
-    for mapping in walk_dicts(payload):
-        highlight_id = first_text(mapping, HIGHLIGHT_ID_KEYS)
-        stream_type = first_text(mapping, TYPE_KEYS) or "event"
-        if not highlight_id:
+    for record in records:
+        if not isinstance(record, Mapping):
             continue
-        stream_type = stream_type.lower()
+
+        event_id = first_text(record, HIGHLIGHT_ID_KEYS)
+        event_type = first_text(record, TYPE_KEYS) or "event"
+        title = first_text(record, TITLE_KEYS)
+        if not event_id:
+            for nested in walk_dicts(record):
+                event_id = first_text(nested, HIGHLIGHT_ID_KEYS)
+                if event_id:
+                    event_type = first_text(nested, TYPE_KEYS) or event_type
+                    title = title or first_text(nested, TITLE_KEYS)
+                    break
+        if not event_id:
+            continue
+
+        target = find_playback_target(record)
+        if target:
+            stream_type, stream_id = target
+        else:
+            stream_type, stream_id = event_type.lower(), event_id
         if stream_type not in ALLOWED_TYPES:
             continue
-        identity = (stream_type, highlight_id)
+
+        identity = (event_type.lower(), event_id)
         if identity in seen:
             continue
         seen.add(identity)
-        title = first_text(mapping, TITLE_KEYS) or f"FPT {stream_type} {highlight_id}"
-        highlights.append({"id": highlight_id, "type": stream_type, "title": title})
+        title = title or f"FPT {event_type} {event_id}"
+        highlights.append(
+            {
+                "id": event_id,
+                "type": stream_type,
+                "title": title,
+                "stream_id": stream_id,
+            }
+        )
     return highlights
 
 
@@ -460,7 +545,10 @@ def build_playlist(
     LOGGER.info("Found %d FPT Play event items", len(events))
     print(f"FPT Play events found: {len(events)}")
     for event in events:
-        print(f"- {event['title']} [{event['type']}/{event['id']}]")
+        print(
+            f"- {event['title']} [{event['id']} -> "
+            f"{event['type']}/{event['stream_id']}]"
+        )
     if not events:
         raise RuntimeError(
             "FPT Play Block Highlight returned no items; playlist was not replaced."
@@ -471,9 +559,14 @@ def build_playlist(
     for event in events:
         path = STREAM_URL_TEMPLATE.format(
             stream_type=quote(event["type"], safe=""),
-            highlight_id=quote(event["id"], safe=""),
+            highlight_id=quote(event["stream_id"], safe=""),
+            stream_id=quote(event["stream_id"], safe=""),
         )
-        stream_params = {"data_type": "highlight", "enable_preview": 0}
+        stream_params = {
+            "data_type": "highlight",
+            "enable_preview": 0,
+            "stream_profile": 1,
+        }
         try:
             stream_payload = api_request(
                 session,

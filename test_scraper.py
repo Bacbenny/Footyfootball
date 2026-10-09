@@ -45,7 +45,7 @@ class ScraperTests(unittest.TestCase):
         self.assertIn("st=", url)
         self.assertIn("e=1700003600", url)
         self.assertIn("drm=1", url)
-        self.assertIn("version=8.7.21", url)
+        self.assertIn("version=8.8.23", url)
         request_headers = curl_client.get.call_args.kwargs["headers"]
         self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
         self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
@@ -97,12 +97,75 @@ class ScraperTests(unittest.TestCase):
             [
                 {
                     "id": "event-1",
-                    "type": "event",
+                    "type": "tv",
                     "title": "Heineken Pickleball World Cup 2026",
+                    "stream_id": "event-1",
                 }
             ],
         )
         self.assertEqual(scraper.find_block_items({"data": {"items": None}}), [])
+
+    def test_block_items_keep_separate_playback_target(self):
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "6ac012345678901234567890",
+                        "type": "event",
+                        "title": "Trận đấu sắp diễn ra",
+                        "channel_id": "event-18",
+                    }
+                ]
+            }
+        }
+
+        self.assertEqual(
+            scraper.find_block_items(payload),
+            [
+                {
+                    "id": "6ac012345678901234567890",
+                    "type": "tv",
+                    "title": "Trận đấu sắp diễn ra",
+                    "stream_id": "event-18",
+                }
+            ],
+        )
+
+    def test_block_items_keep_nested_typed_playback_target(self):
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "event-record-1",
+                        "type": "event",
+                        "title": "Trận đấu",
+                        "playback": {"id": "event-18", "type": "tv"},
+                    }
+                ]
+            }
+        }
+
+        event = scraper.find_block_items(payload)[0]
+        self.assertEqual(event["id"], "event-record-1")
+        self.assertEqual(event["type"], "tv")
+        self.assertEqual(event["stream_id"], "event-18")
+
+    def test_event_number_target_uses_observed_tv_route(self):
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "event-18",
+                        "type": "event",
+                        "title": "FPT live event",
+                    }
+                ]
+            }
+        }
+
+        event = scraper.find_block_items(payload)[0]
+        self.assertEqual(event["type"], "tv")
+        self.assertEqual(event["stream_id"], "event-18")
 
     def test_build_playlist_uses_block_items_and_streams(self):
         block_payload = {
@@ -134,6 +197,49 @@ class ScraperTests(unittest.TestCase):
         block_request.assert_called_once_with(session)
         stream_request.assert_called_once()
         self.assertNotIn("st_token", stream_request.call_args.kwargs)
+        self.assertEqual(
+            stream_request.call_args.args[2],
+            "/stream/tv/event-1/adaptive_bitrate",
+        )
+        self.assertEqual(
+            stream_request.call_args.kwargs["params"],
+            {
+                "data_type": "highlight",
+                "enable_preview": 0,
+                "stream_profile": 1,
+            },
+        )
+
+    def test_build_playlist_resolves_separate_tv_stream_id(self):
+        block_payload = {
+            "status": True,
+            "data": {
+                "items": [
+                    {
+                        "id": "6ac012345678901234567890",
+                        "type": "event",
+                        "title": "Trận đấu",
+                        "channel_id": "event-18",
+                    }
+                ]
+            },
+        }
+        stream_payload = {
+            "data": {"url": "https://cdn.example.test/event-18/master.m3u8"}
+        }
+        session = Mock()
+        with patch.object(
+            scraper, "block_highlight_request", return_value=block_payload
+        ), patch.object(scraper, "api_request", return_value=stream_payload) as request:
+            playlist = scraper.build_playlist(session)
+
+        self.assertIn("https://cdn.example.test/event-18/master.m3u8", playlist)
+        self.assertEqual(
+            request.call_args.args[2],
+            "/stream/tv/event-18/adaptive_bitrate",
+        )
+        self.assertEqual(request.call_args.kwargs["params"]["stream_profile"], 1)
+
 
     def test_build_playlist_rejects_empty_block_items(self):
         session = Mock()
@@ -164,7 +270,14 @@ class ScraperTests(unittest.TestCase):
         }
         self.assertEqual(
             scraper.find_highlights(payload),
-            [{"id": "event-1", "type": "event", "title": "Live &amp; Clear"}],
+            [
+                {
+                    "id": "event-1",
+                    "type": "tv",
+                    "title": "Live &amp; Clear",
+                    "stream_id": "event-1",
+                }
+            ],
         )
         self.assertEqual(
             scraper.find_streams(payload),
