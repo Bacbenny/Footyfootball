@@ -27,6 +27,13 @@ API_VERSION = os.environ.get("FPT_API_VERSION", "v7.1_w")
 APP_VERSION = os.environ.get("FPT_APP_VERSION", "8.8.23")
 SIGNATURE_SECRET = "6ea6d2a4e2d3a4bd5e275401aa086d"
 CURL_IMPERSONATE = "chrome120"
+FPT_DEVICE = os.environ.get(
+    "FPT_DEVICE", "Microsoft Edge Simulate(version:127.0.6533.144)"
+)
+FPT_EVENT_RELATED_DEVICE = os.environ.get(
+    "FPT_EVENT_RELATED_DEVICE",
+    "Microsoft Edge Simulate(version%3A127.0.6533.144)",
+)
 VN_PROXY = os.environ.get("VN_PROXY")
 ACTIVE_PROXY_URL: str | None = None
 STREAM_URL_TEMPLATE = os.environ.get(
@@ -167,7 +174,7 @@ def build_signed_params(
         {
             "st": st_token or signature,
             "e": expires,
-            "device": "Chrome(version:127.0.0.0)",
+            "device": FPT_DEVICE,
             "drm": 1,
             "version": APP_VERSION,
         }
@@ -322,30 +329,67 @@ def build_block_highlight_url() -> str:
 
 
 def block_highlight_request(session: requests.Session) -> Any:
-    """Fetch Block Highlight using the current signed endpoint."""
+    """Fetch the sports Block Highlight using the current signed endpoint."""
+    path = "/navigation/block/highlight/632f01322089bd00e5c5ed3d"
+    params = {
+        "block_type": "horizontal_slider",
+        "custom_data": "",
+        "page": 1,
+        "page_size": 31,
+        "page_id": "sport",
+    }
+    return signed_block_request(path, params, "FPT Play Block Highlight API")
+
+
+def event_related_request(session: requests.Session, event_id: str) -> Any:
+    """Fetch related items for one event to resolve its actual playback target."""
+    path = f"/navigation/block/event_related/{quote(event_id, safe='')}"
+    params = {
+        "block_type": "horizontal_list",
+        "custom_data": "",
+        "page": 1,
+        "page_size": 31,
+        "page_id": "",
+    }
+    return signed_block_request(
+        path,
+        params,
+        "FPT Play event-related API",
+        device=FPT_EVENT_RELATED_DEVICE,
+    )
+
+
+def signed_block_request(
+    path: str,
+    params: Mapping[str, Any],
+    label: str,
+    *,
+    device: str | None = None,
+) -> Any:
+    """Fetch a signed FPT navigation block with browser-like TLS."""
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
+    signed_params = build_signed_params(path, params)
+    if device:
+        signed_params["device"] = device
+    url = f"{API_BASE_URL}/api/{API_VERSION}{path}?{urlencode(signed_params)}"
     try:
         curl_requests = curl_requests_module()
         response = curl_requests.get(
-            build_block_highlight_url(),
+            url,
             headers=headers,
             impersonate=CURL_IMPERSONATE,
             **request_options(),
             timeout=30,
         )
     except Exception as exc:
-        raise RuntimeError("FPT Play Block Highlight request failed") from exc
+        raise RuntimeError(f"{label} request failed") from exc
     if not response.ok:
-        raise FptApiError(
-            "FPT Play Block Highlight API",
-            response.status_code,
-            _safe_response_detail(response),
-        )
+        raise FptApiError(label, response.status_code, _safe_response_detail(response))
     try:
         return response.json()
     except ValueError as exc:
-        raise RuntimeError("FPT Play Block Highlight API returned invalid JSON") from exc
+        raise RuntimeError(f"{label} returned invalid JSON") from exc
 
 
 def walk_dicts(value: Any) -> Iterator[Mapping[str, Any]]:
@@ -406,7 +450,7 @@ def find_playback_target(
     return None
 
 
-def find_highlights(payload: Any) -> list[dict[str, str]]:
+def find_highlights(payload: Any) -> list[dict[str, Any]]:
     """Normalize event records while retaining any separate playback target."""
     if isinstance(payload, Mapping):
         data = payload.get("data")
@@ -417,7 +461,7 @@ def find_highlights(payload: Any) -> list[dict[str, str]]:
     else:
         records = []
 
-    highlights: list[dict[str, str]] = []
+    highlights: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
     for record in records:
         if not isinstance(record, Mapping):
@@ -440,7 +484,7 @@ def find_highlights(payload: Any) -> list[dict[str, str]]:
         if target:
             stream_type, stream_id = target
         else:
-            stream_type, stream_id = event_type.lower(), event_id
+            stream_type, stream_id = event_type.lower(), None
         if stream_type not in ALLOWED_TYPES:
             continue
 
@@ -509,7 +553,7 @@ def clean_title(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip() or "FPT Play event"
 
 
-def find_block_items(payload: Any) -> list[dict[str, str]]:
+def find_block_items(payload: Any) -> list[dict[str, Any]]:
     """Extract only event records from the Block Highlight data.items array."""
     if not isinstance(payload, Mapping):
         return []
@@ -520,6 +564,37 @@ def find_block_items(payload: Any) -> list[dict[str, str]]:
     if not isinstance(items, list) or not items:
         return []
     return find_highlights(items)
+
+
+def find_related_playback_target(
+    event: Mapping[str, Any],
+    related_payload: Any,
+) -> Mapping[str, Any] | None:
+    """Choose a related stream target that matches the event, avoiding random recommendations."""
+    candidates = [
+        item
+        for item in find_block_items(related_payload)
+        if item.get("stream_id")
+    ]
+    if not candidates:
+        return None
+
+    event_id = str(event.get("id", ""))
+    matching_id = [item for item in candidates if item.get("id") == event_id]
+    if len(matching_id) == 1:
+        return matching_id[0]
+
+    event_title = clean_title(str(event.get("title", ""))).casefold()
+    matching_title = [
+        item
+        for item in candidates
+        if clean_title(str(item.get("title", ""))).casefold() == event_title
+    ]
+    if len(matching_title) == 1:
+        return matching_title[0]
+    if len(candidates) == 1:
+        return candidates[0]
+    return None
 
 
 def atomic_write(path: Path, content: str) -> None:
@@ -545,9 +620,14 @@ def build_playlist(
     LOGGER.info("Found %d FPT Play event items", len(events))
     print(f"FPT Play events found: {len(events)}")
     for event in events:
+        target_label = (
+            f"{event['type']}/{event['stream_id']}"
+            if event["stream_id"]
+            else "playback target pending"
+        )
         print(
             f"- {event['title']} [{event['id']} -> "
-            f"{event['type']}/{event['stream_id']}]"
+            f"{target_label}]"
         )
     if not events:
         raise RuntimeError(
@@ -557,10 +637,25 @@ def build_playlist(
     lines = ["#EXTM3U"]
     playlist_urls: set[str] = set()
     for event in events:
+        stream_type = event["type"]
+        stream_id = event["stream_id"]
+        if not stream_id:
+            try:
+                related_payload = event_related_request(session, event["id"])
+            except (FptApiError, requests.RequestException, RuntimeError) as exc:
+                LOGGER.warning("Could not resolve target for %s: %s", event["id"], exc)
+                continue
+            related_target = find_related_playback_target(event, related_payload)
+            if not related_target:
+                LOGGER.info("No related playback target found for %s; skipping", event["id"])
+                continue
+            stream_type = str(related_target["type"])
+            stream_id = str(related_target["stream_id"])
+
         path = STREAM_URL_TEMPLATE.format(
-            stream_type=quote(event["type"], safe=""),
-            highlight_id=quote(event["stream_id"], safe=""),
-            stream_id=quote(event["stream_id"], safe=""),
+            stream_type=quote(stream_type, safe=""),
+            highlight_id=quote(stream_id, safe=""),
+            stream_id=quote(stream_id, safe=""),
         )
         stream_params = {
             "data_type": "highlight",

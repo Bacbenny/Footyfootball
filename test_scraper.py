@@ -1,6 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 from unittest.mock import Mock, patch
 
 import scraper
@@ -46,6 +47,7 @@ class ScraperTests(unittest.TestCase):
         self.assertIn("e=1700003600", url)
         self.assertIn("drm=1", url)
         self.assertIn("version=8.8.23", url)
+        self.assertIn("Microsoft Edge Simulate", parse_qs(urlparse(url).query)["device"][0])
         request_headers = curl_client.get.call_args.kwargs["headers"]
         self.assertEqual(request_headers["User-Agent"], scraper.USER_AGENT)
         self.assertEqual(request_headers["Referer"], "https://fptplay.vn/")
@@ -105,6 +107,35 @@ class ScraperTests(unittest.TestCase):
         )
         self.assertEqual(scraper.find_block_items({"data": {"items": None}}), [])
 
+    def test_event_related_request_uses_signed_browser_endpoint(self):
+        response = Mock(ok=True)
+        response.json.return_value = {"status": True, "data": {"items": []}}
+        curl_client = Mock()
+        curl_client.get.return_value = response
+        session = Mock()
+
+        with patch.object(scraper.time, "time", return_value=1_700_000_000), patch.object(
+            scraper, "curl_requests_module", return_value=curl_client
+        ):
+            scraper.event_related_request(session, "6ac9bdcc20197000bf5a94fc")
+
+        url = curl_client.get.call_args.args[0]
+        parsed = urlparse(url)
+        query = parse_qs(parsed.query, keep_blank_values=True)
+        self.assertEqual(
+            parsed.path,
+            "/api/v7.1_w/navigation/block/event_related/6ac9bdcc20197000bf5a94fc",
+        )
+        self.assertEqual(query["block_type"], ["horizontal_list"])
+        self.assertEqual(query["page_size"], ["31"])
+        self.assertEqual(query["page_id"], [""])
+        self.assertEqual(
+            query["device"],
+            ["Microsoft Edge Simulate(version%3A127.0.6533.144)"],
+        )
+        self.assertEqual(query["version"], ["8.8.23"])
+        self.assertEqual(query["e"], ["1700003600"])
+
     def test_block_items_keep_separate_playback_target(self):
         payload = {
             "data": {
@@ -130,6 +161,21 @@ class ScraperTests(unittest.TestCase):
                 }
             ],
         )
+
+    def test_block_items_without_mapping_have_no_playback_target(self):
+        payload = {
+            "data": {
+                "items": [
+                    {
+                        "id": "6ac9bdcc20197000bf5a94fc",
+                        "type": "event",
+                        "title": "Trận đấu",
+                    }
+                ]
+            }
+        }
+
+        self.assertIsNone(scraper.find_block_items(payload)[0]["stream_id"])
 
     def test_block_items_keep_nested_typed_playback_target(self):
         payload = {
@@ -239,6 +285,76 @@ class ScraperTests(unittest.TestCase):
             "/stream/tv/event-18/adaptive_bitrate",
         )
         self.assertEqual(request.call_args.kwargs["params"]["stream_profile"], 1)
+
+    def test_build_playlist_uses_event_related_target(self):
+        event_id = "6ac9bdcc20197000bf5a94fc"
+        block_payload = {
+            "status": True,
+            "data": {
+                "items": [
+                    {"id": event_id, "type": "event", "title": "Trận đấu"}
+                ]
+            },
+        }
+        related_payload = {
+            "status": True,
+            "data": {
+                "items": [
+                    {
+                        "id": event_id,
+                        "type": "event",
+                        "title": "Trận đấu",
+                        "channel_id": "event-18",
+                    }
+                ]
+            },
+        }
+        stream_payload = {
+            "data": {"url": "https://cdn.example.test/event-18/master.m3u8"}
+        }
+        session = Mock()
+        with patch.object(
+            scraper, "block_highlight_request", return_value=block_payload
+        ), patch.object(
+            scraper, "event_related_request", return_value=related_payload
+        ) as related_request, patch.object(
+            scraper, "api_request", return_value=stream_payload
+        ) as stream_request:
+            playlist = scraper.build_playlist(session)
+
+        related_request.assert_called_once_with(session, event_id)
+        self.assertEqual(
+            stream_request.call_args.args[2],
+            "/stream/tv/event-18/adaptive_bitrate",
+        )
+        self.assertIn("https://cdn.example.test/event-18/master.m3u8", playlist)
+
+    def test_build_playlist_skips_unresolved_event_instead_of_calling_wrong_route(self):
+        event_id = "6ac9bdcc20197000bf5a94fc"
+        block_payload = {
+            "status": True,
+            "data": {
+                "items": [
+                    {
+                        "id": event_id,
+                        "type": "event",
+                        "title": "Trận đấu",
+                    }
+                ]
+            },
+        }
+        session = Mock()
+        with patch.object(
+            scraper, "block_highlight_request", return_value=block_payload
+        ), patch.object(
+            scraper,
+            "event_related_request",
+            return_value={"status": False, "data": {"items": None}},
+        ), patch.object(scraper, "api_request") as stream_request:
+            with self.assertRaisesRegex(RuntimeError, "no playable streams"):
+                scraper.build_playlist(session)
+
+        stream_request.assert_not_called()
 
 
     def test_build_playlist_rejects_empty_block_items(self):
