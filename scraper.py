@@ -30,9 +30,9 @@ CURL_IMPERSONATE = "chrome120"
 FPT_DEVICE = os.environ.get(
     "FPT_DEVICE", "Microsoft Edge Simulate(version:127.0.6533.144)"
 )
-FPT_EVENT_RELATED_DEVICE = os.environ.get(
-    "FPT_EVENT_RELATED_DEVICE",
-    "Microsoft Edge Simulate(version%3A127.0.6533.144)",
+FPT_EVENT_DETAIL_DEVICE = os.environ.get(
+    "FPT_EVENT_DETAIL_DEVICE",
+    "Google Chrome(version%3A154.0.8037.99)",
 )
 VN_PROXY = os.environ.get("VN_PROXY")
 ACTIVE_PROXY_URL: str | None = None
@@ -341,21 +341,14 @@ def block_highlight_request(session: requests.Session) -> Any:
     return signed_block_request(path, params, "FPT Play Block Highlight API")
 
 
-def event_related_request(session: requests.Session, event_id: str) -> Any:
-    """Fetch related items for one event to resolve its actual playback target."""
-    path = f"/navigation/block/event_related/{quote(event_id, safe='')}"
-    params = {
-        "block_type": "horizontal_list",
-        "custom_data": "",
-        "page": 1,
-        "page_size": 31,
-        "page_id": "",
-    }
+def event_detail_request(session: requests.Session, event_id: str) -> Any:
+    """Fetch event detail, which can expose the actual playable TV target."""
+    path = f"/event/detail/{quote(event_id, safe='')}"
     return signed_block_request(
         path,
-        params,
-        "FPT Play event-related API",
-        device=FPT_EVENT_RELATED_DEVICE,
+        {},
+        "FPT Play event detail API",
+        device=FPT_EVENT_DETAIL_DEVICE,
     )
 
 
@@ -366,7 +359,7 @@ def signed_block_request(
     *,
     device: str | None = None,
 ) -> Any:
-    """Fetch a signed FPT navigation block with browser-like TLS."""
+    """Fetch a signed FPT API endpoint with browser-like TLS."""
     headers = dict(REQUEST_HEADERS)
     headers["X-Did"] = os.environ.get("FPT_DEVICE_ID", "github-actions-footyfootball")
     signed_params = build_signed_params(path, params)
@@ -447,6 +440,33 @@ def find_playback_target(
             and re.fullmatch(r"event-\d+", playback_id, re.IGNORECASE)
         ):
             return "tv", playback_id
+    return None
+
+
+def find_event_detail_playback_target(payload: Any) -> tuple[str, str] | None:
+    """Resolve an event detail ID to a TV target only when profiles confirm playability."""
+    if not isinstance(payload, Mapping):
+        return None
+    data = payload.get("data")
+    if not isinstance(data, Mapping):
+        return None
+
+    explicit_target = find_playback_target(data)
+    if explicit_target:
+        return explicit_target
+
+    content_id = first_text(data, HIGHLIGHT_ID_KEYS)
+    content_type = (first_text(data, TYPE_KEYS) or "").lower()
+    profiles = data.get("stream_profiles")
+    if (
+        content_type == "event"
+        and content_id
+        and not re.fullmatch(r"[0-9a-f]{24}", content_id, re.IGNORECASE)
+        and isinstance(profiles, list)
+        and profiles
+    ):
+        # Confirmed by the event-detail response and its /stream/tv/{id} request.
+        return "tv", content_id
     return None
 
 
@@ -566,37 +586,6 @@ def find_block_items(payload: Any) -> list[dict[str, Any]]:
     return find_highlights(items)
 
 
-def find_related_playback_target(
-    event: Mapping[str, Any],
-    related_payload: Any,
-) -> Mapping[str, Any] | None:
-    """Choose a related stream target that matches the event, avoiding random recommendations."""
-    candidates = [
-        item
-        for item in find_block_items(related_payload)
-        if item.get("stream_id")
-    ]
-    if not candidates:
-        return None
-
-    event_id = str(event.get("id", ""))
-    matching_id = [item for item in candidates if item.get("id") == event_id]
-    if len(matching_id) == 1:
-        return matching_id[0]
-
-    event_title = clean_title(str(event.get("title", ""))).casefold()
-    matching_title = [
-        item
-        for item in candidates
-        if clean_title(str(item.get("title", ""))).casefold() == event_title
-    ]
-    if len(matching_title) == 1:
-        return matching_title[0]
-    if len(candidates) == 1:
-        return candidates[0]
-    return None
-
-
 def atomic_write(path: Path, content: str) -> None:
     """Replace the playlist only after a complete valid playlist was generated."""
     temporary = path.with_name(f".{path.name}.tmp")
@@ -641,16 +630,15 @@ def build_playlist(
         stream_id = event["stream_id"]
         if not stream_id:
             try:
-                related_payload = event_related_request(session, event["id"])
+                detail_payload = event_detail_request(session, event["id"])
             except (FptApiError, requests.RequestException, RuntimeError) as exc:
                 LOGGER.warning("Could not resolve target for %s: %s", event["id"], exc)
                 continue
-            related_target = find_related_playback_target(event, related_payload)
-            if not related_target:
-                LOGGER.info("No related playback target found for %s; skipping", event["id"])
+            detail_target = find_event_detail_playback_target(detail_payload)
+            if not detail_target:
+                LOGGER.info("No playable target in event detail for %s; skipping", event["id"])
                 continue
-            stream_type = str(related_target["type"])
-            stream_id = str(related_target["stream_id"])
+            stream_type, stream_id = detail_target
 
         path = STREAM_URL_TEMPLATE.format(
             stream_type=quote(stream_type, safe=""),

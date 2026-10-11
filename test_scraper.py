@@ -107,9 +107,9 @@ class ScraperTests(unittest.TestCase):
         )
         self.assertEqual(scraper.find_block_items({"data": {"items": None}}), [])
 
-    def test_event_related_request_uses_signed_browser_endpoint(self):
+    def test_event_detail_request_uses_signed_browser_endpoint(self):
         response = Mock(ok=True)
-        response.json.return_value = {"status": True, "data": {"items": []}}
+        response.json.return_value = {"status": True, "data": {"id": "epl-hn-01-4k"}}
         curl_client = Mock()
         curl_client.get.return_value = response
         session = Mock()
@@ -117,24 +117,22 @@ class ScraperTests(unittest.TestCase):
         with patch.object(scraper.time, "time", return_value=1_700_000_000), patch.object(
             scraper, "curl_requests_module", return_value=curl_client
         ):
-            scraper.event_related_request(session, "6ac9bdcc20197000bf5a94fc")
+            scraper.event_detail_request(session, "6ac8670d9135ce1a26fab7a8")
 
         url = curl_client.get.call_args.args[0]
         parsed = urlparse(url)
         query = parse_qs(parsed.query, keep_blank_values=True)
         self.assertEqual(
             parsed.path,
-            "/api/v7.1_w/navigation/block/event_related/6ac9bdcc20197000bf5a94fc",
+            "/api/v7.1_w/event/detail/6ac8670d9135ce1a26fab7a8",
         )
-        self.assertEqual(query["block_type"], ["horizontal_list"])
-        self.assertEqual(query["page_size"], ["31"])
-        self.assertEqual(query["page_id"], [""])
         self.assertEqual(
             query["device"],
-            ["Microsoft Edge Simulate(version%3A127.0.6533.144)"],
+            ["Google Chrome(version%3A154.0.8037.99)"],
         )
         self.assertEqual(query["version"], ["8.8.23"])
         self.assertEqual(query["e"], ["1700003600"])
+        self.assertIn("st", query)
 
     def test_block_items_keep_separate_playback_target(self):
         payload = {
@@ -213,6 +211,39 @@ class ScraperTests(unittest.TestCase):
         self.assertEqual(event["type"], "tv")
         self.assertEqual(event["stream_id"], "event-18")
 
+    def test_event_detail_resolves_tv_id_only_with_stream_profiles(self):
+        playable_detail = {
+            "status": True,
+            "data": {
+                "id": "epl-hn-01-4k",
+                "type": "event",
+                "title": "Super Sunday vòng 6",
+                "stream_profiles": [{"name": "480p", "manifest_id": "profile-1"}],
+            },
+        }
+        self.assertEqual(
+            scraper.find_event_detail_playback_target(playable_detail),
+            ("tv", "epl-hn-01-4k"),
+        )
+
+        no_profiles = {
+            "status": True,
+            "data": {"id": "epl-hn-01-4k", "type": "event", "stream_profiles": []},
+        }
+        self.assertIsNone(scraper.find_event_detail_playback_target(no_profiles))
+
+        mongo_id_with_profiles = {
+            "status": True,
+            "data": {
+                "id": "6ac8670d9135ce1a26fab7a8",
+                "type": "event",
+                "stream_profiles": [{"name": "480p", "manifest_id": "profile-1"}],
+            },
+        }
+        self.assertIsNone(
+            scraper.find_event_detail_playback_target(mongo_id_with_profiles)
+        )
+
     def test_build_playlist_uses_block_items_and_streams(self):
         block_payload = {
             "status": True,
@@ -286,48 +317,48 @@ class ScraperTests(unittest.TestCase):
         )
         self.assertEqual(request.call_args.kwargs["params"]["stream_profile"], 1)
 
-    def test_build_playlist_uses_event_related_target(self):
-        event_id = "6ac9bdcc20197000bf5a94fc"
+    def test_build_playlist_uses_event_detail_target(self):
+        event_id = "6ac8670d9135ce1a26fab7a8"
         block_payload = {
-            "status": True,
-            "data": {
-                "items": [
-                    {"id": event_id, "type": "event", "title": "Trận đấu"}
-                ]
-            },
-        }
-        related_payload = {
             "status": True,
             "data": {
                 "items": [
                     {
                         "id": event_id,
                         "type": "event",
-                        "title": "Trận đấu",
-                        "channel_id": "event-18",
+                        "title": "Super Sunday vòng 6",
                     }
                 ]
             },
         }
+        detail_payload = {
+            "status": True,
+            "data": {
+                "id": "epl-hn-01-4k",
+                "type": "event",
+                "title": "Super Sunday vòng 6",
+                "stream_profiles": [{"name": "480p", "manifest_id": "profile-1"}],
+            },
+        }
         stream_payload = {
-            "data": {"url": "https://cdn.example.test/event-18/master.m3u8"}
+            "data": {"url": "https://cdn.example.test/epl/master.m3u8"}
         }
         session = Mock()
         with patch.object(
             scraper, "block_highlight_request", return_value=block_payload
         ), patch.object(
-            scraper, "event_related_request", return_value=related_payload
-        ) as related_request, patch.object(
+            scraper, "event_detail_request", return_value=detail_payload
+        ) as detail_request, patch.object(
             scraper, "api_request", return_value=stream_payload
         ) as stream_request:
             playlist = scraper.build_playlist(session)
 
-        related_request.assert_called_once_with(session, event_id)
+        detail_request.assert_called_once_with(session, event_id)
         self.assertEqual(
             stream_request.call_args.args[2],
-            "/stream/tv/event-18/adaptive_bitrate",
+            "/stream/tv/epl-hn-01-4k/adaptive_bitrate",
         )
-        self.assertIn("https://cdn.example.test/event-18/master.m3u8", playlist)
+        self.assertIn("https://cdn.example.test/epl/master.m3u8", playlist)
 
     def test_build_playlist_skips_unresolved_event_instead_of_calling_wrong_route(self):
         event_id = "6ac9bdcc20197000bf5a94fc"
@@ -348,8 +379,11 @@ class ScraperTests(unittest.TestCase):
             scraper, "block_highlight_request", return_value=block_payload
         ), patch.object(
             scraper,
-            "event_related_request",
-            return_value={"status": False, "data": {"items": None}},
+            "event_detail_request",
+            return_value={
+                "status": True,
+                "data": {"id": event_id, "type": "event", "stream_profiles": []},
+            },
         ), patch.object(scraper, "api_request") as stream_request:
             with self.assertRaisesRegex(RuntimeError, "no playable streams"):
                 scraper.build_playlist(session)
